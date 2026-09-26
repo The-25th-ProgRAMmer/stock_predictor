@@ -6,6 +6,9 @@ on:
     - cron: "45 11 * * 1-5"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -31,6 +34,9 @@ jobs:
           git config user.email "action@github.com"
           git config user.name "SPY Data Bot"
           git add data/
-          git commit -m "Daily SPY market data $(date -u +%Y-%m-%d)" || echo "No changes to commit"
-          git push origin main
-        continue-on-error: true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Daily SPY market data $(date -u +%Y-%m-%d)"
+          git push origin HEAD:main
