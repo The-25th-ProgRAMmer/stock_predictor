@@ -1,48 +1,25 @@
 """
 Grade any un-graded predictions in logs/predictions.jsonl by comparing
 the predicted direction to the actual close on the prediction's for_date.
+Reads bar history from data/spy_bars.json (pre-fetched, no network calls).
 """
 
 import json
-import os
-from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-import requests
-import truststore
-from dotenv import load_dotenv
-
-truststore.inject_into_ssl()
-
-load_dotenv()
-
-HEADERS = {
-    "APCA-API-KEY-ID": os.environ["ALPACA_API_KEY"],
-    "APCA-API-SECRET-KEY": os.environ["ALPACA_SECRET_KEY"],
-}
 LOG = Path(__file__).parent / "logs" / "predictions.jsonl"
+BARS_FILE = Path(__file__).parent / "data" / "spy_bars.json"
 
 
-def bars_around(symbol: str, target_date: str) -> dict[str, dict]:
-    end = datetime.fromisoformat(target_date).replace(tzinfo=timezone.utc) + timedelta(
-        days=2
-    )
-    start = end - timedelta(days=14)
-    r = requests.get(
-        f"https://data.alpaca.markets/v2/stocks/{symbol}/bars",
-        headers=HEADERS,
-        params={
-            "timeframe": "1Day",
-            "start": start.strftime("%Y-%m-%d"),
-            "end": end.strftime("%Y-%m-%d"),
-            "limit": 30,
-            "adjustment": "all",
-            "feed": "iex",
-        },
-        timeout=30,
-    )
-    r.raise_for_status()
-    return {b["t"][:10]: b for b in r.json().get("bars", [])}
+def bars_around(target_date: str) -> dict[str, dict]:
+    if not BARS_FILE.exists():
+        raise FileNotFoundError(f"{BARS_FILE} not found")
+
+    with open(BARS_FILE) as f:
+        bars = json.load(f)
+
+    bars_dict = {bar["t"]: bar for bar in bars}
+    return bars_dict
 
 
 def main() -> None:
@@ -53,26 +30,30 @@ def main() -> None:
     lines = [l for l in LOG.read_text(encoding="utf-8").splitlines() if l.strip()]
     graded_count = 0
 
+    try:
+        bars = bars_around("")
+    except FileNotFoundError:
+        print("No bar data available (data/spy_bars.json not found)")
+        return
+
     for i, line in enumerate(lines):
         rec = json.loads(line)
         if rec.get("outcome") is not None:
             continue
 
-        symbol = rec["symbol"]
         for_date = rec["for_date"]
-        try:
-            bars = bars_around(symbol, for_date)
-        except Exception as e:
-            print(f"  skip {for_date}: fetch failed ({e})")
-            continue
-
         target = bars.get(for_date)
         if target is None:
-            print(f"  skip {for_date}: no bar yet (market not closed?)")
+            print(f"  skip {for_date}: no bar in history (market not closed?)")
             continue
 
         dates = sorted(bars.keys())
-        idx = dates.index(for_date)
+        try:
+            idx = dates.index(for_date)
+        except ValueError:
+            print(f"  skip {for_date}: not in bar history")
+            continue
+
         if idx == 0:
             print(f"  skip {for_date}: no prior bar found")
             continue
@@ -82,6 +63,7 @@ def main() -> None:
         pct = (target["c"] - prev["c"]) / prev["c"] * 100
         pred_dir = rec["prediction"]["direction"]
 
+        from datetime import datetime, timezone
         rec["outcome"] = {
             "actual_close": target["c"],
             "prev_close": prev["c"],

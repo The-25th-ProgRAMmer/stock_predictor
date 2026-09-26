@@ -1,0 +1,36 @@
+name: Fetch SPY Market Data
+
+on:
+  schedule:
+    # 11:45 UTC every weekday (Mon-Fri)
+    - cron: "45 11 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -q requests pandas numpy
+
+      - name: Fetch SPY data from Alpaca
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python fetch_data.py
+
+      - name: Commit and push data
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "SPY Data Bot"
+          git add data/
+          git commit -m "Daily SPY market data $(date -u +%Y-%m-%d)" || echo "No changes to commit"
+          git push origin main
+        continue-on-error: true
