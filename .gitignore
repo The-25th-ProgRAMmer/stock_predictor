@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 scratchpad/
+routine_prompt.txt
+data/spy_context.json
+data/spy_bars.json
+
