@@ -1,0 +1,136 @@
+{
+  "symbol": "SPY",
+  "as_of": "2026-09-25",
+  "for_date": "2026-09-28",
+  "latest_close": 771.35,
+  "prev_close": 767.29,
+  "prev_day_direction": "up",
+  "prev_day_pct": 0.5291,
+  "indicators": {
+    "sma20": 764.0105,
+    "sma50": 759.8764,
+    "close_vs_sma20_pct": 0.961,
+    "close_vs_sma50_pct": 1.51,
+    "sma20_vs_sma50": "above",
+    "rsi14": 52.56,
+    "macd": 2.0736,
+    "macd_signal": 1.2513,
+    "macd_hist": 0.8223,
+    "atr14": 6.771,
+    "atr14_pct_of_close": 0.878
+  },
+  "last_5_days": [
+    {
+      "t": "2026-09-21",
+      "o": 766.3,
+      "h": 774.89,
+      "l": 766.04,
+      "c": 773.52,
+      "v": 1453014
+    },
+    {
+      "t": "2026-09-22",
+      "o": 774.09,
+      "h": 775.12,
+      "l": 772.605,
+      "c": 773.44,
+      "v": 1046410
+    },
+    {
+      "t": "2026-09-23",
+      "o": 772.825,
+      "h": 773.005,
+      "l": 766.505,
+      "c": 767.93,
+      "v": 1420034
+    },
+    {
+      "t": "2026-09-24",
+      "o": 764.06,
+      "h": 768.94,
+      "l": 763.245,
+      "c": 767.29,
+      "v": 1410837
+    },
+    {
+      "t": "2026-09-25",
+      "o": 768.7,
+      "h": 772.265,
+      "l": 766.32,
+      "c": 771.35,
+      "v": 1226312
+    }
+  ],
+  "news": [
+    {
+      "headline": "Reported September 25, 'Trump Rejects Iran Ceasefire, Expects Renewed Bombing After Midterms' - WSJ Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/09/62010575/reported-september-25-trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-wsj-exclus",
+      "created_at": "2026-09-26T06:56:08Z"
+    },
+    {
+      "headline": "'FBI Data Allegedly Stolen By Hacking Group ShinyHunters Includes Detailed Medical Evaluation Records' - Reuters News",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62007872/fbi-data-allegedly-stolen-hacking-group-shinyhunters-includes-detailed-medical-evaluation-records-re",
+      "created_at": "2026-09-25T20:27:57Z"
+    },
+    {
+      "headline": "U.S. Appeals Court Rules Against Kalshi, Says States Can Regulate Its Event Contracts",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/09/62007279/u-s-appeals-court-rules-against-kalshi-says-states-can-regulate-its-event-contracts",
+      "created_at": "2026-09-25T19:49:00Z"
+    },
+    {
+      "headline": "Fed's Hammack Says Is Mindful Of Financial Conditions, But Fed Is The Decision Maker On Monetary Policy; Fed Needs Flexibility In This Environment Which Limits Guidance",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62006255/fed-s-hammack-says-mindful-financial-conditions-fed-decision-maker-monetary-policy-fed-needs-flexibi",
+      "created_at": "2026-09-25T19:03:12Z"
+    },
+    {
+      "headline": "Fed's Hammack Says Rising Bond Yields Driven By A Number Of Factors; Good Economic Outlook Is Pressuring Up Bond Yields; Some Of What Bond Market Is Doing Is In Reaction To Fed, Government Policy; U.S. Is On An Unsustainable Fiscal Path; AI Investment Demand Is Competeing For Investors In Bond Market; Inflation Expectations Are Reasonably Well Anchored",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62006016/fed-s-hammack-says-rising-bond-yields-driven-number-factors-good-economic-outlook-pressuring-bond-yi",
+      "created_at": "2026-09-25T18:49:52Z"
+    },
+    {
+      "headline": "'White House Eyes Diesel Fuel Moves That Fall Short Of Export Ban' - Politico",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62005877/white-house-eyes-diesel-fuel-moves-fall-short-export-ban-politico",
+      "created_at": "2026-09-25T18:42:48Z"
+    },
+    {
+      "headline": "Fed's Hammack Says Important For Fed To Deliver On Inflation Mandate; High Inflation Complicates Economic Planning; Fed Policy Is Not Restraining Activity Outside Of Housing",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62005625/fed-s-hammack-says-important-fed-deliver-inflation-mandate-high-inflation-complicates-economic-plann",
+      "created_at": "2026-09-25T18:33:51Z"
+    },
+    {
+      "headline": "Fed's Hammack Says Sides Of Fed Mandates Are Generally Not In Conflict; Persistently High Inflation Has 'Real Costs', Persistently High Inflation Pressures Wages",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62005478/fed-s-hammack-says-sides-fed-mandates-are-generally-not-conflict-persistently-high-inflation-has-rea",
+      "created_at": "2026-09-25T18:28:58Z"
+    },
+    {
+      "headline": "Fed's Hammack Says Likely Underlying Inflation Is Above Target",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62005393/fed-s-hammack-says-likely-underlying-inflation-above-target",
+      "created_at": "2026-09-25T18:26:13Z"
+    },
+    {
+      "headline": "Fed's Hammack Says There Are Lots Of Long Term Questions What AI Will Mean For Inflation",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62005284/fed-s-hammack-says-there-are-lots-long-term-questions-what-ai-will-mean-inflation",
+      "created_at": "2026-09-25T18:22:10Z"
+    }
+  ]
+}
