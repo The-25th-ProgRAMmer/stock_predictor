@@ -39,6 +39,15 @@ def main() -> None:
         sys.exit(f"confidence must be 50..100, got {p['confidence']!r}")
 
     LOG.parent.mkdir(exist_ok=True)
+    if LOG.exists():
+        existing = {
+            json.loads(l)["for_date"]
+            for l in LOG.read_text(encoding="utf-8").splitlines()
+            if l.strip()
+        }
+        if data["for_date"] in existing:
+            sys.exit(f"a prediction for {data['for_date']} is already logged")
+
     with LOG.open("a", encoding="utf-8") as f:
         f.write(json.dumps(data) + "\n")
     print(f"appended prediction for {data['for_date']} ({p['direction']} @ {p['confidence']}%)")

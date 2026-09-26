@@ -6,7 +6,10 @@ No network calls (runs inside a cloud routine with no egress).
 
 import json
 import sys
+from datetime import date, datetime, timezone
 from pathlib import Path
+
+MAX_STALENESS_DAYS = 4
 
 
 def main() -> None:
@@ -20,6 +23,20 @@ def main() -> None:
 
     with open(context_path) as f:
         context = json.load(f)
+
+    as_of = date.fromisoformat(context["as_of"])
+    age = (datetime.now(timezone.utc).date() - as_of).days
+    if age > MAX_STALENESS_DAYS:
+        print(
+            json.dumps(
+                {
+                    "error": f"data is {age} days old (as_of {context['as_of']}); "
+                    "the fetch workflow has not published fresh data"
+                }
+            ),
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     print(json.dumps(context, indent=2))
 
