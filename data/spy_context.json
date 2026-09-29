@@ -1,33 +1,25 @@
 {
   "symbol": "SPY",
-  "as_of": "2026-09-28",
-  "for_date": "2026-09-29",
-  "latest_close": 766.72,
-  "prev_close": 771.35,
+  "as_of": "2026-09-29",
+  "for_date": "2026-09-30",
+  "latest_close": 762.99,
+  "prev_close": 765.49,
   "prev_day_direction": "down",
-  "prev_day_pct": -0.6002,
+  "prev_day_pct": -0.3266,
   "indicators": {
-    "sma20": 763.978,
-    "sma50": 760.3820000000001,
-    "close_vs_sma20_pct": 0.359,
-    "close_vs_sma50_pct": 0.834,
+    "sma20": 763.8175,
+    "sma50": 760.8109999999999,
+    "close_vs_sma20_pct": -0.108,
+    "close_vs_sma50_pct": 0.286,
     "sma20_vs_sma50": "above",
-    "rsi14": 52.11,
-    "macd": 1.9693,
-    "macd_signal": 1.3904,
-    "macd_hist": 0.5788,
-    "atr14": 6.957,
-    "atr14_pct_of_close": 0.907
+    "rsi14": 52.01,
+    "macd": 1.4948,
+    "macd_signal": 1.3956,
+    "macd_hist": 0.0992,
+    "atr14": 6.915,
+    "atr14_pct_of_close": 0.906
   },
   "last_5_days": [
-    {
-      "t": "2026-09-22",
-      "o": 774.09,
-      "h": 775.12,
-      "l": 772.605,
-      "c": 773.44,
-      "v": 1046410
-    },
     {
       "t": "2026-09-23",
       "o": 772.825,
@@ -57,80 +49,88 @@
       "o": 768.43,
       "h": 769.535,
       "l": 763.74,
-      "c": 766.72,
-      "v": 932502
+      "c": 765.49,
+      "v": 1339893
+    },
+    {
+      "t": "2026-09-29",
+      "o": 766.85,
+      "h": 766.85,
+      "l": 762.4,
+      "c": 762.99,
+      "v": 587675
     }
   ],
   "news": [
     {
-      "headline": "'Zuckerberg, Amodei to attend AI White House meeting' - Politico",
+      "headline": "Trump Administration Says Several EU Member Countries Have Not Released As Much Oil And Refined Products From Reserves As They Promised",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62031646/zuckerberg-amodei-to-attend-ai-white-house-meeting-politico",
-      "created_at": "2026-09-28T17:36:04Z"
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058215/trump-administration-says-several-eu-member-countries-have-not-released-much-oil-and-refined-product",
+      "created_at": "2026-09-29T16:46:36Z"
     },
     {
-      "headline": "OpenAI President Greg Brockman Will Be Going To The White House AI Meeting",
+      "headline": "Fed's Barr Says Too Early To Know If AI Will Push Up Neutral Rate Of Interest; AI Buildout Likely To Be A Strong Boost To U.S. Economic Activity In Next Year Or So; Should Be Prepared For Serious Short-term Disruptions In Labor Market From AI; Broad Productivity Gains From AI May Take Some Time",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62032752/openai-president-greg-brockman-will-be-going-white-house-ai-meeting",
-      "created_at": "2026-09-28T18:21:19Z"
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058079/fed-s-barr-says-too-early-know-if-ai-will-push-neutral-rate-interest-ai-buildout-likely-be-strong-bo",
+      "created_at": "2026-09-29T16:43:10Z"
     },
     {
-      "headline": "'White House weighs red-dyed diesel tax relief to lower fuel prices' - Reuters",
+      "headline": "Fed's Barr Says Inflation Is A Key Concern; Fed Has Been 'knocked Off Course' To 2% Goal; Barr Does Not See A Clear Trend Toward A Timely Return To 2% Inflation; Says Makes Sense To Pencil In AI Productivity Boost In Medium Term, But Difficult To Project How Or When; He Is Optimistic AI Will Boost Productivity In The Longer Term",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/government/26/09/62032126/white-house-weighs-red-dyed-diesel-tax-relief-lower-fuel-prices-reuters",
-      "created_at": "2026-09-28T17:56:42Z"
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058056/fed-s-barr-says-inflation-key-concern-fed-has-been-knocked-course-2-goal-barr-does-not-see-clear-tre",
+      "created_at": "2026-09-29T16:42:34Z"
     },
     {
-      "headline": "$700 Billion S&P 500 Sell-Off Meets $100 Oil: Are Investors Rotating Into Value ETFs?",
-      "summary": "S&amp;P 500 erases nearly $700 billion as Treasury yields hit 19-year highs and oil nears $100, putting growth, value and energy ETFs in focus.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/62031962/700-billion-sp-500-sell-off-meets-100-oil-are-investors-rotating-into-value-etfs",
-      "created_at": "2026-09-28T17:47:58Z"
-    },
-    {
-      "headline": "Fed's Cook Says Productivity Gains From AI Will Deliver Modest Disinflation In Next Few Years; Signs Of Broadening Pressure In Inflation Data; Those Gains Will Not Come In Time To Offset Broadening Inflation This Year; Says She Is Highly Attentive To A Scenario In Which AI Leads To At Least A Temporary Rise In Unemployment; Limited Evidence To Date That AI Is Changing Labor Market Structure; Fed Would Have Limited Tools To Help In Such A Case; Lowering Rates Could Fuel Inflation",
+      "headline": "Fed's Barr Says He Expects GDP Growth To 'Pick Up A Bit' In Second Half Of Year, From 2% Pace In First Half; Risks To Achieving Inflation Target Have Increased, Risks To Labor Market Have Receded; There Is A Need To Recalibrate Policy; Base Case Is That Further Policy Adjustments Likely To Be Needed;  Labor Market Solid, Supported By Business Investment And Consumer Spending",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62031473/fed-s-cook-says-productivity-gains-ai-will-deliver-modest-disinflation-next-few-years-signs-broadeni",
-      "created_at": "2026-09-28T17:27:18Z"
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058008/fed-s-barr-says-he-expects-gdp-growth-pick-bit-second-half-year-2-pace-first-half-risks-achieving-in",
+      "created_at": "2026-09-29T16:41:58Z"
     },
     {
-      "headline": "Fed's Cook Says She Expects To See Continued Inflation Pressure In Coming Months, From AI And Conflict In The Middle East; Labor Market Well Positioned To Handle An Increase In Rates; Number And Magnitude Of Any Future Rate Adjustments Will Be Informed By Inflation And Labor Market Data, And Economy's Reaction To Us Central Bank's Actions So Far",
+      "headline": "White House Has Urged European Union To Draw Down Diesel Emergency Inventories In Bid To Lower Global Prices",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62031463/fed-s-cook-says-she-expects-see-continued-inflation-pressure-coming-months-ai-and-conflict-middle-ea",
-      "created_at": "2026-09-28T17:26:36Z"
+      "url": "https://www.benzinga.com/government/26/09/62057229/white-house-has-urged-european-union-draw-down-diesel-emergency-inventories-bid-lower-global-prices",
+      "created_at": "2026-09-29T16:23:16Z"
     },
     {
-      "headline": "Oil Rises; Meta\u2019s Muse Trade Extends To CPU Stocks Like Intel, AMD, Arm, Qualcomm",
-      "summary": "\n\n\n\nIran Hopium Dashed\n\n\n\nPlease click here for an enlarged chart of the United States Oil ETF (NYSE:USO).\n\n\n\nNote the following:\n\n\n\n\n\u00a0The chart shows that this morning in the early trade oil ETF USO is rising.\u00a0\n\n\n\nThe",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/Opinion/26/09/62031079/oil-rises-meta-muse-trade-extends-to-cpu-stocks-like-intel-amd-arm-qualcomm",
-      "created_at": "2026-09-28T17:12:08Z"
-    },
-    {
-      "headline": "Iranian Officials Pessimistic About Reaching Deal With US Before Midterms - Bloomerg",
+      "headline": "Iran Will Be Ready To Discuss The Nuclear Issue Only After The Strait Of Hormuz Issue Is Resolved And Washington Lifts The Blockade",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/USO",
-      "created_at": "2026-09-28T16:35:41Z"
+      "url": "https://www.benzinga.com/news/26/09/62056094/iran-will-be-ready-discuss-nuclear-issue-only-after-strait-hormuz-issue-resolved-and-washington-lift",
+      "created_at": "2026-09-29T15:58:48Z"
     },
     {
-      "headline": "'Trump open to Iran sanctions relief for \u2018concrete progress\u2019 on nuclear issues, White House official says' - CNN",
+      "headline": "BZ Analysis: The Median S&P 500 Stock Now Trades 16% Below Its 52-Week High, The Weakest Market Breadth Since The Dot Com Bubble",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62029248/trump-open-iran-sanctions-relief-concrete-progress-nuclear-issues-white-house-official-says-cnn",
-      "created_at": "2026-09-28T16:29:17Z"
+      "url": "https://www.benzinga.com/economics/26/09/62055703/bz-analysis-median-s-p-500-stock-now-trades-16-below-its-52-week-high-weakest-market-breadth-dot-com",
+      "created_at": "2026-09-29T15:48:20Z"
     },
     {
-      "headline": "President Trump Is Prepared To Ease Sanctions On Iran And Release Its Frozen Assets In Exchange For Progress On The Nuclear Issue",
+      "headline": "U.S. 30-Year Treasury Yield Touches 5.612%, Highest Since June 2002",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62029015/president-trump-prepared-ease-sanctions-iran-and-release-its-frozen-assets-exchange-progress-nuclear",
-      "created_at": "2026-09-28T16:22:49Z"
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-09-29T15:39:01Z"
+    },
+    {
+      "headline": "'Homeland Security Money Financed Pro-Trump Television Ads' - Wall Street Journal",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/09/62054891/homeland-security-money-financed-pro-trump-television-ads-wall-street-journal",
+      "created_at": "2026-09-29T15:29:25Z"
+    },
+    {
+      "headline": "Defense Stocks Enter Bear Market, Hit Longest Losing Streak on Record",
+      "summary": "Defense stocks are on track for a seventh straight weekly loss, a first for XAR since 2011, as Iran peace talk and a stalled budget erase the 2026 gain.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/specialty-etfs/26/09/62054200/defense-stocks-7-straight-weeks-xar-record-losing-streak",
+      "created_at": "2026-09-29T15:11:54Z"
     }
   ]
 }
