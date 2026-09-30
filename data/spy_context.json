@@ -1,33 +1,25 @@
 {
   "symbol": "SPY",
-  "as_of": "2026-09-29",
-  "for_date": "2026-09-30",
-  "latest_close": 762.99,
-  "prev_close": 765.49,
-  "prev_day_direction": "down",
-  "prev_day_pct": -0.3266,
+  "as_of": "2026-09-30",
+  "for_date": "2026-10-01",
+  "latest_close": 768.27,
+  "prev_close": 764.38,
+  "prev_day_direction": "up",
+  "prev_day_pct": 0.5089,
   "indicators": {
-    "sma20": 763.8175,
-    "sma50": 760.8109999999999,
-    "close_vs_sma20_pct": -0.108,
-    "close_vs_sma50_pct": 0.286,
+    "sma20": 764.3135,
+    "sma50": 761.2782,
+    "close_vs_sma20_pct": 0.518,
+    "close_vs_sma50_pct": 0.918,
     "sma20_vs_sma50": "above",
-    "rsi14": 52.01,
-    "macd": 1.4948,
-    "macd_signal": 1.3956,
-    "macd_hist": 0.0992,
-    "atr14": 6.915,
-    "atr14_pct_of_close": 0.906
+    "rsi14": 60.44,
+    "macd": 1.6881,
+    "macd_signal": 1.4698,
+    "macd_hist": 0.2182,
+    "atr14": 6.866,
+    "atr14_pct_of_close": 0.894
   },
   "last_5_days": [
-    {
-      "t": "2026-09-23",
-      "o": 772.825,
-      "h": 773.005,
-      "l": 766.505,
-      "c": 767.93,
-      "v": 1420034
-    },
     {
       "t": "2026-09-24",
       "o": 764.06,
@@ -56,81 +48,89 @@
       "t": "2026-09-29",
       "o": 766.85,
       "h": 766.85,
-      "l": 762.4,
-      "c": 762.99,
-      "v": 587675
+      "l": 762.35,
+      "c": 764.38,
+      "v": 1147882
+    },
+    {
+      "t": "2026-09-30",
+      "o": 766.46,
+      "h": 769.41,
+      "l": 766.105,
+      "c": 768.27,
+      "v": 358180
     }
   ],
   "news": [
     {
-      "headline": "Trump Administration Says Several EU Member Countries Have Not Released As Much Oil And Refined Products From Reserves As They Promised",
+      "headline": "SEC Seeks Comment On Letting Individuals Qualify As Accredited Investors Via FINRA Exam Or Credentials Such As CPA, CFA, And CFP",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058215/trump-administration-says-several-eu-member-countries-have-not-released-much-oil-and-refined-product",
-      "created_at": "2026-09-29T16:46:36Z"
+      "url": "https://www.benzinga.com/government/26/09/62084581/sec-seeks-comment-letting-individuals-qualify-accredited-investors-finra-exam-or-credentials-such-cp",
+      "created_at": "2026-09-30T15:50:14Z"
     },
     {
-      "headline": "Fed's Barr Says Too Early To Know If AI Will Push Up Neutral Rate Of Interest; AI Buildout Likely To Be A Strong Boost To U.S. Economic Activity In Next Year Or So; Should Be Prepared For Serious Short-term Disruptions In Labor Market From AI; Broad Productivity Gains From AI May Take Some Time",
+      "headline": "SEC Proposes Rule Changes To Expand Retail Access To Private Markets, Including Performance Fees For Advisers To Regulated Funds",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058079/fed-s-barr-says-too-early-know-if-ai-will-push-neutral-rate-interest-ai-buildout-likely-be-strong-bo",
-      "created_at": "2026-09-29T16:43:10Z"
+      "url": "https://www.benzinga.com/government/26/09/62084565/sec-proposes-rule-changes-expand-retail-access-private-markets-including-performance-fees-advisers-r",
+      "created_at": "2026-09-30T15:50:05Z"
     },
     {
-      "headline": "Fed's Barr Says Inflation Is A Key Concern; Fed Has Been 'knocked Off Course' To 2% Goal; Barr Does Not See A Clear Trend Toward A Timely Return To 2% Inflation; Says Makes Sense To Pencil In AI Productivity Boost In Medium Term, But Difficult To Project How Or When; He Is Optimistic AI Will Boost Productivity In The Longer Term",
+      "headline": "SEC Announces It Is Considering Designating Accountants, Financial Analysts And Planners, Others, As Qualifying For Accredited Investor Status",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058056/fed-s-barr-says-inflation-key-concern-fed-has-been-knocked-course-2-goal-barr-does-not-see-clear-tre",
-      "created_at": "2026-09-29T16:42:34Z"
+      "url": "https://www.benzinga.com/sec/26/09/62084030/sec-announces-it-considering-designating-accountants-financial-analysts-and-planners-others-qualifyi",
+      "created_at": "2026-09-30T15:34:21Z"
     },
     {
-      "headline": "Fed's Barr Says He Expects GDP Growth To 'Pick Up A Bit' In Second Half Of Year, From 2% Pace In First Half; Risks To Achieving Inflation Target Have Increased, Risks To Labor Market Have Receded; There Is A Need To Recalibrate Policy; Base Case Is That Further Policy Adjustments Likely To Be Needed;  Labor Market Solid, Supported By Business Investment And Consumer Spending",
+      "headline": "Growth Leads Sectors In Wednesday Trading As Defensives Trail",
+      "summary": "Five sectors are higher and six are lower in Wednesday&#39;s regular session, with growth sectors holding two of the top three positions. Technology sits well clear of the next sector, separated by a margin several times wider than any other gap in the table.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/62083340/growth-leads-sectors-in-wednesday-trading-as-defensives-trail",
+      "created_at": "2026-09-30T15:12:53Z"
+    },
+    {
+      "headline": "AI Voice Start-Up ElevenLabs Doubles Valuation To $22B",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62058008/fed-s-barr-says-he-expects-gdp-growth-pick-bit-second-half-year-2-pace-first-half-risks-achieving-in",
-      "created_at": "2026-09-29T16:41:58Z"
+      "url": "https://www.benzinga.com/news/26/09/62083271/ai-voice-start-elevenlabs-doubles-valuation-22b",
+      "created_at": "2026-09-30T15:10:27Z"
     },
     {
-      "headline": "White House Has Urged European Union To Draw Down Diesel Emergency Inventories In Bid To Lower Global Prices",
+      "headline": "SEC Proposes Allowing Investment Advisers To Charge Performance Fees To More Clients In Effort To Spur Retail Investment In Private Assets; Allowing Closed-End Funds To Offer Shareholders Monthly Net-Asset-Value Repurchases To Spur Retail Investment In Private Assets",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/government/26/09/62057229/white-house-has-urged-european-union-draw-down-diesel-emergency-inventories-bid-lower-global-prices",
-      "created_at": "2026-09-29T16:23:16Z"
+      "url": "https://www.benzinga.com/sec/26/09/62082816/sec-proposes-allowing-investment-advisers-charge-performance-fees-more-clients-effort-spur-retail-in",
+      "created_at": "2026-09-30T15:00:11Z"
     },
     {
-      "headline": "Iran Will Be Ready To Discuss The Nuclear Issue Only After The Strait Of Hormuz Issue Is Resolved And Washington Lifts The Blockade",
+      "headline": "US Transportation Secretary Duffy Says FAA Needs To Do More To Speed Certification Of New Airplanes",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62056094/iran-will-be-ready-discuss-nuclear-issue-only-after-strait-hormuz-issue-resolved-and-washington-lift",
-      "created_at": "2026-09-29T15:58:48Z"
+      "url": "https://www.benzinga.com/news/26/09/62082446/us-transportation-secretary-duffy-says-faa-needs-do-more-speed-certification-new-airplanes",
+      "created_at": "2026-09-30T14:48:04Z"
     },
     {
-      "headline": "BZ Analysis: The Median S&P 500 Stock Now Trades 16% Below Its 52-Week High, The Weakest Market Breadth Since The Dot Com Bubble",
+      "headline": "EIA Weekly Distillates Stocks -2.251M Barrel Draw Vs 0.200M Barrel Draw Est.",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/26/09/62055703/bz-analysis-median-s-p-500-stock-now-trades-16-below-its-52-week-high-weakest-market-breadth-dot-com",
-      "created_at": "2026-09-29T15:48:20Z"
+      "url": "https://www.benzinga.com/quote/UNG",
+      "created_at": "2026-09-30T14:31:23Z"
     },
     {
-      "headline": "U.S. 30-Year Treasury Yield Touches 5.612%, Highest Since June 2002",
+      "headline": "USA Crude Oil Inventories 0.922M Barrel Build Vs 0.700M Barrel Draw Est.",
       "summary": "",
       "source": "benzinga",
       "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-09-29T15:39:01Z"
+      "created_at": "2026-09-30T14:30:32Z"
     },
     {
-      "headline": "'Homeland Security Money Financed Pro-Trump Television Ads' - Wall Street Journal",
+      "headline": "'Trump Set to Unveil $200 Billion of South Korean US Investments' - Bloomberg",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62054891/homeland-security-money-financed-pro-trump-television-ads-wall-street-journal",
-      "created_at": "2026-09-29T15:29:25Z"
-    },
-    {
-      "headline": "Defense Stocks Enter Bear Market, Hit Longest Losing Streak on Record",
-      "summary": "Defense stocks are on track for a seventh straight weekly loss, a first for XAR since 2011, as Iran peace talk and a stalled budget erase the 2026 gain.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/specialty-etfs/26/09/62054200/defense-stocks-7-straight-weeks-xar-record-losing-streak",
-      "created_at": "2026-09-29T15:11:54Z"
+      "url": "https://www.benzinga.com/news/26/09/62081589/trump-set-unveil-200-billion-south-korean-us-investments-bloomberg",
+      "created_at": "2026-09-30T14:28:56Z"
     }
   ]
 }
