@@ -1,33 +1,25 @@
 {
   "symbol": "SPY",
-  "as_of": "2026-09-30",
-  "for_date": "2026-10-01",
-  "latest_close": 768.27,
-  "prev_close": 764.38,
+  "as_of": "2026-10-01",
+  "for_date": "2026-10-02",
+  "latest_close": 763.71,
+  "prev_close": 762.34,
   "prev_day_direction": "up",
-  "prev_day_pct": 0.5089,
+  "prev_day_pct": 0.1797,
   "indicators": {
-    "sma20": 764.3135,
-    "sma50": 761.2782,
-    "close_vs_sma20_pct": 0.518,
-    "close_vs_sma50_pct": 0.918,
+    "sma20": 764.0409999999999,
+    "sma50": 761.521,
+    "close_vs_sma20_pct": -0.043,
+    "close_vs_sma50_pct": 0.287,
     "sma20_vs_sma50": "above",
-    "rsi14": 60.44,
-    "macd": 1.6881,
-    "macd_signal": 1.4698,
-    "macd_hist": 0.2182,
-    "atr14": 6.866,
-    "atr14_pct_of_close": 0.894
+    "rsi14": 51.4,
+    "macd": 1.0139,
+    "macd_signal": 1.3134,
+    "macd_hist": -0.2994,
+    "atr14": 6.88,
+    "atr14_pct_of_close": 0.901
   },
   "last_5_days": [
-    {
-      "t": "2026-09-24",
-      "o": 764.06,
-      "h": 768.94,
-      "l": 763.245,
-      "c": 767.29,
-      "v": 1410837
-    },
     {
       "t": "2026-09-25",
       "o": 768.7,
@@ -56,81 +48,89 @@
       "t": "2026-09-30",
       "o": 766.46,
       "h": 769.41,
-      "l": 766.105,
-      "c": 768.27,
-      "v": 358180
+      "l": 762.24,
+      "c": 762.34,
+      "v": 1293421
+    },
+    {
+      "t": "2026-10-01",
+      "o": 764.34,
+      "h": 765.34,
+      "l": 758.815,
+      "c": 763.71,
+      "v": 814722
     }
   ],
   "news": [
     {
-      "headline": "SEC Seeks Comment On Letting Individuals Qualify As Accredited Investors Via FINRA Exam Or Credentials Such As CPA, CFA, And CFP",
+      "headline": "Russia's Proposals To Deliver Enriched Uranium From Iran To Russia Are Still Valid; We Support Trilateral Meeting With Xi, Trump, But Agenda For Talks Should Be Worked Out",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/government/26/09/62084581/sec-seeks-comment-letting-individuals-qualify-accredited-investors-finra-exam-or-credentials-such-cp",
-      "created_at": "2026-09-30T15:50:14Z"
+      "url": "https://www.benzinga.com/news/26/10/62115723/russia-s-proposals-deliver-enriched-uranium-iran-russia-are-still-valid-we-support-trilateral-meetin",
+      "created_at": "2026-10-01T16:57:29Z"
     },
     {
-      "headline": "SEC Proposes Rule Changes To Expand Retail Access To Private Markets, Including Performance Fees For Advisers To Regulated Funds",
+      "headline": "White House Reporter For AP Seung Min Kim Posts On X \"I\u2019m Told That Thune Met With Trump This Morning At The White House\"",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/government/26/09/62084565/sec-proposes-rule-changes-expand-retail-access-private-markets-including-performance-fees-advisers-r",
-      "created_at": "2026-09-30T15:50:05Z"
+      "url": "https://www.benzinga.com/news/26/10/62115418/white-house-reporter-ap-seung-min-kim-posts-x-i-m-told-thune-met-trump-morning-white-house",
+      "created_at": "2026-10-01T16:47:47Z"
     },
     {
-      "headline": "SEC Announces It Is Considering Designating Accountants, Financial Analysts And Planners, Others, As Qualifying For Accredited Investor Status",
+      "headline": "US Issues New Iran-Related Sanctions",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/sec/26/09/62084030/sec-announces-it-considering-designating-accountants-financial-analysts-and-planners-others-qualifyi",
-      "created_at": "2026-09-30T15:34:21Z"
+      "url": "https://www.benzinga.com/news/26/10/62115195/us-issues-new-iran-related-sanctions",
+      "created_at": "2026-10-01T16:41:52Z"
     },
     {
-      "headline": "Growth Leads Sectors In Wednesday Trading As Defensives Trail",
-      "summary": "Five sectors are higher and six are lower in Wednesday&#39;s regular session, with growth sectors holding two of the top three positions. Technology sits well clear of the next sector, separated by a margin several times wider than any other gap in the table.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/62083340/growth-leads-sectors-in-wednesday-trading-as-defensives-trail",
-      "created_at": "2026-09-30T15:12:53Z"
-    },
-    {
-      "headline": "AI Voice Start-Up ElevenLabs Doubles Valuation To $22B",
+      "headline": "U.S. Is Sending A Third Aircraft Carrier To The Middle East, The USS Theodore Roosevelt, Along With An Additional Marine Division, Per A Senior Us Official",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62083271/ai-voice-start-elevenlabs-doubles-valuation-22b",
-      "created_at": "2026-09-30T15:10:27Z"
+      "url": "https://www.benzinga.com/news/26/10/62114836/u-s-sending-third-aircraft-carrier-middle-east-uss-theodore-roosevelt-along-additional-marine-divisi",
+      "created_at": "2026-10-01T16:34:39Z"
     },
     {
-      "headline": "SEC Proposes Allowing Investment Advisers To Charge Performance Fees To More Clients In Effort To Spur Retail Investment In Private Assets; Allowing Closed-End Funds To Offer Shareholders Monthly Net-Asset-Value Repurchases To Spur Retail Investment In Private Assets",
+      "headline": "8 Of 11 Sectors Fall In Thursday Trading As Cyclicals Lead",
+      "summary": "Three sectors are higher and eight are lower in Thursday\u2019s regular session, with cyclical sectors holding two of the top three positions. The leaders are separated rather than clustered, with Energy well ahead of the next group.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62111517/8-of-11-sectors-fall-in-thursday-trading-as-cyclicals-lead",
+      "created_at": "2026-10-01T15:11:52Z"
+    },
+    {
+      "headline": "Reported Earlier: \"Chinese refiners suspend October fuel exports to bolster stocks, sources say\"- Reuters",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/sec/26/09/62082816/sec-proposes-allowing-investment-advisers-charge-performance-fees-more-clients-effort-spur-retail-in",
-      "created_at": "2026-09-30T15:00:11Z"
+      "url": "https://www.benzinga.com/news/26/10/62110945/reported-earlier-chinese-refiners-suspend-october-fuel-exports-bolster-stocks-sources-say-reuters",
+      "created_at": "2026-10-01T15:01:04Z"
     },
     {
-      "headline": "US Transportation Secretary Duffy Says FAA Needs To Do More To Speed Certification Of New Airplanes",
+      "headline": "Reported Earlier, U.S. Tells France, Germany To Release Diesel Stocks Or Face U.S. Export Ban",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62082446/us-transportation-secretary-duffy-says-faa-needs-do-more-speed-certification-new-airplanes",
-      "created_at": "2026-09-30T14:48:04Z"
+      "url": "https://www.benzinga.com/news/26/10/62099291/reuters-reported-earlier-u-s-tells-france-germany-to-release-diesel-stocks-or-face-us-export-ban",
+      "created_at": "2026-10-01T09:57:45Z"
     },
     {
-      "headline": "EIA Weekly Distillates Stocks -2.251M Barrel Draw Vs 0.200M Barrel Draw Est.",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/UNG",
-      "created_at": "2026-09-30T14:31:23Z"
-    },
-    {
-      "headline": "USA Crude Oil Inventories 0.922M Barrel Build Vs 0.700M Barrel Draw Est.",
+      "headline": "USA Construction Spending (MoM) For August 0.9% Vs 0.0% Est",
       "summary": "",
       "source": "benzinga",
       "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-09-30T14:30:32Z"
+      "created_at": "2026-10-01T14:00:46Z"
     },
     {
-      "headline": "'Trump Set to Unveil $200 Billion of South Korean US Investments' - Bloomberg",
+      "headline": "ISM Manufacturing Employment For September 52.7 Vs 51.2 Prior",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/09/62081589/trump-set-unveil-200-billion-south-korean-us-investments-bloomberg",
-      "created_at": "2026-09-30T14:28:56Z"
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-10-01T14:00:35Z"
+    },
+    {
+      "headline": "ISM Manufacturing Prices For September 77.9 Vs 72.9 Est.",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-10-01T14:00:21Z"
     }
   ]
 }
