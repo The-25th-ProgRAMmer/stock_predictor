@@ -1,5 +1,5 @@
 ---
-description: Grade any prior predictions, then predict tomorrow's SPY direction and log it.
+description: Grade any prior predictions, then predict tomorrow's direction for every target symbol and log them.
 ---
 
 You are the trading agent's predictor. This command runs once per trading day (typically at or after market close). Follow these steps in order — do not skip, do not add extra steps.
@@ -14,73 +14,100 @@ Report the output verbatim in one line if anything was graded.
 
 Run: `python predict.py`
 
-This prints a single JSON object on stdout with SPY's OHLCV, technical indicators, and news. Parse it. Do NOT invent additional data.
+This prints a single JSON object on stdout. Parse it. Do NOT invent additional data. Its parts:
 
-## 3. Analyze
+- `targets` — the symbols you must predict. One prediction each, no more, no fewer.
+- `target_data` — per-symbol price action and indicators.
+- `context_data` — cross-asset background (volatility, metals, bonds, credit, dollar, energy, breadth, individual semis). **Never predict these.** They exist to inform the target calls.
+- `cross_asset` — derived features: breadth counts, ratios, `risk_on_score`, correlations.
 
-Consider only what is in the context object:
+## 3. Read the market backdrop once
+
+Before looking at any single symbol, form one view from `cross_asset`:
+
+- `risk_on_score` — 0–1 is risk-off, 4–5 is risk-on. Check `components` to see which signals disagree.
+- `HYG/LQD` — credit risk appetite. Credit usually leads equities.
+- `IWM/SPY` — breadth. Falling while SPY rises means a narrow, fragile tape.
+- `QQQ/SPY` — tech leadership vs. narrowness. An extreme percentile here is a crowding signal.
+- `mag7_breadth` / `semi_breadth` — how broad today's move actually was (`up_today` out of `n`).
+- `volatility` — `VIXY_percentile_60d` and `VIXY_pct_1d`, plus `SPY_realized_vol_20d_annualized_pct`. Read VIXY's *change and percentile*, never its level: it bleeds to contango.
+- `correlations_20d_vs_SPY` — when SPY's correlation to GLD or TLT is unusually high, the normal risk-on/risk-off reads are less reliable. Say so and lower confidence.
+
+## 4. Analyze each target
+
+For each symbol in `targets`, use its own `target_data`:
 
 - **Trend**: sign of `close_vs_sma20_pct` and `close_vs_sma50_pct`; `sma20_vs_sma50`.
-- **Momentum**: `rsi14` (overbought >70, oversold <30), `macd_hist` (positive = bullish momentum, negative = bearish).
-- **Volatility**: `atr14_pct_of_close` — is the market unusually volatile?
-- **Recent action**: `prev_day_direction`, `prev_day_pct`, the last 5 daily bars.
-- **News**: read the headlines and summaries. Are they net positive, negative, or mixed for the broad US market / SPY? Ignore items clearly unrelated to equities.
+- **Momentum**: `rsi14` (overbought >70, oversold <30), `macd_hist`.
+- **Volatility**: `atr14_pct_of_close`.
+- **Recent action**: `prev_day_direction`, `prev_day_pct`, `pct_5d`, `pct_20d`, `last_3_days`.
+- **News**: items in `news` tagged with that symbol. Ignore items clearly unrelated to equities.
 
-Be honest. If signals conflict, that's a low-confidence read (50–60). If they align strongly, that's higher confidence (70–85). Reserve 85+ for rare cases where multiple independent signals point the same way.
+Confidence: 50–60 when signals conflict, 60–75 moderate agreement, 75–85 strong agreement, above 85 only when near unanimous.
 
-## 4. Compose the prediction JSON
+Two rules that matter more than accuracy:
 
-Build this exact structure (fill in the values):
+1. **Be honest.** A coin flip must be logged as a coin flip. The point of this phase is to find out whether the predictor beats its baselines; inflated confidence corrupts the experiment.
+
+2. **Do not stamp one market call onto all ten symbols.** If the backdrop is the only thing driving every prediction, say so in the reasoning and keep confidences near 50. Where a symbol's own indicators or news diverge from the backdrop, let them diverge. `weekly_report.py` measures how often you called every symbol the same direction; a high rate means the extra symbols are adding nothing.
+
+## 5. Compose the predictions JSON
+
+Build a JSON **array**, one object per target symbol:
 
 ```json
-{
-  "made_at": "<ISO 8601 UTC timestamp, e.g. 2026-09-26T21:05:00Z>",
-  "for_date": "<value of context.for_date>",
-  "symbol": "SPY",
-  "prediction": {
-    "direction": "up" | "down",
-    "confidence": <integer 50..100>,
-    "reasoning": "<2-3 sentences citing specific signals from the context by name (e.g. 'RSI at 68 near overbought, MACD hist positive, news mildly bullish on Fed remarks')>",
-    "key_signals": ["<short signal 1>", "<short signal 2>", "..."],
-    "sources": ["<news url 1>", "<news url 2>"]
-  },
-  "baselines": {
-    "always_up": "up",
-    "prev_day_direction": "<value of context.prev_day_direction>"
-  },
-  "context_snapshot": {
-    "latest_close": <context.latest_close>,
-    "sma20": <context.indicators.sma20>,
-    "sma50": <context.indicators.sma50>,
-    "rsi14": <context.indicators.rsi14>,
-    "macd_hist": <context.indicators.macd_hist>
-  },
-  "outcome": null
-}
+[
+  {
+    "made_at": "<ISO 8601 UTC timestamp, e.g. 2026-10-02T21:05:00Z>",
+    "for_date": "<value of context.for_date>",
+    "symbol": "<target symbol>",
+    "prediction": {
+      "direction": "up" | "down",
+      "confidence": <integer 50..100>,
+      "reasoning": "<2-3 sentences citing specific numeric values for THIS symbol>",
+      "key_signals": ["<short signal 1>", "<short signal 2>"],
+      "sources": ["<news url if any>"]
+    },
+    "baselines": {
+      "always_up": "up",
+      "prev_day_direction": "<that symbol's prev_day_direction>"
+    },
+    "context_snapshot": {
+      "latest_close": <number>,
+      "sma20": <number>,
+      "sma50": <number>,
+      "rsi14": <number>,
+      "macd_hist": <number>,
+      "risk_on_score": <cross_asset.risk_on_score.score>
+    },
+    "outcome": null
+  }
+]
 ```
 
 Rules:
 - `outcome` MUST be `null`. Grading happens tomorrow.
 - Do not add fields the schema does not list.
-- `reasoning` must reference specific numeric values or specific headlines from the context.
+- `reasoning` must cite specific numeric values or headlines, and must be different per symbol.
 
-## 5. Append the prediction
+## 6. Append the predictions
 
-Write the JSON object to `scratchpad/pending_prediction.json` (create the folder if it doesn't exist), then run:
-
-```
-python append_prediction.py scratchpad/pending_prediction.json
-```
-
-If it prints an error about missing/invalid fields, fix and retry — do not proceed until it prints "appended prediction for ...".
-
-## 6. Summarize for the user
-
-Print a two-line summary:
+Write the array to `scratchpad/pending_predictions.json` (create the folder if needed), then run:
 
 ```
-Prediction for <for_date>: <direction> @ <confidence>%
-Top reason: <one-sentence gist of reasoning>
+python append_prediction.py scratchpad/pending_predictions.json
+```
+
+The append is all-or-nothing. If it reports missing or invalid fields, fix and retry. Do not proceed until it prints `appended N prediction(s)`. If it says something is already logged, STOP and report that — do not overwrite.
+
+## 7. Summarize for the user
+
+Print one line per symbol, then one line on the backdrop:
+
+```
+<SYMBOL>: <direction> @ <confidence>%
+...
+Backdrop: risk_on_score <n>/<of> — <one-sentence gist>
 ```
 
 Nothing else. No apologies, no meta-commentary, no offers to trade.

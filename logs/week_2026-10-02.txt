@@ -1,48 +1,59 @@
-======================================================================
+==============================================================================
 WEEKLY TRADING PREDICTOR ANALYSIS — Week ending 2026-10-02
-======================================================================
+==============================================================================
 
 Total predictions logged: 5
-Graded so far:            4
+Graded so far:            5
 
---- THIS WEEK ---
-  This week (n=4):
-    Agent accuracy:          2/4 = 50.0%
-    Baseline 'always up':    2/4 = 50.0%
-    Baseline 'prev day':     2/4 = 50.0%
+--- THIS WEEK (pooled) ---
+  This week (n=5 over 5 trading days):
+    Agent accuracy:          3/5 = 60.0%
+    Baseline 'always up':    60.0%
+    Baseline 'prev day':     60.0%
     Agent vs always_up:      +0.0%
     Agent vs prev_day:       +0.0%
+    Agent up-rate:           60.0%
 
---- ALL TIME ---
-  All-time (n=4):
-    Agent accuracy:          2/4 = 50.0%
-    Baseline 'always up':    2/4 = 50.0%
-    Baseline 'prev day':     2/4 = 50.0%
+--- ALL TIME (pooled) ---
+  All-time (n=5 over 5 trading days):
+    Agent accuracy:          3/5 = 60.0%
+    Baseline 'always up':    60.0%
+    Baseline 'prev day':     60.0%
     Agent vs always_up:      +0.0%
     Agent vs prev_day:       +0.0%
+    Agent up-rate:           60.0%
 
---- CALIBRATION (all-time) ---
+--- PER SYMBOL, ALL TIME (the number that counts) ---
+  symbol     n    agent  alwaysUp  prevDay   vs aUp   upRate  status
+  SPY        5    60.0%     60.0%    60.0%    +0.0%    60.0%  need 25
+
+--- CALIBRATION (all-time, pooled) ---
       bucket     n    accuracy
-    50- 59%     2      50.0%
+    50- 59%     3      66.7%
     60- 69%     2      50.0%
 
 --- THIS WEEK'S PREDICTIONS ---
-  2026-09-28  pred:up@60%  actual:down (-0.60%)  [WRONG]
+  2026-09-28  SPY    pred:up  @60%  actual:down (-0.60%)  [WRONG]
     Reasoning: Trend is bullish with close 0.96% above SMA20 and 1.51% above SMA50, and SMA20 above SMA50; MACD histogram is positive at 0.82 confirming upward momentum, while RSI14 at 52.56 is neutral with room to run. Price rebounded +0.53% on the prior day after a mid-week pullback. This is partially offset by mildly negative news: hawkish Fed remarks (Hammack) on above-target inflation and rising bond yields, plus a geopolitical headline on Iran, which caps conviction.
-  2026-09-29  pred:down@55%  actual:down (-0.33%)  [CORRECT]
+  2026-09-29  SPY    pred:down@55%  actual:down (-0.33%)  [CORRECT]
     Reasoning: SPY fell 0.60% on 9/28, extending a 5-day slide from 773.44 to 766.72, while news flagged Treasury yields at 19-year highs, oil nearing $100, and hawkish Fed remarks from Governor Cook on persistent inflation pressure with no near-term room to cut rates. That bearish momentum and macro backdrop outweigh a still-intact but weakening medium-term uptrend: price remains modestly above its 20-day (+0.36%) and 50-day (+0.83%) SMAs with RSI neutral at 52.11 and MACD histogram still positive (+0.58). Signals conflict, so this is a low-confidence lean bearish call.
-  2026-09-30  pred:down@54%  actual:up (+0.51%)  [WRONG]
+  2026-09-30  SPY    pred:down@54%  actual:up   (+0.51%)  [WRONG]
     Reasoning: Close at 762.99 sits slightly below SMA20 (-0.108%) but above SMA50 (+0.286%), and the tape has posted two straight down days including -0.33% on the latest bar, extending a 5-day slide from 767.93. RSI14 at 52.01 is neutral and MACD histogram is only marginally positive (0.0992), so momentum offers no clear edge. News tilts bearish: the 30-year Treasury yield hit 5.612%, its highest since 2002, and S&P breadth is at its weakest since the dot-com bubble, both headwinds that outweigh the muted positive momentum reading.
-  2026-10-01  pred:up@62%  actual:up (+0.18%)  [CORRECT]
+  2026-10-01  SPY    pred:up  @62%  actual:up   (+0.18%)  [CORRECT]
     Reasoning: Trend is bullish with close 0.52% above SMA20 and 0.92% above SMA50, and SMA20 is above SMA50. Momentum confirms: MACD histogram is positive at 0.218 and RSI14 at 60.44 is firmly bullish without being overbought. Volatility is unremarkable (ATR14 at 0.89% of close) and news is neutral (mostly SEC regulatory items) with a mild risk-on tilt as growth sectors led Wednesday's session.
+  2026-10-02  SPY    pred:up  @53%  actual:up   (+0.67%)  [CORRECT]
+    Reasoning: Trend is mixed: SPY sits +0.29% above its SMA50 with SMA20 still above SMA50 (bullish intermediate structure), but price is essentially flat vs SMA20 (-0.04%) and MACD histogram is negative (-0.30), signaling fading short-term momentum. RSI14 at 51.4 is neutral. Prior day closed up +0.18%, yet breadth was weak with 8 of 11 sectors falling, and geopolitical headlines (Iran sanctions, US carrier deployment to the Middle East) add risk-off pressure, offset by stronger-than-expected ISM manufacturing employment and construction spending data.
 
 --- MISSES THIS WEEK (2) ---
-  2026-09-28: predicted up@60%, actual down (-0.60%)
+  2026-09-28 SPY: predicted up@60%, actual down (-0.60%)
     Signals cited: Price above SMA20 (+0.96%) and SMA50 (+1.51%), SMA20 above SMA50, MACD histogram positive (0.82) - bullish momentum, RSI14 neutral at 52.56, Prev day up +0.53%, rebounding from mid-week dip, ATR14 at 0.88% of close - normal volatility, News mixed: hawkish Fed inflation commentary and Iran ceasefire rejection headline weigh slightly negative
-  2026-09-30: predicted down@54%, actual up (+0.51%)
+  2026-09-30 SPY: predicted down@54%, actual up (+0.51%)
     Signals cited: prev_day_direction=down (-0.33%), 5-day slide from 767.93 to 762.99, close below SMA20 (-0.108%) but above SMA50 (+0.286%), RSI14=52.01 neutral, macd_hist=+0.0992 marginal positive, 30Y Treasury yield at 5.612%, highest since 2002, S&P 500 breadth weakest since dot-com bubble
 
-======================================================================
-Note: interpret results with sample size in mind.
-      <30 graded predictions is noise, not signal.
-======================================================================
+--- CAVEATS ---
+  ! No symbol has reached 30 graded predictions yet. Nothing here is signal.
+
+==============================================================================
+Note: the bar is 30+ graded predictions PER SYMBOL,
+      not pooled across symbols. Pooled counts flatter the sample.
+==============================================================================

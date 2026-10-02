@@ -1,59 +1,75 @@
 """
-Read logs/predictions.jsonl and print accuracy vs. baselines,
-calibration by confidence bucket, and the most recent 10 predictions.
+Read logs/predictions.jsonl and print per-symbol accuracy vs. baselines,
+calibration by confidence bucket, and the most recent predictions.
 """
 
-import json
-from collections import defaultdict
-from pathlib import Path
-
-LOG = Path(__file__).parent / "logs" / "predictions.jsonl"
+from stats import (
+    by_symbol,
+    calibration,
+    herding,
+    load,
+    score,
+    symbol_table,
+    warnings,
+)
 
 
 def main() -> None:
-    if not LOG.exists():
+    records, graded = load()
+    if not records:
         print("No predictions yet.")
         return
-
-    records = [json.loads(l) for l in LOG.read_text(encoding="utf-8").splitlines() if l.strip()]
-    graded = [r for r in records if r.get("outcome")]
 
     print(f"Total predictions logged: {len(records)}")
     print(f"Graded so far:            {len(graded)}")
     if not graded:
         return
 
-    total = len(graded)
-    correct = sum(1 for r in graded if r["outcome"]["correct"])
-    always_up = sum(1 for r in graded if r["outcome"]["always_up_correct"])
-    prev_day = sum(1 for r in graded if r["outcome"]["prev_day_baseline_correct"])
+    overall = score(graded)
+    herd = herding(graded)
+    per_symbol = by_symbol(graded)
 
-    print()
-    print(f"Agent accuracy:          {correct}/{total} = {correct/total:.1%}")
-    print(f"Baseline 'always up':    {always_up}/{total} = {always_up/total:.1%}")
-    print(f"Baseline 'prev day':     {prev_day}/{total} = {prev_day/total:.1%}")
+    print(f"Distinct trading days:    {overall['days']}")
+    print(f"Symbols tracked:          {len(per_symbol)}")
 
-    buckets = defaultdict(lambda: [0, 0])
-    for r in graded:
-        b = (int(r["prediction"]["confidence"]) // 10) * 10
-        buckets[b][1] += 1
-        if r["outcome"]["correct"]:
-            buckets[b][0] += 1
+    print("\n--- PER SYMBOL (this is the number that counts) ---")
+    for line in symbol_table(per_symbol):
+        print(line)
 
-    print("\nCalibration by confidence bucket:")
+    print("\n--- POOLED (correlated - read the caveat below) ---")
+    print(f"  Agent accuracy:          {overall['correct']}/{overall['n']} = {overall['accuracy']:.1%}")
+    print(f"  Baseline 'always up':    {overall['always_up']:.1%}")
+    print(f"  Baseline 'prev day':     {overall['prev_day']:.1%}")
+    print(f"  Edge vs always_up:       {overall['edge_vs_always_up']:+.1%}")
+    print(f"  Edge vs prev_day:        {overall['edge_vs_prev_day']:+.1%}")
+    print(f"  Agent up-rate:           {overall['up_rate']:.1%}")
+
+    print("\n--- CALIBRATION (pooled) ---")
     print(f"  {'bucket':>10}  {'n':>4}  {'accuracy':>10}")
-    for b in sorted(buckets):
-        c, n = buckets[b]
+    for b, (c, n) in calibration(graded).items():
         print(f"  {b:>4}-{b+9:>3}%  {n:>4}  {c/n:>9.1%}")
 
-    print("\nMost recent 10 graded predictions:")
-    for r in graded[-10:]:
+    if herd["unanimous_rate"] is not None:
+        print(
+            f"\nSame-direction days: {herd['unanimous_days']}/{herd['days']} "
+            f"({herd['unanimous_rate']:.0%} of multi-symbol days)"
+        )
+
+    recent = graded[-12:]
+    print(f"\n--- MOST RECENT {len(recent)} GRADED ---")
+    for r in recent:
         o, p = r["outcome"], r["prediction"]
         mark = "OK" if o["correct"] else "X "
         print(
-            f"  {r['for_date']}  pred:{p['direction']}@{p['confidence']}%  "
-            f"actual:{o['actual_direction']} ({o['actual_pct']:+.2f}%)  {mark}"
+            f"  {r['for_date']}  {r['symbol']:<6} pred:{p['direction']:<4}@{p['confidence']}%  "
+            f"actual:{o['actual_direction']:<4} ({o['actual_pct']:+.2f}%)  {mark}"
         )
+
+    warns = warnings(graded, overall, herd)
+    if warns:
+        print("\n--- READ THIS BEFORE BELIEVING ANY NUMBER ABOVE ---")
+        for w in warns:
+            print(f"  ! {w}")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-name: Fetch SPY Market Data
+name: Fetch Market Data
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install -q requests pandas numpy
 
-      - name: Fetch SPY data from Alpaca
+      - name: Fetch market data from Alpaca
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -32,9 +32,9 @@ jobs:
       - name: Commit and push data
         run: |
           git config user.email "action@github.com"
-          git config user.name "SPY Data Bot"
-          test -f data/spy_context.json || { echo "fetch produced no spy_context.json"; exit 1; }
-          test -f data/spy_bars.json || { echo "fetch produced no spy_bars.json"; exit 1; }
+          git config user.name "Market Data Bot"
+          test -f data/market_context.json || { echo "fetch produced no market_context.json"; exit 1; }
+          test -f data/bars.json || { echo "fetch produced no bars.json"; exit 1; }
           git add data/
           if git diff --cached --quiet; then
             echo "Data files unchanged since last run"
@@ -44,5 +44,5 @@ jobs:
             echo "data/ files exist but were not staged — check .gitignore"
             exit 1
           }
-          git commit -m "Daily SPY market data $(date -u +%Y-%m-%d)"
+          git commit -m "Daily market data $(date -u +%Y-%m-%d)"
           git push origin HEAD:main

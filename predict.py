@@ -1,6 +1,6 @@
 """
-Read pre-fetched SPY market data and technical indicators from data/spy_context.json
-and print it on stdout for the LLM predictor to consume.
+Read pre-fetched market data from data/market_context.json and print it on
+stdout for the LLM predictor to consume.
 No network calls (runs inside a cloud routine with no egress).
 """
 
@@ -13,10 +13,10 @@ MAX_STALENESS_DAYS = 4
 
 
 def main() -> None:
-    context_path = Path(__file__).parent / "data" / "spy_context.json"
+    context_path = Path(__file__).parent / "data" / "market_context.json"
     if not context_path.exists():
         print(
-            json.dumps({"error": "data/spy_context.json not found"}),
+            json.dumps({"error": "data/market_context.json not found"}),
             file=sys.stderr,
         )
         sys.exit(1)
