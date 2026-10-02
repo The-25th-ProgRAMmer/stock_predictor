@@ -2,7 +2,7 @@
 WEEKLY TRADING PREDICTOR ANALYSIS — Week ending 2026-10-02
 ==============================================================================
 
-Total predictions logged: 5
+Total predictions logged: 15
 Graded so far:            5
 
 --- THIS WEEK (pooled) ---
