@@ -87,6 +87,69 @@ Expanding the universe does not create edge. It creates measurement resolution.
 
 Until all four hold, don't touch trade execution.
 
+## Paper trading (v0.3)
+
+**This is a plumbing test, not a strategy go-live.** It runs on Alpaca paper
+account `PA3F0MXFHL8Z` with $100k of fake money. The keys are paper-only — they
+return 401 against the live endpoint, so they cannot place a real-money order.
+
+The point is not profit. It is to debug order submission, fills, reconciliation
+and slippage *before* there is any edge to risk, and to answer a question the
+prediction log structurally cannot: **direction accuracy is not profitability.**
+At 60% accuracy you still lose money if you are right on small-move days and
+wrong on big ones. Only a P&L log shows that.
+
+### How a position is decided
+
+1. **Trend score** (`trend_score.py`) — compare the current price against its
+   own price 5, 10, 21 and 42 sessions ago. Each comparison is ±1, so the score
+   lands on exactly one of five rungs: +4 full long, +2 half long, 0 flat,
+   −2 half short, −4 full short.
+2. **The prediction must confirm it** (`position.py`). A conflict, or a score of
+   0, means no position. Every trade therefore has two independent reasons.
+3. **Volatility-targeted sizing** (`sizing.py`):
+
+   ```
+   position = score weight x (target risk % / annualised volatility %) x portfolio
+   ```
+
+   where annualised volatility is the average daily close-to-close % move over
+   30 sessions, times 19.1 (√365). **Target risk is fixed at 2%.** A quiet name
+   gets a large notional and a violent one a small one, so each position
+   contributes comparable *risk* rather than comparable *money* — SPY at 9.4%
+   vol gets $10,000 at half weight while META at 41% gets $2,193 at the same
+   half weight.
+
+Whole shares only: Alpaca has no fractional short selling, and opening/closing
+auction orders are whole-share regardless. Sizes round down; a position that
+rounds to zero shares is reported as a skip, never silently dropped.
+
+### Timing, and a mismatch worth knowing
+
+Entry is a market-on-open (`opg`) order, exit is market-on-close (`cls`), so
+fills land at the official auction prices and the hold is exactly open-to-close.
+
+**Predictions are graded close-to-close but traded open-to-close.** The
+overnight gap cannot be captured on this schedule, so realised P&L will
+systematically differ from graded accuracy — a correct prediction can lose
+money and vice versa. `reconcile.py` records `gap_pct` per round trip so you can
+see how much of each graded move happened before you could act.
+
+### Safety
+
+- `broker.py` hard-codes the paper URL; it is never read from config.
+- Every order is preceded by a check that the account number starts with `PA`
+  and is ACTIVE. A live account fails this even with valid credentials.
+- Caps: $30k per symbol, $150k gross per batch, 12 positions. A batch over the
+  gross cap is refused **in full**, not partially filled.
+- Kill switch: set repository variable `TRADING_DISABLED=1` and nothing trades.
+- Orders use deterministic `client_order_id`s (`entry-<date>-<symbol>`), so a
+  duplicate run is rejected by Alpaca rather than doubling a position.
+- Entry refuses to run at all if positions are already open from a prior session.
+
+`logs/trades.jsonl` is kept **separate** from `logs/predictions.jsonl` so a
+trading bug can never contaminate the accuracy experiment.
+
 ## Files
 
 ```

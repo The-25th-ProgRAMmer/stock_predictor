@@ -1,0 +1,122 @@
+name: Paper Trade
+
+# Execution lives in Actions, not in the cloud routine: the routine sandbox can
+# only reach github.com and pypi.org, so it cannot talk to Alpaca at all.
+#
+# Each job runs twice, an hour apart, because GitHub cron is UTC and US market
+# hours shift with daylight saving. The scripts gate on Alpaca's own /v2/clock,
+# so exactly one of each pair acts and the other exits 0 without trading:
+#
+#   entry  13:00 UTC = 09:00 ET (EDT, trades) / 08:00 ET (EST, 90 min early, skips)
+#          14:00 UTC = 10:00 ET (EDT, open, skips) / 09:00 ET (EST, trades)
+#   exit   19:30 UTC = 15:30 ET (EDT, trades) / 14:30 ET (EST, 90 min early, skips)
+#          20:30 UTC = 16:30 ET (EDT, closed, skips) / 15:30 ET (EST, trades)
+#
+# Orders carry deterministic client_order_ids, so a duplicate run is rejected by
+# Alpaca rather than doubling a position.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"
+    - cron: "0 14 * * 1-5"
+    - cron: "30 19 * * 1-5"
+    - cron: "30 20 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Which leg to run"
+        required: true
+        default: "enter"
+        type: choice
+        options: [enter, exit, reconcile]
+      dry_run:
+        description: "Resolve and print without sending orders"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-trade
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - run: pip install -q requests
+
+      - name: Decide leg
+        id: leg
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "leg=${{ inputs.action }}" >> "$GITHUB_OUTPUT"
+            echo "dry=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 13 * * 1-5"|"0 14 * * 1-5")   echo "leg=enter" >> "$GITHUB_OUTPUT" ;;
+              *)                                echo "leg=exit"  >> "$GITHUB_OUTPUT" ;;
+            esac
+            echo "dry=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Enter positions
+        if: steps.leg.outputs.leg == 'enter'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          TRADING_DISABLED: ${{ vars.TRADING_DISABLED }}
+        run: |
+          if [ "${{ steps.leg.outputs.dry }}" = "true" ]; then
+            python enter_trades.py --dry-run
+          else
+            python enter_trades.py
+          fi
+
+      - name: Exit positions
+        if: steps.leg.outputs.leg == 'exit'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          TRADING_DISABLED: ${{ vars.TRADING_DISABLED }}
+        run: |
+          if [ "${{ steps.leg.outputs.dry }}" = "true" ]; then
+            python exit_trades.py --dry-run
+          else
+            python exit_trades.py
+          fi
+
+      - name: Reconcile fills and P&L
+        if: steps.leg.outputs.leg == 'reconcile' || steps.leg.outputs.leg == 'exit'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python reconcile.py || echo "reconcile reported an issue (non-fatal)"
+
+      - name: Commit trade log
+        if: steps.leg.outputs.dry != 'true'
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "Paper Trade Bot"
+          git add logs/
+          if git diff --cached --quiet; then
+            echo "No trade-log changes to commit"
+            exit 0
+          fi
+          git commit -m "Paper trading ${{ steps.leg.outputs.leg }} $(date -u +%Y-%m-%d)"
+          # Another job may have pushed between checkout and now; rebase and retry.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            echo "push attempt $i failed, retrying"
+            sleep 5
+          done
+          echo "could not push trade log after 3 attempts"
+          exit 1
