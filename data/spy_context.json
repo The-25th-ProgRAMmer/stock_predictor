@@ -1,33 +1,25 @@
 {
   "symbol": "SPY",
-  "as_of": "2026-10-01",
-  "for_date": "2026-10-02",
-  "latest_close": 763.71,
-  "prev_close": 762.34,
+  "as_of": "2026-10-02",
+  "for_date": "2026-10-05",
+  "latest_close": 769.015,
+  "prev_close": 764.1,
   "prev_day_direction": "up",
-  "prev_day_pct": 0.1797,
+  "prev_day_pct": 0.6432,
   "indicators": {
-    "sma20": 764.0409999999999,
-    "sma50": 761.521,
-    "close_vs_sma20_pct": -0.043,
-    "close_vs_sma50_pct": 0.287,
+    "sma20": 763.95125,
+    "sma50": 762.1845,
+    "close_vs_sma20_pct": 0.663,
+    "close_vs_sma50_pct": 0.896,
     "sma20_vs_sma50": "above",
-    "rsi14": 51.4,
-    "macd": 1.0139,
-    "macd_signal": 1.3134,
-    "macd_hist": -0.2994,
-    "atr14": 6.88,
-    "atr14_pct_of_close": 0.901
+    "rsi14": 59.39,
+    "macd": 1.2808,
+    "macd_signal": 1.3063,
+    "macd_hist": -0.0255,
+    "atr14": 7.072,
+    "atr14_pct_of_close": 0.92
   },
   "last_5_days": [
-    {
-      "t": "2026-09-25",
-      "o": 768.7,
-      "h": 772.265,
-      "l": 766.32,
-      "c": 771.35,
-      "v": 1226312
-    },
     {
       "t": "2026-09-28",
       "o": 768.43,
@@ -55,82 +47,90 @@
     {
       "t": "2026-10-01",
       "o": 764.34,
-      "h": 765.34,
+      "h": 765.63,
       "l": 758.815,
-      "c": 763.71,
-      "v": 814722
+      "c": 764.1,
+      "v": 1414181
+    },
+    {
+      "t": "2026-10-02",
+      "o": 770.68,
+      "h": 772.65,
+      "l": 767.16,
+      "c": 769.015,
+      "v": 799783
     }
   ],
   "news": [
     {
-      "headline": "Russia's Proposals To Deliver Enriched Uranium From Iran To Russia Are Still Valid; We Support Trilateral Meeting With Xi, Trump, But Agenda For Talks Should Be Worked Out",
+      "headline": "South Korea's Industry Ministry Official Says $8.4B Oil Project Mentioned By Trump Not Part Of Agreement With",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62115723/russia-s-proposals-deliver-enriched-uranium-iran-russia-are-still-valid-we-support-trilateral-meetin",
-      "created_at": "2026-10-01T16:57:29Z"
+      "url": "https://www.benzinga.com/government/26/10/62137884/south-korea-s-industry-ministry-official-says-8-4b-oil-project-mentioned-trump-not-part-agreement",
+      "created_at": "2026-10-02T15:05:10Z"
     },
     {
-      "headline": "White House Reporter For AP Seung Min Kim Posts On X \"I\u2019m Told That Thune Met With Trump This Morning At The White House\"",
+      "headline": "EXCLUSIVE: Top 12 Most-Searched Tickers in September on Benzinga Pro \u2013 Meta Rises, SpaceX Falls, Dell & Bloom Energy Join List",
+      "summary": "These were the 12 stocks that were most searched during the month of September by Benzinga users.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62137835/top-12-most-searched-tickers-in-september-on-benzinga-pro-meta-rises-spacex-falls-dell-bloom-energy-join-list",
+      "created_at": "2026-10-02T15:04:29Z"
+    },
+    {
+      "headline": "8 Of 11 Sectors Rise Friday As Growth Leads",
+      "summary": "Friday&#39;s regular session has eight sectors higher and three lower, with growth sectors holding two of the top three positions. The leaders are clustered, with less than a quarter-point separating the top three sectors.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62137658/8-of-11-sectors-rise-friday-as-growth-leads",
+      "created_at": "2026-10-02T15:01:32Z"
+    },
+    {
+      "headline": "Fed Hike Odds Collapse to 16% on Prediction Markets After Soft Jobs Report",
+      "summary": "October Fed hike odds plunged to 16% after U.S. payroll growth badly missed expectations.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62137258/fed-rate-hike-odds-jobs-report",
+      "created_at": "2026-10-02T14:54:46Z"
+    },
+    {
+      "headline": "'G7 to Release Up to 100M of Barrels of Diesel and Oil'- Bloomberg",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62115418/white-house-reporter-ap-seung-min-kim-posts-x-i-m-told-thune-met-trump-morning-white-house",
-      "created_at": "2026-10-01T16:47:47Z"
+      "url": "https://www.benzinga.com/news/26/10/62135452/g7-release-100m-barrels-diesel-and-oil-bloomberg",
+      "created_at": "2026-10-02T14:13:28Z"
     },
     {
-      "headline": "US Issues New Iran-Related Sanctions",
+      "headline": "President Trump, On Social Media, Says Europe Has Just Agreed To Release Massive Amount Of Heavily Stocked Diesel Oil; Process To Begin Immediately",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62115195/us-issues-new-iran-related-sanctions",
-      "created_at": "2026-10-01T16:41:52Z"
+      "url": "https://www.benzinga.com/news/26/10/62134913/president-trump-on-social-media-says-europe-has-just-agreed-to-release-massive-amount-of-heavily-stocked-diesel-oil-process-to-begin-immediately",
+      "created_at": "2026-10-02T14:03:16Z"
     },
     {
-      "headline": "U.S. Is Sending A Third Aircraft Carrier To The Middle East, The USS Theodore Roosevelt, Along With An Additional Marine Division, Per A Senior Us Official",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62114836/u-s-sending-third-aircraft-carrier-middle-east-uss-theodore-roosevelt-along-additional-marine-divisi",
-      "created_at": "2026-10-01T16:34:39Z"
-    },
-    {
-      "headline": "8 Of 11 Sectors Fall In Thursday Trading As Cyclicals Lead",
-      "summary": "Three sectors are higher and eight are lower in Thursday\u2019s regular session, with cyclical sectors holding two of the top three positions. The leaders are separated rather than clustered, with Energy well ahead of the next group.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62111517/8-of-11-sectors-fall-in-thursday-trading-as-cyclicals-lead",
-      "created_at": "2026-10-01T15:11:52Z"
-    },
-    {
-      "headline": "Reported Earlier: \"Chinese refiners suspend October fuel exports to bolster stocks, sources say\"- Reuters",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62110945/reported-earlier-chinese-refiners-suspend-october-fuel-exports-bolster-stocks-sources-say-reuters",
-      "created_at": "2026-10-01T15:01:04Z"
-    },
-    {
-      "headline": "Reported Earlier, U.S. Tells France, Germany To Release Diesel Stocks Or Face U.S. Export Ban",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62099291/reuters-reported-earlier-u-s-tells-france-germany-to-release-diesel-stocks-or-face-us-export-ban",
-      "created_at": "2026-10-01T09:57:45Z"
-    },
-    {
-      "headline": "USA Construction Spending (MoM) For August 0.9% Vs 0.0% Est",
+      "headline": "USA Durables Excluding Defense (MoM) For August 0.0% Vs 0.1% Prior",
       "summary": "",
       "source": "benzinga",
       "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-10-01T14:00:46Z"
+      "created_at": "2026-10-02T14:00:39Z"
     },
     {
-      "headline": "ISM Manufacturing Employment For September 52.7 Vs 51.2 Prior",
+      "headline": "USA Factory Orders (MoM) For August\u00a0 0.1% Vs 0.1% Est",
       "summary": "",
       "source": "benzinga",
       "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-10-01T14:00:35Z"
+      "created_at": "2026-10-02T14:00:13Z"
     },
     {
-      "headline": "ISM Manufacturing Prices For September 77.9 Vs 72.9 Est.",
+      "headline": "Live On Bloomberg TV, White House National Economic Council Director Kevin Hassett Says Current Interest Payments Are Too High; This President Is Committed To Cutting The Deficit.",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-10-01T14:00:21Z"
+      "url": "https://www.benzinga.com/news/26/10/62134413/live-bloomberg-tv-white-house-national-economic-council-director-kevin-hassett-says-current-interest",
+      "created_at": "2026-10-02T13:56:13Z"
+    },
+    {
+      "headline": "President Trump Expected To Name Jay Clayton As AI Czar",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62134062/president-trump-expected-name-jay-clayton-ai-czar",
+      "created_at": "2026-10-02T13:49:58Z"
     }
   ]
 }
