@@ -3,14 +3,23 @@ name: Paper Trade
 # Execution lives in Actions, not in the cloud routine: the routine sandbox can
 # only reach github.com and pypi.org, so it cannot talk to Alpaca at all.
 #
-# Each job runs twice, an hour apart, because GitHub cron is UTC and US market
-# hours shift with daylight saving. The scripts gate on Alpaca's own /v2/clock,
-# so exactly one of each pair acts and the other exits 0 without trading:
+# Three scheduled legs, each run twice an hour apart, because GitHub cron is UTC
+# and US market hours shift with daylight saving. Every script gates on Alpaca's
+# own /v2/clock, so exactly one of each pair acts and the other exits without
+# trading:
 #
-#   entry  13:00 UTC = 09:00 ET (EDT, trades) / 08:00 ET (EST, 90 min early, skips)
-#          14:00 UTC = 10:00 ET (EDT, open, skips) / 09:00 ET (EST, trades)
-#   exit   19:30 UTC = 15:30 ET (EDT, trades) / 14:30 ET (EST, 90 min early, skips)
-#          20:30 UTC = 16:30 ET (EDT, closed, skips) / 15:30 ET (EST, trades)
+#   enter  13:00 / 14:00 UTC   market-on-open orders for today's predictions
+#   arm    13:45 / 14:45 UTC   attach a take-profit / stop pair to each new fill
+#   sweep  19:30 / 20:30 UTC   time-stop anything 21+ sessions old; flag unbracketed
+#
+# There is deliberately no leg that closes positions at the end of the day, and
+# no intraday polling. Once a position is armed, the take-profit / stop pair
+# rests at Alpaca as a one-cancels-other order and fills on its own whenever the
+# price gets there - which is the whole point of resting it rather than checking.
+#
+# reconcile runs on the arm and sweep legs. It has to run the morning after as
+# well as the evening of, because a closing-auction exit submitted at 19:30 is
+# not filled until the 20:00 close.
 #
 # Orders carry deterministic client_order_ids, so a duplicate run is rejected by
 # Alpaca rather than doubling a position.
@@ -19,16 +28,18 @@ on:
   schedule:
     - cron: "0 13 * * 1-5"
     - cron: "0 14 * * 1-5"
+    - cron: "45 13 * * 1-5"
+    - cron: "45 14 * * 1-5"
     - cron: "30 19 * * 1-5"
     - cron: "30 20 * * 1-5"
   workflow_dispatch:
     inputs:
       action:
-        description: "Which leg to run"
+        description: "Which leg to run (flatten closes EVERYTHING)"
         required: true
         default: "enter"
         type: choice
-        options: [enter, exit, reconcile]
+        options: [enter, arm, sweep, reconcile, flatten]
       dry_run:
         description: "Resolve and print without sending orders"
         required: false
@@ -62,8 +73,9 @@ jobs:
             echo "dry=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
           else
             case "${{ github.event.schedule }}" in
-              "0 13 * * 1-5"|"0 14 * * 1-5")   echo "leg=enter" >> "$GITHUB_OUTPUT" ;;
-              *)                                echo "leg=exit"  >> "$GITHUB_OUTPUT" ;;
+              "0 13 * * 1-5"|"0 14 * * 1-5")    echo "leg=enter" >> "$GITHUB_OUTPUT" ;;
+              "45 13 * * 1-5"|"45 14 * * 1-5")  echo "leg=arm"   >> "$GITHUB_OUTPUT" ;;
+              *)                                 echo "leg=sweep" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
           fi
@@ -81,8 +93,34 @@ jobs:
             python enter_trades.py
           fi
 
-      - name: Exit positions
-        if: steps.leg.outputs.leg == 'exit'
+      - name: Arm take-profit and stop
+        if: steps.leg.outputs.leg == 'arm'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          TRADING_DISABLED: ${{ vars.TRADING_DISABLED }}
+        run: |
+          if [ "${{ steps.leg.outputs.dry }}" = "true" ]; then
+            python arm_exits.py --dry-run
+          else
+            python arm_exits.py
+          fi
+
+      - name: Sweep time stops
+        if: steps.leg.outputs.leg == 'sweep'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          TRADING_DISABLED: ${{ vars.TRADING_DISABLED }}
+        run: |
+          if [ "${{ steps.leg.outputs.dry }}" = "true" ]; then
+            python sweep_exits.py --dry-run
+          else
+            python sweep_exits.py
+          fi
+
+      - name: Flatten everything (manual only)
+        if: steps.leg.outputs.leg == 'flatten'
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -94,15 +132,22 @@ jobs:
             python exit_trades.py
           fi
 
+      # Brackets fill at Alpaca with nothing running here, so reconciliation is
+      # what discovers them. It must run in the morning too: a closing-auction
+      # exit sent at 19:30 only fills at the 20:00 close.
       - name: Reconcile fills and P&L
-        if: steps.leg.outputs.leg == 'reconcile' || steps.leg.outputs.leg == 'exit'
+        if: >-
+          steps.leg.outputs.dry != 'true' &&
+          (steps.leg.outputs.leg == 'arm' ||
+           steps.leg.outputs.leg == 'sweep' ||
+           steps.leg.outputs.leg == 'reconcile')
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
         run: python reconcile.py || echo "reconcile reported an issue (non-fatal)"
 
       - name: Commit trade log
-        if: steps.leg.outputs.dry != 'true'
+        if: always() && steps.leg.outputs.dry != 'true'
         run: |
           git config user.email "action@github.com"
           git config user.name "Paper Trade Bot"

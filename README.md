@@ -1,9 +1,14 @@
-# Trading Agent — Predictor Phase (v0.2)
+# Trading Agent — Predictor + Paper Trading (v0.3)
 
-A daily multi-symbol direction predictor. **No trades yet.** The goal of this phase is
-to find out whether an LLM-driven predictor built on price data, technical indicators,
-cross-asset context, and news can beat two dumb baselines. If it can't, don't bother
-wiring it to real trades.
+A daily multi-symbol direction predictor, plus a paper-money execution path that
+trades it. The question the predictor exists to answer is whether an LLM built on
+price data, technical indicators, cross-asset context and news can beat two dumb
+baselines — and it has **not** answered it yet, so the paper trading is a plumbing
+test, not a strategy go-live. Nothing here touches real money.
+
+The two halves are kept deliberately separate: predictions are graded on their own
+terms in `logs/predictions.jsonl`, and trades live in `logs/trades.jsonl`, so a bug
+in one cannot contaminate the other.
 
 ## What it does
 
@@ -124,31 +129,91 @@ Whole shares only: Alpaca has no fractional short selling, and opening/closing
 auction orders are whole-share regardless. Sizes round down; a position that
 rounds to zero shares is reported as a skip, never silently dropped.
 
-### Timing, and a mismatch worth knowing
+### How a position is exited
 
-Entry is a market-on-open (`opg`) order, exit is market-on-close (`cls`), so
-fills land at the official auction prices and the hold is exactly open-to-close.
+Entry is a market-on-open (`opg`) order. Positions are **not** flattened at the
+close — each one is held until one of three things happens.
 
-**Predictions are graded close-to-close but traded open-to-close.** The
-overnight gap cannot be captured on this schedule, so realised P&L will
-systematically differ from graded accuracy — a correct prediction can lose
-money and vice versa. `reconcile.py` records `gap_pct` per round trip so you can
-see how much of each graded move happened before you could act.
+1. **Take-profit**, at `2 x` the symbol's average daily move from entry.
+2. **Stop**, the same distance the other way.
+3. **Time stop**, after 21 trading sessions — the trend score's longest
+   lookback, so the signal that opened the position has fully rolled over.
+
+The first two are placed together as a single one-cancels-other (OCO) order,
+good till cancelled, by `arm_exits.py` shortly after the open. Whichever leg
+trades first cancels the other, so a position can never be closed twice and
+**nothing has to be watching the market** — which is why there is no intraday
+polling job. Alpaca returns the pair as a parent limit order (the take-profit)
+with the stop as a single child leg.
+
+Distances are measured in the symbol's own volatility, not in flat percent:
+
+```
+distance % = 2 x (annualised vol % / 19.1)
+```
+
+Because sizing already equalises risk across positions, measuring the exit in
+the same units means **every position pays or loses roughly the same dollar
+amount** — about $100 at half weight, $200 at full — whatever the symbol:
+
+| symbol | ±distance | at target | symbol | ±distance | at target |
+|---|---|---|---|---|---|
+| SPY  | 0.99% | $99  | AMZN | 2.37% | $101 |
+| QQQ  | 1.40% | $199 | META | 4.30% | $94  |
+| MSFT | 2.30% | $95  | TSLA | 4.24% | $94  |
+| GOOGL| 2.51% | $104 | SMH  | 3.19% | $202 |
+
+A flat percentage target would instead make TSLA exit on noise while SPY almost
+never triggered.
+
+The stop sits the **same** distance as the target deliberately. A profit-only
+exit caps every winner and leaves every loser open-ended, so the book silently
+fills with the positions that didn't work. Equidistant levels mean the average
+winner and average loser are the same size, so target-vs-stop counts read
+directly as a hit rate and the bar is simply **better than 50%**.
+
+### Two mismatches worth knowing
+
+**Predictions are graded close-to-close but traded open-to-close-or-later.** The
+overnight gap cannot be captured, so realised P&L will systematically differ
+from graded accuracy. `reconcile.py` records `gap_pct` per round trip to show how
+much of the move happened before entry was possible.
+
+**The prediction is a one-session call but a position can be held for weeks.**
+Only the trend score has a horizon that long. The round-trip field is therefore
+called `went_predicted_way`, not `prediction_correct` — read it next to
+`hold_sessions`, because it only grades the prediction when the hold was short.
 
 ### Safety
 
 - `broker.py` hard-codes the paper URL; it is never read from config.
 - Every order is preceded by a check that the account number starts with `PA`
   and is ACTIVE. A live account fails this even with valid credentials.
-- Caps: $30k per symbol, $150k gross per batch, 12 positions. A batch over the
-  gross cap is refused **in full**, not partially filled.
+- Caps: $30k per symbol, $150k gross, 12 positions — counted across **held
+  positions plus new orders**, not per batch, because positions now persist. A
+  batch that would breach the gross cap is refused **in full**.
+- `submit_oco` refuses an inverted bracket before any network call.
 - Kill switch: set repository variable `TRADING_DISABLED=1` and nothing trades.
-- Orders use deterministic `client_order_id`s (`entry-<date>-<symbol>`), so a
-  duplicate run is rejected by Alpaca rather than doubling a position.
-- Entry refuses to run at all if positions are already open from a prior session.
+  Note this blocks *exits* too, so the time stop stops firing — but brackets
+  already resting at Alpaca are unaffected and keep working, so no position is
+  ever left unprotected by flipping it.
+- Orders use deterministic `client_order_id`s, namespaced per purpose
+  (`entry-`, `oco-`, `time-`, `imm-`, `flat-`), so a duplicate run is rejected
+  by Alpaca rather than doubling a position.
+- A symbol already in the book is skipped at entry. Positions are never
+  stacked: a second entry would move the average price the bracket is anchored
+  on.
+- An unprotected position is the one state this design must not sit in quietly.
+  `arm_exits.py` exits non-zero if it cannot arm one and retries next session;
+  `sweep_exits.py` reports any it finds before the close.
 
 `logs/trades.jsonl` is kept **separate** from `logs/predictions.jsonl` so a
-trading bug can never contaminate the accuracy experiment.
+trading bug can never contaminate the accuracy experiment. It is append-only and
+event-sourced — `entry_submitted`, `bracket_armed`, `exit_submitted`,
+`round_trip` — keyed on `(symbol, entry_for_date)`, since an entry and its exit
+are no longer the same date. Note that the **usual exit writes no row at all**:
+the bracket fills at Alpaca with nothing running here, so `reconcile.py`
+discovers it by asking Alpaca what became of the armed order.
 
 ## Files
 
@@ -162,34 +227,60 @@ append_prediction.py    validates and appends a batch; all-or-nothing, deduped o
 stats.py                shared scoring: per-symbol, calibration, herding, warnings
 review.py               prints per-symbol accuracy, calibration, caveats
 weekly_report.py        Friday write-up to logs/week_YYYY-MM-DD.txt
+
+trend_score.py          four-lookback trend ladder, -4 to +4
+sizing.py               volatility-targeted notional per symbol
+position.py             reconciles trend score with prediction; refuses conflicts
+exits.py                where the take-profit and stop sit, in volatility units
+broker.py               Alpaca paper client; all hard safety rails live here
+tradelog.py             append-only event log, keyed (symbol, entry_for_date)
+enter_trades.py         market-on-open entries for today's predictions
+arm_exits.py            attaches the resting take-profit / stop pair to each fill
+sweep_exits.py          21-session time stop; flags unprotected positions
+exit_trades.py          manual panic button: flatten EVERYTHING (nothing schedules it)
+reconcile.py            pairs entries with exits, records P&L and exit_kind
+
 .claude/commands/
   predict.md            slash command: /predict — grade + predict all targets + log
   review.md             slash command: /review  — weekly human review
 .github/workflows/
   fetch-market-data.yml daily 11:45 UTC fetch, commits data/
+  paper-trade.yml       enter 13:00/14:00, arm 13:45/14:45, sweep 19:30/20:30 UTC
 data/market_context.json  tiered context the routine reads (~6k tokens)
 data/bars.json            full OHLC history per symbol, for grading only
 logs/predictions.jsonl    one JSON object per line
+logs/trades.jsonl         trade events; never mixed with predictions
 .env                      Alpaca credentials (gitignored)
 ```
 
 ## Architecture
 
-The fetch and the prediction are deliberately separate processes:
+Fetching, predicting and trading are three separate processes, and the split is
+forced by a hard constraint: **the cloud routine's sandbox can reach only
+github.com and pypi.org.** All of `alpaca.markets` is unreachable from it — the
+data subdomain *and* the trading one — so the routine can neither fetch prices
+nor place orders. It reads what Actions committed and does the reasoning.
 
 ```
 GitHub Actions (11:45 UTC)      cloud routine (12:00 UTC)
-  fetch_data.py                   grade.py  -> reads data/bars.json
-  -> Alpaca, one call             predict.py -> reads data/market_context.json
-  -> commits data/                Claude analyzes, writes predictions
-                                  append_prediction.py -> logs/predictions.jsonl
-                                  git push
+  fetch_data.py                   grade.py   -> reads data/bars.json
+  -> Alpaca, one call              predict.py -> reads data/market_context.json
+  -> commits data/                 Claude analyses, writes predictions
+                                   append_prediction.py -> logs/predictions.jsonl
+                                   git push
+
+GitHub Actions, market hours (both crons of each pair gate on /v2/clock)
+  13:00 / 14:00  enter_trades.py  -> opg orders from today's predictions
+  13:45 / 14:45  arm_exits.py     -> rests one OCO per new fill, then reconcile
+  19:30 / 20:30  sweep_exits.py   -> 21-session time stop, then reconcile
+                 (between those, the brackets sit at Alpaca and fill by themselves)
 ```
 
-The routine makes **no network calls to market data APIs** — the sandbox blocks
-`data.alpaca.markets` anyway. It only reads what the workflow committed. `predict.py`
-exits non-zero on missing or stale (>4 days) data rather than letting the agent invent
-numbers.
+`predict.py` exits non-zero on missing or stale (>4 days) data rather than letting
+the agent invent numbers.
+
+Reconciliation runs on the morning leg as well as the evening one, because a
+closing-auction exit submitted at 19:30 does not fill until the 20:00 close.
 
 ## Running
 
@@ -202,12 +293,28 @@ pip install -r requirements.txt
 /review      # run weekly to eyeball the numbers
 ```
 
+Trading runs itself in Actions. To inspect it by hand, every script takes
+`--dry-run` and resolves everything without sending an order:
+
+```powershell
+python enter_trades.py --dry-run    # what would be opened, and why each skip
+python arm_exits.py    --dry-run    # where each bracket would sit
+python sweep_exits.py  --dry-run    # ages, and anything left unprotected
+python reconcile.py                 # read-only; pairs fills and prints P&L
+```
+
+To stop trading entirely, set the repository variable `TRADING_DISABLED=1`. No
+code change and no redeploy. To close everything at once, run the `paper-trade`
+workflow manually with action `flatten`.
+
 ## Notes
 
 - **Alpaca free tier uses the IEX feed.** Daily bars for all 26 symbols are reliable, but
   `as_of` may lag by one session. Predictions always target the *next* trading day.
 - **`truststore` is required on Windows.** Certain AV/proxy setups intercept TLS to
-  Alpaca; `truststore` uses the Windows cert store instead of certifi.
+  Alpaca with their own root, which certifi's bundle then rejects; `truststore` uses
+  the Windows cert store instead. `broker.py` injects it (and loads `.env`) on import,
+  both guarded by try/except so the Linux Actions runners are unaffected.
 - **The LLM is not allowed to modify the strategy inline.** If /review shows something is
   off, you decide whether to change `.claude/commands/predict.md`. The agent proposes,
   you dispose.

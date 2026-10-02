@@ -8,27 +8,31 @@ submits whole-share market-on-open orders.
 Idempotent: every order carries a deterministic client_order_id of
     entry-<for_date>-<symbol>
 so a second run on the same day is rejected by Alpaca as a duplicate rather
-than doubling the position. The script also exits early if it finds existing
-positions or open orders for the day.
+than doubling the position.
+
+Entries are no longer flattened at the close - each one gets a take-profit and a
+stop (arm_exits.py) and is held until one of them trades or the time stop fires
+(sweep_exits.py). A symbol already in the book is therefore skipped here rather
+than blocking the whole run, and the exposure caps are checked against held
+positions plus new orders rather than the new batch alone.
 
 Dry run:  python enter_trades.py --dry-run     (no orders sent)
 """
 
 import argparse
 import json
-import os
 import sys
-from datetime import date, datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 import broker
 import position
 import sizing
+import tradelog
 from trend_score import load_bars, score_all
 from universe import TARGETS
 
 LOG = Path(__file__).parent / "logs" / "predictions.jsonl"
-TRADES = Path(__file__).parent / "logs" / "trades.jsonl"
 
 TARGET_RISK_PCT = 2.0   # picked once, held fixed (see sizing.py)
 MAX_MINUTES_BEFORE_OPEN = 75   # don't run hours early
@@ -46,13 +50,6 @@ def todays_predictions(for_date: str) -> dict[str, dict]:
         if r["for_date"] == for_date:
             out[r["symbol"]] = r
     return out
-
-
-def record(rows: list[dict]) -> None:
-    TRADES.parent.mkdir(exist_ok=True)
-    with TRADES.open("a", encoding="utf-8") as f:
-        for r in rows:
-            f.write(json.dumps(r) + "\n")
 
 
 def main() -> int:
@@ -85,12 +82,18 @@ def main() -> int:
     for_date = nxt.date().isoformat() if not clk["is_open"] else now.date().isoformat()
     print(f"trading session {for_date} (opens in {minutes:.0f} min)")
 
+    # Positions are held until their bracket or the time stop closes them, so a
+    # symbol already in the book is skipped rather than added to. Never stack:
+    # a second entry would blend the average price the bracket is anchored on.
     existing = broker.positions()
-    if existing:
-        print(f"REFUSING: {len(existing)} position(s) already open: "
-              f"{', '.join(p['symbol'] for p in existing)}")
-        print("The previous session did not flatten. Resolve before trading again.")
-        return 1
+    held = {p["symbol"] for p in existing}
+    working = {o["symbol"] for o in broker.open_orders()}
+    busy = held | working
+    if busy:
+        print(f"already in the book, skipping: {', '.join(sorted(busy))}")
+        if held:
+            gross = sum(abs(float(p.get("market_value", 0) or 0)) for p in existing)
+            print(f"  {len(held)} position(s) held, gross ${gross:,.0f}")
 
     preds = todays_predictions(for_date)
     if not preds:
@@ -98,11 +101,16 @@ def main() -> int:
         return 0
     print(f"{len(preds)} predictions for {for_date}")
 
+    tradeable = [s for s in TARGETS if s not in busy]
+    if not tradeable:
+        print("every target is already in the book - nothing to do")
+        return 0
+
     bars = load_bars()
-    trends = score_all(TARGETS, bars)
-    vols = sizing.size_universe(TARGETS, bars, TARGET_RISK_PCT, portfolio)
-    base = {s: vols[s]["full_notional"] for s in TARGETS}
-    targets = position.resolve_all(TARGETS, preds, trends, base)
+    trends = score_all(tradeable, bars)
+    vols = sizing.size_universe(tradeable, bars, TARGET_RISK_PCT, portfolio)
+    base = {s: vols[s]["full_notional"] for s in tradeable}
+    targets = position.resolve_all(tradeable, preds, trends, base)
 
     print()
     print(position.summarise(targets))
@@ -110,12 +118,13 @@ def main() -> int:
 
     live = [t for t in targets if t.qty > 0]
     if not live:
-        print("no positions to take today")
+        print("no new positions to take today")
         return 0
 
-    broker.check_batch([
-        {"symbol": t.symbol, "notional_estimate": t.notional_actual} for t in live
-    ])
+    broker.check_batch(
+        [{"symbol": t.symbol, "notional_estimate": t.notional_actual} for t in live],
+        existing=existing,
+    )
     print(f"safety checks passed for {len(live)} order(s)")
 
     if args.dry_run:
@@ -154,8 +163,9 @@ def main() -> int:
             failures.append((t.symbol, str(e)))
 
     if rows:
-        record(rows)
-        print(f"\nrecorded {len(rows)} entry order(s) to {TRADES.name}")
+        tradelog.append(rows)
+        print(f"\nrecorded {len(rows)} entry order(s) to {tradelog.TRADES.name}")
+        print("arm_exits.py attaches the take-profit / stop pair once these fill")
     if failures:
         print(f"\n{len(failures)} order(s) failed:")
         for sym, err in failures:

@@ -1,40 +1,32 @@
 """
-Flatten every open position into the closing auction, then record the P&L.
+Flatten EVERY open position into the closing auction. Manual panic button.
 
-Runs in GitHub Actions before the close. Submits a market-on-close order for
-each open position, so entries fill at the official open and exits at the
-official close — the open-to-close window the strategy actually holds.
+This is no longer part of the daily cycle. Positions are held until their
+take-profit or stop trades (arm_exits.py) or until the time stop fires
+(sweep_exits.py); nothing closes a position just because the day ended. This
+script exists for when you want out of everything at once regardless of where
+the brackets sit - a bad data day, a change of strategy, or simply wanting the
+book empty.
 
-Idempotent via client_order_id "exit-<date>-<symbol>", and it skips any symbol
-that already has an open exit order.
+It is reachable only through the workflow's manual dispatch (action: flatten) or
+by running it yourself. Nothing schedules it.
 
-Note the metric mismatch, by design: predictions are GRADED close-to-close
-(prior close -> for_date close), but the tradeable window is open-to-close. The
-overnight gap cannot be captured on this schedule, so realised P&L will
-systematically differ from graded accuracy. reconcile.py reports both.
+Each position's resting bracket is cancelled first. The two legs reserve the
+shares, so a closing order sent while they are still working is rejected for
+insufficient quantity.
 
 Dry run:  python exit_trades.py --dry-run
 """
 
 import argparse
-import json
 import sys
 from datetime import datetime, timezone
-from pathlib import Path
 
 import broker
-
-TRADES = Path(__file__).parent / "logs" / "trades.jsonl"
+import tradelog
 
 MAX_MINUTES_BEFORE_CLOSE = 60   # don't run hours early
 MIN_MINUTES_BEFORE_CLOSE = 12   # cls orders must be in before ~15:50 ET
-
-
-def record(rows: list[dict]) -> None:
-    TRADES.parent.mkdir(exist_ok=True)
-    with TRADES.open("a", encoding="utf-8") as f:
-        for r in rows:
-            f.write(json.dumps(r) + "\n")
 
 
 def main() -> int:
@@ -62,7 +54,8 @@ def main() -> int:
                 print(f"too early (> {MAX_MINUTES_BEFORE_CLOSE} min) - exiting")
                 return 0
             if minutes < MIN_MINUTES_BEFORE_CLOSE:
-                print(f"too late for a closing-auction order (< {MIN_MINUTES_BEFORE_CLOSE} min) - exiting")
+                print(f"too late for a closing-auction order "
+                      f"(< {MIN_MINUTES_BEFORE_CLOSE} min) - exiting")
                 return 1
 
     pos = broker.positions()
@@ -71,38 +64,50 @@ def main() -> int:
         return 0
 
     today = now.date().isoformat()
-    pending = {
-        o["symbol"] for o in broker.open_orders()
-        if str(o.get("client_order_id", "")).startswith(f"exit-{today}-")
-    }
+    log = tradelog.load_rows()
+    working = {}
+    for o in broker.open_orders():
+        working.setdefault(o["symbol"], []).append(o)
 
-    print(f"\n{len(pos)} open position(s):")
+    print(f"\nflattening {len(pos)} open position(s):")
     rows, failures = [], []
-    for p in pos:
+    for p in sorted(pos, key=lambda p: p["symbol"]):
         sym = p["symbol"]
         qty = abs(int(float(p["qty"])))
-        is_long = float(p["qty"]) > 0
-        upl = float(p.get("unrealized_pl", 0))
-        print(f"  {sym:<6} {'long' if is_long else 'short':<5} {qty:>4} @ "
-              f"${float(p['avg_entry_price']):>8.2f}  unrealised ${upl:>+9.2f}")
+        side = "long" if float(p["qty"]) > 0 else "short"
+        upl = float(p.get("unrealized_pl", 0) or 0)
+        print(f"  {sym:<6} {side:<5} {qty:>4} @ ${float(p['avg_entry_price']):>8.2f}  "
+              f"unrealised ${upl:>+9.2f}")
 
-        if sym in pending:
-            print(f"         exit order already working - skipping")
-            continue
         if args.dry_run:
             continue
 
-        side = "sell" if is_long else "buy"
-        coid = f"exit-{today}-{sym}"
+        cancelled = True
+        for o in working.get(sym, []):
+            try:
+                broker.cancel_order(o["id"])
+                print(f"         cancelled resting {o['id']}")
+            except broker.BrokerError as e:
+                print(f"         FAILED to cancel {o['id']}: {e}")
+                failures.append((sym, f"cancel failed, not flattening: {e}"))
+                cancelled = False
+                break
+        if not cancelled:
+            continue
+
+        entry = tradelog.entry_for_symbol(log, sym)
+        coid = f"flat-{today}-{sym}"
         try:
-            o = broker.submit(sym, qty, side, "cls", coid)
-            print(f"         -> {side} {qty} cls  {o['id']} ({o['status']})")
+            o = broker.submit(sym, qty, "sell" if side == "long" else "buy", "cls", coid)
+            print(f"         -> market-on-close {o['id']} ({o['status']})")
             rows.append({
                 "event": "exit_submitted",
+                "symbol": sym,
+                "entry_for_date": entry["for_date"] if entry else today,
                 "date": today,
                 "submitted_at": datetime.now(timezone.utc).isoformat(),
-                "symbol": sym,
-                "side": "long" if is_long else "short",
+                "exit_kind": "manual",
+                "side": side,
                 "qty": qty,
                 "avg_entry_price": float(p["avg_entry_price"]),
                 "unrealized_pl_at_submit": upl,
@@ -118,11 +123,11 @@ def main() -> int:
         print("\n--dry-run: no orders sent")
         return 0
 
+    tradelog.append(rows)
     if rows:
-        record(rows)
         print(f"\nrecorded {len(rows)} exit order(s)")
     if failures:
-        print(f"\n{len(failures)} exit(s) FAILED - positions may be left open overnight:")
+        print(f"\n{len(failures)} exit(s) FAILED - positions may still be open:")
         for sym, err in failures:
             print(f"  {sym}: {err}")
         return 1
