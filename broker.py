@@ -126,6 +126,13 @@ def get_order(order_id: str, nested: bool = False) -> dict:
     )
 
 
+def assets() -> list[dict]:
+    """Every active US equity Alpaca will trade, with its shortable and
+    easy-to-borrow flags. The starting pool the universe screen filters down."""
+    return _request("GET", "/v2/assets",
+                    params={"status": "active", "asset_class": "us_equity"})
+
+
 def calendar(start: str, end: str) -> list[dict]:
     """Trading sessions in [start, end] as YYYY-MM-DD. The authority on how many
     sessions a position has been held, which a local bar file can understate if
