@@ -22,6 +22,7 @@ import numpy as np
 import pandas as pd
 import requests
 
+import signals
 from universe import ALL_SYMBOLS, CONTEXT, MAG7, SEMIS, TARGETS
 
 API_KEY = os.environ.get("ALPACA_API_KEY", "")
@@ -78,11 +79,10 @@ def ema(s: pd.Series, n: int) -> pd.Series:
 
 
 def rsi(s: pd.Series, n: int = 14) -> pd.Series:
-    delta = s.diff()
-    gain = delta.clip(lower=0).rolling(n).mean()
-    loss = (-delta.clip(upper=0)).rolling(n).mean()
-    rs = gain / loss.replace(0, np.nan)
-    return 100 - (100 / (1 + rs))
+    # Wilder's smoothing, the standard RSI. A simple rolling mean was used here
+    # before and overstated readings after a run - NVDA showed 83 against a
+    # standard 63 - which fed a spurious "overbought" into the prediction.
+    return signals.rsi(s, n)
 
 
 def macd(s: pd.Series, fast: int = 12, slow: int = 26, signal: int = 9):
@@ -423,6 +423,17 @@ def main() -> None:
         if rows:
             context_out[group] = rows
 
+    news = fetch_news(usable_targets)
+
+    # The call itself is computed here, deterministically, rather than left to
+    # the LLM to weigh. See signals.py for the evidence behind the rule.
+    target_data = {}
+    for s in usable_targets:
+        block = target_block(bars[s])
+        block["signal"] = signals.decide(raw[s], raw[ANCHOR])
+        block["material_news"] = signals.material_news(news, s)
+        target_data[s] = block
+
     context = {
         "as_of": as_of.strftime("%Y-%m-%d"),
         "for_date": next_trading_day(as_of.to_pydatetime()),
@@ -430,10 +441,10 @@ def main() -> None:
         "targets": usable_targets,
         "skipped_targets": thin,
         "missing_symbols": missing,
-        "target_data": {s: target_block(bars[s]) for s in usable_targets},
+        "target_data": target_data,
         "context_data": context_out,
         "cross_asset": cross_asset(bars),
-        "news": fetch_news(usable_targets),
+        "news": news,
     }
 
     with open("data/market_context.json", "w") as f:
