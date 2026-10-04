@@ -27,10 +27,12 @@ Read it together with `hold_sessions`; it only grades the prediction when the
 hold was short.
 """
 
+import json
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
 import broker
+import goal
 import tradelog
 
 EXIT_KIND_BY_TYPE = {"limit": "target", "stop": "stop", "stop_limit": "stop"}
@@ -73,8 +75,32 @@ def bracket_fill(order_id: str) -> dict | None:
     return None
 
 
+def snapshot_equity(acct: dict) -> None:
+    """
+    Record account equity for goal.py. The cloud routine cannot reach Alpaca,
+    so this file is the only way the daily review can see the account.
+    """
+    now = datetime.now(timezone.utc)
+    snap = {
+        "date": now.strftime("%Y-%m-%d"),
+        "taken_at": now.isoformat(),
+        "equity": float(acct["equity"]),
+        "last_equity": float(acct.get("last_equity") or 0),
+        "cash": float(acct.get("cash") or 0),
+        "long_market_value": float(acct.get("long_market_value") or 0),
+        "short_market_value": float(acct.get("short_market_value") or 0),
+    }
+    goal.EQUITY_LOG.parent.mkdir(exist_ok=True)
+    with goal.EQUITY_LOG.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(snap) + "\n")
+    print(f"equity ${snap['equity']:,.2f} snapshotted")
+    for line in goal.progress_lines():
+        print(line)
+
+
 def main() -> int:
-    broker.assert_paper_account()
+    acct = broker.assert_paper_account()
+    snapshot_equity(acct)
     rows = tradelog.load_rows()
     if not rows:
         print("no trade log yet - nothing to reconcile")

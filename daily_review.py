@@ -9,6 +9,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+import goal
 from stats import load, score
 
 OUT_DIR = Path(__file__).parent / "logs"
@@ -18,21 +19,26 @@ def main() -> None:
     records, graded = load()
     if not graded:
         print("No graded predictions yet.")
+        print("\n".join(goal.progress_lines()))
         return
 
     # Today = the most recent distinct date in the log
     today = max(r["for_date"] for r in graded)
     today_graded = [r for r in graded if r["for_date"] == today]
 
-    if not today_graded:
-        print(f"No graded predictions for {today}.")
-        return
-
     lines = [
         "=" * 78,
         f"DAILY REVIEW — {today}",
         "=" * 78,
         "",
+        "OCTOBER GOAL:",
+        *goal.progress_lines(),
+        "",
+        "TRADES CLOSED:",
+        *goal.trade_lines(goal.round_trips(since=today), f"Since {today}"),
+        *goal.trade_lines(goal.round_trips(since=goal.GOAL_START), "October to date"),
+        "",
+        "PREDICTIONS:",
     ]
 
     # Score today
@@ -50,23 +56,23 @@ def main() -> None:
     wrong = [r for r in today_graded if not r["outcome"]["correct"]]
 
     if correct:
-        lines.append(f"✓ CORRECT ({len(correct)}):")
+        lines.append(f"CORRECT ({len(correct)}):")
         for r in sorted(correct, key=lambda x: x["symbol"]):
             p, o = r["prediction"], r["outcome"]
             lines.append(
                 f"  {r['symbol']:<6} called {p['direction']:<4}@{p['confidence']:>2}%  "
-                f"→ {o['actual_direction']:<4} ({o['actual_pct']:+.2f}%)"
+                f"-> {o['actual_direction']:<4} ({o['actual_pct']:+.2f}%)"
             )
             lines.append(f"    {p['reasoning'][:80]}")
         lines.append("")
 
     if wrong:
-        lines.append(f"✗ WRONG ({len(wrong)}):")
+        lines.append(f"WRONG ({len(wrong)}):")
         for r in sorted(wrong, key=lambda x: x["symbol"]):
             p, o = r["prediction"], r["outcome"]
             lines.append(
                 f"  {r['symbol']:<6} called {p['direction']:<4}@{p['confidence']:>2}%  "
-                f"→ {o['actual_direction']:<4} ({o['actual_pct']:+.2f}%)"
+                f"-> {o['actual_direction']:<4} ({o['actual_pct']:+.2f}%)"
             )
             lines.append(f"    Signals: {', '.join(p.get('key_signals', [])[:3])}")
             lines.append(f"    {p['reasoning'][:80]}")

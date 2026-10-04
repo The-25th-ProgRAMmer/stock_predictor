@@ -6,9 +6,10 @@ calibration, and misses.
 Meant to be run on Fridays after the daily predict + grade cycle.
 """
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import goal
 from stats import (
     GRADUATION_MIN_PER_SYMBOL,
     by_symbol,
@@ -39,7 +40,9 @@ def score_lines(s: dict | None, label: str) -> list[str]:
 
 def main() -> None:
     records, graded = load()
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    now = datetime.now(timezone.utc)
+    today = now.strftime("%Y-%m-%d")
+    week_start = (now - timedelta(days=now.weekday())).strftime("%Y-%m-%d")
     out_path = OUT_DIR / f"week_{today}.txt"
 
     lines = [
@@ -49,6 +52,13 @@ def main() -> None:
         "",
         f"Total predictions logged: {len(records)}",
         f"Graded so far:            {len(graded)}",
+        "",
+        "--- OCTOBER GOAL ---",
+        *goal.progress_lines(),
+        "",
+        "--- TRADES CLOSED THIS WEEK (what actually made or lost money) ---",
+        *goal.trade_lines(goal.round_trips(since=week_start), "This week"),
+        *goal.trade_lines(goal.round_trips(since=goal.GOAL_START), "October to date"),
         "",
     ]
 
