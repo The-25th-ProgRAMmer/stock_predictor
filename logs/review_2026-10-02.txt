@@ -1,0 +1,32 @@
+==============================================================================
+DAILY REVIEW — 2026-10-02
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  No equity snapshot yet - reconcile.py writes one on its next Actions run.
+
+TRADES CLOSED:
+  Since 2026-10-02: no closed trades yet
+  October to date: no closed trades yet
+
+PREDICTIONS:
+Predictions graded today: 1
+Correct: 1/1 = 100%
+Baseline 'always up': 100%
+Your edge vs always_up: +0%
+
+CORRECT (1):
+  SPY    called up  @53%  -> up   (+0.67%)
+    Trend is mixed: SPY sits +0.29% above its SMA50 with SMA20 still above SMA50 (bu
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - sma20_vs_sma50: above (bullish structure): 1/1 correct predictions
+    - close_vs_sma50_pct: +0.29%: 1/1 correct predictions
+    - close_vs_sma20_pct: -0.04% (flat): 1/1 correct predictions
+
+WHAT WENT WRONG:
+  (No wrong predictions today - excellent!)
+
+==============================================================================
