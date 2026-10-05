@@ -1,4 +1,4 @@
-# Trading Agent — Predictor + Paper Trading (v0.3)
+# Market Data Predictors (v0.3)
 
 A daily multi-symbol direction predictor, plus a paper-money execution path that
 trades it. The question the predictor exists to answer is whether an LLM built on
@@ -94,9 +94,9 @@ Until all four hold, don't touch trade execution.
 
 ## Paper trading (v0.3)
 
-**This is a plumbing test, not a strategy go-live.** It runs on Alpaca paper
-account `PA3F0MXFHL8Z` with $100k of fake money. The keys are paper-only — they
-return 401 against the live endpoint, so they cannot place a real-money order.
+**This is a plumbing test, not a strategy go-live.** It runs on an Alpaca paper
+account with $100k of fake money. The keys are paper-only — they return 401
+against the live endpoint, so they cannot place a real-money order.
 
 The point is not profit. It is to debug order submission, fills, reconciliation
 and slippage *before* there is any edge to risk, and to answer a question the

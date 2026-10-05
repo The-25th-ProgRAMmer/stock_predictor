@@ -3,14 +3,21 @@ name: Paper Trade
 # Execution lives in Actions, not in the cloud routine: the routine sandbox can
 # only reach github.com and pypi.org, so it cannot talk to Alpaca at all.
 #
-# Three scheduled legs, each run twice an hour apart, because GitHub cron is UTC
-# and US market hours shift with daylight saving. Every script gates on Alpaca's
-# own /v2/clock, so exactly one of each pair acts and the other exits without
-# trading:
+# Three scheduled legs, run repeatedly, because GitHub cron is UTC and US market
+# hours shift with daylight saving. Every script gates on Alpaca's own /v2/clock,
+# so the attempts that fall outside their window exit without trading:
 #
-#   enter  13:00 / 14:00 UTC   market-on-open orders for today's predictions
-#   arm    13:45 / 14:45 UTC   attach a take-profit / stop pair to each new fill
-#   sweep  19:30 / 20:30 UTC   time-stop anything 21+ sessions old; flag unbracketed
+#   enter  12:20-14:20 UTC, every 20 min   opening-auction orders
+#   arm    13:45 / 14:45 UTC               attach a take-profit / stop pair to each fill
+#   sweep  19:30 / 20:30 UTC               time-stop 21+ sessions old; flag unbracketed
+#
+# The enter leg is fired seven times because its window is narrow and GitHub cron
+# is best-effort: enter_trades.py only acts between 75 and 3 minutes before the
+# open (opg orders are refused once trading starts), which is 12:15-13:27 UTC on
+# EDT and 13:15-14:27 UTC on EST. Firing every 20 minutes across both ranges
+# leaves four chances per regime to land inside one, so a delayed or dropped run
+# is not a missed trading day. Duplicates are free: the client_order_id is
+# deterministic, so Alpaca rejects a second attempt instead of doubling up.
 #
 # There is deliberately no leg that closes positions at the end of the day, and
 # no intraday polling. Once a position is armed, the take-profit / stop pair
@@ -26,8 +33,13 @@ name: Paper Trade
 
 on:
   schedule:
+    - cron: "20 12 * * 1-5"
+    - cron: "40 12 * * 1-5"
     - cron: "0 13 * * 1-5"
+    - cron: "20 13 * * 1-5"
+    - cron: "40 13 * * 1-5"
     - cron: "0 14 * * 1-5"
+    - cron: "20 14 * * 1-5"
     - cron: "45 13 * * 1-5"
     - cron: "45 14 * * 1-5"
     - cron: "30 19 * * 1-5"
@@ -72,10 +84,19 @@ jobs:
             echo "leg=${{ inputs.action }}" >> "$GITHUB_OUTPUT"
             echo "dry=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
           else
+            # Every cron is mapped explicitly and an unknown one is a hard error:
+            # a silent fallback would quietly run the wrong leg at the wrong hour
+            # if a schedule were added here and not mapped below.
             case "${{ github.event.schedule }}" in
-              "0 13 * * 1-5"|"0 14 * * 1-5")    echo "leg=enter" >> "$GITHUB_OUTPUT" ;;
+              "20 12 * * 1-5"|"40 12 * * 1-5"|"0 13 * * 1-5"|\
+              "20 13 * * 1-5"|"40 13 * * 1-5"|"0 14 * * 1-5"|\
+              "20 14 * * 1-5")                  echo "leg=enter" >> "$GITHUB_OUTPUT" ;;
               "45 13 * * 1-5"|"45 14 * * 1-5")  echo "leg=arm"   >> "$GITHUB_OUTPUT" ;;
-              *)                                 echo "leg=sweep" >> "$GITHUB_OUTPUT" ;;
+              "30 19 * * 1-5"|"30 20 * * 1-5")  echo "leg=sweep" >> "$GITHUB_OUTPUT" ;;
+              *)
+                echo "unmapped schedule '${{ github.event.schedule }}'" >&2
+                exit 1
+                ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
           fi
