@@ -28,7 +28,7 @@ def main() -> None:
 
     lines = [
         "=" * 78,
-        f"DAILY REVIEW — {today}",
+        f"DAILY REVIEW - {today}",
         "=" * 78,
         "",
         "OCTOBER GOAL:",

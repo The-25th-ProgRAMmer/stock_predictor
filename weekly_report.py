@@ -47,7 +47,7 @@ def main() -> None:
 
     lines = [
         "=" * 78,
-        f"WEEKLY TRADING PREDICTOR ANALYSIS — Week ending {today}",
+        f"WEEKLY TRADING PREDICTOR ANALYSIS - Week ending {today}",
         "=" * 78,
         "",
         f"Total predictions logged: {len(records)}",

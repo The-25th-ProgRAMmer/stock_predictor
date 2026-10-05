@@ -1,0 +1,60 @@
+==============================================================================
+DAILY REVIEW - 2026-10-05
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  No equity snapshot yet - reconcile.py writes one on its next Actions run.
+
+TRADES CLOSED:
+  Since 2026-10-05: no closed trades yet
+  October to date: no closed trades yet
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 8/10 = 80%
+Baseline 'always up': 80%
+Your edge vs always_up: +0%
+
+CORRECT (8):
+  AAPL   called down@54%  -> down (-0.19%)
+    AAPL bounced +0.826% today but is still down 2.30% over 5 days, macd_hist is neg
+  AMZN   called down@60%  -> down (-0.05%)
+    AMZN trades below both sma20 (-0.294%) and sma50 (-2.202%) with sma20 below sma5
+  META   called up  @54%  -> up   (+1.87%)
+    META is down 2.70% over 5 days and macd_hist is negative (-0.558), suggesting so
+  MSFT   called up  @54%  -> up   (+1.49%)
+    MSFT is comfortably above both sma20 (+2.62%) and sma50 (+5.60%) with macd_hist 
+  QQQ    called up  @62%  -> up   (+0.88%)
+    QQQ is 3.07% above sma20 and 4.68% above sma50 with macd_hist strongly positive 
+  SMH    called up  @58%  -> up   (+0.58%)
+    SMH's RSI14 is 88.9, the most overbought reading of any target, which would norm
+  SPY    called up  @57%  -> up   (+0.69%)
+    SPY bounced +0.668% to 769.21, back above sma20 (763.96) and sma50 (762.19), and
+  TSLA   called up  @62%  -> up   (+2.17%)
+    TSLA gapped and ran +4.787% today on a concrete catalyst - a Benzinga report tha
+
+WRONG (2):
+  GOOGL  called down@53%  -> up   (+0.87%)
+    Signals: sma20_vs_sma50 below, RSI14 44.99, macd_hist -0.1445
+    Despite a strong one-day bounce (+1.535%), GOOGL's sma20 sits below its sma50 (c
+  NVDA   called down@56%  -> up   (+2.13%)
+    Signals: RSI14 83.9 (extreme overbought), pct_5d +4.844%, skeptical NVDA-specific analyst/Eisman headlines
+    NVDA's RSI14 is 83.9, among the most overbought readings in this set, after a +4
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - prev_day_pct +0.668%: 1/8 correct predictions
+    - macd_hist -0.0134 (near flat): 1/8 correct predictions
+    - risk_on_score 5/5: 1/8 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - sma20_vs_sma50 below: 1/2 wrong predictions
+    - RSI14 44.99: 1/2 wrong predictions
+    - macd_hist -0.1445: 1/2 wrong predictions
+  Biggest magnitude misses:
+    - GOOGL: called down, actual up (+0.87%)
+    - NVDA: called down, actual up (+2.13%)
+
+==============================================================================
