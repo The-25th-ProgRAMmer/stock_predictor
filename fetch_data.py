@@ -22,6 +22,25 @@ import numpy as np
 import pandas as pd
 import requests
 
+# Both of these are for running this script BY HAND on a Windows box when the
+# Actions workflow is down: truststore because some AV/proxy setups intercept
+# TLS to Alpaca with a root certifi rejects, dotenv to pick up local
+# credentials. On the Actions runner both are absent and unnecessary - the
+# system roots work and the keys arrive as secrets. Same guard as broker.py.
+try:
+    import truststore
+
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
+
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv()
+except ImportError:
+    pass
+
 import signals
 from universe import ALL_SYMBOLS, CONTEXT, MAG7, SEMIS, TARGETS
 
