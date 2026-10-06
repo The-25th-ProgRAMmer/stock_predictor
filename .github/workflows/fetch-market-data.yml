@@ -1,9 +1,14 @@
 name: Fetch Market Data
 
 on:
+  # The data must land after one session's close and before the 12:00 UTC
+  # predictor. GitHub starts scheduled runs hours late, so fire just after the
+  # close (21:15 UTC is past it on both EDT and EST) with an overnight backup;
+  # a delay of up to ~9 hours still lands before the predictor. A run that slips
+  # into the next session is harmless: fetch_data.py ignores unfinished bars.
   schedule:
-    # 11:45 UTC every weekday (Mon-Fri)
-    - cron: "45 11 * * 1-5"
+    - cron: "15 21 * * 1-5"
+    - cron: "0 3 * * 2-6"
   workflow_dispatch:
 
 permissions:

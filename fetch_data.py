@@ -41,6 +41,7 @@ try:
 except ImportError:
     pass
 
+import broker
 import signals
 from universe import ALL_SYMBOLS, CONTEXT, MAG7, SEMIS, TARGETS
 
@@ -87,6 +88,20 @@ def fetch_all_bars(symbols: list[str], days: int) -> dict[str, pd.DataFrame]:
         df["t"] = pd.to_datetime(df["t"])
         out[sym] = df.sort_values("t").drop_duplicates("t").reset_index(drop=True)
     return out
+
+
+def drop_unfinished_session(raw: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
+    """
+    Drop today's bar while today's session has not closed. GitHub starts scheduled
+    runs hours late, so this can run mid-session, and a partial daily bar would
+    otherwise be read as a finished day and predicted from.
+    """
+    clk = broker.clock()
+    now = datetime.fromisoformat(clk["timestamp"])
+    if datetime.fromisoformat(clk["next_close"]).date() != now.date():
+        return raw
+    print(f"session {now.date()} has not closed - ignoring its partial bar")
+    return {s: df[df["t"].dt.date < now.date()].reset_index(drop=True) for s, df in raw.items()}
 
 
 def sma(s: pd.Series, n: int) -> pd.Series:
@@ -409,7 +424,7 @@ def next_trading_day(today: datetime) -> str:
 def main() -> None:
     os.makedirs("data", exist_ok=True)
 
-    raw = fetch_all_bars(ALL_SYMBOLS, BAR_LOOKBACK_DAYS)
+    raw = drop_unfinished_session(fetch_all_bars(ALL_SYMBOLS, BAR_LOOKBACK_DAYS))
     missing = [s for s in ALL_SYMBOLS if s not in raw]
     if ANCHOR not in raw:
         print(f"Error: no bars for anchor symbol {ANCHOR}", file=sys.stderr)

@@ -3,21 +3,22 @@ name: Paper Trade
 # Execution lives in Actions, not in the cloud routine: the routine sandbox can
 # only reach github.com and pypi.org, so it cannot talk to Alpaca at all.
 #
-# Three scheduled legs, run repeatedly, because GitHub cron is UTC and US market
-# hours shift with daylight saving. Every script gates on Alpaca's own /v2/clock,
-# so the attempts that fall outside their window exit without trading:
+# The morning is driven by a PUSH, not the clock. GitHub starts scheduled runs
+# hours late (measured 5-8h in October 2026), and enter_trades.py only acts
+# between 75 and 3 minutes before the open, because opening-auction orders are
+# refused once trading starts. A push starts a run within seconds, so the cloud
+# routine committing the day's predictions (~12:25 UTC) is what fires the
+# "open" leg: enter, wait for the opening fills, arm their brackets, reconcile.
+#
+# The scheduled legs remain as a backup and for the evening sweep. Every script
+# gates on Alpaca's own /v2/clock, so a run outside its window exits untouched:
 #
 #   enter  12:20-14:20 UTC, every 20 min   opening-auction orders
 #   arm    13:45 / 14:45 UTC               attach a take-profit / stop pair to each fill
 #   sweep  19:30 / 20:30 UTC               time-stop 21+ sessions old; flag unbracketed
 #
-# The enter leg is fired seven times because its window is narrow and GitHub cron
-# is best-effort: enter_trades.py only acts between 75 and 3 minutes before the
-# open (opg orders are refused once trading starts), which is 12:15-13:27 UTC on
-# EDT and 13:15-14:27 UTC on EST. Firing every 20 minutes across both ranges
-# leaves four chances per regime to land inside one, so a delayed or dropped run
-# is not a missed trading day. Duplicates are free: the client_order_id is
-# deterministic, so Alpaca rejects a second attempt instead of doubling up.
+# Duplicates are free: the client_order_id is deterministic, so Alpaca rejects a
+# second entry instead of doubling up, and arming skips protected positions.
 #
 # There is deliberately no leg that closes positions at the end of the day, and
 # no intraday polling. Once a position is armed, the take-profit / stop pair
@@ -32,6 +33,9 @@ name: Paper Trade
 # Alpaca rather than doubling a position.
 
 on:
+  push:
+    branches: [main]
+    paths: [logs/predictions.jsonl]
   schedule:
     - cron: "20 12 * * 1-5"
     - cron: "40 12 * * 1-5"
@@ -68,6 +72,7 @@ concurrency:
 jobs:
   trade:
     runs-on: ubuntu-latest
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
@@ -83,6 +88,9 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "leg=${{ inputs.action }}" >> "$GITHUB_OUTPUT"
             echo "dry=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            echo "leg=open" >> "$GITHUB_OUTPUT"
+            echo "dry=false" >> "$GITHUB_OUTPUT"
           else
             # Every cron is mapped explicitly and an unknown one is a hard error:
             # a silent fallback would quietly run the wrong leg at the wrong hour
@@ -102,7 +110,7 @@ jobs:
           fi
 
       - name: Enter positions
-        if: steps.leg.outputs.leg == 'enter'
+        if: steps.leg.outputs.leg == 'enter' || steps.leg.outputs.leg == 'open'
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -114,8 +122,32 @@ jobs:
             python enter_trades.py
           fi
 
+      # Arming needs real fill prices, which only exist once the opening auction
+      # has run. Waiting here keeps the brackets from depending on a late cron.
+      - name: Wait for the opening fills
+        if: steps.leg.outputs.leg == 'open'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: |
+          python - <<'PY'
+          import time
+          from datetime import datetime, timezone
+          import broker
+          clk = broker.clock()
+          if clk["is_open"]:
+              print("market already open - arming now")
+              raise SystemExit(0)
+          wait = (datetime.fromisoformat(clk["next_open"]) - datetime.now(timezone.utc)).total_seconds() + 300
+          if wait > 100 * 60:
+              print(f"next open is {wait / 60:.0f} min away - nothing was entered, not waiting")
+              raise SystemExit(0)
+          print(f"waiting {wait / 60:.0f} min for the open and its fills")
+          time.sleep(wait)
+          PY
+
       - name: Arm take-profit and stop
-        if: steps.leg.outputs.leg == 'arm'
+        if: steps.leg.outputs.leg == 'arm' || steps.leg.outputs.leg == 'open'
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -160,6 +192,7 @@ jobs:
         if: >-
           steps.leg.outputs.dry != 'true' &&
           (steps.leg.outputs.leg == 'arm' ||
+           steps.leg.outputs.leg == 'open' ||
            steps.leg.outputs.leg == 'sweep' ||
            steps.leg.outputs.leg == 'reconcile')
         env:
