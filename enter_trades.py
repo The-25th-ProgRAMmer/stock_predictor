@@ -22,7 +22,7 @@ Dry run:  python enter_trades.py --dry-run     (no orders sent)
 import argparse
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import broker
@@ -79,6 +79,9 @@ def main() -> int:
             print(f"next open is {minutes:.0f} min away (< {MIN_MINUTES_BEFORE_OPEN}) - too late, exiting")
             return 0
 
+    # A forced run during the session is a manual catch-up after a missed open:
+    # the auction is gone, so enter at market in the regular session instead.
+    tif = "day" if clk["is_open"] else "opg"
     for_date = nxt.date().isoformat() if not clk["is_open"] else now.date().isoformat()
     print(f"trading session {for_date} (opens in {minutes:.0f} min)")
 
@@ -136,8 +139,8 @@ def main() -> int:
         side = "buy" if t.side == "long" else "sell"
         coid = f"entry-{for_date}-{t.symbol}"
         try:
-            o = broker.submit(t.symbol, t.qty, side, "opg", coid)
-            print(f"  {t.symbol:<6} {side:<4} {t.qty:>4} opg  -> {o['id']} ({o['status']})")
+            o = broker.submit(t.symbol, t.qty, side, tif, coid)
+            print(f"  {t.symbol:<6} {side:<4} {t.qty:>4} {tif:<4} -> {o['id']} ({o['status']})")
             rows.append({
                 "event": "entry_submitted",
                 "for_date": for_date,
@@ -148,6 +151,7 @@ def main() -> int:
                 "order_id": o["id"],
                 "client_order_id": coid,
                 "status": o["status"],
+                "time_in_force": tif,
                 "target_risk_pct": TARGET_RISK_PCT,
                 "annual_vol_pct": vols[t.symbol]["annual_vol_pct"],
                 "trend_score": t.trend_score,
