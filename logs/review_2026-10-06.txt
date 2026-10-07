@@ -1,0 +1,65 @@
+==============================================================================
+DAILY REVIEW - 2026-10-06
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-10-06: $99,712.89  (-0.29%, -6% of the way)
+  Peak $99,999.88, now -0.29% from peak
+  $5,287.11 to go over 18 session(s): needs +0.287% per session, compounded
+  Realised so far -0.287% per session - behind pace
+  (Pace is a yardstick only; it never changes position size.)
+
+TRADES CLOSED:
+  Since 2026-10-06: no closed trades yet
+  October to date: no closed trades yet
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 7/10 = 70%
+Baseline 'always up': 80%
+Your edge vs always_up: -10%
+
+CORRECT (7):
+  AAPL   called up  @52%  -> up   (+0.18%)
+    AAPL closes marginally above both SMA20 (332.56) and SMA50 (322.36), with SMA20 
+  GOOGL  called up  @52%  -> up   (+0.36%)
+    GOOGL closes above SMA20 (343.02) and SMA50 (344.75) on a 1% basis, but SMA20 si
+  MSFT   called up  @52%  -> up   (+0.83%)
+    MSFT closes well above both SMA20 (502.90, +4.4%) and SMA50 (490.28, +7.1%), wit
+  NVDA   called up  @52%  -> up   (+0.08%)
+    NVDA closes well above both SMA20 (224.20, +6.6%) and SMA50 (218.78, +9.2%), wit
+  QQQ    called up  @52%  -> up   (+0.47%)
+    QQQ closes above both SMA20 (729.28) and SMA50 (717.66), with SMA20 above SMA50 
+  SPY    called up  @52%  -> up   (+0.53%)
+    SPY closes above both SMA20 (764.32) and SMA50 (762.96), with SMA20 above SMA50 
+  TSLA   called up  @52%  -> up   (+0.53%)
+    TSLA closes above both SMA20 (366.12, +3.4%) and SMA50 (348.89, +8.5%), with SMA
+
+WRONG (3):
+  AMZN   called down@50%  -> up   (+2.00%)
+    Signals: close_vs_sma20_pct:-0.0, close_vs_sma50_pct:-2.193, sma20_vs_sma50:below
+    AMZN closes essentially flat at SMA20 (251.29 vs 251.28) but below SMA50 (256.92
+  META   called up  @52%  -> down (-0.34%)
+    Signals: close_vs_sma20_pct:5.668, close_vs_sma50_pct:18.176, sma20_vs_sma50:above
+    META closes above both SMA20 (701.90, +5.7%) and SMA50 (627.61, +18.2%), with SM
+  SMH    called up  @52%  -> down (-0.31%)
+    Signals: close_vs_sma20_pct:7.973, close_vs_sma50_pct:11.037, sma20_vs_sma50:above
+    SMH closes well above both SMA20 (587.46, +8.0%) and SMA50 (571.25, +11.0%), wit
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - sma20_vs_sma50:above: 6/7 correct predictions
+    - close_vs_sma20_pct:1.394: 1/7 correct predictions
+    - close_vs_sma50_pct:1.575: 1/7 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - sma20_vs_sma50:above: 2/3 wrong predictions
+    - close_vs_sma20_pct:-0.0: 1/3 wrong predictions
+    - close_vs_sma50_pct:-2.193: 1/3 wrong predictions
+  Biggest magnitude misses:
+    - META: called up, actual down (-0.34%)
+    - AMZN: called down, actual up (+2.00%)
+
+==============================================================================
