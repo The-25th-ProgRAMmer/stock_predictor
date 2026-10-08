@@ -85,20 +85,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "'UPS Worker Missed Security Email, Letting China Get F-35 Parts' - Bloomberg",
-          "url": "https://www.benzinga.com/news/26/10/62231579/ups-worker-missed-security-email-letting-china-get-f-35-parts-bloomberg",
-          "created_at": "2026-10-07T19:29:43Z"
-        },
-        {
-          "event": "regulatory_legal",
-          "headline": "'US FCC to vote to ban Chinese labs from testing US electronics' - Reuters",
-          "url": "https://www.benzinga.com/government/26/10/62231225/us-fcc-vote-ban-chinese-labs-testing-us-electronics-reuters",
-          "created_at": "2026-10-07T19:20:31Z"
-        }
-      ]
+      "material_news": []
     },
     "QQQ": {
       "latest_close": 757.74,
@@ -939,63 +926,162 @@
   "news": [
     {
       "symbols": [
-        "AMZN"
+        "QQQ",
+        "SPY"
       ],
-      "headline": "Amazon Introduces AWS Physical AI Toolchain",
-      "summary": "",
+      "headline": "Stock Market Today: S&P 500, Dow Jones Futures Decline as Pentagon Prepares for Potential Military Strikes on Iran \u2014 APLD, LEVI, MU in Focus",
+      "summary": "U.S. stock futures were lower on Thursday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices fell, following Wednesday&#39;s lower close.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62234695/amazon-introduces-aws-physical-ai-toolchain",
-      "created_at": "2026-10-07T21:13:04Z"
+      "url": "https://www.benzinga.com/markets/equities/26/10/62239479/stock-market-today-sp-500-dow-jones-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus",
+      "created_at": "2026-10-08T10:05:24Z"
     },
     {
       "symbols": [
         "NVDA"
       ],
-      "headline": "A Third Of Apollo's $35 Billion In Private Credit Trades Involved Other Firms' Loans",
-      "summary": "Apollo has traded more than $35 billion in private credit assets since the firm launched its private credit trading desk.",
+      "headline": "Anthropic IPO Could Be 2026\u2019s \u2018Most Ridiculous\u2019 Offering as Analyst Values AI Firm at Just $150 Billion: \u2018Unprecedented Test of Investor Gullibility\u2019",
+      "summary": "Anthropic\u2019s potential $2 trillion IPO faces scrutiny as New Constructs calls the valuation unrealistic and warns of rising losses.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/private-markets/26/10/62234094/a-third-of-apollos-35-billion-in-private-credit-trades-involved-other-firms-loans",
-      "created_at": "2026-10-07T20:49:20Z"
+      "url": "https://www.benzinga.com/markets/private-markets/26/10/62239452/anthropic-ipo-could-be-2026s-most-ridiculous-offering-as-analyst-values-ai-firm-at-just-150-billion-unprecedented-test-of-investor-gullibility",
+      "created_at": "2026-10-08T10:04:58Z"
     },
     {
       "symbols": [
-        "SPY"
+        "AAPL"
       ],
-      "headline": "UKMTO Says It Has Received A Report Of An Incident 51nm North Of Madinat Ash Shamal, Qatar; A Tanker Has Reported Being Struck By Multiple Projectiles; Casualties Have Been Reported",
-      "summary": "",
+      "headline": "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+      "summary": "In today&#39;s rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this article, we will",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62232059/ukmto-says-it-has-received-report-incident-51nm-north-madinat-ash-shamal-qatar-tanker-has-reported-b",
-      "created_at": "2026-10-07T19:45:57Z"
+      "url": "https://www.benzinga.com/news/26/10/62239061/competitor-analysis-evaluating-apple-and-competitors-technology-hardware-storage-amp-peripherals-ind",
+      "created_at": "2026-10-08T09:58:26Z"
     },
     {
       "symbols": [
-        "SPY"
+        "NVDA"
       ],
-      "headline": "'UPS Worker Missed Security Email, Letting China Get F-35 Parts' - Bloomberg",
-      "summary": "",
+      "headline": "What's Going On With Marvell Technology Stock Thursday?",
+      "summary": "Treasury yields hit 5.3% and oil tops $91, pressuring tech stocks as Marvell outlines aggressive long-term AI growth targets.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62231579/ups-worker-missed-security-email-letting-china-get-f-35-parts-bloomberg",
-      "created_at": "2026-10-07T19:29:43Z"
+      "url": "https://www.benzinga.com/markets/tech/26/10/62238828/whats-going-on-with-marvell-technology-stock-thursday-8",
+      "created_at": "2026-10-08T09:47:50Z"
     },
     {
       "symbols": [
-        "SPY"
+        "GOOGL"
       ],
-      "headline": "'US FCC to vote to ban Chinese labs from testing US electronics' - Reuters",
+      "headline": "Needham Reiterates Buy on Alphabet, Maintains $450 Price Target",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/government/26/10/62231225/us-fcc-vote-ban-chinese-labs-testing-us-electronics-reuters",
-      "created_at": "2026-10-07T19:20:31Z"
+      "url": "https://www.benzinga.com/news/26/10/62238797/needham-reiterates-buy-alphabet-maintains-450-price-target",
+      "created_at": "2026-10-08T09:42:09Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "GOOGL"
+      ],
+      "headline": "Apple's Smart Home Ambitions Hammer REZI, ARLO and ALLE Stocks: Here's What's Happening",
+      "summary": "Resideo, Arlo and Allegion led smart home stocks lower Wednesday after a report that Apple is building connected home devices with LG.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62238712/apple-smart-home-report-resideo-arlo-allegion-stocks-fall",
+      "created_at": "2026-10-08T09:29:43Z"
     },
     {
       "symbols": [
         "AMZN"
       ],
-      "headline": "Amazon AI Boom: Analysts See AWS, AI Agents Driving Bigger Growth",
-      "summary": "Amazon stock rises as top Wall Street analysts dismiss agentic commerce threats, pointing to accelerating AWS revenue growth and flexible advertising monetization.",
+      "headline": "Jeff Bezos Takes Aim at Politicians \u2018Picking Villains\u2019 Over Housing Costs as Socialism Debate Grows: 'When You're in the Polling Booth\u2026'",
+      "summary": "Jeff Bezos Warns Politicians Blaming Landlords For Housing Costs May Be Avoiding The Real Solution: Build More Homes",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62230380/amazon-ai-boom-analysts-see-aws-ai-agents-driving-bigger-growth",
-      "created_at": "2026-10-07T18:45:45Z"
+      "url": "https://www.benzinga.com/news/politics/26/10/62238280/jeff-bezos-takes-aim-at-politicians-picking-villains-over-housing-costs-as-socialism-debate-grows-when-youre-in-the-polling-booth",
+      "created_at": "2026-10-08T08:37:43Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Senator Adam Schiff Warns Advanced AI Poses Growing National Security Threat, Calls for Guardrails Before It's Too Late: 'A Pinky Swear Won\u2019t Cut It'",
+      "summary": "Schiff warns advanced AI threatens national security, says voluntary pledges aren\u2019t enough and urges guardrails, including Pentagon oversight.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62238152/senator-adam-schiff-warns-advanced-ai-poses-growing-national-security-threat-calls-for-guardrails-before-its-too-late-a-pinky-swear-wont-cut-it",
+      "created_at": "2026-10-08T08:22:51Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Google's $15 Billion Finland AI Push Hits Roadblock as Regulators Order Halt at 2 Data Centers Pending Environmental Reviews",
+      "summary": "Finland orders Google to halt construction at two planned data centers pending environmental impact reviews.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62237813/googles-15-billion-finland-ai-push-hits-roadblock-as-regulators-order-halt-at-2-data-centers-pending-environmental-reviews",
+      "created_at": "2026-10-08T07:50:28Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "King Charles, Tim Cook Launch Apple-Backed Creative Labs for Young People: 'Opportunities to Learn' From Experts",
+      "summary": "Apple&#39;s Chairman Tim Cook hosted King Charles in London to launch Creative Labs, a King&#39;s Trust program to help young people start creative careers.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62237744/tim-cook-honored-to-host-king-charles-as-apple-launches-creative-labs",
+      "created_at": "2026-10-08T07:31:32Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "SPCX CEO Elon Musk Praises Jeff Bezos\u2019 $28 Billion Bet On Blue Origin As Space Race Intensifies, Says He's \u2018Glad' Bezos 'Cares So Much'",
+      "summary": "Elon Musk praised Jeff Bezos\u2019 $28B commitment to Blue Origin after its funding round amid Petawatt power goals.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/space/26/10/62237729/spcx-ceo-elon-musk-praises-jeff-bezos-28-billion-bet-on-blue-origin-as-space-race-intensifies-says-hes-glad-bezos-cares-so-much",
+      "created_at": "2026-10-08T07:29:29Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "'Trump Administration Paving Way for Temporary Sale of Some Unapproved Peptides' - The Washington Post",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62237204/trump-administration-paving-way-temporary-sale-some-unapproved-peptides-washington-post",
+      "created_at": "2026-10-08T06:37:51Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds sit at 52% as Wall Street weighs 5.35% Treasury yields, potential Iran strikes, and Pepsi earnings.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62236979/stock-market-will-sp-500-open-up-or-down-today-53",
+      "created_at": "2026-10-08T06:12:35Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Jim Cramer Says SPCX Could Come to Fruition Long Before Tesla After Goldman Sachs Raises Price Target: 'Real Company With Real Numbers'",
+      "summary": "Jim Cramer praised SpaceX as a real, profitable business, citing AI compute deals and Goldman Sachs\u2019 $230 price target.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62236943/jim-cramer-says-spcx-could-come-to-fruition-long-before-tesla-after-goldman-sachs-raises-price-target-real-company-with-real-numbers",
+      "created_at": "2026-10-08T05:58:24Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Elon Musk, Jensen Huang, Satya Nadella Reportedly to Be Awarded Medals By Trump \u2014 White House Says They Help America Lead 'the World in Innovation'",
+      "summary": "Elon Musk and other top tech leaders will reportedly receive the nation&#39;s highest science and tech honors from Trump on Thursday.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62236616/trump-national-medals-elon-musk-jensen-huang-satya-nadella-tech-ceos",
+      "created_at": "2026-10-08T04:23:08Z"
     },
     {
       "symbols": [
@@ -1027,99 +1113,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/asia/26/10/62229834/tesla-sold-less-than-1000-evs-in-india-in-first-12-months-heres-why-theres-good-news-for-investors",
       "created_at": "2026-10-07T18:23:05Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT"
-      ],
-      "headline": "Why Is BKV Stock Surging Wednesday?",
-      "summary": "BKV stock rises after securing a power equipment deal backed by a major hyperscaler for a 1,200 MW Texas project.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62229700/why-is-bkv-stock-surging-wednesday",
-      "created_at": "2026-10-07T18:19:35Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT"
-      ],
-      "headline": "Anthropic Introduces Claude Haiku 5.5: The Cheapest, Fastest, And Most Capable Small Model We\u2019ve Ever Released",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62229518/anthropic-introduces-claude-haiku-5-5-cheapest-fastest-and-most-capable-small-model-we-ve-ever-relea",
-      "created_at": "2026-10-07T18:13:56Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Dell Technologies Rolls Out Nvidia RTX Spark-Powered XPS 16 Creator Edition",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62229356/dell-technologies-rolls-out-nvidia-rtx-spark-powered-xps-16-creator-edition",
-      "created_at": "2026-10-07T18:10:06Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "TSLA"
-      ],
-      "headline": "Waymo Borrows $5 Billion To Fuel Its Global Robotaxi Expansion",
-      "summary": "Waymo has increased its private debt raise to $5 billion as the company ramps up its robotaxi operations in more U.S. cities.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/private-markets/26/10/62229321/waymo-borrows-5-billion-to-fuel-its-global-robotaxi-expansion",
-      "created_at": "2026-10-07T18:09:23Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Starlink Cash Can Carry SpaceX's $40 Billion AI Tab, Dan Ives Says",
-      "summary": "Analyst Dan Ives bets Starlink and SpaceX&#39;s contracted AI capacity can service the debt needed to purchase more Nvidia chips.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62229244/starlink-cash-can-carry-spacexs-40-billion-ai-tab-dan-ives-says",
-      "created_at": "2026-10-07T18:07:45Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Global Bond Selloff Dents Market Bullishness \u2014 Treasury Auction To Test Sentiment",
-      "summary": "\n\n\n\nTreasury Auction Will Be The Test\n\n\n\nPlease click here for an enlarged chart of SPDR S&amp;P 500 ETF Trust (NYSE:SPY) which represents the benchmark stock market index S&amp;P 500 (SPX).\n\n\n\nNote the",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/Opinion/26/10/62227573/global-bond-selloff-dents-market-bullishness-treasury-auction-to-test-sentiment",
-      "created_at": "2026-10-07T17:18:50Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62228073/10-information-technology-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-07T17:35:11Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "MSFT"
-      ],
-      "headline": "Microsoft Exec Says Meta's Muse Is Coming To Windows",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62228061/microsoft-exec-says-meta-s-muse-coming-windows",
-      "created_at": "2026-10-07T17:35:06Z"
     }
   ]
 }
