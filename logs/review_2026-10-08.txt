@@ -1,0 +1,84 @@
+==============================================================================
+DAILY REVIEW - 2026-10-08
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-10-09: $98,740.02  (-1.26%, -25% of the way)
+  Peak $99,999.88, now -1.26% from peak
+  $6,259.98 to go over 15 session(s): needs +0.411% per session, compounded
+  Realised so far -0.316% per session - behind pace
+  (Pace is a yardstick only; it never changes position size.)
+
+TRADES CLOSED:
+  Since 2026-10-08: 4 closed, 0 profitable / 4 not (0% win rate), net $-858.15
+    avg loss $-214.54
+    profit factor 0.00 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+  October to date: 5 closed, 0 profitable / 5 not (0% win rate), net $-1,065.14
+    avg loss $-213.03
+    profit factor 0.00 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 1/10 = 10%
+Baseline 'always up': 10%
+Your edge vs always_up: +0%
+
+CORRECT (1):
+  AAPL   called up  @52%  -> up   (+1.14%)
+    Close 336.58 is above SMA20 (334.50) and SMA50 (322.24), with SMA20 above SMA50 
+
+WRONG (9):
+  AMZN   called up  @52%  -> down (-2.23%)
+    Signals: close above SMA20/SMA50, SMA20 below SMA50, MACD hist positive
+    Close 259.90 is above SMA20 (251.63) and SMA50 (258.00), though SMA20 sits below
+  GOOGL  called up  @52%  -> down (-0.64%)
+    Signals: close above SMA20/SMA50, SMA20 below SMA50, MACD hist positive
+    Close 350.53 is above SMA20 (344.48) and SMA50 (345.52), though SMA20 sits just 
+  META   called up  @52%  -> down (-0.01%)
+    Signals: close above SMA20/SMA50, SMA50 slope +3.5%, MACD hist negative but trend net +3
+    Close 721.08 is above SMA20 (711.63) and SMA50 (633.09), with SMA50 sloping up 3
+  MSFT   called up  @52%  -> down (-1.32%)
+    Signals: close above SMA20/SMA50, SMA20 above SMA50, MACD hist positive
+    Close 529.70 sits above SMA20 (506.57) and SMA50 (495.84), with SMA20 above SMA5
+  NVDA   called up  @52%  -> down (-2.88%)
+    Signals: close above SMA20/SMA50, SMA20 above SMA50, stretched +2.32 ATR (context only)
+    Close 237.40 is well above SMA20 (225.57) and SMA50 (220.45), with SMA20 above S
+  QQQ    called up  @52%  -> down (-1.35%)
+    Signals: close above SMA20/SMA50, SMA20 above SMA50, stretched +2.65 ATR (context only)
+    Close 757.74 is above SMA20 (733.49) and SMA50 (720.88), with SMA20 above SMA50 
+  SMH    called up  @52%  -> down (-2.96%)
+    Signals: close above SMA20/SMA50, SMA20 above SMA50, stretched +2.43 ATR (context only)
+    Close 625.19 is well above SMA20 (592.94) and SMA50 (574.86), with SMA20 above S
+  SPY    called up  @52%  -> down (-0.42%)
+    Signals: close above SMA20/SMA50, SMA20 above SMA50, MACD hist positive
+    Close 777.15 sits above SMA20 (765.90) and SMA50 (764.56), with SMA20 above SMA5
+  TSLA   called up  @52%  -> down (-0.70%)
+    Signals: close above SMA20/SMA50, SMA20 above SMA50, MACD hist positive
+    Close 377.69 is above SMA20 (367.24) and SMA50 (351.73), with SMA20 above SMA50 
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - close above SMA20/SMA50: 1/1 correct predictions
+    - SMA20 above SMA50: 1/1 correct predictions
+    - MACD hist negative but trend net +3: 1/1 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - close above SMA20/SMA50: 9/9 wrong predictions
+    - SMA20 above SMA50: 6/9 wrong predictions
+    - MACD hist positive: 5/9 wrong predictions
+  Biggest magnitude misses:
+    - NVDA: called up, actual down (-2.88%)
+    - SMH: called up, actual down (-2.96%)
+
+==============================================================================
