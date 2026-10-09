@@ -367,10 +367,10 @@
       },
       "material_news": [
         {
-          "event": "deal",
-          "headline": "U.S. Lawmakers Express Concern About Alphabet Unit Google's Plan To Acquire Employee Data From Defunct Spirit Airlines To Train AI Models",
-          "url": "https://www.benzinga.com/m/26/10/62258982/u-s-lawmakers-express-concern-about-alphabet-unit-google-s-plan-acquire-employee-data-defunct-spirit",
-          "created_at": "2026-10-08T19:16:39Z"
+          "event": "regulatory_legal",
+          "headline": "Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to \u2018Pull People off Our Apps\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62264619/meta-bans-bytedance-tiktok-ads-facebook-instagram",
+          "created_at": "2026-10-09T06:10:13Z"
         }
       ]
     },
@@ -585,9 +585,15 @@
       "material_news": [
         {
           "event": "regulatory_legal",
-          "headline": "Bloomberg Reported Meta Bans TikTok From Advertising On Its Apps",
-          "url": "https://www.benzinga.com/news/26/10/62263482/bloomberg-reported-meta-bans-tiktok-advertising-its-apps",
-          "created_at": "2026-10-08T23:19:54Z"
+          "headline": "Reported Earlier, 'Meta Bans Ads From TikTok on Its Apps in Escalating Feud' - Bloomberg",
+          "url": "https://www.benzinga.com/news/26/10/62264653/reported-earlier-meta-bans-ads-tiktok-its-apps-escalating-feud-bloomberg",
+          "created_at": "2026-10-09T06:20:19Z"
+        },
+        {
+          "event": "regulatory_legal",
+          "headline": "Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to \u2018Pull People off Our Apps\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62264619/meta-bans-bytedance-tiktok-ads-facebook-instagram",
+          "created_at": "2026-10-09T06:10:13Z"
         }
       ]
     },
@@ -659,7 +665,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "regulatory_legal",
+          "headline": "Tesla Drops \u2018Full Self-Driving\u2019 Name in Europe as Germany Backs Faster EU Approval for \u2018Tesla Assisted Driving\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62265355/tesla-drops-full-self-driving-name-in-europe-as-germany-backs-faster-eu-approval-for-tesla-assisted-driving",
+          "created_at": "2026-10-09T08:10:18Z"
+        }
+      ]
     },
     "SMH": {
       "latest_close": 606.68,
@@ -940,136 +953,23 @@
   "news": [
     {
       "symbols": [
-        "NVDA"
+        "AAPL"
       ],
-      "headline": "The Information Reported Nvidia To Invest In Chip Rival d-Matrix",
-      "summary": "",
+      "headline": "Apple Is About to Change the MacBook Pro \u2014 Touchscreen, OLED and Dynamic Island Reportedly Coming",
+      "summary": "Apple reportedly plans to unveil touchscreen MacBook Pros, an OLED iPad mini and M6-powered Macs on Oct. 27.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/m/26/10/62263546/information-reported-nvidia-invest-chip-rival-d-matrix",
-      "created_at": "2026-10-08T23:28:46Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Bloomberg Reported Meta Bans TikTok From Advertising On Its Apps",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62263482/bloomberg-reported-meta-bans-tiktok-advertising-its-apps",
-      "created_at": "2026-10-08T23:19:54Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Here\u2019s How Much You Would Have Made Owning Microsoft Stock In The Last 20 Years",
-      "summary": "Microsoft (NASDAQ:MSFT) has outperformed the market over the past 20 years by 6.6% on an annualized basis producing an average annual return of 15.67%. Currently, Microsoft has a market capitalization of $3.93 trillion.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62263077/here-s-how-much-you-would-have-made-owning-microsoft-stock-last-20-years",
-      "created_at": "2026-10-08T22:00:33Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "CMS Releases 2027 Medicare Advantage And Part D Star Ratings, With 37% Of MA-PD Contracts Earning Four Or More Stars And 71% Of Enrollees In High-Rated Plans",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62261701/cms-releases-2027-medicare-advantage-and-part-d-star-ratings-with-37-of-ma-pd-contracts-earning-four-or-more-stars-and-71-of-enrollees-in-high-rated-plans",
-      "created_at": "2026-10-08T20:43:05Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Taylor Farms Says Expect To Meet Demand From Iceberg Lettuce Grown In The United States And Canada",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/general/biotech/26/10/62262346/taylor-farms-says-expect-meet-demand-iceberg-lettuce-grown-united-states-and-canada",
-      "created_at": "2026-10-08T21:08:40Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Pentagon Draws Up New Iran Strike Plans as Trump Hesitates'- New York Times",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62262311/pentagon-draws-new-iran-strike-plans-trump-hesitates-new-york-times",
-      "created_at": "2026-10-08T21:08:04Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Hello Computer, Build Me GTA: The AI Threat to Game Studios",
-      "summary": "Nikita Bier envisions a personalized, AI-built GTA-like world as new AI models threaten studios by cutting costs and intensifying competition.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62262272/hello-computer-build-me-gta-the-ai-threat-to-game-studios",
-      "created_at": "2026-10-08T21:06:10Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk\u2019s 250,000 Cybertruck Goal Falls Well Short: New Data Shows Only 13% of Goal Sold Annually",
-      "summary": "The Cybertruck is selling less than Elon Musk originally hoped. Here&#39;s a look at the potential quarterly figure.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/large-cap/26/10/62261811/elon-musks-250000-cybertruck-goal-falls-well-short-new-data-shows-only-13-of-goal-sold-annually",
-      "created_at": "2026-10-08T20:47:19Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Micron, SK Hynix, And SanDisk Slide in Sync: What\u2019s Behind The Memory Selloff?",
-      "summary": "Micron, SK Hynix and SanDisk fell in sync as Samsung&#39;s revenue missed, even as Cantor and Mirae Asset called memory supply and pricing fears overdone.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62260979/micron-sk-hynix-sandisk-drop-in-sync-whats-happening",
-      "created_at": "2026-10-08T20:17:45Z"
+      "url": "https://www.benzinga.com/markets/tech/26/10/62266446/apple-launch-touchscreen-macbook-pro-oled",
+      "created_at": "2026-10-09T10:03:10Z"
     },
     {
       "symbols": [
         "AAPL"
       ],
-      "headline": "'Apple Set to Debut Touch-Screen MacBook and New iPad Mini in Late October' - Bloomberg",
-      "summary": "",
+      "headline": "Exploring The Competitive Space: Apple Versus Industry Peers In Technology Hardware, Storage &amp; Peripherals",
+      "summary": "In the ever-changing and fiercely competitive business landscape, conducting thorough company analysis is crucial for investors and industry experts. In this article, we will undertake a comprehensive industry",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62260804/apple-set-debut-touch-screen-macbook-and-new-ipad-mini-late-october-bloomberg",
-      "created_at": "2026-10-08T20:13:22Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Could Be the \u2018Toll Collector\u2019 of Consumer AI. Dan Ives Sees $75 More Per Share",
-      "summary": "Dan Ives says Apple could monetize consumer AI across its massive installed base, potentially adding $75 per share to its valuation.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62259206/apple-consumer-ai-toll-collector",
-      "created_at": "2026-10-08T19:23:49Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "U.S. Lawmakers Express Concern About Alphabet Unit Google's Plan To Acquire Employee Data From Defunct Spirit Airlines To Train AI Models",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/m/26/10/62258982/u-s-lawmakers-express-concern-about-alphabet-unit-google-s-plan-acquire-employee-data-defunct-spirit",
-      "created_at": "2026-10-08T19:16:39Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "Solana Tops NYSE Trade Count: Can Robinhood, Coinbase, Hyperliquid Keep Up?",
-      "summary": "Solana briefly tops the NYSE in trade count as Securitize brings Apple, Nvidia, Tesla and Microsoft stocks on-chain.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62258814/solana-tops-nyse-trade-count-can-robinhood-coinbase-hyperliquid-keep-up",
-      "created_at": "2026-10-08T19:10:23Z"
+      "url": "https://www.benzinga.com/news/26/10/62266339/exploring-competitive-space-apple-versus-industry-peers-technology-hardware-storage-amp-peripherals",
+      "created_at": "2026-10-09T09:58:59Z"
     },
     {
       "symbols": [
@@ -1077,59 +977,179 @@
         "GOOGL",
         "MSFT"
       ],
-      "headline": "Anthropic Launches Cyber Mission To Equip Defenders With AI Tools, Research, And Resources To Strengthen Software And Systems Security",
-      "summary": "",
+      "headline": "Wall Street Still Treats Micron Like a Commodity Stock \u2014 Analyst Says That's a Costly Mistake",
+      "summary": "Micron (MU) stock gains in premarket trading. D.A. Davidson highlights a massive valuation gap vs. AMD and Intel amid AI expansion.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62258644/anthropic-launches-cyber-mission-to-equip-defenders-with-ai-tools-research-and-resources-to-strengthen-software-and-systems-security",
-      "created_at": "2026-10-08T19:04:30Z"
+      "url": "https://www.benzinga.com/markets/tech/26/10/62266305/wall-street-still-treats-micron-like-a-commodity-stock-analyst-says-thats-a-costly-mistake",
+      "created_at": "2026-10-09T09:57:23Z"
     },
     {
       "symbols": [
-        "AMZN",
-        "GOOGL"
-      ],
-      "headline": "Anthropic Announces Claude Docs, Slides, And Design Are Out Of Beta And On Every Claude Plan, Including Free; Build Live Dashboards And Animate Explainers With Claude Dashboards And Claude Motion, Now In Beta; Claude Dashboards Is In Beta On Paid Plans, And Claude Motion Is In Beta On Team And Enterprise Plans",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62258661/anthropic-announces-claude-docs-slides-and-design-are-out-beta-and-every-claude-plan-including-free-",
-      "created_at": "2026-10-08T19:04:41Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
         "QQQ",
-        "SPY",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: S&P 500, Dow Jones Futures Gain as Scott Bessent Says US Is Starving Iran's 'Tyrannical Regime'\u2014PKE, HUM, RENX in Focus",
+      "summary": "U.S. stock futures were higher on Friday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices rose, following Thursday&#39;s mixed close.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62266111/stock-market-today-sp-500-dow-jones-futures-gain-as-scott-bessent-says-us-is-starving-irans-tyrannical-regime-pke-hum-renx-in-focus",
+      "created_at": "2026-10-09T09:41:14Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "NVDA",
         "TSLA"
       ],
-      "headline": "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift\u2014Watch Oil And Yields",
-      "summary": "\n\n\n\nSigns Of Market Character Shift\n\n\n\nPlease click here for an enlarged chart of SPDR S&amp;P 500 ETF Trust (NYSE:SPY) which represents the benchmark stock market index S&amp;P 500 (SPX).\n\n\n\nNote the following:\n\n\n\n\nThe",
+      "headline": "Why Is SpaceX Stock Surging Friday?",
+      "summary": "SpaceX premarket gains mirror AI compute push, Starlink spectrum deal, and fresh Wall Street price target hikes.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/Opinion/26/10/62255776/stock-reaction-to-samsung-and-tsmc-earnings-is-an-early-indicator-of-a-market-character-shift-watch-oil-and-yields",
-      "created_at": "2026-10-08T17:37:53Z"
+      "url": "https://www.benzinga.com/markets/tech/26/10/62266085/why-is-spacex-stock-surging-thursday",
+      "created_at": "2026-10-09T09:35:07Z"
     },
     {
       "symbols": [
-        "QQQ"
+        "AMZN",
+        "TSLA"
       ],
-      "headline": "Stock Market Today: S&P 500 Slips as Oil Spikes 5%, 10-Year Yields Near 5.35%",
-      "summary": "Stocks slip as Gulf tanker attacks lift Brent above $105 and the 10-year yield nears 5.35%; small caps lag while energy and Chipotle rally.",
+      "headline": "Ahead of DAL Earnings, Elon Musk Mocks Delta's Starlink Snub: 'Accessing the Internet Is Utterly Impossible'",
+      "summary": "Elon Musk doubled down on his criticism of Delta Airline\u2019s lack of in-flight Wi-Fi amid the airline choosing Amazon&#39;s Leo over Starlink.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62255036/stock-market-today-sp-500-slips-oil-rallies-yields",
-      "created_at": "2026-10-08T17:19:59Z"
+      "url": "https://www.benzinga.com/news/space/26/10/62265766/ahead-of-dal-earnings-elon-musk-mocks-deltas-starlink-snub-accessing-the-internet-is-utterly-impossible",
+      "created_at": "2026-10-09T09:05:43Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "'Firmus Explores $3 Billion Private Round After IPO Flop' - Bloomberg",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62265622/firmus-explores-3-billion-private-round-after-ipo-flop-bloomberg",
+      "created_at": "2026-10-09T08:41:26Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Google Cloud And CaixaBank Extend 2023 Strategic Collaboration To 2033 With Focus On Agentic AI, Hybrid Infrastructure And Security, And Workforce Training",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/GOOGL",
+      "created_at": "2026-10-09T08:40:09Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Drops \u2018Full Self-Driving\u2019 Name in Europe as Germany Backs Faster EU Approval for \u2018Tesla Assisted Driving\u2019",
+      "summary": "Tesla replaces \u201cFull Self-Driving\u201d with \u201cTesla Assisted Driving\u201d in Europe after German pressure, while EU approval remains contested.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62265355/tesla-drops-full-self-driving-name-in-europe-as-germany-backs-faster-eu-approval-for-tesla-assisted-driving",
+      "created_at": "2026-10-09T08:10:18Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Tim Cook Told Apple CEO John Ternus \u2018Don\u2019t Mimic Me\u2019 Before Stepping Aside Ahead of Apple\u2019s Big iPhone Launch: 'I\u2019m Not a Meddler'",
+      "summary": "Tim Cook explains why he stepped aside before Apple\u2019s iPhone Duo launch and says he\u2019s not meddling in John Ternus\u2019 leadership.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62265158/tim-cook-told-apple-ceo-john-ternus-dont-mimic-me-before-stepping-aside-ahead-of-apples-big-iphone-launch-im-not-a-meddler",
+      "created_at": "2026-10-09T07:29:37Z"
+    },
+    {
+      "symbols": [
+        "MSFT",
+        "TSLA"
+      ],
+      "headline": "Bill Gates Says Aviation Is One of the Hardest Sectors to Decarbonize Amid Skyrocketing Fuel Costs\u2014Here's His Solution",
+      "summary": "Bill Gates says contrails drive half of aviation\u2019s warming, but the billionaire may have a solution to tackle the problem.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/travel/26/10/62265147/bill-gates-says-aviation-is-one-of-the-hardest-sectors-to-decarbonize-amid-skyrocketing-fuel-costs-heres-his-solution",
+      "created_at": "2026-10-09T07:29:01Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Elon Musk A \u2018National Treasure,\u2019 Says Trump: President Compares Tesla CEO With Edison As He Awards National Medal of Science",
+      "summary": "Elon Musk congratulated his fellow honorees after President Trump gave six tech leaders national science and technology medals on Thursday.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62264954/musk-congratulates-medal-winners-trump-calls-him-national-treasure",
+      "created_at": "2026-10-09T07:00:05Z"
     },
     {
       "symbols": [
         "META"
       ],
-      "headline": "UPDATE: 'Trump Bought Up To $25 Million In Meta And Millions In SpaceX Debt In August' - CNBC",
+      "headline": "Reported Earlier, 'Meta Bans Ads From TikTok on Its Apps in Escalating Feud' - Bloomberg",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62255022/update-trump-bought-25-million-meta-and-millions-spacex-debt-august-cnbc",
-      "created_at": "2026-10-08T17:19:35Z"
+      "url": "https://www.benzinga.com/news/26/10/62264653/reported-earlier-meta-bans-ads-tiktok-its-apps-escalating-feud-bloomberg",
+      "created_at": "2026-10-09T06:20:19Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "'US 10-year Treasury Yields Risk Hitting 6% For First Time Since 2000, Pimco Says' - FT",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62264642/us-10-year-treasury-yields-risk-hitting-6-first-time-2000-pimco-says-ft",
+      "created_at": "2026-10-09T06:17:46Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META"
+      ],
+      "headline": "Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to \u2018Pull People off Our Apps\u2019",
+      "summary": "Meta has banned ByteDance ads across Facebook and Instagram in seven countries, escalating its rivalry with TikTok.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62264619/meta-bans-bytedance-tiktok-ads-facebook-instagram",
+      "created_at": "2026-10-09T06:10:13Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open up today? U.S. futures and Polymarket odds point to a higher open as oil cools and blockbuster Q3 earnings begin.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62264573/stock-market-will-sp-500-open-up-or-down-today-54",
+      "created_at": "2026-10-09T06:05:02Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Jim Cramer Says OpenAI Revenue Isn\u2019t \u2018Apples to Apples\u2019 With Anthropic, Daniel Newman Calls Debate 'Hilarious' \u2014 $500 Billion Wiped Out",
+      "summary": "OpenAI\u2019s annualized revenue may be nearer $50 billion than $70 billion, and investors say the $20 billion gap is accounting, not lost sales.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62264549/jim-cramer-daniel-newman-explain-openai-revenue-scare-gap-is-about-counting-not-sales",
+      "created_at": "2026-10-09T06:02:40Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Securitize Stock Jumps After Hours As It Launches Tokenized Apple, Nvidia, Tesla Shares On Solana",
+      "summary": "Securitize shares jump 9.92% in after-hours session as company launches 12 tokenized U.S. stocks on Solana.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62264221/securitize-shares-jump-tokenized-us-stocks-solana",
+      "created_at": "2026-10-09T03:27:36Z"
     }
   ]
 }
