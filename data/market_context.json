@@ -940,6 +940,67 @@
   "news": [
     {
       "symbols": [
+        "NVDA"
+      ],
+      "headline": "Super Micro Contractor Pleads Guilty in $2.5 Billion Nvidia AI Chip Smuggling Case",
+      "summary": "A Super Micro contractor pleaded guilty to helping divert Nvidia-powered AI servers worth $2.5 billion to China illegally.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/legal/26/10/62287878/super-micro-contractor-nvidia-ai-chips-china",
+      "created_at": "2026-10-10T08:13:47Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Jeff Bezos Says AI Could Make 3-Day Workweeks and Single-Income Households More Common, But Warns Investors Face a Tricky Bet",
+      "summary": "Amazon founder Jeff Bezos says AI-driven productivity could let some families work fewer days and make hiring more difficult.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287866/jeff-bezos-ai-3-day-workweeks",
+      "created_at": "2026-10-10T08:04:21Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "headline": "John Moolenaar Urges Defense Department to Add 120 Chinese Schools and Tech Labs to US Research Funding Watchlist",
+      "summary": "John Moolenaar asks the US Defense Department to add 58 Chinese schools and 62 technology labs to its research funding restrictions list.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62287169/lawmaker-funding-restrictions-chinese-schools",
+      "created_at": "2026-10-10T05:54:17Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Trump Admin Sanctions International Criminal Court Hours After Former Judge Wins Nobel Peace Prize: \u2018Ban Transactions With This Rogue Court,\u2019 Rubio Says",
+      "summary": "The Trump administration sanctioned the International Criminal Court, prompting strong criticism from the court.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62287144/trump-sanctions-international-criminal-court",
+      "created_at": "2026-10-10T05:13:50Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "AI Could Soon Take a Bigger Bite Out of the US Economy Than You Think, With Annual Revenue Projected to Hit $3.5 Trillion By 2032",
+      "summary": "Artificial Intelligence services could account for 8.8% of US GDP by 2032, according to The Kobeissi Letter.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287122/ai-services-us-gdp-2032",
+      "created_at": "2026-10-10T04:27:58Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Top Analyst Says iPhone 18 Pro and Pro Max Lead Times Have Dropped, But Apple\u2019s Cycle Is \u2018Off to a Solid Start\u2019",
+      "summary": "Apple iPhone Pro lead times dropped, but Deepwater Asset Management&#39;s Gene Munster still sees a solid start.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287034/gene-munster-iphone-lead-times-dropped",
+      "created_at": "2026-10-10T02:34:12Z"
+    },
+    {
+      "symbols": [
         "SPY"
       ],
       "headline": "Special Envoy Steve Witkoff On Ukraine Talks Says The Exchange Was Productive And Helped Identify Areas For Further Exploration; Participants Reaffirmed Their Shared Commitment To Continuing Diplomatic Efforts",
@@ -1031,16 +1092,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "NVIDIA's Rally in Trouble? Analyst Warns of Bull Trap",
-      "summary": "NVIDIA stock faces a potential bull trap as an analyst warns of a drop to $215-$220 after a failed breakout above $235.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62281306/nvidias-rally-in-trouble-analyst-warns-of-bull-trap",
-      "created_at": "2026-10-09T18:10:18Z"
-    },
-    {
-      "symbols": [
         "META"
       ],
       "headline": "Why Is Arm Stock Falling on Friday?",
@@ -1058,16 +1109,6 @@
       "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/options/26/10/62279970/9-consumer-discretionary-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-09T17:35:10Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62279967/10-information-technology-stocks-whale-alerts-today-s-session",
       "created_at": "2026-10-09T17:35:10Z"
     },
     {
@@ -1097,17 +1138,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/equities/26/10/62279599/stock-market-today-nasdaq-100-rebounds-t-mobile-tumbles",
       "created_at": "2026-10-09T17:27:07Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "NVDA"
-      ],
-      "headline": "What's Going On With Snap Stock Friday?",
-      "summary": "Snap stock jumped 7% amid technical momentum and growing AR interest. Explore key support levels, earnings forecasts, and analysis.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62279162/whats-going-on-with-snap-stock-friday-3",
-      "created_at": "2026-10-09T17:14:03Z"
     },
     {
       "symbols": [
