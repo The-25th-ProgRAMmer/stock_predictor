@@ -85,14 +85,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Dow Jones Industrial Average Gets Spotlight: 5 Earnings Reports Representing 25% of ETF\u2019s Assets On Deck",
-          "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62305174/dow-jones-industrial-average-gets-spotlight-5-earnings-reports-representing-25-of-etfs-assets-on-deck",
-          "created_at": "2026-10-12T16:24:19Z"
-        }
-      ]
+      "material_news": []
     },
     "QQQ": {
       "latest_close": 746.0,
@@ -162,14 +155,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Dow Jones Industrial Average Gets Spotlight: 5 Earnings Reports Representing 25% of ETF\u2019s Assets On Deck",
-          "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62305174/dow-jones-industrial-average-gets-spotlight-5-earnings-reports-representing-25-of-etfs-assets-on-deck",
-          "created_at": "2026-10-12T16:24:19Z"
-        }
-      ]
+      "material_news": []
     },
     "AAPL": {
       "latest_close": 341.05,
@@ -239,14 +225,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "rating_change",
-          "headline": "JP Morgan Maintains Overweight on Apple, Raises Price Target to $360",
-          "url": "https://www.benzinga.com/news/26/10/62309369/jp-morgan-maintains-overweight-apple-raises-price-target-360",
-          "created_at": "2026-10-12T18:49:07Z"
-        }
-      ]
+      "material_news": []
     },
     "MSFT": {
       "latest_close": 541.09,
@@ -945,6 +924,147 @@
   "news": [
     {
       "symbols": [
+        "SPY"
+      ],
+      "headline": "Institutional Confidence in Banks Has Collapsed Ahead of Earnings",
+      "summary": "U.S. bank stocks lag the market as rising bond yields and tight deposit margins squeeze earnings. Discover key insights as big banks report.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62316482/institutional-confidence-in-banks-has-collapsed-ahead-of-earnings",
+      "created_at": "2026-10-13T10:06:17Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "In-Depth Analysis: Apple Versus Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+      "summary": "In the fast-paced and highly competitive business world of today, conducting thorough company analysis is essential for investors and industry observers. In this article, we will conduct an extensive industry",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62316153/depth-analysis-apple-versus-competitors-technology-hardware-storage-amp-peripherals-industry",
+      "created_at": "2026-10-13T09:58:22Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Gain While Nasdaq 100 Falls as Scott Bessent Says Iran's Economy Is 'Collapsing' \u2014 SXTC, AMAT, CMG in Focus",
+      "summary": "U.S. stock futures were swinging between gains and losses on Tuesday, as the Dow Jones and S&amp;P 500 indices rose, while the Nasdaq 100 fell.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62316074/stock-market-today-dow-jones-sp-500-futures-gain-while-nasdaq-100-falls-as-scott-bessent-says-irans-economy-is-collapsing-sxtc-amat-cmg-in-focus",
+      "created_at": "2026-10-13T09:55:18Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Micron's Monster Rally Faces Reality Check: China, Bearish Bets and AI Jitters",
+      "summary": "Micron (MU) stock slips amid China memory tech progress &amp; AI sector pullback, but analysts cite long-term growth. Read key drivers.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62316027/microns-monster-rally-faces-reality-check-china-bearish-bets-and-ai-jitters",
+      "created_at": "2026-10-13T09:43:28Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "China\u2019s CXMT On Monday Reported Major Progress On Proprietary Memory Chip Transistor Structure Also Pursued By Samsung, SK Hynix, Aiming To Increase Storage Density And Improve Efficiency",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62315688/china-s-cxmt-monday-reported-major-progress-proprietary-memory-chip-transistor-structure-also-pursue",
+      "created_at": "2026-10-13T09:07:57Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "META"
+      ],
+      "headline": "Gene Munster Warns Apple Can Sell Millions of iPhones and Still Lose the AI Game as Users Could Lock Into Muse and Grok",
+      "summary": "Gene Munster says Apple can keep selling iPhones but Siri could be shut out of AI money if users settle into Meta\u2019s Muse or Grokbot first.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62315575/gene-munster-says-apple-needs-to-move-faster-on-siri-before-rivals-lock-in-users",
+      "created_at": "2026-10-13T09:00:16Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come'",
+      "summary": "Mark Zuckerberg defends Meta&#39;s AI CapEx, ready to write a $200 billion check to build superintelligence and dominate for decades to come.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62315525/mark-zuckerberg-defends-metas-ai-capex-ready-to-write-this-check-for-up-to-200-billion-to-dominate-decades-to-come",
+      "created_at": "2026-10-13T08:56:48Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "From Google Deal to Bankruptcy: Character.AI Files for Chapter 11, Puts Disney In Driver\u2019s Seat With $20 Million Deal for Key Assets",
+      "summary": "Character.AI files for Chapter 11 bankruptcy and agrees to sell select assets to Disney for $20 million, pending court approval.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/m-a/26/10/62315236/from-google-deal-to-bankruptcy-character-ai-files-for-chapter-11-puts-disney-in-drivers-seat-with-20-million-deal-for-key-assets",
+      "created_at": "2026-10-13T08:28:14Z"
+    },
+    {
+      "symbols": [
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Jim Cramer Says \u2018Stay In, Keep Buying\u2019 as S&P 500 Surges 118% From 2022 Low \u2014 Nvidia Turned $10,000 Into Nearly $200,000",
+      "summary": "Since 2022, market volatility has given investors several reasons to exit their positions. However, CNBC\u2019s Jim Cramer said those who stayed invested instead of selling have benefited from their patience.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62314818/jim-cramer-says-stay-in-keep-buying-as-sp-500-surges-118-from-2022-low-nvidia-turned-10000-into-nearly-200000",
+      "created_at": "2026-10-13T07:51:13Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Anthropic Says New Anti-Distillation Defenses Cut Data Harvested By Distillers By Around 90% To 99%, Using Classifier, Preserved Thinking And Account Bans",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62314625/anthropic-says-new-anti-distillation-defenses-cut-data-harvested-distillers-around-90-99-using-class",
+      "created_at": "2026-10-13T07:31:20Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META",
+        "NVDA"
+      ],
+      "headline": "Trump White House Wants Tighter Grip on AI Model Testing, Reportedly Moves Officials From Commerce Department",
+      "summary": "The Trump administration reportedly plans to move three AI testing officials from Commerce to the White House after coordination problems.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62314444/trump-white-house-ai-model-testing-commerce-department-officials",
+      "created_at": "2026-10-13T07:06:49Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 37% as Wall Street faces a Nasdaq selloff, Q3 bank earnings and Trump&#39;s new energy policies.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62313960/stock-market-will-sp-500-open-up-or-down-today-56",
+      "created_at": "2026-10-13T05:48:41Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Bernie Sanders Says \u2018Stop Musk\u2019 as Tesla CEO Spends $366 Million to Keep GOP in Control \u2014 Elon Musk Got $696 Billion Richer Since Trump\u2019s Re-Election",
+      "summary": "Bernie Sanders accuses Elon Musk of growing $696B richer and spending $366M to help Republicans retain Congress.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62313867/bernie-sanders-says-stop-musk-as-tesla-ceo-spends-366-million-to-keep-gop-in-control-elon-musk-got-696-billion-richer-since-trumps-re-election",
+      "created_at": "2026-10-13T05:30:18Z"
+    },
+    {
+      "symbols": [
         "TSLA"
       ],
       "headline": "Elon Musk Says China Can Out-Scale the World, but Advanced Memory \u2018Will Be Harder to Solve\u2019 \u2014 Micron, SK Hynix, SanDisk Drop After-Hours",
@@ -955,36 +1075,6 @@
     },
     {
       "symbols": [
-        "META"
-      ],
-      "headline": "Jim Cramer Is \u2018Monster Long\u2019 On Mark Zuckerberg\u2019s Meta On Muse Retention, But Cathie Wood Trims $3.36 Million Stake",
-      "summary": "Cathie Wood\u2019s Ark sold Meta shares on Monday, Oct. 12, 2026.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62313341/jim-cramer-is-monster-long-on-mark-zuckerbergs-meta-on-muse-retention-but-cathie-wood-trims-3-36-million-stake",
-      "created_at": "2026-10-13T01:41:42Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Micron, Cerebras Systems, SanDisk, Meta and SoundHound AI: Why These 5 Stocks Are on Investors' Radars Today",
-      "summary": "MU, CBRS, SNDK, META, SOUN were among the stocks seen trending on Monday, Oct. 12, 2026.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62313285/micron-cerebras-systems-sandisk-meta-and-soundhound-ai-why-these-5-stocks-are-on-investors-radars-today",
-      "created_at": "2026-10-13T01:10:34Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Here\u2019s How Much You Would Have Made Owning Alphabet Stock In The Last 10 Years",
-      "summary": "Alphabet (NASDAQ:GOOGL) has outperformed the market over the past 10 years by 10.2% on an annualized basis producing an average annual return of 23.99%. Currently, Alphabet has a market capitalization of $4.30 trillion.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62311960/here-s-how-much-you-would-have-made-owning-alphabet-stock-last-10-years",
-      "created_at": "2026-10-12T20:45:20Z"
-    },
-    {
-      "symbols": [
         "NVDA"
       ],
       "headline": "Navitas Semiconductor Stock Rises After Hours: Here's Why",
@@ -992,16 +1082,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62311906/navitas-semiconductor-stock-rises-after-hours-heres-why",
       "created_at": "2026-10-12T20:43:16Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Navitas Semiconductor Unveils 24 kW GaN-Powered 800V-To-12V Power Delivery Board For NVIDIA AI Data Centers",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62311459/navitas-semiconductor-announces-24-kilowatts-800-volts-to-12-12-v-dc-dc-ganfast-powered-power-delivery-board-developed-in-partnership-with-nvidia",
-      "created_at": "2026-10-12T20:17:05Z"
     },
     {
       "symbols": [
@@ -1023,51 +1103,6 @@
     {
       "symbols": [
         "AAPL",
-        "GOOGL"
-      ],
-      "headline": "Google Comes for Apple\u2019s Health Data Advantage. Here\u2019s What Changes",
-      "summary": "Google is integrating Function&#39;s 160-plus lab tests with wearable data, intensifying competition with Apple&#39;s expanding health platform.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62309603/google-apple-health-data",
-      "created_at": "2026-10-12T19:01:49Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "JP Morgan Maintains Overweight on Apple, Raises Price Target to $360",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62309369/jp-morgan-maintains-overweight-apple-raises-price-target-360",
-      "created_at": "2026-10-12T18:49:07Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA",
-        "SPY"
-      ],
-      "headline": "'Trump Administration Plans to Move AI Testing Agency Officials to White House; The White House Seeks To Integrate Caissi Into AI Decision-making Process' - The Information",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62309207/trump-administration-plans-move-ai-testing-agency-officials-white-house-white-house-seeks-integrate-",
-      "created_at": "2026-10-12T18:39:43Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Russia\u2019s Novak On Diesel Supply Deal With Trump, Says There Are Talks Between Governments Of Russia And U.S. On Supply; We Have Possibility To Make Additional Supplies Of Diesel On Global Markets; Additional Supplies From Russia Will Partially Balance Supply And Demand; By Year-End Russia May Reach 3-3.5M Tons Of Diesel Exports; Russia Has Supplied Energy Worth $21.3B To EU This Year; OPEC+ Has Discussed Transportation Costs, Which Have Significantly Increased",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62309073/russia-s-novak-diesel-supply-deal-trump-says-there-are-talks-between-governments-russia-and-u-s-supp",
-      "created_at": "2026-10-12T18:33:05Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
         "AMZN",
         "META",
         "MSFT",
@@ -1080,50 +1115,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/Opinion/26/10/62308565/chinas-4f%c2%b2-threat-to-micron-houthis-deadly-attack-on-saudi-arabia-eclipses-trumps-russian-diesel-deal",
       "created_at": "2026-10-12T18:13:41Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62307414/10-consumer-discretionary-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-12T17:35:10Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Nasdaq 100 Drops, SanDisk Tumbles 6% as AI Trade Falters: Stock Market Today",
-      "summary": "An AI-infrastructure selloff hits the Nasdaq 100 and small caps while the Dow edges up and oil rebounds as Trump&#39;s energy ceasefire claim unravels.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/market-summary/26/10/62306422/nasdaq-100-falls-sandisk-tumbles-6-percent-ai-trade-falters-markets-monday",
-      "created_at": "2026-10-12T17:02:31Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Dow Jones Industrial Average Gets Spotlight: 5 Earnings Reports Representing 25% of ETF\u2019s Assets On Deck",
-      "summary": "Five of the 30 Dow Jones Industrial Average components report earnings this week. Here are the names.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62305174/dow-jones-industrial-average-gets-spotlight-5-earnings-reports-representing-25-of-etfs-assets-on-deck",
-      "created_at": "2026-10-12T16:24:19Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Michael Burry's Big Short Gets Broader: Nvidia-Heavy Chip ETF, Nasdaq Now in Focus",
-      "summary": "Michael Burry shifts bearish bets to Nasdaq-100 and SMH puts. Here&#39;s how Nvidia&#39;s 19.6% ETF weighting puts 4 ETFs in focus.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62305018/michael-burrys-big-short-gets-broader-nvidia-heavy-chip-etf-nasdaq-now-in-focus",
-      "created_at": "2026-10-12T16:17:34Z"
     }
   ]
 }
