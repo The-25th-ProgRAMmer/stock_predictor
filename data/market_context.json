@@ -835,9 +835,9 @@
         "rsi14": 48.1
       },
       "MU": {
-        "close": 953.22,
+        "close": 953.06,
         "pct_1d": -3.629,
-        "pct_5d": -8.819,
+        "pct_5d": -8.82,
         "vs_sma20_pct": -8.59,
         "rsi14": 40.4
       },
@@ -926,13 +926,111 @@
   "news": [
     {
       "symbols": [
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META"
+      ],
+      "headline": "\u2018Another Screen?\u2019 Ross Gerber Pushes Back on $299 HomeView: \u2018Thanks but Not Thanks Apple\u2019",
+      "summary": "Ross Gerber questioned Apple\u2019s $299 HomeView smart display, while Mark Gurman criticized Apple TV\u2019s reported pricing.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62345574/apple-homeview-ross-gerber-apple-tv",
+      "created_at": "2026-10-14T07:36:15Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Ray Dalio Warns US Debt Crisis Could Deepen as $2.1T in New Treasury Supply Hits Market: 'Credit Market Players Call That a Death Spiral'",
+      "summary": "Ray Dalio warns US debt faces a &#39;death spiral&#39; as Treasury supply overwhelms demand, spiking bond yields despite $6B in government buybacks.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/bonds/26/10/62345537/ray-dalio-warns-us-debt-crisis-could-deepen-as-2-1t-in-new-treasury-supply-hits-market-credit-market-players-call-that-a-death-spiral",
+      "created_at": "2026-10-14T07:21:50Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Taiwan Says CPC Makes Significant Progress With US Developer On Alaska LNG, Plans 6M Tonnes Annual Purchases And Up To $4.4B Investment",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62345075/taiwan-says-cpc-makes-significant-progress-us-developer-alaska-lng-plans-6m-tonnes-annual-purchases-",
+      "created_at": "2026-10-14T06:16:21Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Roadster Reveal Nears as Elon Musk Fuels \u2018Back to the Future\u2019 Easter-Egg Speculation \u2014 TSLA CEO Says \u2018Timing Is Everything\u2019",
+      "summary": "Tesla\u2019s delayed next-gen Roadster is set for an Oct. 15 reveal, fueling Back to the Future theories and hype over SpaceX thrusters.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62345027/tesla-roadster-reveal-nears-as-elon-musk-fuels-back-to-the-future-easter-egg-speculation-tsla-ceo-says-timing-is-everything",
+      "created_at": "2026-10-14T06:10:46Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Danaher And NVIDIA Team Up To Help Researchers Move Faster From AI Prediction To Experimental Evidence Via Continuous Learning Cycle",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/NVDA",
+      "created_at": "2026-10-14T06:06:08Z"
+    },
+    {
+      "symbols": [
         "GOOGL"
       ],
-      "headline": "Elon Musk Agrees: GTA VI Could Be 'Swan Song for the Big Studio Era'",
-      "summary": "Nikita Bier says AI may end the big-studio era as GTA VI&#39;s $2B development cost contrasts with faster, cheaper AI-made games. Elon Musk agrees.",
+      "headline": "Reported Earlier, Google Play Launches Personal Custom App Creation Via AI Studio For Users 18+ In Select Markets Including US, No Developer Account Required",
+      "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/gaming/26/10/62343265/elon-musk-agrees-gta-vi-could-be-swan-song-for-the-big-studio-era",
-      "created_at": "2026-10-13T22:43:34Z"
+      "url": "https://www.benzinga.com/news/26/10/62344789/reported-earlier-google-play-launches-personal-custom-app-creation-ai-studio-users-18-select-markets",
+      "created_at": "2026-10-14T05:53:15Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "GOOGL",
+        "META"
+      ],
+      "headline": "100 Million Siri Users Paying $20 A Month Could Generate $24 Billion A Year For Apple, Analyst Says: 'That's a Low-End Example'",
+      "summary": "Munster says Apple could generate $24 billion annually by offering a $20 monthly subscription for upgraded Siri AI assistant.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62344747/apple-siri-ai-subscription-revenue",
+      "created_at": "2026-10-14T05:46:28Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds jump to 76% as Wall Street weighs Q3 bank earnings, cooling oil prices, and tech momentum.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62344736/stock-market-will-sp-500-open-up-or-down-today-57",
+      "created_at": "2026-10-14T05:45:48Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Ron Baron Sees SpaceX Hitting $50 Trillion in a Decade, Up From $2 Trillion \u2014 Says Elon Musk Thinks His Estimate Is \u2018Way Low\u2019",
+      "summary": "Ron Baron believes SpaceX could be worth between $20 trillion and $50 trillion in a decade, led by Starlink and data centers in space.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62344172/ron-baron-sees-50-trillion-spacex-in-a-decade-musk-thinks-he-is-low",
+      "created_at": "2026-10-14T03:08:35Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Mark Zuckerberg Is \u2018Ready to Write This Check\u2019 for AI, and Cathie Wood Just Bought $17 Million Worth of Meta Shares",
+      "summary": "Cathie Wood\u2019s Ark bought Meta and Cerebras shares and sold Alibaba shares on Tuesday, Oct. 13, 2026.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62343905/mark-zuckerberg-meta-ai-cathie-wood-17-million-stock-purchase",
+      "created_at": "2026-10-14T01:45:46Z"
     },
     {
       "symbols": [
@@ -989,16 +1087,6 @@
     },
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "Boston Fed\u2019s Collins Says She Is Very Focused On Inflation Data, Watching How Broad Price Pressures Are, Economic Uncertainty Elevated",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62340757/boston-fed-s-collins-says-she-very-focused-inflation-data-watching-how-broad-price-pressures-are-eco",
-      "created_at": "2026-10-13T20:31:01Z"
-    },
-    {
-      "symbols": [
         "AMZN"
       ],
       "headline": "Flex Amends Warrant With Amazon To Purchase 3,859,851 Shares At $51.29 Per Share",
@@ -1006,46 +1094,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/10/62340503/flex-amends-warrant-amazon-purchase-3-859-851-shares-51-29-share",
       "created_at": "2026-10-13T20:22:00Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "U.S. Treasury's OFAC Announces Settlement Agreement With Bank Of America; Bank Of America To Pay $11.66M Settlement For 475 Apparent Sanctions Violations Involving Russia, Iran And Other Sanctioned Parties",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62340097/u-s-treasury-s-ofac-announces-settlement-agreement-bank-america-bank-america-pay-11-66m-settlement-4",
-      "created_at": "2026-10-13T20:11:43Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Federal Reserve Bank Of Boston President Susan Collins Said Interest Rates Will Likely Need To Rise More Before The End Of The Year To Help Rein In Inflation' - Bloomberg News",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62339730/federal-reserve-bank-boston-president-susan-collins-said-interest-rates-will-likely-need-rise-more-e",
-      "created_at": "2026-10-13T20:03:53Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "EXCLUSIVE: Micron Is Not Close to Peak Earnings, Jordi Visser Says. But He Prefers Optics and Crypto",
-      "summary": "Jordi Visser tells Benzinga Micron (MU) is not close to peak earnings. He still prefers optics companies and crypto for the next year.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62337220/jordi-visser-micron-peak-earnings-optics-crypto-exclusive",
-      "created_at": "2026-10-13T18:36:55Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "'Zuckerberg Admits Meta Lacked AI Certainty on $200 Billion Bet' - Bloomberg News",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62336936/zuckerberg-admits-meta-lacked-ai-certainty-200-billion-bet-bloomberg-news",
-      "created_at": "2026-10-13T18:26:29Z"
     },
     {
       "symbols": [
@@ -1059,38 +1107,6 @@
     },
     {
       "symbols": [
-        "AMZN"
-      ],
-      "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62335265/10-consumer-discretionary-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-13T17:35:11Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62335264/10-information-technology-stocks-whale-alerts-today-s-session",
-      "created_at": "2026-10-13T17:35:11Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "CNBC Halftime Report Final Trades: JP Morgan Chase & Co., Meta Platforms, West Pharmaceutical Services, iShares U.S. Energy ETF",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/IYE",
-      "created_at": "2026-10-13T17:00:42Z"
-    },
-    {
-      "symbols": [
         "QQQ",
         "SMH"
       ],
@@ -1099,44 +1115,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/10/62333961/chip-stocks-slide-korea-kospi-plunges-5-percent-jj-drops-markets-tuesday",
       "created_at": "2026-10-13T16:59:21Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL"
-      ],
-      "headline": "Amazon, Walmart Face New AI Shopping Test: Will Chatbots Recommend Them?",
-      "summary": "Semrush&#39;s AI Visibility Index highlights how AI recommendations could reshape product discovery for Amazon and Walmart investors.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62333945/amazon-walmart-ai-shopping",
-      "created_at": "2026-10-13T16:58:48Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Alphabet Could Unlock $100 Billion From AI Chips by 2028, Analyst Says",
-      "summary": "Alphabet heads into Q3 earnings as analysts highlight Google Cloud strength and an $80B\u2013$100B external TPU AI chip revenue opportunity.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62332103/alphabet-could-unlock-100-billion-from-ai-chips-by-2028-analyst-says",
-      "created_at": "2026-10-13T16:16:13Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Samsung, SK Hynix Fall In Seoul On China Memory Threat\u2014Broadcom CEO Compares AI Investors To Casino Gamblers\u2014JPM Whipsaws",
-      "summary": "\n\n\n\nInvestors Get Jittery\n\n\n\nPlease click here for an enlarged chart of JPMorgan Chase &amp; Co (NYSE:JPM).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.\u00a0 The chart of JPM",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/Opinion/26/10/62330739/samsung-sk-hynix-fall-in-seoul-on-china-memory-threat-broadcom-ceo-compares-ai-investors-to-casino-gamblers-jpm-whipsaws",
-      "created_at": "2026-10-13T15:48:09Z"
     }
   ]
 }
