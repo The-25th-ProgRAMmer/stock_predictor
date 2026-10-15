@@ -30,8 +30,8 @@
         "close_vs_sma20_pct": -0.118,
         "close_vs_sma50_pct": 0.297,
         "sma20_vs_sma50": "above",
-        "rsi14": 49.85,
-        "macd_hist": 0.2561,
+        "rsi14": 50.38,
+        "macd_hist": 0.2486,
         "atr14_pct_of_close": 0.819
       },
       "last_3_days": [
@@ -74,7 +74,7 @@
           "sma20": 770.56,
           "sma50": 767.37,
           "sma50_slope_10d_pct": 0.816,
-          "rsi14": 49.9,
+          "rsi14": 50.4,
           "stretch_atr_from_sma20": -0.14,
           "relative_volume_20d": 1.25,
           "up_down_volume_ratio_20d": 0.92,
@@ -86,12 +86,6 @@
         "notes": []
       },
       "material_news": [
-        {
-          "event": "deal",
-          "headline": "'The White House Is Exploring Ways To Acquire Bitcoin Through Existing Federal Government Fund Inflows To Expand The U.S. Strategic Bitcoin Reserve' - Binance",
-          "url": "https://www.benzinga.com/markets/cryptocurrency/26/10/62370258/white-house-exploring-ways-acquire-bitcoin-through-existing-federal-government-fund-inflows-expand-u",
-          "created_at": "2026-10-14T20:42:03Z"
-        },
         {
           "event": "regulatory_legal",
           "headline": "'Eight U.S. States Sue OpenAI, Claiming ChatGPT Harms Children' - Reuters News",
@@ -113,8 +107,8 @@
         "close_vs_sma20_pct": -1.811,
         "close_vs_sma50_pct": 0.388,
         "sma20_vs_sma50": "above",
-        "rsi14": 44.66,
-        "macd_hist": -2.0647,
+        "rsi14": 45.18,
+        "macd_hist": -2.0705,
         "atr14_pct_of_close": 1.223
       },
       "last_3_days": [
@@ -157,7 +151,7 @@
           "sma20": 742.43,
           "sma50": 726.16,
           "sma50_slope_10d_pct": 1.662,
-          "rsi14": 44.7,
+          "rsi14": 45.2,
           "stretch_atr_from_sma20": -1.51,
           "relative_volume_20d": 1.35,
           "up_down_volume_ratio_20d": 1.33,
@@ -183,8 +177,8 @@
         "close_vs_sma20_pct": 1.836,
         "close_vs_sma50_pct": 5.717,
         "sma20_vs_sma50": "above",
-        "rsi14": 61.94,
-        "macd_hist": 0.1355,
+        "rsi14": 62.14,
+        "macd_hist": 0.133,
         "atr14_pct_of_close": 1.91
       },
       "last_3_days": [
@@ -227,7 +221,7 @@
           "sma20": 336.83,
           "sma50": 324.46,
           "sma50_slope_10d_pct": 0.761,
-          "rsi14": 61.9,
+          "rsi14": 62.1,
           "stretch_atr_from_sma20": 0.94,
           "relative_volume_20d": 1.67,
           "up_down_volume_ratio_20d": 1.32,
@@ -255,8 +249,8 @@
         "close_vs_sma20_pct": 3.43,
         "close_vs_sma50_pct": 6.023,
         "sma20_vs_sma50": "above",
-        "rsi14": 62.38,
-        "macd_hist": 1.504,
+        "rsi14": 62.74,
+        "macd_hist": 1.4923,
         "atr14_pct_of_close": 2.277
       },
       "last_3_days": [
@@ -299,7 +293,7 @@
           "sma20": 516.33,
           "sma50": 503.7,
           "sma50_slope_10d_pct": 4.458,
-          "rsi14": 62.4,
+          "rsi14": 62.7,
           "stretch_atr_from_sma20": 1.46,
           "relative_volume_20d": 1.09,
           "up_down_volume_ratio_20d": 1.63,
@@ -332,8 +326,8 @@
         "close_vs_sma20_pct": 0.295,
         "close_vs_sma50_pct": 0.782,
         "sma20_vs_sma50": "above",
-        "rsi14": 51.15,
-        "macd_hist": 0.7457,
+        "rsi14": 51.59,
+        "macd_hist": 0.7382,
         "atr14_pct_of_close": 2.277
       },
       "last_3_days": [
@@ -376,7 +370,7 @@
           "sma20": 346.76,
           "sma50": 345.08,
           "sma50_slope_10d_pct": 0.383,
-          "rsi14": 51.2,
+          "rsi14": 51.6,
           "stretch_atr_from_sma20": 0.13,
           "relative_volume_20d": 1.08,
           "up_down_volume_ratio_20d": 1.53,
@@ -388,6 +382,12 @@
         "notes": []
       },
       "material_news": [
+        {
+          "event": "earnings",
+          "headline": "Anthropic's Q3 Revenue Surged 45% to $16.8 Billion, Profitable on Adjusted Basis as Dario Amodei Courts Investors: Report",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62372514/anthropic-q3-revenue-16-billion-45-percent-growth-adjusted-profit-dario-amodei",
+          "created_at": "2026-10-15T05:11:09Z"
+        },
         {
           "event": "earnings",
           "headline": "'Anthropic Q3 Revenue Hit $16.8B, According To People Familiar With The Matter' - Bloomberg News",
@@ -409,8 +409,8 @@
         "close_vs_sma20_pct": 0.371,
         "close_vs_sma50_pct": -1.43,
         "sma20_vs_sma50": "below",
-        "rsi14": 49.18,
-        "macd_hist": 0.9118,
+        "rsi14": 49.71,
+        "macd_hist": 0.905,
         "atr14_pct_of_close": 2.153
       },
       "last_3_days": [
@@ -453,7 +453,7 @@
           "sma20": 253.24,
           "sma50": 257.87,
           "sma50_slope_10d_pct": 0.686,
-          "rsi14": 49.2,
+          "rsi14": 49.7,
           "stretch_atr_from_sma20": 0.17,
           "relative_volume_20d": 1.0,
           "up_down_volume_ratio_20d": 0.92,
@@ -465,6 +465,12 @@
         "notes": []
       },
       "material_news": [
+        {
+          "event": "earnings",
+          "headline": "Anthropic's Q3 Revenue Surged 45% to $16.8 Billion, Profitable on Adjusted Basis as Dario Amodei Courts Investors: Report",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62372514/anthropic-q3-revenue-16-billion-45-percent-growth-adjusted-profit-dario-amodei",
+          "created_at": "2026-10-15T05:11:09Z"
+        },
         {
           "event": "earnings",
           "headline": "'Anthropic Q3 Revenue Hit $16.8B, According To People Familiar With The Matter' - Bloomberg News",
@@ -486,8 +492,8 @@
         "close_vs_sma20_pct": -3.157,
         "close_vs_sma50_pct": -0.724,
         "sma20_vs_sma50": "above",
-        "rsi14": 43.99,
-        "macd_hist": -1.2565,
+        "rsi14": 44.3,
+        "macd_hist": -1.2586,
         "atr14_pct_of_close": 2.518
       },
       "last_3_days": [
@@ -530,7 +536,7 @@
           "sma20": 228.71,
           "sma50": 223.1,
           "sma50_slope_10d_pct": 2.699,
-          "rsi14": 44.0,
+          "rsi14": 44.3,
           "stretch_atr_from_sma20": -1.29,
           "relative_volume_20d": 1.21,
           "up_down_volume_ratio_20d": 1.77,
@@ -556,8 +562,8 @@
         "close_vs_sma20_pct": 1.017,
         "close_vs_sma50_pct": 13.648,
         "sma20_vs_sma50": "above",
-        "rsi14": 58.04,
-        "macd_hist": -3.4926,
+        "rsi14": 58.4,
+        "macd_hist": -3.5186,
         "atr14_pct_of_close": 3.023
       },
       "last_3_days": [
@@ -600,7 +606,7 @@
           "sma20": 730.81,
           "sma50": 649.59,
           "sma50_slope_10d_pct": 4.732,
-          "rsi14": 58.0,
+          "rsi14": 58.4,
           "stretch_atr_from_sma20": 0.33,
           "relative_volume_20d": 0.79,
           "up_down_volume_ratio_20d": 1.22,
@@ -611,14 +617,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "rating_change",
-          "headline": "Goldman Sachs Maintains Buy on Meta Platforms, Lowers Price Target to $762",
-          "url": "https://www.benzinga.com/news/26/10/62365120/goldman-sachs-maintains-buy-meta-platforms-lowers-price-target-762",
-          "created_at": "2026-10-14T17:58:06Z"
-        }
-      ]
+      "material_news": []
     },
     "TSLA": {
       "latest_close": 367.41,
@@ -633,8 +632,8 @@
         "close_vs_sma20_pct": -0.969,
         "close_vs_sma50_pct": 2.645,
         "sma20_vs_sma50": "above",
-        "rsi14": 49.27,
-        "macd_hist": -0.2514,
+        "rsi14": 49.51,
+        "macd_hist": -0.2579,
         "atr14_pct_of_close": 2.951
       },
       "last_3_days": [
@@ -677,7 +676,7 @@
           "sma20": 371.01,
           "sma50": 357.94,
           "sma50_slope_10d_pct": 3.168,
-          "rsi14": 49.3,
+          "rsi14": 49.5,
           "stretch_atr_from_sma20": -0.33,
           "relative_volume_20d": 0.97,
           "up_down_volume_ratio_20d": 0.94,
@@ -688,7 +687,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren\u2019t Buying It",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62372757/analyst-sees-tsla-spcx-merger-coming-by-december-but-prediction-markets-arent-buying-it",
+          "created_at": "2026-10-15T05:57:39Z"
+        }
+      ]
     },
     "SMH": {
       "latest_close": 565.12,
@@ -703,8 +709,8 @@
         "close_vs_sma20_pct": -6.244,
         "close_vs_sma50_pct": -2.541,
         "sma20_vs_sma50": "above",
-        "rsi14": 38.43,
-        "macd_hist": -5.8209,
+        "rsi14": 38.83,
+        "macd_hist": -5.8146,
         "atr14_pct_of_close": 2.496
       },
       "last_3_days": [
@@ -747,7 +753,7 @@
           "sma20": 602.76,
           "sma50": 579.86,
           "sma50_slope_10d_pct": 2.057,
-          "rsi14": 38.4,
+          "rsi14": 38.8,
           "stretch_atr_from_sma20": -2.67,
           "relative_volume_20d": 1.93,
           "up_down_volume_ratio_20d": 0.79,
@@ -771,14 +777,14 @@
         "pct_1d": 3.027,
         "pct_5d": 1.914,
         "vs_sma20_pct": -0.61,
-        "rsi14": 44.9
+        "rsi14": 44.2
       },
       "VXX": {
         "close": 17.21,
         "pct_1d": 3.054,
         "pct_5d": 1.834,
         "vs_sma20_pct": -0.55,
-        "rsi14": 45.2
+        "rsi14": 44.5
       }
     },
     "metals": {
@@ -787,14 +793,14 @@
         "pct_1d": -1.488,
         "pct_5d": 0.032,
         "vs_sma20_pct": -2.61,
-        "rsi14": 39.0
+        "rsi14": 39.1
       },
       "SLV": {
         "close": 50.23,
         "pct_1d": -6.112,
         "pct_5d": -6.696,
         "vs_sma20_pct": -10.2,
-        "rsi14": 30.9
+        "rsi14": 31.0
       }
     },
     "bonds": {
@@ -803,14 +809,14 @@
         "pct_1d": 0.676,
         "pct_5d": 2.229,
         "vs_sma20_pct": 0.16,
-        "rsi14": 47.8
+        "rsi14": 47.9
       },
       "IEF": {
         "close": 89.71,
         "pct_1d": 0.179,
         "pct_5d": 0.651,
         "vs_sma20_pct": 0.09,
-        "rsi14": 44.5
+        "rsi14": 44.9
       }
     },
     "credit": {
@@ -819,14 +825,14 @@
         "pct_1d": -0.35,
         "pct_5d": -0.466,
         "vs_sma20_pct": -0.75,
-        "rsi14": 29.8
+        "rsi14": 30.2
       },
       "LQD": {
         "close": 102.67,
         "pct_1d": 0.107,
         "pct_5d": 0.529,
         "vs_sma20_pct": -0.11,
-        "rsi14": 43.0
+        "rsi14": 43.3
       }
     },
     "dollar": {
@@ -835,7 +841,7 @@
         "pct_1d": 0.327,
         "pct_5d": 0.31,
         "vs_sma20_pct": 1.15,
-        "rsi14": 70.5
+        "rsi14": 70.3
       }
     },
     "energy": {
@@ -853,7 +859,7 @@
         "pct_1d": -1.912,
         "pct_5d": -2.267,
         "vs_sma20_pct": -3.25,
-        "rsi14": 28.1
+        "rsi14": 28.7
       }
     },
     "semis": {
@@ -862,7 +868,7 @@
         "pct_1d": -5.7,
         "pct_5d": -11.603,
         "vs_sma20_pct": -6.57,
-        "rsi14": 46.5
+        "rsi14": 46.7
       },
       "AVGO": {
         "close": 346.34,
@@ -876,21 +882,21 @@
         "pct_1d": -3.326,
         "pct_5d": -8.902,
         "vs_sma20_pct": -5.25,
-        "rsi14": 41.0
+        "rsi14": 41.4
       },
       "MU": {
         "close": 914.32,
         "pct_1d": -4.065,
         "pct_5d": -15.925,
         "vs_sma20_pct": -12.25,
-        "rsi14": 36.3
+        "rsi14": 36.6
       },
       "INTC": {
         "close": 98.11,
         "pct_1d": -4.613,
         "pct_5d": -13.223,
         "vs_sma20_pct": -14.07,
-        "rsi14": 37.9
+        "rsi14": 38.3
       }
     }
   },
@@ -970,6 +976,91 @@
   "news": [
     {
       "symbols": [
+        "SPY"
+      ],
+      "headline": "'SK Hynix Conditions New US Factory On More US Chip Equipment Exports To China, Sources Say' - Reuters Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62373879/sk-hynix-conditions-new-us-factory-more-us-chip-equipment-exports-china-sources-say-reuters-exclusiv",
+      "created_at": "2026-10-15T07:53:55Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Says SpaceX Could Top $100 Trillion Within a Decade, Dwarfing Ron Baron\u2019s $50 Trillion Forecast \u2014 But There\u2019s a Catch",
+      "summary": "Ron Baron projects SpaceX at $50T and Starlink at $15T, but Elon Musk says SpaceX could exceed $100T within a decade.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62373065/elon-musk-says-spacex-could-top-100-trillion-within-a-decade-dwarfing-ron-barons-50-trillion-forecast-but-theres-a-catch",
+      "created_at": "2026-10-15T06:37:06Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds fall to 39% as Wall Street navigates a chip selloff, inflation, and Strait of Hormuz mine strikes.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62373003/stock-market-will-sp-500-open-up-or-down-today-58",
+      "created_at": "2026-10-15T06:16:08Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren\u2019t Buying It",
+      "summary": "Barclays analyst Dan Levy predicts Tesla and SpaceX could announce a merger by December targeting AI integration.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62372757/analyst-sees-tsla-spcx-merger-coming-by-december-but-prediction-markets-arent-buying-it",
+      "created_at": "2026-10-15T05:57:39Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL"
+      ],
+      "headline": "Anthropic's Q3 Revenue Surged 45% to $16.8 Billion, Profitable on Adjusted Basis as Dario Amodei Courts Investors: Report",
+      "summary": "Anthropic\u2019s revenue surged 45% sequentially to $16.8 billion in the third quarter, bolstering its potential $2 trillion IPO ambitions.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62372514/anthropic-q3-revenue-16-billion-45-percent-growth-adjusted-profit-dario-amodei",
+      "created_at": "2026-10-15T05:11:09Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Sees \u2018Almost All Cars\u2019 Going Electric as Gasoline-Only Vehicles Fall Below Half of Global Sales",
+      "summary": "Elon Musk expressed optimism on Wednesday, October 14, about all future cars being electric after gasoline-only cars dropped below 49% of global new vehicle sales for the first time.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62372456/elon-musk-gasoline-cars-electric-vehicle-tesla",
+      "created_at": "2026-10-15T04:38:28Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Iran Media Outlet Says Google, Meta, Microsoft, Amazon Should Pay Fees for Hormuz Undersea Cables (UPDATED)",
+      "summary": "An Iranian news agency said Iran should make Google, Meta, Microsoft, and Amazon pay permit fees for subsea cables through the Strait of Hormuz.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62313882/google-meta-microsoft-and-amazon-should-pay-fees-for-hormuz-cables-report",
+      "created_at": "2026-10-13T05:32:46Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Cathie Wood Buys $12.4 Million Of CoreWeave Stock As Analyst Warns Of Equity Wipeout, Ark Sells Palantir Shares",
+      "summary": "Cathie Wood\u2019s Ark bought CoreWeave, Cerebras and Meta shares and sold Palantir shares on Wednesday, Oct. 14, 2026.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62372034/cathie-wood-buys-12-4-million-of-coreweave-stock-as-analyst-warns-of-equity-wipeout-ark-sells-palantir-shares",
+      "created_at": "2026-10-15T01:55:04Z"
+    },
+    {
+      "symbols": [
         "AMZN",
         "GOOGL"
       ],
@@ -991,16 +1082,6 @@
     },
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "API Crude Oil Stock 11.12M Barrel Draw Vs 1.90M Barrel Build Est.",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-10-14T20:56:10Z"
-    },
-    {
-      "symbols": [
         "SMH"
       ],
       "headline": "Michael Burry Buys China Stocks While Shorting Nasdaq: These ETFs Capture His Bet",
@@ -1008,16 +1089,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62370419/michael-burry-buys-china-stocks-while-shorting-nasdaq-these-etfs-capture-his-bet",
       "created_at": "2026-10-14T20:52:37Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'The White House Is Exploring Ways To Acquire Bitcoin Through Existing Federal Government Fund Inflows To Expand The U.S. Strategic Bitcoin Reserve' - Binance",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/cryptocurrency/26/10/62370258/white-house-exploring-ways-acquire-bitcoin-through-existing-federal-government-fund-inflows-expand-u",
-      "created_at": "2026-10-14T20:42:03Z"
     },
     {
       "symbols": [
@@ -1041,18 +1112,6 @@
     },
     {
       "symbols": [
-        "AMZN",
-        "GOOGL",
-        "SPY"
-      ],
-      "headline": "Anthropic Says Later This Month, Claude To Integrate Official Voting Information From Democracy Works For U.S. Users; Claude Will Begin Showing Up-To-Date Results On Election Night In The U.S. And In The Days That Follow; Claude Will Begin Showing Live Election Results & Vote Counts In U.S. Conversations",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62368141/anthropic-says-later-this-month-claude-to-integrate-official-voting-information-from-democracy-works-for-u-s-users-claude-will-begin-showing-up-to-date-results-on-election-night-in-the-us-and-in-th-4",
-      "created_at": "2026-10-14T19:35:57Z"
-    },
-    {
-      "symbols": [
         "MSFT",
         "SPY"
       ],
@@ -1071,16 +1130,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/large-cap/26/10/62366206/blackrock-expects-strong-fourth-quarter-as-ai-investment-fundraising-grow",
       "created_at": "2026-10-14T18:29:01Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Goldman Sachs Maintains Buy on Meta Platforms, Lowers Price Target to $762",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62365120/goldman-sachs-maintains-buy-meta-platforms-lowers-price-target-762",
-      "created_at": "2026-10-14T17:58:06Z"
     },
     {
       "symbols": [
@@ -1115,27 +1164,6 @@
     },
     {
       "symbols": [
-        "GOOGL",
-        "META"
-      ],
-      "headline": "10 Communication Services Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62364245/10-communication-services-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-14T17:35:11Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62364244/10-consumer-discretionary-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-14T17:35:11Z"
-    },
-    {
-      "symbols": [
         "NVDA"
       ],
       "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
@@ -1160,31 +1188,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/Opinion/26/10/62362386/asml-earnings-signal-strong-ai-demand-yet-stock-falls-emphasizing-market-character-shift-cpi-squashes-hopium",
       "created_at": "2026-10-14T16:39:04Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'OpenAI Names Uday Ruddarraju to Lead Data Center, Computing Unit' - Bloomberg",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62360862/openai-names-uday-ruddarraju-lead-data-center-computing-unit-bloomberg",
-      "created_at": "2026-10-14T15:57:28Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "META",
-        "NVDA",
-        "QQQ",
-        "SMH",
-        "TSLA"
-      ],
-      "headline": "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today",
-      "summary": "The Nasdaq 100 fell 1% by midday Wednesday after September CPI topped forecasts, pushing Treasury yields and rate-hike bets higher.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62360140/nasdaq-100-drops-1-on-hot-cpi-soxx-falls-7th-day-stock-market-today",
-      "created_at": "2026-10-14T15:39:54Z"
     }
   ]
 }
