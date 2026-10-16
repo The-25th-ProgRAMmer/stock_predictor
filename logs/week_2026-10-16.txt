@@ -1,0 +1,257 @@
+==============================================================================
+WEEKLY TRADING PREDICTOR ANALYSIS - Week ending 2026-10-16
+==============================================================================
+
+Total predictions logged: 105
+Graded so far:            95
+
+--- OCTOBER GOAL ---
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-10-15: $98,337.68  (-1.66%, -33% of the way)
+  Peak $99,999.88, now -1.66% from peak
+  $6,662.32 to go over 11 session(s): needs +0.598% per session, compounded
+  Realised so far -0.209% per session - behind pace
+  (Pace is a yardstick only; it never changes position size.)
+
+--- TRADES CLOSED THIS WEEK (what actually made or lost money) ---
+  This week: 1 closed, 0 profitable / 1 not (0% win rate), net $-200.33
+    avg loss $-200.33
+    profit factor 0.00 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+  October to date: 7 closed, 0 profitable / 7 not (0% win rate), net $-1,367.44
+    avg loss $-195.35
+    profit factor 0.00 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+    2026-10-09  AMZN   short stop      held 3s  $  -101.97 (-2.35%)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+
+--- THIS WEEK (pooled) ---
+  This week (n=50 over 5 trading days):
+    Agent accuracy:          20/50 = 40.0%
+    Baseline 'always up':    40.0%
+    Baseline 'prev day':     54.0%
+    Agent vs always_up:      +0.0%
+    Agent vs prev_day:       -14.0%
+    Agent up-rate:           92.0%
+
+--- ALL TIME (pooled) ---
+  All-time (n=95 over 14 trading days):
+    Agent accuracy:          42/95 = 44.2%
+    Baseline 'always up':    46.3%
+    Baseline 'prev day':     60.0%
+    Agent vs always_up:      -2.1%
+    Agent vs prev_day:       -15.8%
+    Agent up-rate:           87.4%
+
+--- PER SYMBOL, ALL TIME (the number that counts) ---
+  symbol     n    agent  alwaysUp  prevDay   vs aUp   upRate  status
+  AAPL       9    77.8%     66.7%    44.4%   +11.1%    88.9%  need 21
+  AMZN       9    11.1%     44.4%    33.3%   -33.3%    44.4%  need 21
+  GOOGL      9    66.7%     77.8%    55.6%   -11.1%    88.9%  need 21
+  META       9    33.3%     33.3%    66.7%    +0.0%   100.0%  need 21
+  MSFT       9    77.8%     77.8%    55.6%    +0.0%   100.0%  need 21
+  NVDA       9    33.3%     33.3%    66.7%    +0.0%    77.8%  need 21
+  QQQ        9    33.3%     33.3%    66.7%    +0.0%   100.0%  need 21
+  SMH        9    22.2%     11.1%    88.9%   +11.1%    88.9%  need 21
+  SPY       14    50.0%     50.0%    57.1%    +0.0%    85.7%  need 16
+  TSLA       9    33.3%     33.3%    66.7%    +0.0%   100.0%  need 21
+
+--- PER SYMBOL, THIS WEEK ---
+  symbol     n    agent  alwaysUp  prevDay   vs aUp   upRate  status
+  AAPL       5    60.0%     60.0%    40.0%    +0.0%   100.0%  need 25
+  AMZN       5     0.0%     40.0%    40.0%   -40.0%    60.0%  need 25
+  GOOGL      5    80.0%     80.0%    40.0%    +0.0%   100.0%  need 25
+  META       5    40.0%     40.0%    60.0%    +0.0%   100.0%  need 25
+  MSFT       5    80.0%     80.0%    40.0%    +0.0%   100.0%  need 25
+  NVDA       5    40.0%     20.0%    60.0%   +20.0%    80.0%  need 25
+  QQQ        5    20.0%     20.0%    60.0%    +0.0%   100.0%  need 25
+  SMH        5    20.0%      0.0%   100.0%   +20.0%    80.0%  need 25
+  SPY        5    40.0%     40.0%    40.0%    +0.0%   100.0%  need 25
+  TSLA       5    20.0%     20.0%    60.0%    +0.0%   100.0%  need 25
+
+--- CALIBRATION (all-time, pooled) ---
+      bucket     n    accuracy
+    50- 59%    90      42.2%
+    60- 69%     5      80.0%
+
+--- INDEPENDENCE CHECK ---
+  Agent called every symbol the same direction on 4/9 multi-symbol days (44%).
+  High values mean the extra targets are echoing one market call, not adding independent tests.
+
+--- THIS WEEK'S PREDICTIONS ---
+  2026-10-09  AAPL   pred:up  @52%  actual:down (-1.16%)  [WRONG]
+    Reasoning: Close 340.43 is above SMA20 (335.19) and SMA50 (322.29), SMA20 above SMA50 (net +3 of 3), RSI14 61.1 and rising OBV despite a negative MACD hist. No material news flagged for AAPL (coverage was product-preview/competitive, filtered out as non-material).
+  2026-10-09  AMZN   pred:down@50%  actual:up   (+3.27%)  [WRONG]
+    Reasoning: Close 254.10 is above SMA20 (251.74) but below SMA50 (258.55), with SMA20 below SMA50 (net -1 of 3 trend votes) despite a positive MACD hist. No material news flagged for AMZN.
+  2026-10-09  GOOGL  pred:up  @52%  actual:up   (+0.96%)  [CORRECT]
+    Reasoning: Close 348.30 is above SMA20 (345.26) and SMA50 (345.77), though SMA20 sits just below SMA50 (net +1 of 3), with MACD hist positive (0.72) and rising OBV. A flagged regulatory_legal headline (Meta banning ByteDance/TikTok ads) was tagged to GOOGL but concerns Meta's ad platform, not GOOGL's business, so it doesn't bear on or override the call.
+  2026-10-09  META   pred:up  @52%  actual:down (-0.36%)  [WRONG]
+    Reasoning: Close 720.98 is above SMA20 (715.48) and SMA50 (635.77), SMA20 above SMA50 (net +3 of 3), with SMA50 sloping up 3.6% over 10 days despite a negative MACD hist and falling OBV. Two flagged regulatory_legal headlines report META banning ByteDance/TikTok ads from its own platforms; this is an offensive competitive move for META rather than a negative event, so it does not cut against the up call.
+  2026-10-09  MSFT   pred:up  @52%  actual:up   (+2.39%)  [CORRECT]
+    Reasoning: Close 522.71 is above SMA20 (508.08) and SMA50 (498.49), SMA20 above SMA50 (net +3 of 3), MACD hist positive (1.14) and SMA50 sloping up 5.4% over 10 days. No material news flagged for MSFT.
+  2026-10-09  NVDA   pred:up  @52%  actual:down (-0.53%)  [WRONG]
+    Reasoning: Close 230.57 is above SMA20 (226.18) and SMA50 (221.26), SMA20 above SMA50 (net +3 of 3), with MACD hist positive and up/down volume ratio 2.2 over 20 days. No material news flagged for NVDA (coverage was a private-round story about an unrelated company, Firmus, not NVDA itself).
+  2026-10-09  QQQ    pred:up  @52%  actual:up   (+0.50%)  [CORRECT]
+    Reasoning: Close 747.50 is above SMA20 (735.46) and SMA50 (722.61), SMA20 above SMA50 (net +3 of 3) with MACD hist positive (1.35) and rising OBV. No material news flagged for QQQ.
+  2026-10-09  SMH    pred:up  @52%  actual:down (-0.54%)  [WRONG]
+    Reasoning: Close 606.68 is above SMA20 (595.26) and SMA50 (576.92), SMA20 above SMA50 (net +3 of 3), with MACD hist positive (1.77); volume is 1.6x its 20-day average, flagged as context only. No material news flagged for SMH.
+  2026-10-09  SPY    pred:up  @52%  actual:up   (+0.60%)  [CORRECT]
+    Reasoning: Close 773.88 is above SMA20 (766.79) and SMA50 (765.48), with SMA20 above SMA50 (net +3 of 3 trend votes) and MACD hist positive (0.99); RSI14 56.8 is neutral. No material news flagged for SPY.
+  2026-10-09  TSLA   pred:up  @52%  actual:up   (+2.03%)  [CORRECT]
+    Reasoning: Close 375.06 is above SMA20 (367.81) and SMA50 (353.26), SMA20 above SMA50 (net +3 of 3), MACD hist positive (0.68) despite falling OBV. A flagged regulatory_legal headline about Tesla renaming 'Full Self-Driving' to 'Tesla Assisted Driving' in Europe is a naming/regulatory-process story, not a clear negative for the stock, so it does not override the call.
+  2026-10-12  AAPL   pred:up  @52%  actual:up   (+1.36%)  [CORRECT]
+    Reasoning: AAPL closed at 336.47, just above SMA20 (335.40) and well above SMA50 (322.37), with SMA20 above SMA50 for a 3-of-3 trend alignment despite a slightly negative MACD histogram (-0.47); volume ran 2.0x its 20-day average but that's context only, not a reason to override. No material news flagged for AAPL.
+  2026-10-12  AMZN   pred:up  @52%  actual:down (-1.07%)  [WRONG]
+    Reasoning: AMZN closed at 262.42, above SMA20 (252.02) and SMA50 (259.08), though SMA20 remains below SMA50 (net +1 of 3); RSI14 59.4 and a positive MACD histogram (1.42) support the up call. No material news flagged for AMZN.
+  2026-10-12  GOOGL  pred:up  @52%  actual:up   (+0.32%)  [CORRECT]
+    Reasoning: GOOGL closed at 351.63, above both SMA20 (345.92) and SMA50 (346.13), though SMA20 sits just below SMA50 (net +1 of 3); RSI14 56.7 and a positive MACD histogram (0.91) still support the up call. No material news flagged for GOOGL.
+  2026-10-12  META   pred:up  @52%  actual:up   (+3.43%)  [CORRECT]
+    Reasoning: META closed at 718.38, just below its SMA20 (719.03) but well above SMA50 (639.38), with SMA20 above SMA50 giving a net +1 of 3 trend alignment; RSI14 57.0 despite a negative MACD histogram (-5.83) still yields an up call under the SMA-trend rule. No material news flagged for META.
+  2026-10-12  MSFT   pred:up  @52%  actual:up   (+1.10%)  [CORRECT]
+    Reasoning: MSFT closed at 535.20, above SMA20 (510.06) and SMA50 (500.18), a full 3-of-3 trend alignment; RSI14 67.6 and a strongly positive MACD histogram (1.49) support the up call. No material news flagged for MSFT.
+  2026-10-12  NVDA   pred:up  @52%  actual:down (-1.26%)  [WRONG]
+    Reasoning: NVDA closed at 229.35, above SMA20 (226.74) and SMA50 (221.95), SMA20 above SMA50 for a 3-of-3 trend alignment; RSI14 53.4 and a mildly positive MACD histogram (0.12) support the up call. A flagged guidance headline about TD Cowen's Bitcoin forecast and Strategy's dilution drag is unrelated to NVDA's own fundamentals, so it's noted but doesn't override the call.
+  2026-10-12  QQQ    pred:up  @52%  actual:down (-0.70%)  [WRONG]
+    Reasoning: QQQ closed at 751.26, above SMA20 (737.32) and SMA50 (723.98), SMA20 above SMA50 for a 3-of-3 trend alignment; RSI14 61.5 and a positive MACD histogram (0.86) back the up call. No material news flagged for QQQ.
+  2026-10-12  SMH    pred:up  @52%  actual:down (-2.12%)  [WRONG]
+    Reasoning: SMH closed at 603.39, above SMA20 (597.00) and SMA50 (578.21), SMA20 above SMA50 for a 3-of-3 trend alignment; RSI14 53.4 with a near-flat MACD histogram (-0.01) still supports the up call. No material news flagged for SMH.
+  2026-10-12  SPY    pred:up  @52%  actual:down (-0.06%)  [WRONG]
+    Reasoning: SPY closed at 778.51, above its SMA20 (767.60) and SMA50 (766.26), with SMA20 above SMA50 giving a full 3-of-3 trend alignment; RSI14 at 60.7 and a positive MACD histogram (1.10) support the up call. No material news flagged for SPY, so the computed signal stands unchanged.
+  2026-10-12  TSLA   pred:up  @52%  actual:down (-1.21%)  [WRONG]
+    Reasoning: TSLA closed at 382.68, above SMA20 (368.67) and SMA50 (354.74), SMA20 above SMA50 for a 3-of-3 trend alignment; RSI14 59.9 and a positive MACD histogram (1.06) support the up call. The same flagged Bitcoin/Strategy dilution headline is unrelated to TSLA's own business and doesn't cut against the call.
+  2026-10-13  AAPL   pred:up  @52%  actual:up   (+0.08%)  [CORRECT]
+    Reasoning: AAPL closed at 341.05, above SMA20 (335.8) and above SMA50 (323.02), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 60.33 and a negative MACD histogram (-0.1999) support the up call. No material news flagged for AAPL.
+  2026-10-13  AMZN   pred:up  @52%  actual:down (-0.39%)  [WRONG]
+    Reasoning: AMZN closed at 259.62, above SMA20 (252.32) and above SMA50 (258.84), with SMA20 below SMA50 for a net +1 of 3 trend alignment; RSI14 55.77 and a positive MACD histogram (1.453) support the up call. No material news flagged for AMZN.
+  2026-10-13  GOOGL  pred:up  @52%  actual:up   (+0.23%)  [CORRECT]
+    Reasoning: GOOGL closed at 352.77, above SMA20 (346.09) and above SMA50 (346.07), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 57.5 and a positive MACD histogram (1.0557) support the up call. No material news flagged for GOOGL.
+  2026-10-13  META   pred:up  @52%  actual:up   (+2.62%)  [CORRECT]
+    Reasoning: META closed at 743.02, above SMA20 (722.92) and above SMA50 (643.11), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 62.35 and a negative MACD histogram (-4.8298) support the up call. No material news flagged for META.
+  2026-10-13  MSFT   pred:up  @52%  actual:up   (+0.45%)  [CORRECT]
+    Reasoning: MSFT closed at 541.09, above SMA20 (511.83) and above SMA50 (501.72), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 69.65 and a positive MACD histogram (1.9344) support the up call. No material news flagged for MSFT.
+  2026-10-13  NVDA   pred:up  @52%  actual:up   (+0.90%)  [CORRECT]
+    Reasoning: NVDA closed at 226.46, below SMA20 (227.52) and above SMA50 (222.47), with SMA20 above SMA50 for a net +1 of 3 trend alignment; RSI14 49.35 and a negative MACD histogram (-0.4321) support the up call. No material news flagged for NVDA.
+  2026-10-13  QQQ    pred:up  @52%  actual:down (-0.32%)  [WRONG]
+    Reasoning: QQQ closed at 746.0, above SMA20 (739.19) and above SMA50 (725.16), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 56.34 and a positive MACD histogram (0.101) support the up call. No material news flagged for QQQ.
+  2026-10-13  SMH    pred:up  @52%  actual:down (-0.41%)  [WRONG]
+    Reasoning: SMH closed at 590.59, below SMA20 (599.49) and above SMA50 (579.22), with SMA20 above SMA50 for a net +1 of 3 trend alignment; RSI14 47.08 and a negative MACD histogram (-2.0426) support the up call. No material news flagged for SMH.
+  2026-10-13  SPY    pred:up  @52%  actual:down (+0.00%)  [WRONG]
+    Reasoning: SPY closed at 778.03, above SMA20 (768.56) and above SMA50 (766.92), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 59.65 and a positive MACD histogram (1.0546) support the up call. No material news flagged for SPY.
+  2026-10-13  TSLA   pred:up  @52%  actual:down (-0.76%)  [WRONG]
+    Reasoning: TSLA closed at 378.05, above SMA20 (369.62) and above SMA50 (356.08), with SMA20 above SMA50 for a net +3 of 3 trend alignment; RSI14 56.37 and a positive MACD histogram (0.9123) support the up call. No material news flagged for TSLA.
+  2026-10-14  AAPL   pred:up  @52%  actual:up   (+0.49%)  [CORRECT]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 341.33 vs SMA20 336.3 and SMA50 323.78, RSI14 60.36, MACD hist -0.0385. No material news flagged for AAPL, so the computed call stands unchanged.
+  2026-10-14  AMZN   pred:up  @52%  actual:down (-1.72%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 below SMA50 (net +1 of 3). Close 258.62 vs SMA20 252.83 and SMA50 258.33, RSI14 54.24, MACD hist 1.3356. No material news flagged for AMZN, so the computed call stands unchanged.
+  2026-10-14  GOOGL  pred:up  @52%  actual:down (-1.64%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 353.57 vs SMA20 346.52 and SMA50 345.67, RSI14 57.72, MACD hist 1.1353. No material news flagged for GOOGL, so the computed call stands unchanged.
+  2026-10-14  META   pred:up  @52%  actual:down (-3.18%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 762.51 vs SMA20 727.55 and SMA50 646.57, RSI14 65.66, MACD hist -2.9874. No material news flagged for META, so the computed call stands unchanged.
+  2026-10-14  MSFT   pred:up  @52%  actual:down (-1.74%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 543.51 vs SMA20 514.15 and SMA50 502.86, RSI14 70.32, MACD hist 2.1668. RSI 70.3 is overbought. Not a reversal signal: after RSI>75 inside an uptrend the next day was up 50.3% of the time. No material news flagged for MSFT, so the computed call stands unchanged.
+  2026-10-14  NVDA   pred:up  @52%  actual:down (-3.07%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 228.5 vs SMA20 228.33 and SMA50 222.91, RSI14 51.91, MACD hist -0.6668. No material news flagged for NVDA, so the computed call stands unchanged.
+  2026-10-14  QQQ    pred:up  @52%  actual:down (-1.97%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 743.64 vs SMA20 741.18 and SMA50 726.04, RSI14 54.63, MACD hist -0.6314. No material news flagged for QQQ, so the computed call stands unchanged.
+  2026-10-14  SMH    pred:up  @52%  actual:down (-3.92%)  [WRONG]
+    Reasoning: Signal basis: close below SMA20, above SMA50; SMA20 above SMA50 (net +1 of 3). Close 588.19 vs SMA20 601.79 and SMA50 580.07, RSI14 46.63, MACD hist -3.5177. No material news flagged for SMH, so the computed call stands unchanged.
+  2026-10-14  SPY    pred:up  @52%  actual:down (-1.08%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 778.03 vs SMA20 769.69 and SMA50 767.36, RSI14 59.43, MACD hist 0.9384. No material news flagged for SPY, so the computed call stands unchanged.
+  2026-10-14  TSLA   pred:up  @52%  actual:down (-2.07%)  [WRONG]
+    Reasoning: Signal basis: close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3). Close 375.19 vs SMA20 370.54 and SMA50 357.14, RSI14 54.35, MACD hist 0.542. No material news flagged for TSLA, so the computed call stands unchanged.
+  2026-10-15  AAPL   pred:up  @52%  actual:down (-0.32%)  [WRONG]
+    Reasoning: Close ($343.01) is above both SMA20 (336.83) and SMA50 (324.46), SMA20 above SMA50, a clean net +3 of 3. RSI14 62.1 is firm but not a down signal, and 1.67x relative volume is flagged only as reversal-risk context, not confirmation. No material news flagged.
+  2026-10-15  AMZN   pred:down@50%  actual:up   (+0.23%)  [WRONG]
+    Reasoning: Close ($254.18) is above SMA20 (253.24) but below SMA50 (257.87), and SMA20 is below SMA50, a net -1 of 3 trend vote despite positive MACD hist (+0.91). Flagged earnings headlines are about Anthropic's results, not AMZN, so they're ambiguous here and don't override the computed call.
+  2026-10-15  GOOGL  pred:up  @52%  actual:up   (+0.43%)  [CORRECT]
+    Reasoning: Close ($347.78) is above both SMA20 (346.76) and SMA50 (345.08), SMA20 above SMA50, a clean net +3 of 3 with MACD hist +0.74. Flagged earnings headlines are about Anthropic's Q3 revenue, not GOOGL itself, so they're ambiguous for this ticker and don't reverse the call.
+  2026-10-15  META   pred:up  @52%  actual:down (-0.22%)  [WRONG]
+    Reasoning: Close ($738.24) is above both SMA20 (730.81) and SMA50 (649.59), SMA20 above SMA50, a clean net +3 of 3 with SMA50 slope +4.7%. MACD hist is negative (-3.52) but that's not part of the trend vote; no material news flagged for META.
+  2026-10-15  MSFT   pred:up  @52%  actual:up   (+1.00%)  [CORRECT]
+    Reasoning: Close ($534.04) is above both SMA20 (516.33) and SMA50 (503.70), SMA20 above SMA50, net +3 of 3, with SMA50 slope +4.5% and MACD hist +1.49. A flagged regulatory headline (states suing OpenAI) is about a different company and doesn't plainly reverse MSFT's uptrend case, so it's noted but not an override.
+  2026-10-15  NVDA   pred:down@50%  actual:down (-1.88%)  [CORRECT]
+    Reasoning: Close ($221.49) is below both SMA20 (228.71) and SMA50 (223.10) even though SMA20 sits above SMA50, a net -1 of 3 vote, with RSI14 44.3 and MACD hist -1.26 confirming the softer tape. No material news flagged for NVDA.
+  2026-10-15  QQQ    pred:up  @52%  actual:down (-0.11%)  [WRONG]
+    Reasoning: Close ($728.99) sits below SMA20 (742.43) but above SMA50 (726.16), SMA20 above SMA50, net +1 of 3. RSI14 45.2 and MACD hist -2.07 are soft, and relative volume 1.35x with falling OBV is noted as context only, not a reason to flip. No material news flagged for QQQ.
+  2026-10-15  SMH    pred:down@50%  actual:down (-1.11%)  [CORRECT]
+    Reasoning: Close ($565.12) is below both SMA20 (602.76) and SMA50 (579.86) despite SMA20 sitting above SMA50, a net -1 of 3 vote; RSI14 38.8 and MACD hist -5.81 confirm the weak tape, and the stretch (-2.67 ATR from SMA20) and heavy 1.93x volume are flagged as context only. No material news flagged.
+  2026-10-15  SPY    pred:up  @52%  actual:up   (+0.28%)  [CORRECT]
+    Reasoning: Close ($769.65) is just below SMA20 (770.56) but above SMA50 (767.37), with SMA20 above SMA50 for a net +1 of 3 trend vote; RSI14 50.4 and MACD hist +0.25 are neutral-to-positive. A regulatory headline (states suing OpenAI) is flagged but targets OpenAI, not SPY directly, so it doesn't reverse the call.
+  2026-10-15  TSLA   pred:up  @52%  actual:down (-1.36%)  [WRONG]
+    Reasoning: Close ($367.41) is just below SMA20 (371.01) but above SMA50 (357.94), SMA20 above SMA50, net +1 of 3 with SMA50 slope +3.2%. A flagged merger-speculation headline is itself hedged ('prediction markets aren't buying it') and doesn't plainly reverse the case, so it's noted but not an override.
+
+--- MISSES THIS WEEK (30) ---
+  2026-10-09 AAPL: predicted up@52%, actual down (-1.16%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, OBV rising, RSI14 61.1
+  2026-10-09 AMZN: predicted down@50%, actual up (+3.27%)
+    Signals cited: close>SMA20, close<SMA50, SMA20<SMA50, MACD hist positive (context only), RSI14 50.8
+  2026-10-09 META: predicted up@52%, actual down (-0.36%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, SMA50 slope +3.6%, OBV falling (context only)
+  2026-10-09 NVDA: predicted up@52%, actual down (-0.53%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD hist positive, up/down volume ratio 2.2
+  2026-10-09 SMH: predicted up@52%, actual down (-0.54%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD hist positive, relative volume 1.63x (context only)
+  2026-10-12 AMZN: predicted up@52%, actual down (-1.07%)
+    Signals cited: close>SMA20, close>SMA50, SMA20<SMA50, MACD_hist positive
+  2026-10-12 NVDA: predicted up@52%, actual down (-1.26%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-12 QQQ: predicted up@52%, actual down (-0.70%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-12 SMH: predicted up@52%, actual down (-2.12%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50
+  2026-10-12 SPY: predicted up@52%, actual down (-0.06%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-12 TSLA: predicted up@52%, actual down (-1.21%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-13 AMZN: predicted up@52%, actual down (-0.39%)
+    Signals cited: close>SMA20, close>SMA50, SMA20<SMA50, MACD_hist positive
+  2026-10-13 QQQ: predicted up@52%, actual down (-0.32%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-13 SMH: predicted up@52%, actual down (-0.41%)
+    Signals cited: close<SMA20, close>SMA50, SMA20>SMA50, MACD_hist negative
+  2026-10-13 SPY: predicted up@52%, actual down (+0.00%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-13 TSLA: predicted up@52%, actual down (-0.76%)
+    Signals cited: close>SMA20, close>SMA50, SMA20>SMA50, MACD_hist positive
+  2026-10-14 AMZN: predicted up@52%, actual down (-1.72%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:-1, rsi14:54.24, macd_hist_sign:positive
+  2026-10-14 GOOGL: predicted up@52%, actual down (-1.64%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:57.72, macd_hist_sign:positive
+  2026-10-14 META: predicted up@52%, actual down (-3.18%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:65.66, macd_hist_sign:negative
+  2026-10-14 MSFT: predicted up@52%, actual down (-1.74%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:70.32, macd_hist_sign:positive
+  2026-10-14 NVDA: predicted up@52%, actual down (-3.07%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:51.91, macd_hist_sign:negative
+  2026-10-14 QQQ: predicted up@52%, actual down (-1.97%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:54.63, macd_hist_sign:negative
+  2026-10-14 SMH: predicted up@52%, actual down (-3.92%)
+    Signals cited: close_vs_sma20:-1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:46.63, macd_hist_sign:negative
+  2026-10-14 SPY: predicted up@52%, actual down (-1.08%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:59.43, macd_hist_sign:positive
+  2026-10-14 TSLA: predicted up@52%, actual down (-2.07%)
+    Signals cited: close_vs_sma20:1, close_vs_sma50:1, sma20_vs_sma50:1, rsi14:54.35, macd_hist_sign:positive
+  2026-10-15 AAPL: predicted up@52%, actual down (-0.32%)
+    Signals cited: close above SMA20 and SMA50 (net +3/3), RSI14 62.1, relative volume 1.67x (context only)
+  2026-10-15 AMZN: predicted down@50%, actual up (+0.23%)
+    Signals cited: close above SMA20, below SMA50 (net -1/3), SMA20 below SMA50, MACD hist positive but outvoted
+  2026-10-15 META: predicted up@52%, actual down (-0.22%)
+    Signals cited: close above SMA20 and SMA50 (net +3/3), SMA50 slope +4.7%, MACD hist negative (non-decisive)
+  2026-10-15 QQQ: predicted up@52%, actual down (-0.11%)
+    Signals cited: close below SMA20, above SMA50 (net +1/3), MACD hist negative, OBV falling (context only)
+  2026-10-15 TSLA: predicted up@52%, actual down (-1.36%)
+    Signals cited: close below SMA20, above SMA50 (net +1/3), SMA50 slope +3.2%, RSI14 49.5 neutral
+
+--- CAVEATS ---
+  ! 95 predictions span only 14 trading days. Same-day calls are correlated, so treat ~14 as the honest sample size for any aggregate number above.
+  ! The agent said 'up' on 87% of calls. That is drift, not prediction - compare it against the always-up baseline carefully.
+  ! No symbol has reached 30 graded predictions yet. Nothing here is signal.
+
+==============================================================================
+Note: the bar is 30+ graded predictions PER SYMBOL,
+      not pooled across symbols. Pooled counts flatter the sample.
+==============================================================================
