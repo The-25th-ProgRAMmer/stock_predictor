@@ -30,8 +30,8 @@
         "close_vs_sma20_pct": -1.019,
         "close_vs_sma50_pct": -0.527,
         "sma20_vs_sma50": "above",
-        "rsi14": 44.16,
-        "macd_hist": -0.8505,
+        "rsi14": 43.95,
+        "macd_hist": -0.8524,
         "atr14_pct_of_close": 0.895
       },
       "last_3_days": [
@@ -74,7 +74,7 @@
           "sma20": 771.2,
           "sma50": 767.38,
           "sma50_slope_10d_pct": 0.68,
-          "rsi14": 44.2,
+          "rsi14": 44.0,
           "stretch_atr_from_sma20": -1.15,
           "relative_volume_20d": 1.2,
           "up_down_volume_ratio_20d": 0.73,
@@ -100,8 +100,8 @@
         "close_vs_sma20_pct": -4.401,
         "close_vs_sma50_pct": -2.272,
         "sma20_vs_sma50": "above",
-        "rsi14": 35.05,
-        "macd_hist": -4.6305,
+        "rsi14": 34.75,
+        "macd_hist": -4.6312,
         "atr14_pct_of_close": 1.416
       },
       "last_3_days": [
@@ -144,7 +144,7 @@
           "sma20": 742.5,
           "sma50": 726.32,
           "sma50_slope_10d_pct": 1.412,
-          "rsi14": 35.1,
+          "rsi14": 34.8,
           "stretch_atr_from_sma20": -3.25,
           "relative_volume_20d": 1.55,
           "up_down_volume_ratio_20d": 0.76,
@@ -173,8 +173,8 @@
         "close_vs_sma20_pct": 1.76,
         "close_vs_sma50_pct": 5.429,
         "sma20_vs_sma50": "above",
-        "rsi14": 61.85,
-        "macd_hist": 0.181,
+        "rsi14": 61.77,
+        "macd_hist": 0.1802,
         "atr14_pct_of_close": 1.938
       },
       "last_3_days": [
@@ -243,8 +243,8 @@
         "close_vs_sma20_pct": 1.688,
         "close_vs_sma50_pct": 4.677,
         "sma20_vs_sma50": "above",
-        "rsi14": 57.16,
-        "macd_hist": 0.257,
+        "rsi14": 57.51,
+        "macd_hist": 0.2476,
         "atr14_pct_of_close": 2.206
       },
       "last_3_days": [
@@ -287,7 +287,7 @@
           "sma20": 520.21,
           "sma50": 505.36,
           "sma50_slope_10d_pct": 3.684,
-          "rsi14": 57.2,
+          "rsi14": 57.5,
           "stretch_atr_from_sma20": 0.75,
           "relative_volume_20d": 0.92,
           "up_down_volume_ratio_20d": 1.65,
@@ -313,8 +313,8 @@
         "close_vs_sma20_pct": -1.673,
         "close_vs_sma50_pct": -1.12,
         "sma20_vs_sma50": "above",
-        "rsi14": 43.96,
-        "macd_hist": -0.1721,
+        "rsi14": 44.36,
+        "macd_hist": -0.1866,
         "atr14_pct_of_close": 2.591
       },
       "last_3_days": [
@@ -357,7 +357,7 @@
           "sma20": 346.42,
           "sma50": 344.48,
           "sma50_slope_10d_pct": 0.078,
-          "rsi14": 44.0,
+          "rsi14": 44.4,
           "stretch_atr_from_sma20": -0.66,
           "relative_volume_20d": 0.85,
           "up_down_volume_ratio_20d": 1.21,
@@ -383,8 +383,8 @@
         "close_vs_sma20_pct": -1.308,
         "close_vs_sma50_pct": -2.779,
         "sma20_vs_sma50": "below",
-        "rsi14": 44.52,
-        "macd_hist": 0.1204,
+        "rsi14": 44.92,
+        "macd_hist": 0.1112,
         "atr14_pct_of_close": 2.339
       },
       "last_3_days": [
@@ -427,7 +427,7 @@
           "sma20": 253.23,
           "sma50": 257.06,
           "sma50_slope_10d_pct": 0.205,
-          "rsi14": 44.5,
+          "rsi14": 44.9,
           "stretch_atr_from_sma20": -0.57,
           "relative_volume_20d": 1.36,
           "up_down_volume_ratio_20d": 0.77,
@@ -453,8 +453,8 @@
         "close_vs_sma20_pct": -6.172,
         "close_vs_sma50_pct": -3.973,
         "sma20_vs_sma50": "above",
-        "rsi14": 37.34,
-        "macd_hist": -2.3621,
+        "rsi14": 37.17,
+        "macd_hist": -2.3635,
         "atr14_pct_of_close": 2.671
       },
       "last_3_days": [
@@ -497,7 +497,7 @@
           "sma20": 228.21,
           "sma50": 222.98,
           "sma50_slope_10d_pct": 2.223,
-          "rsi14": 37.3,
+          "rsi14": 37.2,
           "stretch_atr_from_sma20": -2.46,
           "relative_volume_20d": 1.25,
           "up_down_volume_ratio_20d": 1.07,
@@ -511,9 +511,9 @@
       "material_news": [
         {
           "event": "corporate",
-          "headline": "Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62422037/super-micro-finally-names-a-cfo-nearly-two-years-after-an-accounting-review-prompted-the-search",
-          "created_at": "2026-10-16T18:48:09Z"
+          "headline": "The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years\u2026'",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62426900/the-moment-jensen-huang-realized-nvidia-wont-have-to-die-came-after-a-call-from-this-ceo-for-the-whole-time-30-years",
+          "created_at": "2026-10-17T01:18:40Z"
         }
       ]
     },
@@ -530,8 +530,8 @@
         "close_vs_sma20_pct": -3.582,
         "close_vs_sma50_pct": 8.317,
         "sma20_vs_sma50": "above",
-        "rsi14": 50.19,
-        "macd_hist": -6.0851,
+        "rsi14": 50.29,
+        "macd_hist": -6.0959,
         "atr14_pct_of_close": 3.093
       },
       "last_3_days": [
@@ -574,7 +574,7 @@
           "sma20": 735.78,
           "sma50": 654.95,
           "sma50_slope_10d_pct": 4.847,
-          "rsi14": 50.2,
+          "rsi14": 50.3,
           "stretch_atr_from_sma20": -1.2,
           "relative_volume_20d": 0.95,
           "up_down_volume_ratio_20d": 1.04,
@@ -600,8 +600,8 @@
         "close_vs_sma20_pct": -4.238,
         "close_vs_sma50_pct": -1.339,
         "sma20_vs_sma50": "above",
-        "rsi14": 42.22,
-        "macd_hist": -2.0989,
+        "rsi14": 41.74,
+        "macd_hist": -2.0953,
         "atr14_pct_of_close": 3.034
       },
       "last_3_days": [
@@ -644,7 +644,7 @@
           "sma20": 370.34,
           "sma50": 359.46,
           "sma50_slope_10d_pct": 3.421,
-          "rsi14": 42.2,
+          "rsi14": 41.7,
           "stretch_atr_from_sma20": -1.46,
           "relative_volume_20d": 1.57,
           "up_down_volume_ratio_20d": 0.72,
@@ -672,8 +672,8 @@
         "close_vs_sma20_pct": -10.181,
         "close_vs_sma50_pct": -6.763,
         "sma20_vs_sma50": "above",
-        "rsi14": 31.51,
-        "macd_hist": -9.3462,
+        "rsi14": 31.02,
+        "macd_hist": -9.3388,
         "atr14_pct_of_close": 2.872
       },
       "last_3_days": [
@@ -716,7 +716,7 @@
           "sma20": 601.03,
           "sma50": 579.0,
           "sma50_slope_10d_pct": 1.615,
-          "rsi14": 31.5,
+          "rsi14": 31.0,
           "stretch_atr_from_sma20": -3.95,
           "relative_volume_20d": 1.7,
           "up_down_volume_ratio_20d": 0.41,
@@ -740,14 +740,14 @@
         "pct_1d": 7.927,
         "pct_5d": 8.656,
         "vs_sma20_pct": 6.54,
-        "rsi14": 59.4
+        "rsi14": 59.7
       },
       "VXX": {
         "close": 18.45,
         "pct_1d": 8.021,
         "pct_5d": 8.689,
         "vs_sma20_pct": 6.61,
-        "rsi14": 59.3
+        "rsi14": 59.7
       }
     },
     "metals": {
@@ -756,14 +756,14 @@
         "pct_1d": -0.167,
         "pct_5d": -0.663,
         "vs_sma20_pct": -0.59,
-        "rsi14": 45.5
+        "rsi14": 45.4
       },
       "SLV": {
         "close": 51.51,
         "pct_1d": -0.79,
         "pct_5d": -6.004,
         "vs_sma20_pct": -6.62,
-        "rsi14": 37.1
+        "rsi14": 36.9
       }
     },
     "bonds": {
@@ -772,14 +772,14 @@
         "pct_1d": 0.056,
         "pct_5d": 2.662,
         "vs_sma20_pct": 1.77,
-        "rsi14": 57.7
+        "rsi14": 57.9
       },
       "IEF": {
         "close": 90.42,
         "pct_1d": 0.083,
         "pct_5d": 1.141,
         "vs_sma20_pct": 0.93,
-        "rsi14": 56.0
+        "rsi14": 56.3
       }
     },
     "credit": {
@@ -788,14 +788,14 @@
         "pct_1d": -0.292,
         "pct_5d": -0.434,
         "vs_sma20_pct": -0.51,
-        "rsi14": 35.2
+        "rsi14": 35.1
       },
       "LQD": {
         "close": 103.39,
         "pct_1d": -0.121,
         "pct_5d": 0.947,
         "vs_sma20_pct": 0.69,
-        "rsi14": 53.5
+        "rsi14": 53.7
       }
     },
     "dollar": {
@@ -813,7 +813,7 @@
         "pct_1d": 2.822,
         "pct_5d": 9.114,
         "vs_sma20_pct": 8.39,
-        "rsi14": 66.8
+        "rsi14": 66.9
       }
     },
     "breadth": {
@@ -822,7 +822,7 @@
         "pct_1d": -1.654,
         "pct_5d": -3.026,
         "vs_sma20_pct": -3.16,
-        "rsi14": 32.0
+        "rsi14": 31.7
       }
     },
     "semis": {
@@ -831,7 +831,7 @@
         "pct_1d": -5.94,
         "pct_5d": -13.011,
         "vs_sma20_pct": -13.38,
-        "rsi14": 37.8
+        "rsi14": 37.5
       },
       "AVGO": {
         "close": 328.69,
@@ -845,21 +845,21 @@
         "pct_1d": -2.328,
         "pct_5d": -8.998,
         "vs_sma20_pct": -8.84,
-        "rsi14": 34.2
+        "rsi14": 33.7
       },
       "MU": {
         "close": 878.78,
         "pct_1d": -5.648,
         "pct_5d": -14.596,
         "vs_sma20_pct": -14.92,
-        "rsi14": 34.3
+        "rsi14": 33.4
       },
       "INTC": {
         "close": 89.77,
         "pct_1d": -5.827,
         "pct_5d": -14.268,
         "vs_sma20_pct": -20.25,
-        "rsi14": 31.5
+        "rsi14": 31.0
       }
     }
   },
@@ -939,6 +939,61 @@
   "news": [
     {
       "symbols": [
+        "NVDA"
+      ],
+      "headline": "Robotics Remains In Its \u2018Lego Era,\u2019 Says Former Nvidia Leader Turned VC as Physical AI Awaits Its ChatGPT Moment",
+      "summary": "Robotics remains in its Lego era as developers work to improve simulation, safety standards and hardware despite rising investment.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62427182/robotics-lego-era-simulation-safety-physical-ai",
+      "created_at": "2026-10-17T05:38:59Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny",
+      "summary": "The U.K.&#39;s competition regulator has proposed designating Microsoft as having a Strategic Market Status (SMS).",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62427164/uk-watchdog-microsoft-competition-scrutiny",
+      "created_at": "2026-10-17T05:10:06Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta Denies Political Bias in Brazil Elections After Staff Flagged Instagram Restrictions Affecting President Lula's Accounts: Report",
+      "summary": "Meta faces election interference allegations in Brazil over restrictions affecting Lula\u2019s accounts while promoting Bolsonaro\u2019s profile.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62427064/meta-brazil-election-lula-bolsonaro-instagram",
+      "created_at": "2026-10-17T02:29:51Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years\u2026'",
+      "summary": "Nvidia CEO Jensen Huang reveals how repeated calls and a personal letter to TSMC founder Morris Chang forged a decades-long partnership.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62426900/the-moment-jensen-huang-realized-nvidia-wont-have-to-die-came-after-a-call-from-this-ceo-for-the-whole-time-30-years",
+      "created_at": "2026-10-17T01:18:40Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Trump\u2019s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report (UPDATED)",
+      "summary": "Trump\u2019s $330 million White House ballroom donor list names major corporate contributors and raises questions over political ties and a pardon.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62409115/trumps-330-million-white-house-ballroom-donor-list-reveals-nvidia-apple-and-google-among-top-tech-contributors-report",
+      "created_at": "2026-10-17T00:40:40Z"
+    },
+    {
+      "symbols": [
         "AMZN",
         "GOOGL",
         "MSFT"
@@ -972,16 +1027,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "Chip Stocks Endure Longest Losing Streak Since 2006 as CoreWeave Credit Concerns Mount: This Week on Wall Street",
-      "summary": "The iShares Semiconductor ETF is on a nine-session losing run unseen since May 2006, as the KOSPI posts its worst week since 2008, optical names suffer dot-com-era drops and Bank of America sees a Cisco echo.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62424485/chip-stocks-endure-longest-losing-streak-since-2006-as-coreweave-credit-concerns-mount-this-week-on-wall-street",
-      "created_at": "2026-10-16T20:02:54Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "'State Department Warns Travelers To China They Risk \"Wrongful Detention\u201d' - Semafor",
@@ -1012,26 +1057,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search",
-      "summary": "Super Micro stock drops 9.6% as former Western Digital exec Mark Long takes over as CFO while the company addresses internal accounting and export-control scrutiny.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62422037/super-micro-finally-names-a-cfo-nearly-two-years-after-an-accounting-review-prompted-the-search",
-      "created_at": "2026-10-16T18:48:09Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "SemiAnalysis Pots On X \"SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives feel NVIDIA has been using high-pressure tactics to keep them NVIDIA-only....\"",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62421700/semianalysis-pots-x-shocking-we-have-confirmed-multiple-neoclouds-have-been-refused-access-gtc-berli",
-      "created_at": "2026-10-16T18:34:01Z"
-    },
-    {
-      "symbols": [
         "META"
       ],
       "headline": "Shopify Price Hikes Signal Pricing Power as JPMorgan Keeps $200 Bullish Target",
@@ -1049,26 +1074,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62421188/tesla-roadster-delivery-odds-flying-demo",
       "created_at": "2026-10-16T18:19:42Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "3 Communication Services Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62419492/3-communication-services-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-16T17:35:08Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62419489/10-information-technology-stocks-whale-activity-today-s-session",
-      "created_at": "2026-10-16T17:35:07Z"
     },
     {
       "symbols": [
@@ -1123,17 +1128,6 @@
     },
     {
       "symbols": [
-        "GOOGL",
-        "TSLA"
-      ],
-      "headline": "Why Is Applied Digital Stock Falling Friday?",
-      "summary": "Applied Digital stock drops as AI debt concerns &amp; surging CoreWeave bond yields trigger a sector-wide sell-off. Get the breakdown.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62414535/why-is-applied-digital-stock-falling-friday",
-      "created_at": "2026-10-16T15:21:11Z"
-    },
-    {
-      "symbols": [
         "AAPL"
       ],
       "headline": "'PayPal And Epic Games Have Discussed Concerns With The Justice Department That A Settlement With Apple Could Fail To Meaningfully Curb Its Restrictions On Rival Apps And Devices' - The Information",
@@ -1141,43 +1135,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/10/62414478/paypal-and-epic-games-have-discussed-concerns-justice-department-settlement-apple-could-fail-meaning",
       "created_at": "2026-10-16T15:19:23Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Jack Henry To Provide Tokenized Deposits Under Expanded Partnership With Google Cloud Through Universal Ledger",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62413877/jack-henry-provide-tokenized-deposits-under-expanded-partnership-google-cloud-through-universal-ledg",
-      "created_at": "2026-10-16T15:03:33Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "META",
-        "MSFT",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "9 Of 11 Sectors Rise In Friday Trading As Cyclicals Lead",
-      "summary": "Nine of 11 sectors are higher in Friday\u2019s regular session, with cyclical sectors holding the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62413716/9-of-11-sectors-rise-in-friday-trading-as-cyclicals-lead",
-      "created_at": "2026-10-16T15:00:20Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "GOOGL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Trump\u2019s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report (UPDATED)",
-      "summary": "Trump\u2019s $330 million White House ballroom donor list names major corporate contributors and raises questions over political ties and a pardon.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62409115/trumps-330-million-white-house-ballroom-donor-list-reveals-nvidia-apple-and-google-among-top-tech-contributors-report",
-      "created_at": "2026-10-16T14:28:29Z"
     }
   ]
 }
