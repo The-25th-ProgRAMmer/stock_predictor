@@ -52,3 +52,4 @@
 {"date": "2026-10-19", "taken_at": "2026-10-19T20:11:19.834497+00:00", "equity": 97995.22, "last_equity": 98211.12, "cash": 92164.22, "long_market_value": 5831.0, "short_market_value": 0.0}
 {"date": "2026-10-19", "taken_at": "2026-10-19T22:59:46.272938+00:00", "equity": 97994.88, "last_equity": 98211.12, "cash": 92164.22, "long_market_value": 5830.66, "short_market_value": 0.0}
 {"date": "2026-10-19", "taken_at": "2026-10-19T23:49:32.488725+00:00", "equity": 97995.32, "last_equity": 98211.12, "cash": 92164.22, "long_market_value": 5831.1, "short_market_value": 0.0}
+{"date": "2026-10-20", "taken_at": "2026-10-20T13:35:02.510125+00:00", "equity": 98023.14, "last_equity": 97994.01, "cash": 105685.78, "long_market_value": 5818.08, "short_market_value": -13480.72}
