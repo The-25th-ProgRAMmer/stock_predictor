@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-19",
-  "for_date": "2026-10-20",
+  "as_of": "2026-10-20",
+  "for_date": "2026-10-21",
   "anchor": "SPY",
   "targets": [
     "SPY",
@@ -18,31 +18,23 @@
   "missing_symbols": [],
   "target_data": {
     "SPY": {
-      "latest_close": 766.6,
-      "prev_close": 763.34,
+      "latest_close": 769.09,
+      "prev_close": 766.6,
       "prev_day_direction": "up",
-      "prev_day_pct": 0.428,
-      "pct_5d": -1.469,
-      "pct_20d": -0.895,
+      "prev_day_pct": 0.325,
+      "pct_5d": -1.149,
+      "pct_20d": -0.562,
       "indicators": {
-        "sma20": 770.85,
-        "sma50": 767.29,
-        "close_vs_sma20_pct": -0.551,
-        "close_vs_sma50_pct": -0.09,
+        "sma20": 770.63,
+        "sma50": 767.25,
+        "close_vs_sma20_pct": -0.2,
+        "close_vs_sma50_pct": 0.24,
         "sma20_vs_sma50": "above",
-        "rsi14": 47.31,
-        "macd_hist": -1.1091,
-        "atr14_pct_of_close": 0.915
+        "rsi14": 49.77,
+        "macd_hist": -1.0767,
+        "atr14_pct_of_close": 0.92
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 766.27,
-          "h": 772.86,
-          "l": 764.43,
-          "c": 771.77,
-          "v": 1532510
-        },
         {
           "t": "2026-10-16",
           "o": 773.12,
@@ -58,61 +50,61 @@
           "l": 765.84,
           "c": 766.6,
           "v": 1135345
+        },
+        {
+          "t": "2026-10-20",
+          "o": 765.67,
+          "h": 772.29,
+          "l": 764.34,
+          "c": 769.09,
+          "v": 1235267
         }
       ],
       "signal": {
-        "direction": "down",
-        "confidence": 50,
+        "direction": "up",
+        "confidence": 52,
         "rule": "direction follows SMA trend alignment; tie -> up (base rate)",
-        "basis": "close below SMA20, below SMA50; SMA20 above SMA50 (net -1 of 3)",
+        "basis": "close below SMA20, above SMA50; SMA20 above SMA50 (net +1 of 3)",
         "trend_votes": {
           "close_vs_sma20": -1,
-          "close_vs_sma50": -1,
+          "close_vs_sma50": 1,
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 770.85,
-          "sma50": 767.29,
-          "sma50_slope_10d_pct": 0.568,
-          "rsi14": 47.3,
-          "stretch_atr_from_sma20": -0.61,
-          "relative_volume_20d": 0.95,
-          "up_down_volume_ratio_20d": 0.7,
+          "sma20": 770.63,
+          "sma50": 767.25,
+          "sma50_slope_10d_pct": 0.452,
+          "rsi14": 49.8,
+          "stretch_atr_from_sma20": -0.22,
+          "relative_volume_20d": 1.03,
+          "up_down_volume_ratio_20d": 0.86,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -0.89,
-          "spy_regime": "below_sma50"
+          "pct_20d": -0.56,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
       "material_news": []
     },
     "QQQ": {
-      "latest_close": 718.31,
-      "prev_close": 709.82,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.196,
-      "pct_5d": -3.712,
-      "pct_20d": -3.116,
+      "latest_close": 717.21,
+      "prev_close": 718.31,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.153,
+      "pct_5d": -3.554,
+      "pct_20d": -4.043,
       "indicators": {
-        "sma20": 741.34,
-        "sma50": 726.24,
-        "close_vs_sma20_pct": -3.107,
-        "close_vs_sma50_pct": -1.092,
+        "sma20": 739.83,
+        "sma50": 726.19,
+        "close_vs_sma20_pct": -3.057,
+        "close_vs_sma50_pct": -1.236,
         "sma20_vs_sma50": "above",
-        "rsi14": 40.84,
-        "macd_hist": -4.9433,
-        "atr14_pct_of_close": 1.496
+        "rsi14": 40.31,
+        "macd_hist": -4.9959,
+        "atr14_pct_of_close": 1.55
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 718.61,
-          "h": 729.38,
-          "l": 715.46,
-          "c": 728.19,
-          "v": 712229
-        },
         {
           "t": "2026-10-16",
           "o": 725.52,
@@ -128,6 +120,14 @@
           "l": 716.64,
           "c": 718.31,
           "v": 604650
+        },
+        {
+          "t": "2026-10-20",
+          "o": 715.24,
+          "h": 722.74,
+          "l": 710.42,
+          "c": 717.21,
+          "v": 506120
         }
       ],
       "signal": {
@@ -141,48 +141,40 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 741.34,
-          "sma50": 726.24,
-          "sma50_slope_10d_pct": 1.196,
-          "rsi14": 40.8,
-          "stretch_atr_from_sma20": -2.14,
-          "relative_volume_20d": 1.2,
-          "up_down_volume_ratio_20d": 0.72,
+          "sma20": 739.83,
+          "sma50": 726.19,
+          "sma50_slope_10d_pct": 0.968,
+          "rsi14": 40.3,
+          "stretch_atr_from_sma20": -2.03,
+          "relative_volume_20d": 0.99,
+          "up_down_volume_ratio_20d": 0.6,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -3.12,
-          "spy_regime": "below_sma50"
+          "pct_20d": -4.04,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
       "material_news": []
     },
     "AAPL": {
-      "latest_close": 342.99,
-      "prev_close": 343.39,
+      "latest_close": 339.66,
+      "prev_close": 342.99,
       "prev_day_direction": "down",
-      "prev_day_pct": -0.116,
-      "pct_5d": 0.57,
-      "pct_20d": 1.177,
+      "prev_day_pct": -0.971,
+      "pct_5d": -0.489,
+      "pct_20d": -0.056,
       "indicators": {
-        "sma20": 337.65,
-        "sma50": 326.31,
-        "close_vs_sma20_pct": 1.582,
-        "close_vs_sma50_pct": 5.112,
+        "sma20": 337.64,
+        "sma50": 326.94,
+        "close_vs_sma20_pct": 0.598,
+        "close_vs_sma50_pct": 3.891,
         "sma20_vs_sma50": "above",
-        "rsi14": 61.09,
-        "macd_hist": 0.1405,
-        "atr14_pct_of_close": 1.86
+        "rsi14": 55.64,
+        "macd_hist": -0.1406,
+        "atr14_pct_of_close": 1.762
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 347.02,
-          "h": 347.72,
-          "l": 341.62,
-          "c": 341.91,
-          "v": 1111639
-        },
         {
           "t": "2026-10-16",
           "o": 346.08,
@@ -198,6 +190,14 @@
           "l": 340.13,
           "c": 342.99,
           "v": 971167
+        },
+        {
+          "t": "2026-10-20",
+          "o": 339.86,
+          "h": 343.06,
+          "l": 338.71,
+          "c": 339.66,
+          "v": 834562
         }
       ],
       "signal": {
@@ -211,48 +211,53 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 337.65,
-          "sma50": 326.31,
-          "sma50_slope_10d_pct": 1.224,
-          "rsi14": 61.1,
-          "stretch_atr_from_sma20": 0.84,
-          "relative_volume_20d": 0.84,
-          "up_down_volume_ratio_20d": 1.17,
+          "sma20": 337.64,
+          "sma50": 326.94,
+          "sma50_slope_10d_pct": 1.438,
+          "rsi14": 55.6,
+          "stretch_atr_from_sma20": 0.34,
+          "relative_volume_20d": 0.73,
+          "up_down_volume_ratio_20d": 1.0,
           "obv_10d": "rising",
-          "macd_hist_sign": "positive",
-          "pct_20d": 1.18,
-          "spy_regime": "below_sma50"
+          "macd_hist_sign": "negative",
+          "pct_20d": -0.06,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "guidance",
+          "headline": "Analysts Adjust Outlook on Apple Stock",
+          "url": "https://www.moomoo.com/stock/AAPL-US/news?chain_id=Name1K9-3FXPhg.1ldanc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Fhans%2Flearn%2Fcash-secured-put%22%7D",
+          "created_at": "2026-10-20T19:02:01Z"
+        },
+        {
+          "event": "rating_change",
+          "headline": "MoffettNathanson Maintains Neutral on Apple, Lowers Price Target to $283",
+          "url": "https://www.benzinga.com/news/26/10/62477887/moffettnathanson-maintains-neutral-apple-lowers-price-target-283",
+          "created_at": "2026-10-20T18:01:16Z"
+        }
+      ]
     },
     "MSFT": {
-      "latest_close": 533.64,
-      "prev_close": 528.99,
-      "prev_day_direction": "up",
-      "prev_day_pct": 0.88,
-      "pct_5d": -1.375,
-      "pct_20d": 6.38,
+      "latest_close": 532.02,
+      "prev_close": 533.64,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.305,
+      "pct_5d": -2.114,
+      "pct_20d": 6.831,
       "indicators": {
-        "sma20": 521.81,
-        "sma50": 506.05,
-        "close_vs_sma20_pct": 2.268,
-        "close_vs_sma50_pct": 5.453,
+        "sma20": 523.51,
+        "sma50": 506.59,
+        "close_vs_sma20_pct": 1.625,
+        "close_vs_sma50_pct": 5.02,
         "sma20_vs_sma50": "above",
-        "rsi14": 59.82,
-        "macd_hist": -0.186,
-        "atr14_pct_of_close": 2.133
+        "rsi14": 58.62,
+        "macd_hist": -0.6523,
+        "atr14_pct_of_close": 2.106
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 533.65,
-          "h": 541.08,
-          "l": 531.46,
-          "c": 539.36,
-          "v": 670262
-        },
         {
           "t": "2026-10-16",
           "o": 541.25,
@@ -268,6 +273,14 @@
           "l": 528.57,
           "c": 533.64,
           "v": 546008
+        },
+        {
+          "t": "2026-10-20",
+          "o": 533.79,
+          "h": 534.17,
+          "l": 525.86,
+          "c": 532.02,
+          "v": 463037
         }
       ],
       "signal": {
@@ -281,55 +294,47 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 521.81,
-          "sma50": 506.05,
-          "sma50_slope_10d_pct": 3.217,
-          "rsi14": 59.8,
-          "stretch_atr_from_sma20": 1.04,
-          "relative_volume_20d": 0.76,
-          "up_down_volume_ratio_20d": 1.6,
+          "sma20": 523.51,
+          "sma50": 506.59,
+          "sma50_slope_10d_pct": 2.735,
+          "rsi14": 58.6,
+          "stretch_atr_from_sma20": 0.76,
+          "relative_volume_20d": 0.65,
+          "up_down_volume_ratio_20d": 1.64,
           "obv_10d": "rising",
           "macd_hist_sign": "negative",
-          "pct_20d": 6.38,
-          "spy_regime": "below_sma50"
+          "pct_20d": 6.83,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
       "material_news": [
         {
           "event": "deal",
-          "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
-          "created_at": "2026-10-20T01:40:28Z"
+          "headline": "'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive",
+          "url": "https://www.benzinga.com/m/26/10/62477847/openai-acquires-biotech-startup-ai-race-moves-drug-development-axios-exclusive",
+          "created_at": "2026-10-20T18:00:25Z"
         }
       ]
     },
     "GOOGL": {
-      "latest_close": 344.09,
-      "prev_close": 340.62,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.017,
-      "pct_5d": -2.461,
-      "pct_20d": -3.054,
+      "latest_close": 340.05,
+      "prev_close": 344.09,
+      "prev_day_direction": "down",
+      "prev_day_pct": -1.176,
+      "pct_5d": -3.825,
+      "pct_20d": -3.171,
       "indicators": {
-        "sma20": 345.88,
-        "sma50": 344.28,
-        "close_vs_sma20_pct": -0.517,
-        "close_vs_sma50_pct": -0.056,
+        "sma20": 345.32,
+        "sma50": 343.94,
+        "close_vs_sma20_pct": -1.528,
+        "close_vs_sma50_pct": -1.132,
         "sma20_vs_sma50": "above",
-        "rsi14": 47.98,
-        "macd_hist": -0.415,
-        "atr14_pct_of_close": 2.589
+        "rsi14": 44.36,
+        "macd_hist": -0.805,
+        "atr14_pct_of_close": 2.51
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 344.6,
-          "h": 352.15,
-          "l": 340.72,
-          "c": 349.27,
-          "v": 578247
-        },
         {
           "t": "2026-10-16",
           "o": 348.32,
@@ -345,6 +350,14 @@
           "l": 341.9,
           "c": 344.09,
           "v": 497856
+        },
+        {
+          "t": "2026-10-20",
+          "o": 343.65,
+          "h": 344.75,
+          "l": 338.36,
+          "c": 340.05,
+          "v": 672495
         }
       ],
       "signal": {
@@ -358,48 +371,47 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 345.88,
-          "sma50": 344.28,
-          "sma50_slope_10d_pct": -0.137,
-          "rsi14": 48.0,
-          "stretch_atr_from_sma20": -0.2,
-          "relative_volume_20d": 0.7,
-          "up_down_volume_ratio_20d": 1.16,
+          "sma20": 345.32,
+          "sma50": 343.94,
+          "sma50_slope_10d_pct": -0.362,
+          "rsi14": 44.4,
+          "stretch_atr_from_sma20": -0.62,
+          "relative_volume_20d": 0.97,
+          "up_down_volume_ratio_20d": 1.23,
           "obv_10d": "rising",
           "macd_hist_sign": "negative",
-          "pct_20d": -3.05,
-          "spy_regime": "below_sma50"
+          "pct_20d": -3.17,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "rating_change",
+          "headline": "BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480",
+          "url": "https://www.benzinga.com/news/26/10/62477293/bmo-capital-maintains-outperform-alphabet-raises-price-target-480",
+          "created_at": "2026-10-20T17:46:24Z"
+        }
+      ]
     },
     "AMZN": {
-      "latest_close": 262.5,
-      "prev_close": 249.92,
+      "latest_close": 262.78,
+      "prev_close": 262.5,
       "prev_day_direction": "up",
-      "prev_day_pct": 5.034,
-      "pct_5d": 1.109,
-      "pct_20d": 1.585,
+      "prev_day_pct": 0.107,
+      "pct_5d": 1.609,
+      "pct_20d": 3.057,
       "indicators": {
-        "sma20": 253.44,
-        "sma50": 256.83,
-        "close_vs_sma20_pct": 3.576,
-        "close_vs_sma50_pct": 2.21,
+        "sma20": 253.83,
+        "sma50": 256.52,
+        "close_vs_sma20_pct": 3.527,
+        "close_vs_sma50_pct": 2.44,
         "sma20_vs_sma50": "below",
-        "rsi14": 57.42,
-        "macd_hist": 0.5847,
-        "atr14_pct_of_close": 2.503
+        "rsi14": 57.65,
+        "macd_hist": 0.8664,
+        "atr14_pct_of_close": 2.46
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 250.13,
-          "h": 255.58,
-          "l": 248.79,
-          "c": 254.76,
-          "v": 1569681
-        },
         {
           "t": "2026-10-16",
           "o": 254.97,
@@ -415,6 +427,14 @@
           "l": 255.29,
           "c": 262.5,
           "v": 1789851
+        },
+        {
+          "t": "2026-10-20",
+          "o": 264.3,
+          "h": 265.28,
+          "l": 260.45,
+          "c": 262.78,
+          "v": 1672247
         }
       ],
       "signal": {
@@ -428,55 +448,40 @@
           "sma20_vs_sma50": -1
         },
         "evidence": {
-          "sma20": 253.44,
-          "sma50": 256.83,
-          "sma50_slope_10d_pct": -0.037,
-          "rsi14": 57.4,
-          "stretch_atr_from_sma20": 1.38,
-          "relative_volume_20d": 1.5,
-          "up_down_volume_ratio_20d": 0.82,
+          "sma20": 253.83,
+          "sma50": 256.52,
+          "sma50_slope_10d_pct": -0.348,
+          "rsi14": 57.6,
+          "stretch_atr_from_sma20": 1.39,
+          "relative_volume_20d": 1.38,
+          "up_down_volume_ratio_20d": 1.05,
           "obv_10d": "rising",
           "macd_hist_sign": "positive",
-          "pct_20d": 1.58,
-          "spy_regime": "below_sma50"
+          "pct_20d": 3.06,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
-          "created_at": "2026-10-20T01:40:28Z"
-        }
-      ]
+      "material_news": []
     },
     "NVDA": {
-      "latest_close": 217.09,
-      "prev_close": 214.12,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.382,
-      "pct_5d": -4.14,
-      "pct_20d": -4.494,
+      "latest_close": 216.41,
+      "prev_close": 217.09,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.311,
+      "pct_5d": -5.291,
+      "pct_20d": -5.436,
       "indicators": {
-        "sma20": 227.7,
-        "sma50": 222.85,
-        "close_vs_sma20_pct": -4.662,
-        "close_vs_sma50_pct": -2.588,
+        "sma20": 227.08,
+        "sma50": 222.84,
+        "close_vs_sma20_pct": -4.698,
+        "close_vs_sma50_pct": -2.883,
         "sma20_vs_sma50": "above",
-        "rsi14": 41.17,
-        "macd_hist": -2.3899,
-        "atr14_pct_of_close": 2.625
+        "rsi14": 40.53,
+        "macd_hist": -2.3392,
+        "atr14_pct_of_close": 2.651
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 215.28,
-          "h": 218.46,
-          "l": 212.87,
-          "c": 217.33,
-          "v": 4353216
-        },
         {
           "t": "2026-10-16",
           "o": 216.53,
@@ -492,6 +497,14 @@
           "l": 214.71,
           "c": 217.09,
           "v": 2365992
+        },
+        {
+          "t": "2026-10-20",
+          "o": 215.99,
+          "h": 218.46,
+          "l": 212.78,
+          "c": 216.41,
+          "v": 2760246
         }
       ],
       "signal": {
@@ -505,48 +518,40 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 227.7,
-          "sma50": 222.85,
-          "sma50_slope_10d_pct": 1.862,
-          "rsi14": 41.2,
+          "sma20": 227.08,
+          "sma50": 222.84,
+          "sma50_slope_10d_pct": 1.457,
+          "rsi14": 40.5,
           "stretch_atr_from_sma20": -1.86,
-          "relative_volume_20d": 0.81,
-          "up_down_volume_ratio_20d": 1.05,
+          "relative_volume_20d": 0.94,
+          "up_down_volume_ratio_20d": 0.88,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -4.49,
-          "spy_regime": "below_sma50"
+          "pct_20d": -5.44,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
       "material_news": []
     },
     "META": {
-      "latest_close": 704.99,
-      "prev_close": 709.42,
+      "latest_close": 693.91,
+      "prev_close": 704.99,
       "prev_day_direction": "down",
-      "prev_day_pct": -0.624,
-      "pct_5d": -5.118,
-      "pct_20d": -4.897,
+      "prev_day_pct": -1.572,
+      "pct_5d": -8.997,
+      "pct_20d": -5.795,
       "indicators": {
-        "sma20": 733.96,
-        "sma50": 657.22,
-        "close_vs_sma20_pct": -3.947,
-        "close_vs_sma50_pct": 7.268,
+        "sma20": 731.83,
+        "sma50": 659.21,
+        "close_vs_sma20_pct": -5.181,
+        "close_vs_sma50_pct": 5.264,
         "sma20_vs_sma50": "above",
-        "rsi14": 49.16,
-        "macd_hist": -7.5966,
-        "atr14_pct_of_close": 3.019
+        "rsi14": 46.36,
+        "macd_hist": -9.0628,
+        "atr14_pct_of_close": 3.132
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 726.11,
-          "h": 743.79,
-          "l": 715.59,
-          "c": 736.58,
-          "v": 606504
-        },
         {
           "t": "2026-10-16",
           "o": 737.05,
@@ -562,6 +567,14 @@
           "l": 693.87,
           "c": 704.99,
           "v": 543145
+        },
+        {
+          "t": "2026-10-20",
+          "o": 695.15,
+          "h": 696.5,
+          "l": 681.18,
+          "c": 693.91,
+          "v": 597029
         }
       ],
       "signal": {
@@ -575,55 +588,40 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 733.96,
-          "sma50": 657.22,
-          "sma50_slope_10d_pct": 4.718,
-          "rsi14": 49.2,
-          "stretch_atr_from_sma20": -1.36,
-          "relative_volume_20d": 0.77,
-          "up_down_volume_ratio_20d": 0.75,
+          "sma20": 731.83,
+          "sma50": 659.21,
+          "sma50_slope_10d_pct": 4.549,
+          "rsi14": 46.4,
+          "stretch_atr_from_sma20": -1.74,
+          "relative_volume_20d": 0.88,
+          "up_down_volume_ratio_20d": 0.79,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -4.9,
-          "spy_regime": "below_sma50"
+          "pct_20d": -5.79,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Mark Zuckerberg Called AI Agents Meta\u2019s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
-          "created_at": "2026-10-20T07:40:49Z"
-        }
-      ]
+      "material_news": []
     },
     "TSLA": {
-      "latest_close": 367.94,
-      "prev_close": 354.65,
+      "latest_close": 373.62,
+      "prev_close": 367.94,
       "prev_day_direction": "up",
-      "prev_day_pct": 3.746,
-      "pct_5d": -2.676,
-      "pct_20d": -1.931,
+      "prev_day_pct": 1.545,
+      "pct_5d": -0.418,
+      "pct_20d": -1.38,
       "indicators": {
-        "sma20": 369.98,
-        "sma50": 360.25,
-        "close_vs_sma20_pct": -0.553,
-        "close_vs_sma50_pct": 2.132,
+        "sma20": 369.72,
+        "sma50": 361.11,
+        "close_vs_sma20_pct": 1.055,
+        "close_vs_sma50_pct": 3.465,
         "sma20_vs_sma50": "above",
-        "rsi14": 50.16,
-        "macd_hist": -1.7987,
-        "atr14_pct_of_close": 3.082
+        "rsi14": 53.27,
+        "macd_hist": -1.1837,
+        "atr14_pct_of_close": 3.123
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 360.49,
-          "h": 363.67,
-          "l": 355.27,
-          "c": 362.43,
-          "v": 735727
-        },
         {
           "t": "2026-10-16",
           "o": 369.35,
@@ -639,61 +637,74 @@
           "l": 354.76,
           "c": 367.94,
           "v": 794530
+        },
+        {
+          "t": "2026-10-20",
+          "o": 370.24,
+          "h": 377.52,
+          "l": 363.69,
+          "c": 373.62,
+          "v": 607480
         }
       ],
       "signal": {
         "direction": "up",
         "confidence": 52,
         "rule": "direction follows SMA trend alignment; tie -> up (base rate)",
-        "basis": "close below SMA20, above SMA50; SMA20 above SMA50 (net +1 of 3)",
+        "basis": "close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3)",
         "trend_votes": {
-          "close_vs_sma20": -1,
+          "close_vs_sma20": 1,
           "close_vs_sma50": 1,
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 369.98,
-          "sma50": 360.25,
-          "sma50_slope_10d_pct": 3.257,
-          "rsi14": 50.2,
-          "stretch_atr_from_sma20": -0.18,
-          "relative_volume_20d": 1.2,
-          "up_down_volume_ratio_20d": 0.72,
+          "sma20": 369.72,
+          "sma50": 361.11,
+          "sma50_slope_10d_pct": 3.08,
+          "rsi14": 53.3,
+          "stretch_atr_from_sma20": 0.33,
+          "relative_volume_20d": 0.91,
+          "up_down_volume_ratio_20d": 0.73,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -1.93,
-          "spy_regime": "below_sma50"
+          "pct_20d": -1.38,
+          "spy_regime": "above_sma50"
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "Tesla and SpaceX Explore Potential Merger",
+          "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger",
+          "created_at": "2026-10-20T23:01:34Z"
+        },
+        {
+          "event": "deal",
+          "headline": "Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal \u2018A Good Idea\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62484678/elon-musk-confirms-spacex-tesla-merger-committees-calls-deal-a-good-idea",
+          "created_at": "2026-10-20T21:55:45Z"
+        }
+      ]
     },
     "SMH": {
-      "latest_close": 548.35,
-      "prev_close": 539.84,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.576,
-      "pct_5d": -7.152,
-      "pct_20d": -7.986,
+      "latest_close": 546.08,
+      "prev_close": 548.35,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.414,
+      "pct_5d": -7.159,
+      "pct_20d": -10.097,
       "indicators": {
-        "sma20": 598.65,
-        "sma50": 578.3,
-        "close_vs_sma20_pct": -8.402,
-        "close_vs_sma50_pct": -5.18,
+        "sma20": 595.58,
+        "sma50": 577.84,
+        "close_vs_sma20_pct": -8.312,
+        "close_vs_sma50_pct": -5.496,
         "sma20_vs_sma50": "above",
-        "rsi14": 35.28,
-        "macd_hist": -9.5688,
-        "atr14_pct_of_close": 2.902
+        "rsi14": 34.67,
+        "macd_hist": -9.3893,
+        "atr14_pct_of_close": 3.065
       },
       "last_3_days": [
-        {
-          "t": "2026-10-15",
-          "o": 546.03,
-          "h": 560.6,
-          "l": 540.64,
-          "c": 558.86,
-          "v": 750201
-        },
         {
           "t": "2026-10-16",
           "o": 551.12,
@@ -709,6 +720,14 @@
           "l": 547.69,
           "c": 548.35,
           "v": 340124
+        },
+        {
+          "t": "2026-10-20",
+          "o": 541.8,
+          "h": 553.81,
+          "l": 536.39,
+          "c": 546.08,
+          "v": 359215
         }
       ],
       "signal": {
@@ -722,20 +741,20 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 598.65,
-          "sma50": 578.3,
-          "sma50_slope_10d_pct": 1.234,
-          "rsi14": 35.3,
-          "stretch_atr_from_sma20": -3.16,
-          "relative_volume_20d": 1.08,
-          "up_down_volume_ratio_20d": 0.4,
+          "sma20": 595.58,
+          "sma50": 577.84,
+          "sma50_slope_10d_pct": 0.856,
+          "rsi14": 34.7,
+          "stretch_atr_from_sma20": -2.96,
+          "relative_volume_20d": 1.12,
+          "up_down_volume_ratio_20d": 0.33,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -7.99,
-          "spy_regime": "below_sma50"
+          "pct_20d": -10.1,
+          "spy_regime": "above_sma50"
         },
         "notes": [
-          "Price is -3.2 ATRs from SMA20 - stretched. Context only."
+          "Price is -3.0 ATRs from SMA20 - stretched. Context only."
         ]
       },
       "material_news": []
@@ -744,201 +763,201 @@
   "context_data": {
     "volatility": {
       "VIXY": {
-        "close": 17.04,
-        "pct_1d": -3.729,
-        "pct_5d": 6.367,
-        "vs_sma20_pct": 2.55,
-        "rsi14": 51.7
+        "close": 16.88,
+        "pct_1d": -0.939,
+        "pct_5d": 5.335,
+        "vs_sma20_pct": 1.47,
+        "rsi14": 50.0
       },
       "VXX": {
-        "close": 17.77,
-        "pct_1d": -3.686,
-        "pct_5d": 6.439,
-        "vs_sma20_pct": 2.65,
-        "rsi14": 51.9
+        "close": 17.62,
+        "pct_1d": -0.844,
+        "pct_5d": 5.509,
+        "vs_sma20_pct": 1.65,
+        "rsi14": 50.3
       }
     },
     "metals": {
       "GLD": {
-        "close": 379.65,
-        "pct_1d": -0.626,
-        "pct_5d": -0.659,
-        "vs_sma20_pct": -0.97,
-        "rsi14": 43.4
+        "close": 377.68,
+        "pct_1d": -0.519,
+        "pct_5d": -1.04,
+        "vs_sma20_pct": -1.2,
+        "rsi14": 41.7
       },
       "SLV": {
-        "close": 51.52,
-        "pct_1d": 0.039,
-        "pct_5d": -5.215,
-        "vs_sma20_pct": -5.9,
-        "rsi14": 37.0
+        "close": 52.12,
+        "pct_1d": 1.164,
+        "pct_5d": -2.57,
+        "vs_sma20_pct": -4.05,
+        "rsi14": 39.7
       }
     },
     "bonds": {
       "TLT": {
-        "close": 79.46,
-        "pct_1d": -0.718,
-        "pct_5d": 1.839,
-        "vs_sma20_pct": 1.17,
-        "rsi14": 52.1
+        "close": 80.12,
+        "pct_1d": 0.831,
+        "pct_5d": 2.259,
+        "vs_sma20_pct": 2.1,
+        "rsi14": 57.4
       },
       "IEF": {
-        "close": 90.08,
-        "pct_1d": -0.382,
-        "pct_5d": 0.716,
-        "vs_sma20_pct": 0.59,
-        "rsi14": 50.5
+        "close": 90.24,
+        "pct_1d": 0.178,
+        "pct_5d": 0.771,
+        "vs_sma20_pct": 0.8,
+        "rsi14": 52.9
       }
     },
     "credit": {
       "HYG": {
-        "close": 76.82,
-        "pct_1d": -0.072,
-        "pct_5d": -0.615,
-        "vs_sma20_pct": -0.48,
-        "rsi14": 34.2
+        "close": 76.84,
+        "pct_1d": 0.026,
+        "pct_5d": -0.324,
+        "vs_sma20_pct": -0.36,
+        "rsi14": 34.9
       },
       "LQD": {
-        "close": 102.88,
-        "pct_1d": -0.493,
-        "pct_5d": 0.292,
-        "vs_sma20_pct": 0.28,
-        "rsi14": 46.8
+        "close": 103.21,
+        "pct_1d": 0.321,
+        "pct_5d": 0.639,
+        "vs_sma20_pct": 0.68,
+        "rsi14": 51.2
       }
     },
     "dollar": {
       "UUP": {
-        "close": 29.0,
-        "pct_1d": 0.207,
-        "pct_5d": -0.463,
-        "vs_sma20_pct": 0.38,
-        "rsi14": 61.0
+        "close": 28.91,
+        "pct_1d": -0.276,
+        "pct_5d": -0.413,
+        "vs_sma20_pct": 0.03,
+        "rsi14": 56.6
       }
     },
     "energy": {
       "USO": {
-        "close": 160.85,
-        "pct_1d": -0.556,
-        "pct_5d": 6.474,
-        "vs_sma20_pct": 7.33,
-        "rsi14": 65.4
+        "close": 160.68,
+        "pct_1d": -0.106,
+        "pct_5d": 4.965,
+        "vs_sma20_pct": 6.63,
+        "rsi14": 65.1
       }
     },
     "breadth": {
       "IWM": {
-        "close": 271.3,
-        "pct_1d": 0.307,
-        "pct_5d": -2.364,
-        "vs_sma20_pct": -2.62,
-        "rsi14": 33.6
+        "close": 275.8,
+        "pct_1d": 1.659,
+        "pct_5d": -0.32,
+        "vs_sma20_pct": -0.8,
+        "rsi14": 42.9
       }
     },
     "semis": {
       "AMD": {
-        "close": 537.82,
-        "pct_1d": 1.712,
-        "pct_5d": -9.507,
-        "vs_sma20_pct": -11.33,
-        "rsi14": 40.1
+        "close": 534.32,
+        "pct_1d": -0.651,
+        "pct_5d": -11.751,
+        "vs_sma20_pct": -11.25,
+        "rsi14": 39.4
       },
       "AVGO": {
-        "close": 334.65,
-        "pct_1d": 1.813,
-        "pct_5d": -5.677,
-        "vs_sma20_pct": -5.47,
-        "rsi14": 38.7
-      },
-      "TSM": {
-        "close": 420.2,
-        "pct_1d": 1.864,
-        "pct_5d": -5.469,
-        "vs_sma20_pct": -6.89,
+        "close": 334.47,
+        "pct_1d": -0.054,
+        "pct_5d": -6.408,
+        "vs_sma20_pct": -5.12,
         "rsi14": 38.6
       },
+      "TSM": {
+        "close": 425.2,
+        "pct_1d": 1.19,
+        "pct_5d": -4.432,
+        "vs_sma20_pct": -5.49,
+        "rsi14": 41.6
+      },
       "MU": {
-        "close": 904.68,
-        "pct_1d": 2.947,
-        "pct_5d": -8.521,
-        "vs_sma20_pct": -11.82,
-        "rsi14": 37.7
+        "close": 896.6,
+        "pct_1d": -0.893,
+        "pct_5d": -5.924,
+        "vs_sma20_pct": -11.75,
+        "rsi14": 36.9
       },
       "INTC": {
-        "close": 92.01,
-        "pct_1d": 2.495,
-        "pct_5d": -9.198,
-        "vs_sma20_pct": -17.16,
-        "rsi14": 34.3
+        "close": 91.65,
+        "pct_1d": -0.391,
+        "pct_5d": -10.894,
+        "vs_sma20_pct": -16.27,
+        "rsi14": 34.0
       }
     }
   },
   "cross_asset": {
     "mag7_breadth": {
       "n": 7,
-      "up_today": 5,
-      "above_sma20": 3,
-      "median_move_pct": 1.017
+      "up_today": 2,
+      "above_sma20": 4,
+      "median_move_pct": -0.311
     },
     "semi_breadth": {
       "n": 6,
-      "up_today": 6,
+      "up_today": 1,
       "above_sma20": 0,
-      "median_move_pct": 1.839
+      "median_move_pct": -0.351
     },
     "ratios": [
       {
         "pair": "HYG/LQD",
-        "value": 0.7467,
-        "pct_1d": 0.424,
-        "pct_5d": -0.904,
-        "percentile_60d": 22.0,
+        "value": 0.7445,
+        "pct_1d": -0.294,
+        "pct_5d": -0.957,
+        "percentile_60d": 8.5,
         "reads": "credit risk appetite; rising = risk-on"
       },
       {
         "pair": "IWM/SPY",
-        "value": 0.3539,
-        "pct_1d": -0.12,
-        "pct_5d": -0.909,
-        "percentile_60d": 1.7,
+        "value": 0.3586,
+        "pct_1d": 1.33,
+        "pct_5d": 0.839,
+        "percentile_60d": 15.3,
         "reads": "small-cap breadth; rising = broad participation"
       },
       {
         "pair": "GLD/SLV",
-        "value": 7.3683,
-        "pct_1d": -0.664,
-        "pct_5d": 4.807,
-        "percentile_60d": 94.9,
+        "value": 7.2457,
+        "pct_1d": -1.664,
+        "pct_5d": 1.57,
+        "percentile_60d": 93.2,
         "reads": "rising = defensive within metals"
       },
       {
         "pair": "QQQ/SPY",
-        "value": 0.937,
-        "pct_1d": 0.765,
-        "pct_5d": -2.276,
-        "percentile_60d": 52.5,
+        "value": 0.9325,
+        "pct_1d": -0.476,
+        "pct_5d": -2.433,
+        "percentile_60d": 25.4,
         "reads": "rising = tech leadership, narrow market"
       }
     ],
     "volatility": {
-      "VIXY_pct_1d": -3.729,
-      "VIXY_pct_5d": 6.367,
-      "VIXY_percentile_60d": 35.6,
+      "VIXY_pct_1d": -0.939,
+      "VIXY_pct_5d": 5.335,
+      "VIXY_percentile_60d": 27.1,
       "note": "VIXY bleeds to contango - read the change and percentile, not the level",
-      "SPY_realized_vol_20d_annualized_pct": 8.91
+      "SPY_realized_vol_20d_annualized_pct": 9.0
     },
     "correlations_20d_vs_SPY": {
-      "TLT": 0.073,
-      "GLD": 0.514,
-      "HYG": 0.716,
-      "UUP": -0.26
+      "TLT": 0.111,
+      "GLD": 0.504,
+      "HYG": 0.722,
+      "UUP": -0.286
     },
     "risk_on_score": {
-      "score": 4,
+      "score": 3,
       "of": 5,
       "components": {
-        "credit_risk_on": true,
-        "breadth_risk_on": false,
+        "credit_risk_on": false,
+        "breadth_risk_on": true,
         "vol_risk_on": true,
-        "rates_risk_on": true,
+        "rates_risk_on": false,
         "gold_risk_on": true
       },
       "reads": "count of cross-asset signals pointing risk-on today; 0-1 is risk-off, 4-5 risk-on"
@@ -947,87 +966,43 @@
   "news": [
     {
       "symbols": [
-        "META"
-      ],
-      "headline": "Mark Zuckerberg Called AI Agents Meta\u2019s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
-      "summary": "Meta Platforms, Inc.\u2019s Q3 earnings will test whether its Muse AI agent can deliver on Zuckerberg\u2019s growth ambitions.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
-      "created_at": "2026-10-20T07:40:49Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Big Short Investor Flags Major Vulnerability for Nvidia \u2014 5 Customers Account for 70% of Receivables: \u2018Tremendous Amount of Concentration Risk\u2019",
-      "summary": "Big Short&#39;s Steve Eisman warns of Nvidia &#39;concentration risk&#39; as its 10-Q shows 70% of accounts receivable come from just 5 customers.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62458211/big-short-investor-flags-major-vulnerability-for-nvidia-5-customers-account-for-70-of-receivables-tremendous-amount-of-concentration-risk",
-      "created_at": "2026-10-20T07:25:48Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Trump Media Stock Hits 52-Week Low, Trends Overnight: What\u2019s Going On With DJT?",
-      "summary": "Trump Media stock hits a record low as DJT falls 8.01%, underperforming broader market benchmarks.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62458049/trump-media-stock-hits-52-week-low-trends-overnight-whats-going-on-with-djt",
-      "created_at": "2026-10-20T06:51:41Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 55% as Wall Street weighs Netflix earnings, slipping tech futures, and $110 Brent crude.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457920/stock-market-will-sp-500-open-up-or-down-today-61",
-      "created_at": "2026-10-20T06:36:15Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
         "TSLA"
       ],
-      "headline": "Elon Musk Just Dropped a Big Hint About SpaceX\u2019s $28.5 Trillion Opportunity \u2014 \u2018It Is Vastly Higher Than That\u2019",
-      "summary": "Elon Musk says giving SpaceX shares to children supports economic participation, while claiming its TAM exceeds $28.5T.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62457847/elon-musk-just-dropped-a-big-hint-about-spacexs-28-5-trillion-opportunity-it-is-vastly-higher-than-that",
-      "created_at": "2026-10-20T06:19:21Z"
+      "headline": "Tesla and SpaceX Explore Potential Merger",
+      "summary": "Tesla CEO Elon Musk announced that special committees at both Tesla and SpaceX have been formed to evaluate a potential merger between the two companies.",
+      "source": "fiscal.ai",
+      "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger",
+      "created_at": "2026-10-20T23:01:34Z"
     },
     {
       "symbols": [
-        "GOOGL"
+        "TSLA"
       ],
-      "headline": "'Waymo Plans To Quintuple Its Fleet' - Semafor",
+      "headline": "Elon Musk Says AI Could Be a Threat, but He Can\u2019t Stop It: \u2018Be Participant or be a Spectator\u2019",
+      "summary": "Elon Musk has new thoughts on the good that AI can do for humanity.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62484767/elon-musk-says-ai-could-be-a-threat-but-he-cant-stop-it-be-participant-or-be-a-spectator",
+      "created_at": "2026-10-20T22:07:34Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal \u2018A Good Idea\u2019",
+      "summary": "Elon Musk says SpaceX and Tesla formed committees to explore a merger, but no deal is certain as shareholder approval and terms remain unresolved.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62484678/elon-musk-confirms-spacex-tesla-merger-committees-calls-deal-a-good-idea",
+      "created_at": "2026-10-20T21:55:45Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "API Crude Oil Stock 4.93M Barrel Draw Vs 1.30M Barrel Draw Est.",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62457837/waymo-plans-quintuple-its-fleet-semafor",
-      "created_at": "2026-10-20T06:19:01Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT"
-      ],
-      "headline": "Reported Earlier, 'OpenAI Seeks to Accelerate Fundraising Ahead of Anthropic IPO, Sources Say' - Reuters Exclusive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62457733/reported-earlier-openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-reuters-exclusi",
-      "created_at": "2026-10-20T06:02:42Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Near-Term Target",
-      "summary": "Cryptocurrency bettors aren\u2019t fully bought into Amazon.com Inc.\u00a0hitting $300 or higher in October, even as the tech behemoth braces for its third-quarter financial results.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457636/amzn-stock-amazon-price-prediction-polymarket-prediction",
-      "created_at": "2026-10-20T05:36:56Z"
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-10-20T20:49:17Z"
     },
     {
       "symbols": [
@@ -1036,127 +1011,185 @@
         "MSFT",
         "NVDA"
       ],
-      "headline": "Eric Schmidt Wrote a Check to Anthropic Before the AI Boom: Here\u2019s How Big the Payoff Could Get",
-      "summary": "Former Google CEO Eric Schmidt reportedly owns about 1% of Anthropic through an early investment, setting him up for a big IPO windfall.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/ipos/26/10/62457427/former-google-ceo-eric-schmidt-reportedly-owns-1-percent-anthropic",
-      "created_at": "2026-10-20T04:33:53Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "\u2018Obviously This Is a Finger\u2019: Apple\u2019s \u2018Pro and Tell\u2019 Teaser Has Everyone Talking \u2014 MacBook Pro Buzz Intensifies",
-      "summary": "California based Apple is on track to unveil a touchscreen MacBook Pro, M6 Macs and an OLED iPad mini next week.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62457324/apple-touchscreen-macbook-pro",
-      "created_at": "2026-10-20T03:17:23Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "MSFT"
-      ],
-      "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
-      "summary": "Amazon expanded its data center partnership with 3M and got a warrant to buy about $521.4 million of 3M stock tied to product purchases.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
-      "created_at": "2026-10-20T01:40:28Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022",
-      "summary": "A member of Congress has been selling Nvidia stock consistently in 2026 and in each year since 2022. Here&#39;s a look at the history.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/10/62456282/congressman-sells-nvidia-stock-again-7-sales-in-2026-add-to-trades-since-2022",
-      "created_at": "2026-10-19T22:19:15Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses?",
-      "summary": "Analysts expect Tesla to report earnings of 43 cents per share, down from 50 cents per share in last year\u2019s third quarter.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62454857/tesla-q3-earnings-preview-can-the-company-reverse-recent-eps-revenue-misses",
-      "created_at": "2026-10-19T20:52:47Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "U.S. Energy Secretary Wright Says Yet To Be Seen If Russia Will Release Diesel",
+      "headline": "'Anthropic S-1 Shows Red-Hot Growth, Risks and Massive Computing Costs; In A New Draft Prospectus Viewed By The Journal, The AI Giant Disclosed An $80.7 Billion Net Loss For The First Half Of 2026 And A Long List Of Risk Factors' - WSJ Exclusive",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62452842/u-s-energy-secretary-wright-says-yet-be-seen-if-russia-will-release-diesel",
-      "created_at": "2026-10-19T20:05:15Z"
+      "url": "https://www.benzinga.com/news/26/10/62480903/anthropic-s-1-shows-red-hot-growth-risks-and-massive-computing-costs-new-draft-prospectus-viewed-jou",
+      "created_at": "2026-10-20T19:39:55Z"
     },
     {
       "symbols": [
         "META",
         "TSLA"
       ],
-      "headline": "SpaceX Could Swing $128 Billion After Earnings",
-      "summary": "Discover 9 stocks with the biggest expected earnings moves for Q3 2026, including Netflix, United Airlines, Intuitive Surgical and SpaceX, based on options market data.",
+      "headline": "Meta Platforms, Tesla Could Swing More Than $100 Billion After Earnings",
+      "summary": "Discover 9 stocks to watch ahead of Wednesday\u2019s earnings, including Meta, Tesla and Lam Research, with options-implied moves reaching 7.42%.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62451603/spacex-could-swing-128-billion-after-earnings",
-      "created_at": "2026-10-19T19:30:55Z"
+      "url": "https://www.benzinga.com/markets/options/26/10/62480628/meta-platforms-tesla-could-swing-more-than-100-billion-after-earnings",
+      "created_at": "2026-10-20T19:30:21Z"
     },
     {
       "symbols": [
-        "AAPL",
-        "NVDA"
+        "GOOGL"
       ],
-      "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+      "headline": "Claude Opus 5.5, Claude Sonnet 5.5 Are Now Available In Google Antigravity",
+      "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62448000/10-information-technology-stocks-whale-alerts-today-s-session",
-      "created_at": "2026-10-19T17:35:12Z"
+      "url": "https://www.benzinga.com/news/26/10/62480532/claude-opus-5-5-claude-sonnet-5-5-are-now-available-google-antigravity",
+      "created_at": "2026-10-20T19:27:03Z"
     },
     {
       "symbols": [
-        "QQQ",
         "SPY"
       ],
-      "headline": "Dow Jones Industrial Average in Spotlight: 5 Stocks Report This Week, Including 2 of the Worst Performing",
-      "summary": "Five of the 30 Dow Jones Industrial Average components reported this week. A look at analyst expectations for the five names.",
+      "headline": "President Trump, On Endorsing Vance In 2028, Says It Is Very Early Right Now And That He Does Not Think They Ever Talked About A Vance 2028 Run",
+      "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62447975/dow-jones-industrial-average-spotlight-5-stocks-worst-performing",
-      "created_at": "2026-10-19T17:34:18Z"
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62480126/president-trump-endorsing-vance-2028-says-it-very-early-right-now-and-he-does-not-think-they-ever-ta",
+      "created_at": "2026-10-20T19:14:25Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "'Big Short' Trader Danny Moses Calls CoreWeave the WeWork of AI",
+      "summary": "Danny Moses likens CoreWeave to WeWork, warning $51B in debt and long leases could overwhelm profits as AI financing echoes 2008.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62480073/big-short-trader-danny-moses-calls-coreweave-the-wework-of-ai",
+      "created_at": "2026-10-20T19:12:35Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "3M Expands Commercial Relationship with Amazon and Issues Stock Warrant",
+      "summary": "3M has expanded its commercial partnership with Amazon and granted an Amazon subsidiary a warrant to purchase $521 million in 3M common stock.",
+      "source": "fiscal.ai",
+      "url": "https://www.manilatimes.net/2026/10/21/business/foreign-business/3m-expands-commercial-partnership-with-amazon/2450080",
+      "created_at": "2026-10-20T19:02:17Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon Announces Hiring of Over 300,000 Seasonal Workers for U.S. Holiday Season",
+      "summary": "Amazon is hiring more than 300,000 seasonal, part-time, and full-time employees across its U.S. operations network for the upcoming holiday season.",
+      "source": "fiscal.ai",
+      "url": "https://www.barchart.com/press-releases/8243230/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits",
+      "created_at": "2026-10-20T19:02:17Z"
     },
     {
       "symbols": [
         "META"
       ],
-      "headline": "Analyst Sees Billions in Walmart's Next Big Advertising Opportunity",
-      "summary": "Bank of America reiterates Buy rating for Walmart ($WMT) with $126 price target, citing massive ad revenue potential.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62447386/analyst-sees-billions-in-walmarts-next-big-advertising-opportunity",
-      "created_at": "2026-10-19T17:17:13Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Stock Market Today: Nasdaq 100 Rises as AI Chip Rout Reverses, SanDisk Jumps 7%",
-      "summary": "Tech rebounded from last week&#39;s rout as chip stocks bounced and steel maker Cleveland-Cliffs soared on earnings, while the 10-year yield climbed to 5.14%.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62446593/stock-market-today-sandisk-jumps-nasdaq-100-rises-ai-chip-rout-reverses",
-      "created_at": "2026-10-19T16:58:22Z"
+      "headline": "Meta Chief Global Affairs Officer Joel Kaplan to Depart",
+      "summary": "Meta Platforms, Inc. has announced that Joel Kaplan, the company's Chief Global Affairs Officer, is stepping down from his role.",
+      "source": "fiscal.ai",
+      "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1lbok80&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151172635%2Fpost%2Fall%22%7D",
+      "created_at": "2026-10-20T19:02:08Z"
     },
     {
       "symbols": [
         "AAPL"
       ],
-      "headline": "'Apple Announces Oct. 28 Event for Touch-Screen MacBook Pro' - Bloomberg",
+      "headline": "Analysts Adjust Outlook on Apple Stock",
+      "summary": "Loop Capital downgraded Apple shares, while MoffettNathanson lowered its price target for the company.",
+      "source": "fiscal.ai",
+      "url": "https://www.moomoo.com/stock/AAPL-US/news?chain_id=Name1K9-3FXPhg.1ldanc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Fhans%2Flearn%2Fcash-secured-put%22%7D",
+      "created_at": "2026-10-20T19:02:01Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "NVDA"
+      ],
+      "headline": "'Amazon Is Buying Billions In NVIDIA AI Systems It Can't Yet Turn On' - Business Insider",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62446313/apple-announces-oct-28-event-touch-screen-macbook-pro-bloomberg",
-      "created_at": "2026-10-19T16:49:59Z"
+      "url": "https://www.benzinga.com/news/26/10/62479295/amazon-buying-billions-nvidia-ai-systems-it-can-t-yet-turn-business-insider",
+      "created_at": "2026-10-20T18:47:01Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "President Trump And Vice President JD Vance Make An Announcement; President Trump Says We'll Have More Growth This Year; Will Be Very Strong On Budget This Year",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62479085/president-trump-and-vice-president-jd-vance-make-announcement-president-trump-says-we-ll-have-more-g",
+      "created_at": "2026-10-20T18:40:10Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple Expands American Manufacturing Program with New Suppliers",
+      "summary": "Apple is expanding its domestic manufacturing efforts by partnering with Perryman Company and Qnity Electronics to supply components for the iPhone Duo and iPhone 18 Pro.",
+      "source": "fiscal.ai",
+      "url": "https://www.morningstar.com/news/dow-jones/202610206549/apple-expands-partnerships-with-us-suppliers-for-iphone-duo-iphone-18-pro",
+      "created_at": "2026-10-20T18:01:32Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "MoffettNathanson Maintains Neutral on Apple, Lowers Price Target to $283",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62477887/moffettnathanson-maintains-neutral-apple-lowers-price-target-283",
+      "created_at": "2026-10-20T18:01:16Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/m/26/10/62477847/openai-acquires-biotech-startup-ai-race-moves-drug-development-axios-exclusive",
+      "created_at": "2026-10-20T18:00:25Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "MSFT"
+      ],
+      "headline": "Why Is 3M Stock Soaring Tuesday?",
+      "summary": "3M (NYSE: MMM) stock surged after beating Q3 estimates, raising its 2026 earnings guidance, and boosting its 2027 outlook.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62477397/why-is-3m-stock-soaring-tuesday",
+      "created_at": "2026-10-20T17:48:55Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62477293/bmo-capital-maintains-outperform-alphabet-raises-price-target-480",
+      "created_at": "2026-10-20T17:46:24Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta Q3 Preview: Muse Put Company in Spotlight, Will Financials Support a Rally?",
+      "summary": "Meta can monetize AI, analysts say. Opportunities could be on full display in Q3 results. Here are the key items to watch.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62476257/meta-q3-preview-muse-put-company-in-spotlight-will-financials-support-a-rally",
+      "created_at": "2026-10-20T17:16:18Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SMH"
+      ],
+      "headline": "Health Care Stocks Hit Record Highs, GM Drops Nearly 8%: Stock Market Today",
+      "summary": "Health care stocks climbed to record highs by midday Tuesday, with defensives and small caps leading a recovery from an early dip.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62475717/health-care-stocks-hit-record-highs-gm-drops-nearly-8-stock-market-today",
+      "created_at": "2026-10-20T16:58:54Z"
     }
   ]
 }
