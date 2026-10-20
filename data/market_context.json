@@ -295,7 +295,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
+          "created_at": "2026-10-20T01:40:28Z"
+        }
+      ]
     },
     "GOOGL": {
       "latest_close": 344.09,
@@ -435,7 +442,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
+          "created_at": "2026-10-20T01:40:28Z"
+        }
+      ]
     },
     "NVDA": {
       "latest_close": 217.09,
@@ -577,10 +591,10 @@
       },
       "material_news": [
         {
-          "event": "rating_change",
-          "headline": "Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820",
-          "url": "https://www.benzinga.com/news/26/10/62447082/morgan-stanley-maintains-overweight-meta-platforms-raises-price-target-820",
-          "created_at": "2026-10-19T17:08:51Z"
+          "event": "earnings",
+          "headline": "Mark Zuckerberg Called AI Agents Meta\u2019s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
+          "created_at": "2026-10-20T07:40:49Z"
         }
       ]
     },
@@ -933,13 +947,65 @@
   "news": [
     {
       "symbols": [
+        "META"
+      ],
+      "headline": "Mark Zuckerberg Called AI Agents Meta\u2019s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
+      "summary": "Meta Platforms, Inc.\u2019s Q3 earnings will test whether its Muse AI agent can deliver on Zuckerberg\u2019s growth ambitions.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
+      "created_at": "2026-10-20T07:40:49Z"
+    },
+    {
+      "symbols": [
         "NVDA"
       ],
-      "headline": "Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022",
-      "summary": "A member of Congress has been selling Nvidia stock consistently in 2026 and in each year since 2022. Here&#39;s a look at the history.",
+      "headline": "Big Short Investor Flags Major Vulnerability for Nvidia \u2014 5 Customers Account for 70% of Receivables: \u2018Tremendous Amount of Concentration Risk\u2019",
+      "summary": "Big Short&#39;s Steve Eisman warns of Nvidia &#39;concentration risk&#39; as its 10-Q shows 70% of accounts receivable come from just 5 customers.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/10/62456282/congressman-sells-nvidia-stock-again-7-sales-in-2026-add-to-trades-since-2022",
-      "created_at": "2026-10-19T22:19:15Z"
+      "url": "https://www.benzinga.com/markets/equities/26/10/62458211/big-short-investor-flags-major-vulnerability-for-nvidia-5-customers-account-for-70-of-receivables-tremendous-amount-of-concentration-risk",
+      "created_at": "2026-10-20T07:25:48Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Trump Media Stock Hits 52-Week Low, Trends Overnight: What\u2019s Going On With DJT?",
+      "summary": "Trump Media stock hits a record low as DJT falls 8.01%, underperforming broader market benchmarks.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62458049/trump-media-stock-hits-52-week-low-trends-overnight-whats-going-on-with-djt",
+      "created_at": "2026-10-20T06:51:41Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 55% as Wall Street weighs Netflix earnings, slipping tech futures, and $110 Brent crude.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457920/stock-market-will-sp-500-open-up-or-down-today-61",
+      "created_at": "2026-10-20T06:36:15Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "TSLA"
+      ],
+      "headline": "Elon Musk Just Dropped a Big Hint About SpaceX\u2019s $28.5 Trillion Opportunity \u2014 \u2018It Is Vastly Higher Than That\u2019",
+      "summary": "Elon Musk says giving SpaceX shares to children supports economic participation, while claiming its TAM exceeds $28.5T.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62457847/elon-musk-just-dropped-a-big-hint-about-spacexs-28-5-trillion-opportunity-it-is-vastly-higher-than-that",
+      "created_at": "2026-10-20T06:19:21Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "'Waymo Plans To Quintuple Its Fleet' - Semafor",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62457837/waymo-plans-quintuple-its-fleet-semafor",
+      "created_at": "2026-10-20T06:19:01Z"
     },
     {
       "symbols": [
@@ -947,11 +1013,65 @@
         "GOOGL",
         "MSFT"
       ],
-      "headline": "'Eric Schmidt\u2019s 1% Anthropic Stake Set to Pay Massive Windfall'- Bloomberg",
+      "headline": "Reported Earlier, 'OpenAI Seeks to Accelerate Fundraising Ahead of Anthropic IPO, Sources Say' - Reuters Exclusive",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62455730/eric-schmidt-s-1-anthropic-stake-set-pay-massive-windfall-bloomberg",
-      "created_at": "2026-10-19T21:29:25Z"
+      "url": "https://www.benzinga.com/news/26/10/62457733/reported-earlier-openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-reuters-exclusi",
+      "created_at": "2026-10-20T06:02:42Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Near-Term Target",
+      "summary": "Cryptocurrency bettors aren\u2019t fully bought into Amazon.com Inc.\u00a0hitting $300 or higher in October, even as the tech behemoth braces for its third-quarter financial results.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457636/amzn-stock-amazon-price-prediction-polymarket-prediction",
+      "created_at": "2026-10-20T05:36:56Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Eric Schmidt Wrote a Check to Anthropic Before the AI Boom: Here\u2019s How Big the Payoff Could Get",
+      "summary": "Former Google CEO Eric Schmidt reportedly owns about 1% of Anthropic through an early investment, setting him up for a big IPO windfall.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/ipos/26/10/62457427/former-google-ceo-eric-schmidt-reportedly-owns-1-percent-anthropic",
+      "created_at": "2026-10-20T04:33:53Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "\u2018Obviously This Is a Finger\u2019: Apple\u2019s \u2018Pro and Tell\u2019 Teaser Has Everyone Talking \u2014 MacBook Pro Buzz Intensifies",
+      "summary": "California based Apple is on track to unveil a touchscreen MacBook Pro, M6 Macs and an OLED iPad mini next week.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62457324/apple-touchscreen-macbook-pro",
+      "created_at": "2026-10-20T03:17:23Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "MSFT"
+      ],
+      "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
+      "summary": "Amazon expanded its data center partnership with 3M and got a warrant to buy about $521.4 million of 3M stock tied to product purchases.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
+      "created_at": "2026-10-20T01:40:28Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022",
+      "summary": "A member of Congress has been selling Nvidia stock consistently in 2026 and in each year since 2022. Here&#39;s a look at the history.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62456282/congressman-sells-nvidia-stock-again-7-sales-in-2026-add-to-trades-since-2022",
+      "created_at": "2026-10-19T22:19:15Z"
     },
     {
       "symbols": [
@@ -965,17 +1085,6 @@
     },
     {
       "symbols": [
-        "AMZN",
-        "NVDA"
-      ],
-      "headline": "Amazon Just Found a Way Around Nvidia\u2019s Biggest Moat",
-      "summary": "Amazon\u2019s TorchNeuron makes it easier to run PyTorch code on Trainium, challenging Nvidia\u2019s software advantage in AI chips.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62452876/amazon-trainium-nvidia-cuda",
-      "created_at": "2026-10-19T20:05:43Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "U.S. Energy Secretary Wright Says Yet To Be Seen If Russia Will Release Diesel",
@@ -983,29 +1092,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62452842/u-s-energy-secretary-wright-says-yet-be-seen-if-russia-will-release-diesel",
       "created_at": "2026-10-19T20:05:15Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "SPY"
-      ],
-      "headline": "TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors",
-      "summary": "Key Takeaways\n\n\n\n\nThe 10-year Treasury Inflation-Protected Securities (TIPS) yield closed at 2.78% on Oct. 15, up from 1.71% a year earlier, yet the S&amp;P 500 gained 16.8% in that span.\n\n\n\nThe index\u2019s forward P/E fell",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/Opinion/26/10/62452412/tips-now-pay-2-8-above-inflation-heres-the-hurdle-that-sets-for-sp500-investors",
-      "created_at": "2026-10-19T19:56:06Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "NVDA"
-      ],
-      "headline": "'Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal' - Bloomberg News",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62451753/nscale-anthropic-talks-45-billion-cloud-computing-deal-bloomberg-news",
-      "created_at": "2026-10-19T19:33:58Z"
     },
     {
       "symbols": [
@@ -1017,38 +1103,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/options/26/10/62451603/spacex-could-swing-128-billion-after-earnings",
       "created_at": "2026-10-19T19:30:55Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "\u2018CoreWeave Is the Canary in the Coal Mine\u2019: Expert Warns More AI Debt Will Slide into Distress",
-      "summary": "CoreWeave\u2019s debt crisis signals wider AI financing stress: bonds hit distressed yields, and investors weigh leveraged-growth risks.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62450943/coreweave-is-the-canary-in-the-coal-mine-expert-warns-more-ai-debt-will-slide-into-distress",
-      "created_at": "2026-10-19T19:15:01Z"
-    },
-    {
-      "symbols": [
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027",
-      "summary": "SemiAnalysis sees 50 GW of new AI data-center capacity in 2027 despite Microsoft walking away from a U.K. project.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62450024/ai-data-center-boom-50-gw-semianalysis",
-      "created_at": "2026-10-19T18:46:26Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Homebuilder Sentiment Hits 2012 Lows As Stocks Trade Like They Did During COVID-19 Pandemic",
-      "summary": "Builder confidence fell to 29, lowest since 2012, while the XHB/SPY ratio sits near its weakest level since April 2020 as rates top 7%.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/technicals/26/10/62449236/homebuilder-sentiment-2012-low-xhb-spy-pandemic-lows",
-      "created_at": "2026-10-19T18:13:01Z"
     },
     {
       "symbols": [
@@ -1084,16 +1138,6 @@
     },
     {
       "symbols": [
-        "META"
-      ],
-      "headline": "Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62447082/morgan-stanley-maintains-overweight-meta-platforms-raises-price-target-820",
-      "created_at": "2026-10-19T17:08:51Z"
-    },
-    {
-      "symbols": [
         "AMZN",
         "QQQ",
         "SMH"
@@ -1113,53 +1157,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/10/62446313/apple-announces-oct-28-event-touch-screen-macbook-pro-bloomberg",
       "created_at": "2026-10-19T16:49:59Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple SVP Marketing Greg Joswiak, On Social Media, Hints At New Product Announcement Next Week",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62445873/apple-svp-marketing-greg-joswiak-social-media-hints-new-product-announcement-next-week",
-      "created_at": "2026-10-19T16:40:25Z"
-    },
-    {
-      "symbols": [
-        "QQQ"
-      ],
-      "headline": "Why Is AMD Stock Surging on Monday?",
-      "summary": "Advanced Micro Devices traded higher on Monday as semiconductor stocks rebounded from an eight-day losing streak.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62445435/why-is-amd-stock-surging-on-monday",
-      "created_at": "2026-10-19T16:31:03Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Cognizant, Google Cloud Expand Collaboration Over Adoption Of Agentic AI",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62444412/cognizant-google-cloud-expand-collaboration-over-adoption-agentic-ai",
-      "created_at": "2026-10-19T16:06:09Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Putin\u2019s Proposed Trump-Xi Summit In China Could Hurt US Stocks Long Term; Meta And Tesla Earnings Ahead",
-      "summary": "\n\n\n\nBig Tech Earnings Ahead\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors reflect the AI trade, and SOXL is the momo",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/Opinion/26/10/62443168/putins-proposed-trump-xi-summit-in-china-could-hurt-us-stocks-long-term-meta-and-tesla-earnings-ahead",
-      "created_at": "2026-10-19T15:31:43Z"
     }
   ]
 }
