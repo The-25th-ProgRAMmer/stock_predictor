@@ -1,0 +1,85 @@
+==============================================================================
+DAILY REVIEW - 2026-10-19
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-10-19: $97,995.32  (-2.00%, -40% of the way)
+  Peak $99,999.88, now -2.00% from peak
+  $7,004.68 to go over 9 session(s): needs +0.770% per session, compounded
+  Realised so far -0.202% per session - behind pace
+  (Pace is a yardstick only; it never changes position size.)
+
+TRADES CLOSED:
+  Since 2026-10-19: 1 closed, 0 profitable / 1 not (0% win rate), net $-208.08
+    avg loss $-208.08
+    profit factor 0.00 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-19  AMZN   short stop      held 0s  $  -208.08 (-2.39%)
+  October to date: 9 closed, 0 profitable / 9 not (0% win rate), net $-1,770.82
+    avg loss $-196.76
+    profit factor 0.00 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+    2026-10-09  AMZN   short stop      held 3s  $  -101.97 (-2.35%)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+    2026-10-16  META   long  stop      held 8s  $  -195.30 (-4.40%)
+    2026-10-19  AMZN   short stop      held 0s  $  -208.08 (-2.39%)
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 1/10 = 10%
+Baseline 'always up': 80%
+Your edge vs always_up: -70%
+
+CORRECT (1):
+  MSFT   called up  @52%  -> up   (+0.88%)
+    Close ($528.99) is above both SMA20 (520.21) and SMA50 (505.36), with SMA20 abov
+
+WRONG (9):
+  AAPL   called up  @52%  -> down (-0.12%)
+    Signals: close_above_sma20, close_above_sma50, sma20_above_sma50
+    Close ($343.39) is above both SMA20 (337.45) and SMA50 (325.71), with SMA20 abov
+  AMZN   called down@50%  -> up   (+5.03%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close ($249.92) is below both SMA20 (253.23) and SMA50 (257.06), with SMA20 itse
+  GOOGL  called down@50%  -> up   (+1.02%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close ($340.62) is below both SMA20 (346.42) and SMA50 (344.48) even though SMA2
+  META   called up  @52%  -> down (-0.62%)
+    Signals: close_below_sma20, close_above_sma50, sma20_above_sma50
+    Close ($709.42) is below SMA20 (735.78) but still above SMA50 (654.95), and SMA2
+  NVDA   called down@50%  -> up   (+1.38%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close ($214.12) is below both SMA20 (228.21) and SMA50 (222.98) despite SMA20 be
+  QQQ    called down@50%  -> up   (+1.20%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close ($709.82) is well below both SMA20 (742.50) and SMA50 (726.32) despite SMA
+  SMH    called down@50%  -> up   (+1.58%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close ($539.84) is below both SMA20 (601.03) and SMA50 (579.00) despite SMA20 be
+  SPY    called down@50%  -> up   (+0.43%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close ($763.34) sits below both SMA20 (771.20) and SMA50 (767.38), even though S
+  TSLA   called down@50%  -> up   (+3.75%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close ($354.65) is below both SMA20 (370.34) and SMA50 (359.46), with SMA20 stil
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - close_above_sma20: 1/1 correct predictions
+    - close_above_sma50: 1/1 correct predictions
+    - sma20_above_sma50: 1/1 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - close_below_sma20: 8/9 wrong predictions
+    - sma20_above_sma50: 8/9 wrong predictions
+    - close_below_sma50: 7/9 wrong predictions
+  Biggest magnitude misses:
+    - TSLA: called down, actual up (+3.75%)
+    - AMZN: called down, actual up (+5.03%)
+
+==============================================================================
