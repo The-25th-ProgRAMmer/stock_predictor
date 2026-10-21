@@ -30,8 +30,8 @@
         "close_vs_sma20_pct": -0.2,
         "close_vs_sma50_pct": 0.24,
         "sma20_vs_sma50": "above",
-        "rsi14": 49.77,
-        "macd_hist": -1.0767,
+        "rsi14": 50.06,
+        "macd_hist": -1.0844,
         "atr14_pct_of_close": 0.92
       },
       "last_3_days": [
@@ -74,7 +74,7 @@
           "sma20": 770.63,
           "sma50": 767.25,
           "sma50_slope_10d_pct": 0.452,
-          "rsi14": 49.8,
+          "rsi14": 50.1,
           "stretch_atr_from_sma20": -0.22,
           "relative_volume_20d": 1.03,
           "up_down_volume_ratio_20d": 0.86,
@@ -100,8 +100,8 @@
         "close_vs_sma20_pct": -3.057,
         "close_vs_sma50_pct": -1.236,
         "sma20_vs_sma50": "above",
-        "rsi14": 40.31,
-        "macd_hist": -4.9959,
+        "rsi14": 40.62,
+        "macd_hist": -5.0138,
         "atr14_pct_of_close": 1.55
       },
       "last_3_days": [
@@ -144,7 +144,7 @@
           "sma20": 739.83,
           "sma50": 726.19,
           "sma50_slope_10d_pct": 0.968,
-          "rsi14": 40.3,
+          "rsi14": 40.6,
           "stretch_atr_from_sma20": -2.03,
           "relative_volume_20d": 0.99,
           "up_down_volume_ratio_20d": 0.6,
@@ -170,8 +170,8 @@
         "close_vs_sma20_pct": 0.598,
         "close_vs_sma50_pct": 3.891,
         "sma20_vs_sma50": "above",
-        "rsi14": 55.64,
-        "macd_hist": -0.1406,
+        "rsi14": 55.71,
+        "macd_hist": -0.1424,
         "atr14_pct_of_close": 1.762
       },
       "last_3_days": [
@@ -214,7 +214,7 @@
           "sma20": 337.64,
           "sma50": 326.94,
           "sma50_slope_10d_pct": 1.438,
-          "rsi14": 55.6,
+          "rsi14": 55.7,
           "stretch_atr_from_sma20": 0.34,
           "relative_volume_20d": 0.73,
           "up_down_volume_ratio_20d": 1.0,
@@ -231,12 +231,6 @@
           "headline": "Analysts Adjust Outlook on Apple Stock",
           "url": "https://www.moomoo.com/stock/AAPL-US/news?chain_id=Name1K9-3FXPhg.1ldanc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Fhans%2Flearn%2Fcash-secured-put%22%7D",
           "created_at": "2026-10-20T19:02:01Z"
-        },
-        {
-          "event": "rating_change",
-          "headline": "MoffettNathanson Maintains Neutral on Apple, Lowers Price Target to $283",
-          "url": "https://www.benzinga.com/news/26/10/62477887/moffettnathanson-maintains-neutral-apple-lowers-price-target-283",
-          "created_at": "2026-10-20T18:01:16Z"
         }
       ]
     },
@@ -253,8 +247,8 @@
         "close_vs_sma20_pct": 1.625,
         "close_vs_sma50_pct": 5.02,
         "sma20_vs_sma50": "above",
-        "rsi14": 58.62,
-        "macd_hist": -0.6523,
+        "rsi14": 58.34,
+        "macd_hist": -0.6474,
         "atr14_pct_of_close": 2.106
       },
       "last_3_days": [
@@ -297,7 +291,7 @@
           "sma20": 523.51,
           "sma50": 506.59,
           "sma50_slope_10d_pct": 2.735,
-          "rsi14": 58.6,
+          "rsi14": 58.3,
           "stretch_atr_from_sma20": 0.76,
           "relative_volume_20d": 0.65,
           "up_down_volume_ratio_20d": 1.64,
@@ -308,14 +302,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive",
-          "url": "https://www.benzinga.com/m/26/10/62477847/openai-acquires-biotech-startup-ai-race-moves-drug-development-axios-exclusive",
-          "created_at": "2026-10-20T18:00:25Z"
-        }
-      ]
+      "material_news": []
     },
     "GOOGL": {
       "latest_close": 340.05,
@@ -330,8 +317,8 @@
         "close_vs_sma20_pct": -1.528,
         "close_vs_sma50_pct": -1.132,
         "sma20_vs_sma50": "above",
-        "rsi14": 44.36,
-        "macd_hist": -0.805,
+        "rsi14": 44.41,
+        "macd_hist": -0.8073,
         "atr14_pct_of_close": 2.51
       },
       "last_3_days": [
@@ -385,14 +372,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "rating_change",
-          "headline": "BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480",
-          "url": "https://www.benzinga.com/news/26/10/62477293/bmo-capital-maintains-outperform-alphabet-raises-price-target-480",
-          "created_at": "2026-10-20T17:46:24Z"
-        }
-      ]
+      "material_news": []
     },
     "AMZN": {
       "latest_close": 262.78,
@@ -407,8 +387,8 @@
         "close_vs_sma20_pct": 3.527,
         "close_vs_sma50_pct": 2.44,
         "sma20_vs_sma50": "below",
-        "rsi14": 57.65,
-        "macd_hist": 0.8664,
+        "rsi14": 57.63,
+        "macd_hist": 0.8672,
         "atr14_pct_of_close": 2.46
       },
       "last_3_days": [
@@ -477,8 +457,8 @@
         "close_vs_sma20_pct": -4.698,
         "close_vs_sma50_pct": -2.883,
         "sma20_vs_sma50": "above",
-        "rsi14": 40.53,
-        "macd_hist": -2.3392,
+        "rsi14": 40.74,
+        "macd_hist": -2.3454,
         "atr14_pct_of_close": 2.651
       },
       "last_3_days": [
@@ -521,7 +501,7 @@
           "sma20": 227.08,
           "sma50": 222.84,
           "sma50_slope_10d_pct": 1.457,
-          "rsi14": 40.5,
+          "rsi14": 40.7,
           "stretch_atr_from_sma20": -1.86,
           "relative_volume_20d": 0.94,
           "up_down_volume_ratio_20d": 0.88,
@@ -547,8 +527,8 @@
         "close_vs_sma20_pct": -5.181,
         "close_vs_sma50_pct": 5.264,
         "sma20_vs_sma50": "above",
-        "rsi14": 46.36,
-        "macd_hist": -9.0628,
+        "rsi14": 46.34,
+        "macd_hist": -9.0637,
         "atr14_pct_of_close": 3.132
       },
       "last_3_days": [
@@ -591,7 +571,7 @@
           "sma20": 731.83,
           "sma50": 659.21,
           "sma50_slope_10d_pct": 4.549,
-          "rsi14": 46.4,
+          "rsi14": 46.3,
           "stretch_atr_from_sma20": -1.74,
           "relative_volume_20d": 0.88,
           "up_down_volume_ratio_20d": 0.79,
@@ -617,8 +597,8 @@
         "close_vs_sma20_pct": 1.055,
         "close_vs_sma50_pct": 3.465,
         "sma20_vs_sma50": "above",
-        "rsi14": 53.27,
-        "macd_hist": -1.1837,
+        "rsi14": 53.57,
+        "macd_hist": -1.2008,
         "atr14_pct_of_close": 3.123
       },
       "last_3_days": [
@@ -661,7 +641,7 @@
           "sma20": 369.72,
           "sma50": 361.11,
           "sma50_slope_10d_pct": 3.08,
-          "rsi14": 53.3,
+          "rsi14": 53.6,
           "stretch_atr_from_sma20": 0.33,
           "relative_volume_20d": 0.91,
           "up_down_volume_ratio_20d": 0.73,
@@ -675,15 +655,9 @@
       "material_news": [
         {
           "event": "deal",
-          "headline": "Tesla and SpaceX Explore Potential Merger",
-          "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger",
-          "created_at": "2026-10-20T23:01:34Z"
-        },
-        {
-          "event": "deal",
-          "headline": "Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal \u2018A Good Idea\u2019",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62484678/elon-musk-confirms-spacex-tesla-merger-committees-calls-deal-a-good-idea",
-          "created_at": "2026-10-20T21:55:45Z"
+          "headline": "TSLA, SPCX Stocks Are Trending In Pre-Market After Elon Musk Confirms Tesla-SpaceX Merger Committees",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62487368/tesla-spacex-shares-rise-musk-confirms-merger-committees",
+          "created_at": "2026-10-21T08:16:35Z"
         }
       ]
     },
@@ -700,8 +674,8 @@
         "close_vs_sma20_pct": -8.312,
         "close_vs_sma50_pct": -5.496,
         "sma20_vs_sma50": "above",
-        "rsi14": 34.67,
-        "macd_hist": -9.3893,
+        "rsi14": 35.02,
+        "macd_hist": -9.4235,
         "atr14_pct_of_close": 3.065
       },
       "last_3_days": [
@@ -744,7 +718,7 @@
           "sma20": 595.58,
           "sma50": 577.84,
           "sma50_slope_10d_pct": 0.856,
-          "rsi14": 34.7,
+          "rsi14": 35.0,
           "stretch_atr_from_sma20": -2.96,
           "relative_volume_20d": 1.12,
           "up_down_volume_ratio_20d": 0.33,
@@ -767,14 +741,14 @@
         "pct_1d": -0.939,
         "pct_5d": 5.335,
         "vs_sma20_pct": 1.47,
-        "rsi14": 50.0
+        "rsi14": 49.5
       },
       "VXX": {
         "close": 17.62,
         "pct_1d": -0.844,
         "pct_5d": 5.509,
         "vs_sma20_pct": 1.65,
-        "rsi14": 50.3
+        "rsi14": 49.9
       }
     },
     "metals": {
@@ -783,14 +757,14 @@
         "pct_1d": -0.519,
         "pct_5d": -1.04,
         "vs_sma20_pct": -1.2,
-        "rsi14": 41.7
+        "rsi14": 41.6
       },
       "SLV": {
         "close": 52.12,
         "pct_1d": 1.164,
         "pct_5d": -2.57,
         "vs_sma20_pct": -4.05,
-        "rsi14": 39.7
+        "rsi14": 39.6
       }
     },
     "bonds": {
@@ -799,14 +773,14 @@
         "pct_1d": 0.831,
         "pct_5d": 2.259,
         "vs_sma20_pct": 2.1,
-        "rsi14": 57.4
+        "rsi14": 57.6
       },
       "IEF": {
         "close": 90.24,
         "pct_1d": 0.178,
         "pct_5d": 0.771,
         "vs_sma20_pct": 0.8,
-        "rsi14": 52.9
+        "rsi14": 53.1
       }
     },
     "credit": {
@@ -822,7 +796,7 @@
         "pct_1d": 0.321,
         "pct_5d": 0.639,
         "vs_sma20_pct": 0.68,
-        "rsi14": 51.2
+        "rsi14": 51.3
       }
     },
     "dollar": {
@@ -840,7 +814,7 @@
         "pct_1d": -0.106,
         "pct_5d": 4.965,
         "vs_sma20_pct": 6.63,
-        "rsi14": 65.1
+        "rsi14": 64.9
       }
     },
     "breadth": {
@@ -849,7 +823,7 @@
         "pct_1d": 1.659,
         "pct_5d": -0.32,
         "vs_sma20_pct": -0.8,
-        "rsi14": 42.9
+        "rsi14": 43.1
       }
     },
     "semis": {
@@ -858,35 +832,35 @@
         "pct_1d": -0.651,
         "pct_5d": -11.751,
         "vs_sma20_pct": -11.25,
-        "rsi14": 39.4
+        "rsi14": 39.6
       },
       "AVGO": {
         "close": 334.47,
         "pct_1d": -0.054,
         "pct_5d": -6.408,
         "vs_sma20_pct": -5.12,
-        "rsi14": 38.6
+        "rsi14": 38.8
       },
       "TSM": {
         "close": 425.2,
         "pct_1d": 1.19,
         "pct_5d": -4.432,
         "vs_sma20_pct": -5.49,
-        "rsi14": 41.6
+        "rsi14": 42.1
       },
       "MU": {
         "close": 896.6,
         "pct_1d": -0.893,
         "pct_5d": -5.924,
         "vs_sma20_pct": -11.75,
-        "rsi14": 36.9
+        "rsi14": 37.4
       },
       "INTC": {
         "close": 91.65,
         "pct_1d": -0.391,
         "pct_5d": -10.894,
         "vs_sma20_pct": -16.27,
-        "rsi14": 34.0
+        "rsi14": 34.2
       }
     }
   },
@@ -968,31 +942,143 @@
       "symbols": [
         "TSLA"
       ],
-      "headline": "Tesla and SpaceX Explore Potential Merger",
-      "summary": "Tesla CEO Elon Musk announced that special committees at both Tesla and SpaceX have been formed to evaluate a potential merger between the two companies.",
+      "headline": "TSLA, SPCX Stocks Are Trending In Pre-Market After Elon Musk Confirms Tesla-SpaceX Merger Committees",
+      "summary": "Tesla and SpaceX shares rise in premarket trading as Elon Musk confirms independent committees are evaluating a potential merger.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62487368/tesla-spacex-shares-rise-musk-confirms-merger-committees",
+      "created_at": "2026-10-21T08:16:35Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "SpaceX Becoming a Bitcoin Hodler? Elon Musk-Led  Rocket Company Keeps All BTC, Now Worth $1.57 Billion",
+      "summary": "Space Exploration Technologies Corp. held onto all of its Bitcoin during the third quarter, according to the financials released on Tuesday, October 21.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62487063/spacex-bitcoin-q3-earnings-elon-musk",
+      "created_at": "2026-10-21T07:32:58Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Elon Musk Hints at SpaceX Chip Breakthroughs, Keeps Details Close: \u2018Let\u2019s Not Give Away the Shop\u2019",
+      "summary": "Elon Musk teased potential breakthroughs in chip fabrication and said SpaceX and Tesla\u2019s Terafab is aiming for volume production in 2028.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62487002/elon-musk-spacex-potential-breakthroughs-chip-fabrication-terafab-tesla-2028",
+      "created_at": "2026-10-21T07:23:40Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "QQQ",
+        "SPY",
+        "TSLA"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds hit 68% as Wall Street eyes Meta and Tesla earnings, booming AI demand, and $110 Brent crude.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62486943/stock-market-will-sp-500-open-up-or-down-today-62",
+      "created_at": "2026-10-21T07:17:24Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "TSLA"
+      ],
+      "headline": "Dow Surges Over 500 Points As Oil Prices Fall: Investor Sentiment Improves, Greed Index Moves To \u2018Fear\u2019 Zone",
+      "summary": "Market sentiment improved but stayed in Fear; the Dow surged 530 points as stocks mostly rose, led by 3M and Northrop Grumman earnings beats.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/10/62486787/dow-surges-over-500-points-as-oil-prices-fall-investor-sentiment-improves-greed-index-moves-to-fear-zone",
+      "created_at": "2026-10-21T07:00:07Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "TSLA"
+      ],
+      "headline": "AT&T, SpaceX And 3 Stocks To Watch Heading Into Wednesday",
+      "summary": "Tesla and Meta report earnings; Netflix guides weakly and falls. SpaceX beats estimates and jumps, while AT&amp;T earnings are due.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62486761/att-spacex-and-3-stocks-to-watch-heading-into-wednesday",
+      "created_at": "2026-10-21T06:57:39Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL"
+      ],
+      "headline": "\u2018I Watch Something on YouTube Every Day\u2019 but Netflix a \u2018Dormant Subscription,\u2019 Says Chamath Palihapitiya Underlining a Financial Lesson",
+      "summary": "Chamath Palihapitiya criticized Netflix\u2019s content strategy and rising debt as shares slid following weak guidance.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62486375/chamath-palihapitiya-youtube-netflix-dormant-subscription-financial-lesson",
+      "created_at": "2026-10-21T06:09:15Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Elon Musk Says Social Media Can Feel Dark Sometimes, Here\u2019s the Other Place Billionaire Gets News",
+      "summary": "Elon Musk doesn&#39;t just use X for his news. Here&#39;s the other resources the world&#39;s richest person uses.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/social-media/26/10/62486297/elon-musk-says-social-media-can-feel-dark-sometimes-heres-the-other-place-billionaire-gets-news",
+      "created_at": "2026-10-21T06:00:21Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny (UPDATED)",
+      "summary": "The U.K.&#39;s competition regulator has proposed designating Microsoft as having a Strategic Market Status (SMS).",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62427164/uk-watchdog-microsoft-competition-scrutiny",
+      "created_at": "2026-10-21T05:39:51Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "NVDA"
+      ],
+      "headline": "SpaceX Can't Find Spare Nvidia, Google or Amazon Chips Despite Billions to Spend, Strategist Terms It 'Pretty Insane'",
+      "summary": "SpaceX\u2019s struggle to secure AI chips signals that the industry\u2019s compute shortage may persist for years, strategist Shay Boloor says.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62485936/spacex-ai-chip-shortage-nvidia-google-amazon-billions",
+      "created_at": "2026-10-21T04:14:09Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "META"
+      ],
+      "headline": "Meta Pauses Muse AI Sharing After Researchers Say 6,800 Chats Were Exposed \u2018Like a Table Of Contents\u2019",
+      "summary": "Meta suspended Muse AI chat sharing after researchers found 6,800 links exposing sensitive personal and business conversations.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62485859/meta-muse-ai-chat-privacy-flaw",
+      "created_at": "2026-10-21T03:37:15Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Nerdio Releases 2026 State of the MSP Business Report on Microsoft Cloud Ecosystem",
+      "summary": "Nerdio's 2026 State of the MSP Business Report highlights challenges and trends for managed service providers managing Microsoft 365 and Azure environments.",
       "source": "fiscal.ai",
-      "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger",
-      "created_at": "2026-10-20T23:01:34Z"
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3384525/0/en/32-of-managed-service-providers-have-adopted-ai-but-only-12-can-show-it-s-paying-off.html",
+      "created_at": "2026-10-21T02:01:21Z"
     },
     {
       "symbols": [
-        "TSLA"
+        "NVDA"
       ],
-      "headline": "Elon Musk Says AI Could Be a Threat, but He Can\u2019t Stop It: \u2018Be Participant or be a Spectator\u2019",
-      "summary": "Elon Musk has new thoughts on the good that AI can do for humanity.",
+      "headline": "Nvidia Stock Pops After Hours As Elon Musk Says SpaceX Is Adding 200,000 Chips a Month \u2014 Daniel Newman Says NVDA Is 'Ripping'",
+      "summary": "Nvidia rose more than 2% after hours on news that Elon Musk expects SpaceX to bring thousands of Nvidia chips online every month this year.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62484767/elon-musk-says-ai-could-be-a-threat-but-he-cant-stop-it-be-participant-or-be-a-spectator",
-      "created_at": "2026-10-20T22:07:34Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal \u2018A Good Idea\u2019",
-      "summary": "Elon Musk says SpaceX and Tesla formed committees to explore a merger, but no deal is certain as shareholder approval and terms remain unresolved.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62484678/elon-musk-confirms-spacex-tesla-merger-committees-calls-deal-a-good-idea",
-      "created_at": "2026-10-20T21:55:45Z"
+      "url": "https://www.benzinga.com/markets/tech/26/10/62485538/nvidia-pops-after-hours-spacex-musk-chips-newman-ripping",
+      "created_at": "2026-10-21T01:34:06Z"
     },
     {
       "symbols": [
@@ -1019,27 +1105,6 @@
     },
     {
       "symbols": [
-        "META",
-        "TSLA"
-      ],
-      "headline": "Meta Platforms, Tesla Could Swing More Than $100 Billion After Earnings",
-      "summary": "Discover 9 stocks to watch ahead of Wednesday\u2019s earnings, including Meta, Tesla and Lam Research, with options-implied moves reaching 7.42%.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62480628/meta-platforms-tesla-could-swing-more-than-100-billion-after-earnings",
-      "created_at": "2026-10-20T19:30:21Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Claude Opus 5.5, Claude Sonnet 5.5 Are Now Available In Google Antigravity",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62480532/claude-opus-5-5-claude-sonnet-5-5-are-now-available-google-antigravity",
-      "created_at": "2026-10-20T19:27:03Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "President Trump, On Endorsing Vance In 2028, Says It Is Very Early Right Now And That He Does Not Think They Ever Talked About A Vance 2028 Run",
@@ -1047,46 +1112,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62480126/president-trump-endorsing-vance-2028-says-it-very-early-right-now-and-he-does-not-think-they-ever-ta",
       "created_at": "2026-10-20T19:14:25Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "'Big Short' Trader Danny Moses Calls CoreWeave the WeWork of AI",
-      "summary": "Danny Moses likens CoreWeave to WeWork, warning $51B in debt and long leases could overwhelm profits as AI financing echoes 2008.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62480073/big-short-trader-danny-moses-calls-coreweave-the-wework-of-ai",
-      "created_at": "2026-10-20T19:12:35Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "3M Expands Commercial Relationship with Amazon and Issues Stock Warrant",
-      "summary": "3M has expanded its commercial partnership with Amazon and granted an Amazon subsidiary a warrant to purchase $521 million in 3M common stock.",
-      "source": "fiscal.ai",
-      "url": "https://www.manilatimes.net/2026/10/21/business/foreign-business/3m-expands-commercial-partnership-with-amazon/2450080",
-      "created_at": "2026-10-20T19:02:17Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Announces Hiring of Over 300,000 Seasonal Workers for U.S. Holiday Season",
-      "summary": "Amazon is hiring more than 300,000 seasonal, part-time, and full-time employees across its U.S. operations network for the upcoming holiday season.",
-      "source": "fiscal.ai",
-      "url": "https://www.barchart.com/press-releases/8243230/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits",
-      "created_at": "2026-10-20T19:02:17Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Chief Global Affairs Officer Joel Kaplan to Depart",
-      "summary": "Meta Platforms, Inc. has announced that Joel Kaplan, the company's Chief Global Affairs Officer, is stepping down from his role.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1lbok80&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151172635%2Fpost%2Fall%22%7D",
-      "created_at": "2026-10-20T19:02:08Z"
     },
     {
       "symbols": [
@@ -1100,27 +1125,6 @@
     },
     {
       "symbols": [
-        "AMZN",
-        "NVDA"
-      ],
-      "headline": "'Amazon Is Buying Billions In NVIDIA AI Systems It Can't Yet Turn On' - Business Insider",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62479295/amazon-buying-billions-nvidia-ai-systems-it-can-t-yet-turn-business-insider",
-      "created_at": "2026-10-20T18:47:01Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "President Trump And Vice President JD Vance Make An Announcement; President Trump Says We'll Have More Growth This Year; Will Be Very Strong On Budget This Year",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62479085/president-trump-and-vice-president-jd-vance-make-announcement-president-trump-says-we-ll-have-more-g",
-      "created_at": "2026-10-20T18:40:10Z"
-    },
-    {
-      "symbols": [
         "AAPL"
       ],
       "headline": "Apple Expands American Manufacturing Program with New Suppliers",
@@ -1128,68 +1132,6 @@
       "source": "fiscal.ai",
       "url": "https://www.morningstar.com/news/dow-jones/202610206549/apple-expands-partnerships-with-us-suppliers-for-iphone-duo-iphone-18-pro",
       "created_at": "2026-10-20T18:01:32Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "MoffettNathanson Maintains Neutral on Apple, Lowers Price Target to $283",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62477887/moffettnathanson-maintains-neutral-apple-lowers-price-target-283",
-      "created_at": "2026-10-20T18:01:16Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/m/26/10/62477847/openai-acquires-biotech-startup-ai-race-moves-drug-development-axios-exclusive",
-      "created_at": "2026-10-20T18:00:25Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "MSFT"
-      ],
-      "headline": "Why Is 3M Stock Soaring Tuesday?",
-      "summary": "3M (NYSE: MMM) stock surged after beating Q3 estimates, raising its 2026 earnings guidance, and boosting its 2027 outlook.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62477397/why-is-3m-stock-soaring-tuesday",
-      "created_at": "2026-10-20T17:48:55Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62477293/bmo-capital-maintains-outperform-alphabet-raises-price-target-480",
-      "created_at": "2026-10-20T17:46:24Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Q3 Preview: Muse Put Company in Spotlight, Will Financials Support a Rally?",
-      "summary": "Meta can monetize AI, analysts say. Opportunities could be on full display in Q3 results. Here are the key items to watch.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62476257/meta-q3-preview-muse-put-company-in-spotlight-will-financials-support-a-rally",
-      "created_at": "2026-10-20T17:16:18Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Health Care Stocks Hit Record Highs, GM Drops Nearly 8%: Stock Market Today",
-      "summary": "Health care stocks climbed to record highs by midday Tuesday, with defensives and small caps leading a recovery from an early dip.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62475717/health-care-stocks-hit-record-highs-gm-drops-nearly-8-stock-market-today",
-      "created_at": "2026-10-20T16:58:54Z"
     }
   ]
 }
