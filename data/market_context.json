@@ -435,7 +435,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "rating_change",
+          "headline": "Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade",
+          "url": "https://www.benzinga.com/quote/AMZN",
+          "created_at": "2026-10-22T06:47:00Z"
+        }
+      ]
     },
     "NVDA": {
       "latest_close": 221.9,
@@ -575,14 +582,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Meta Platforms Q3 2026 Earnings Call Transcript",
-          "url": "https://www.benzinga.com/news/26/10/62514401/meta-platforms-q3-2026-earnings-call-transcript",
-          "created_at": "2026-10-21T21:37:41Z"
-        }
-      ]
+      "material_news": []
     },
     "TSLA": {
       "latest_close": 386.63,
@@ -652,14 +652,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Tesla Q3 2026 Earnings Call Transcript",
-          "url": "https://www.benzinga.com/news/26/10/62515021/tesla-q3-2026-earnings-call-transcript",
-          "created_at": "2026-10-21T22:40:23Z"
-        }
-      ]
+      "material_news": []
     },
     "SMH": {
       "latest_close": 556.57,
@@ -938,104 +931,131 @@
   "news": [
     {
       "symbols": [
-        "TSLA"
+        "META"
       ],
-      "headline": "Tesla Reports Third-Quarter 2026 Financial Results",
-      "summary": "Tesla reported $28 billion in revenue for the third quarter of 2026, with net income of $787 million, reflecting a 42.7% decline from the prior-year period.",
-      "source": "fiscal.ai",
-      "url": "https://www.manilatimes.net/2026/10/22/world/americas-emea/tesla-profits-drop-but-top-analyst-estimates/2451296",
-      "created_at": "2026-10-21T23:01:39Z"
+      "headline": "Meta Strikes 8-Year Deal to Keep Mark Zuckerberg in California as Billionaire Tax Looms: \u2018Critically Important\u2019 for Him to Remain in Leadership",
+      "summary": "Meta struck a deal to keep Mark Zuckerberg in California, offering non-voting shares he could sell to cover a potential billionaire tax bill.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62517820/meta-strikes-8-year-deal-to-keep-mark-zuckerberg-in-california-as-billionaire-tax-looms-critically-important-for-him-to-remain-in-leadership",
+      "created_at": "2026-10-22T08:22:29Z"
     },
     {
       "symbols": [
-        "AMZN"
+        "NVDA",
+        "TSLA"
       ],
-      "headline": "3M and Amazon Web Services Announce Strategic Collaboration on Optical Connectivity",
-      "summary": "Amazon Web Services (AWS) and 3M have entered into a strategic collaboration to integrate 3M's Expanded Beam Optical technology into AWS data center infrastructure.",
-      "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/3m-and-aws-collaborate-to-advance-optical-connectivity-innovation-302915596.html",
-      "created_at": "2026-10-21T23:01:29Z"
+      "headline": "Tesla, Nvidia To Invest 3.7 Trillion Won ($2.8B) In Samsung Electro-Mechanics For AI Semiconductor Substrates",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62517762/tesla-nvidia-invest-3-7-trillion-won-2-8b-samsung-electro-mechanics-ai-semiconductor-substrates",
+      "created_at": "2026-10-22T08:15:53Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Samsung Turns to Rival TSMC for Nvidia\u2019s Next-Generation Memory\u2014Micron, SK Hynix Face Same Request: Report (UPDATED)",
+      "summary": "Samsung will reportedly use TSMC\u2019s process to make the base die for Nvidia\u2019s custom high-bandwidth memory.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62431195/samsung-accepts-nvidia-terms-turns-to-tsmc-next-generation-memory",
+      "created_at": "2026-10-19T07:09:51Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Eric Schmidt Wrote a Check to Anthropic Before the AI Boom: Here\u2019s How Big the Payoff Could Get (UPDATED)",
+      "summary": "Former Google CEO Eric Schmidt reportedly owns about 1% of Anthropic through an early investment, setting him up for a big IPO windfall.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/ipos/26/10/62457427/former-google-ceo-eric-schmidt-reportedly-owns-1-percent-anthropic",
+      "created_at": "2026-10-20T04:33:47Z"
     },
     {
       "symbols": [
         "META",
         "TSLA"
       ],
-      "headline": "Kevin O\u2019Leary Says Tesla-SpaceX Merger Is Inevitable After Flying Roadster Demo \u2014  \u2018If You Own Tesla, You\u2019re Gonna Own New Company\u2019",
-      "summary": "&#39;Shark Tank&#39; investor Kevin O&#39;Leary says the combination of Tesla and SpaceX, each headed by Elon Musk, is inevitable.",
+      "headline": "Tesla, Lockheed Martin And 3 Stocks To Watch Heading Into Thursday",
+      "summary": "Premarket focus: Lockheed Martin and P&amp;G report earnings; Tesla beats estimates; Meta tops results and announces split; American Airlines expects a loss.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62515178/kevin-oleary-tesla-spacex-merger",
-      "created_at": "2026-10-21T23:00:11Z"
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62517623/tesla-lockheed-martin-and-3-stocks-to-watch-heading-into-thursday",
+      "created_at": "2026-10-22T08:00:21Z"
     },
     {
       "symbols": [
+        "META"
+      ],
+      "headline": "Mark Zuckerberg Says Meta Will \u2018Build Superintelligence Through Scaling\u2019 After $64.6 Billion Q3 Beat, META Stock Jumps After Hours",
+      "summary": "Mark Zuckerberg says Meta can reach superintelligence by scaling up its AI models, with larger ones already in training.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62517271/mark-zuckerberg-superintelligence-scaling-meta-bigger-models",
+      "created_at": "2026-10-22T07:26:43Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
         "TSLA"
       ],
-      "headline": "Tesla Q3 2026 Earnings Call Transcript",
-      "summary": "Tesla (NASDAQ:TSLA) reported third-quarter financial results on Wednesday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+      "headline": "Gene Munster Says Tesla FSD Is at an \u2018Inflection Point\u2019 as TSLA AI Lead Says Rivals Can\u2019t 'Match It' for Years\u2014Dan Ives Hails 75%+ Attach Rate",
+      "summary": "Munster and Ives say Tesla\u2019s FSD is a critical piece of the automaker&#39;s business that is driving sales and widening its lead over rivals.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62515021/tesla-q3-2026-earnings-call-transcript",
-      "created_at": "2026-10-21T22:40:23Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Platforms Q3 2026 Earnings Call Transcript",
-      "summary": "Meta Platforms (NASDAQ:META) reported third-quarter financial results on Wednesday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62514401/meta-platforms-q3-2026-earnings-call-transcript",
-      "created_at": "2026-10-21T21:37:41Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Platforms CEO Says Co To Work On Muse Monetization Sooner Than Normal Playbook;  Reason We're Not Charging Everyone For Muse Is That We Want To Establish A Network Of People And Businesses Using It At Scale",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62514334/meta-platforms-ceo-says-co-work-muse-monetization-sooner-normal-playbook-reason-we-re-not-charging-e",
-      "created_at": "2026-10-21T21:33:26Z"
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62517257/gene-munster-says-tesla-fsd-is-at-an-inflection-point-as-tsla-ai-lead-says-rivals-cant-match-it-for-years-dan-ives-hails-75-attach-rate",
+      "created_at": "2026-10-22T07:24:41Z"
     },
     {
       "symbols": [
         "AMZN"
       ],
-      "headline": "Amazon's Blink Brand Launches Five New Security Cameras",
-      "summary": "Amazon's Blink brand has introduced five new security camera models, including its first 4K, spotlight, and pan-tilt options.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/stock/AMZN-US/news?chain_id=Name1K9-3FXPhg.1ldg040&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Flearn%2Fcommon-mistakes-to-avoid-when-investing-in-etfs%22%7D",
-      "created_at": "2026-10-21T21:32:04Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "'Google Stops Using Nondisclosure Agreements For Data Centers' - The Information",
+      "headline": "Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62513317/google-stops-using-nondisclosure-agreements-data-centers-information",
-      "created_at": "2026-10-21T20:55:51Z"
+      "url": "https://www.benzinga.com/quote/AMZN",
+      "created_at": "2026-10-22T06:47:00Z"
     },
     {
       "symbols": [
         "AAPL"
       ],
-      "headline": "Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2",
-      "summary": "Apple has confirmed that the iPhone Duo will support the Apple Pencil (USB-C) following the release of the iOS 27.2 software update.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/396es5h/",
-      "created_at": "2026-10-21T20:31:36Z"
+      "headline": "Reported Earlier, Australian Court Orders Apple To Allow Alternative App Distribution, Payments For Australian Users From March 1, 2027; Rejects Epic\u2019s Global Relief",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/EWA",
+      "created_at": "2026-10-22T06:21:12Z"
     },
     {
       "symbols": [
-        "NVDA"
+        "QQQ",
+        "SPY",
+        "TSLA"
       ],
-      "headline": "Palantir Says Ondas Is Launching Regna AI, Built On Palantir\u2019s AIP Platform And Nvidia Nemotron Models",
-      "summary": "",
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds plunge to 19% as Wall Street faces a tech selloff, $111 Brent crude, and Tesla earnings.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/NVDA",
-      "created_at": "2026-10-21T20:03:06Z"
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62516693/stock-market-will-sp-500-open-up-or-down-today-63",
+      "created_at": "2026-10-22T06:08:59Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "United Airlines CEO Says Starlink Is a Key Factor in Customers\u2019 Flight Choices\u2014Elon Musk Responds",
+      "summary": "United Airlines says Starlink is attracting customers from rivals, with over half its flights connected to the service.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/travel/26/10/62516630/united-airlines-ceo-says-starlink-is-a-key-factor-in-customers-flight-choices-elon-musk-responds",
+      "created_at": "2026-10-22T05:54:51Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Tavant Launches Accelerator for Microsoft Fabric on Microsoft Marketplace",
+      "summary": "Tavant has released a new accelerator designed to help organizations modernize and deploy solutions on Microsoft Fabric up to five times faster.",
+      "source": "fiscal.ai",
+      "url": "https://ittech-pulse.com/news/tavant-microsoft-fabric-accelerator-marketplace-launch/",
+      "created_at": "2026-10-22T02:01:32Z"
     }
   ]
 }
