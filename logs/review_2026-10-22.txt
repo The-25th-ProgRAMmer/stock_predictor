@@ -1,0 +1,83 @@
+==============================================================================
+DAILY REVIEW - 2026-10-22
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-10-22: $98,414.41  (-1.59%, -32% of the way)
+  Peak $99,999.88, now -1.59% from peak
+  $6,585.59 to go over 6 session(s): needs +1.085% per session, compounded
+  Realised so far -0.123% per session - behind pace
+  (Pace is a yardstick only; it never changes position size.)
+
+TRADES CLOSED:
+  Since 2026-10-22: 1 closed, 1 profitable / 0 not (100% win rate), net $+206.40
+    avg win  $+206.40
+    2026-10-22  NVDA   short target    held 1s  $  +206.40 (+2.60%)
+  October to date: 11 closed, 1 profitable / 10 not (9% win rate), net $-1,754.97
+    avg win  $+206.40
+    avg loss $-196.14
+    profit factor 0.11 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+    2026-10-09  AMZN   short stop      held 3s  $  -101.97 (-2.35%)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+    2026-10-16  META   long  stop      held 8s  $  -195.30 (-4.40%)
+    2026-10-19  AMZN   short stop      held 0s  $  -208.08 (-2.39%)
+    2026-10-21  SMH    short stop      held 1s  $  -190.55 (-3.20%)
+    2026-10-22  NVDA   short target    held 1s  $  +206.40 (+2.60%)
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 5/10 = 50%
+Baseline 'always up': 10%
+Your edge vs always_up: +40%
+
+CORRECT (5):
+  AAPL   called up  @52%  -> up   (+1.28%)
+    Close ($343.94) is above both SMA20 ($337.99) and SMA50 ($327.72), with SMA20 ab
+  GOOGL  called down@50%  -> down (-3.14%)
+    Close ($334.71) is below both SMA20 ($345.17) and SMA50 ($343.76), while SMA20 s
+  NVDA   called down@50%  -> down (-4.34%)
+    Close ($221.90) is below both SMA20 ($226.89) and SMA50 ($222.93), while SMA20 r
+  QQQ    called down@50%  -> down (-2.85%)
+    Close ($725.25) is below both SMA20 ($739.03) and SMA50 ($726.34), while SMA20 r
+  SMH    called down@50%  -> down (-5.99%)
+    Close ($556.57) is below both SMA20 ($593.35) and SMA50 ($577.51), while SMA20 s
+
+WRONG (5):
+  AMZN   called up  @52%  -> down (-4.56%)
+    Signals: close_above_sma20, close_above_sma50, sma20_below_sma50
+    Close ($262.37) is above both SMA20 ($254.48) and SMA50 ($256.32), even though S
+  META   called up  @52%  -> down (-7.13%)
+    Signals: close_below_sma20, close_above_sma50, sma20_above_sma50
+    Close ($698.54) is below SMA20 ($729.55) but still above SMA50 ($661.20), with S
+  MSFT   called up  @52%  -> down (-2.10%)
+    Signals: close_above_sma20, close_above_sma50, sma20_above_sma50
+    Close ($532.80) is above both SMA20 ($525.12) and SMA50 ($507.19), with SMA20 ab
+  SPY    called up  @52%  -> down (-1.18%)
+    Signals: close_above_sma20, close_above_sma50, sma20_above_sma50
+    Close ($773.13) is above both SMA20 ($770.89) and SMA50 ($767.34), with SMA20 ab
+  TSLA   called up  @52%  -> down (-3.09%)
+    Signals: close_above_sma20, close_above_sma50, sma20_above_sma50
+    Close ($386.63) is above both SMA20 ($370.04) and SMA50 ($362.19), with SMA20 ab
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - sma20_above_sma50: 5/5 correct predictions
+    - close_below_sma20: 4/5 correct predictions
+    - close_below_sma50: 4/5 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - close_above_sma50: 5/5 wrong predictions
+    - close_above_sma20: 4/5 wrong predictions
+    - sma20_above_sma50: 4/5 wrong predictions
+  Biggest magnitude misses:
+    - AMZN: called up, actual down (-4.56%)
+    - META: called up, actual down (-7.13%)
+
+==============================================================================
