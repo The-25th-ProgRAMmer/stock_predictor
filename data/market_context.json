@@ -30,7 +30,7 @@
         "close_vs_sma20_pct": -0.869,
         "close_vs_sma50_pct": -0.414,
         "sma20_vs_sma50": "above",
-        "rsi14": 45.48,
+        "rsi14": 45.39,
         "macd_hist": -1.134,
         "atr14_pct_of_close": 0.95
       },
@@ -74,7 +74,7 @@
           "sma20": 770.73,
           "sma50": 767.21,
           "sma50_slope_10d_pct": 0.225,
-          "rsi14": 45.5,
+          "rsi14": 45.4,
           "stretch_atr_from_sma20": -0.92,
           "relative_volume_20d": 1.33,
           "up_down_volume_ratio_20d": 1.05,
@@ -100,8 +100,8 @@
         "close_vs_sma20_pct": -4.428,
         "close_vs_sma50_pct": -2.95,
         "sma20_vs_sma50": "above",
-        "rsi14": 36.83,
-        "macd_hist": -4.9827,
+        "rsi14": 36.61,
+        "macd_hist": -4.9785,
         "atr14_pct_of_close": 1.711
       },
       "last_3_days": [
@@ -144,7 +144,7 @@
           "sma20": 737.21,
           "sma50": 725.97,
           "sma50_slope_10d_pct": 0.465,
-          "rsi14": 36.8,
+          "rsi14": 36.6,
           "stretch_atr_from_sma20": -2.71,
           "relative_volume_20d": 1.69,
           "up_down_volume_ratio_20d": 0.69,
@@ -173,8 +173,8 @@
         "close_vs_sma20_pct": 2.872,
         "close_vs_sma50_pct": 5.994,
         "sma20_vs_sma50": "above",
-        "rsi14": 64.12,
-        "macd_hist": 0.2169,
+        "rsi14": 65.13,
+        "macd_hist": 0.2037,
         "atr14_pct_of_close": 1.735
       },
       "last_3_days": [
@@ -217,7 +217,7 @@
           "sma20": 338.62,
           "sma50": 328.64,
           "sma50_slope_10d_pct": 1.97,
-          "rsi14": 64.1,
+          "rsi14": 65.1,
           "stretch_atr_from_sma20": 1.61,
           "relative_volume_20d": 0.86,
           "up_down_volume_ratio_20d": 1.4,
@@ -243,8 +243,8 @@
         "close_vs_sma20_pct": -0.897,
         "close_vs_sma50_pct": 2.72,
         "sma20_vs_sma50": "above",
-        "rsi14": 50.67,
-        "macd_hist": -1.9156,
+        "rsi14": 51.25,
+        "macd_hist": -1.9252,
         "atr14_pct_of_close": 2.158
       },
       "last_3_days": [
@@ -287,7 +287,7 @@
           "sma20": 526.32,
           "sma50": 507.79,
           "sma50_slope_10d_pct": 1.866,
-          "rsi14": 50.7,
+          "rsi14": 51.2,
           "stretch_atr_from_sma20": -0.42,
           "relative_volume_20d": 0.96,
           "up_down_volume_ratio_20d": 1.65,
@@ -313,8 +313,8 @@
         "close_vs_sma20_pct": -5.829,
         "close_vs_sma50_pct": -5.586,
         "sma20_vs_sma50": "above",
-        "rsi14": 33.25,
-        "macd_hist": -2.3099,
+        "rsi14": 33.15,
+        "macd_hist": -2.3112,
         "atr14_pct_of_close": 2.58
       },
       "last_3_days": [
@@ -373,9 +373,9 @@
       "material_news": [
         {
           "event": "corporate",
-          "headline": "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62541272/blackstone-ceo-sounds-alarm-on-ai-supply-crunch-seldom-in-my-career-have-i-seen-anything-like-it",
-          "created_at": "2026-10-22T18:18:40Z"
+          "headline": "Trump Asked Google\u2019s Sundar Pichai to Rename Atlantic Ocean After America, But the CEO Wasn\u2019t Having It: \u2018Please Don\u2019t Ask Us to Do That\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62551058/trump-asked-googles-sundar-pichai-to-rename-atlantic-ocean-after-america-but-the-ceo-wasnt-having-it-please-dont-ask-us-to-do-that",
+          "created_at": "2026-10-23T06:08:18Z"
         }
       ]
     },
@@ -392,8 +392,8 @@
         "close_vs_sma20_pct": -1.626,
         "close_vs_sma50_pct": -2.186,
         "sma20_vs_sma50": "below",
-        "rsi14": 44.96,
-        "macd_hist": 0.2091,
+        "rsi14": 45.23,
+        "macd_hist": 0.2038,
         "atr14_pct_of_close": 2.822
       },
       "last_3_days": [
@@ -436,7 +436,7 @@
           "sma20": 254.53,
           "sma50": 255.99,
           "sma50_slope_10d_pct": -0.991,
-          "rsi14": 45.0,
+          "rsi14": 45.2,
           "stretch_atr_from_sma20": -0.59,
           "relative_volume_20d": 1.57,
           "up_down_volume_ratio_20d": 1.01,
@@ -464,8 +464,8 @@
         "close_vs_sma20_pct": -6.19,
         "close_vs_sma50_pct": -4.682,
         "sma20_vs_sma50": "above",
-        "rsi14": 38.98,
-        "macd_hist": -2.0631,
+        "rsi14": 38.96,
+        "macd_hist": -2.0653,
         "atr14_pct_of_close": 2.889
       },
       "last_3_days": [
@@ -519,14 +519,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "corporate",
-          "headline": "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62541272/blackstone-ceo-sounds-alarm-on-ai-supply-crunch-seldom-in-my-career-have-i-seen-anything-like-it",
-          "created_at": "2026-10-22T18:18:40Z"
-        }
-      ]
+      "material_news": []
     },
     "META": {
       "latest_close": 648.76,
@@ -541,8 +534,8 @@
         "close_vs_sma20_pct": -10.281,
         "close_vs_sma50_pct": -2.09,
         "sma20_vs_sma50": "above",
-        "rsi14": 36.94,
-        "macd_hist": -12.4852,
+        "rsi14": 37.07,
+        "macd_hist": -12.4961,
         "atr14_pct_of_close": 3.924
       },
       "last_3_days": [
@@ -585,7 +578,7 @@
           "sma20": 723.1,
           "sma50": 662.61,
           "sma50_slope_10d_pct": 4.221,
-          "rsi14": 36.9,
+          "rsi14": 37.1,
           "stretch_atr_from_sma20": -2.92,
           "relative_volume_20d": 2.09,
           "up_down_volume_ratio_20d": 0.53,
@@ -614,8 +607,8 @@
         "close_vs_sma20_pct": 1.305,
         "close_vs_sma50_pct": 3.186,
         "sma20_vs_sma50": "above",
-        "rsi14": 52.89,
-        "macd_hist": 0.0446,
+        "rsi14": 52.95,
+        "macd_hist": 0.0444,
         "atr14_pct_of_close": 3.185
       },
       "last_3_days": [
@@ -686,8 +679,8 @@
         "close_vs_sma20_pct": -11.238,
         "close_vs_sma50_pct": -9.203,
         "sma20_vs_sma50": "above",
-        "rsi14": 31.78,
-        "macd_hist": -9.0608,
+        "rsi14": 31.39,
+        "macd_hist": -9.0483,
         "atr14_pct_of_close": 3.432
       },
       "last_3_days": [
@@ -730,7 +723,7 @@
           "sma20": 589.49,
           "sma50": 576.28,
           "sma50_slope_10d_pct": -0.111,
-          "rsi14": 31.8,
+          "rsi14": 31.4,
           "stretch_atr_from_sma20": -3.69,
           "relative_volume_20d": 1.44,
           "up_down_volume_ratio_20d": 0.4,
@@ -753,14 +746,14 @@
         "pct_1d": 6.175,
         "pct_5d": 7.988,
         "vs_sma20_pct": 6.22,
-        "rsi14": 57.6
+        "rsi14": 57.8
       },
       "VXX": {
         "close": 18.45,
         "pct_1d": 5.974,
         "pct_5d": 8.021,
         "vs_sma20_pct": 6.2,
-        "rsi14": 57.6
+        "rsi14": 57.7
       }
     },
     "metals": {
@@ -769,14 +762,14 @@
         "pct_1d": -2.612,
         "pct_5d": -3.554,
         "vs_sma20_pct": -2.99,
-        "rsi14": 35.8
+        "rsi14": 35.9
       },
       "SLV": {
         "close": 49.34,
         "pct_1d": -5.587,
         "pct_5d": -4.96,
         "vs_sma20_pct": -7.97,
-        "rsi14": 32.8
+        "rsi14": 32.9
       }
     },
     "bonds": {
@@ -792,7 +785,7 @@
         "pct_1d": 1.081,
         "pct_5d": 0.946,
         "vs_sma20_pct": 1.75,
-        "rsi14": 64.8
+        "rsi14": 64.9
       }
     },
     "credit": {
@@ -801,14 +794,14 @@
         "pct_1d": 0.162,
         "pct_5d": -0.013,
         "vs_sma20_pct": 0.04,
-        "rsi14": 43.1
+        "rsi14": 43.0
       },
       "LQD": {
         "close": 104.3,
         "pct_1d": 1.056,
         "pct_5d": 0.758,
         "vs_sma20_pct": 1.67,
-        "rsi14": 62.8
+        "rsi14": 62.7
       }
     },
     "dollar": {
@@ -826,7 +819,7 @@
         "pct_1d": 1.715,
         "pct_5d": 3.293,
         "vs_sma20_pct": 7.11,
-        "rsi14": 66.3
+        "rsi14": 66.0
       }
     },
     "breadth": {
@@ -835,7 +828,7 @@
         "pct_1d": 0.067,
         "pct_5d": 0.591,
         "vs_sma20_pct": -0.31,
-        "rsi14": 44.7
+        "rsi14": 44.5
       }
     },
     "semis": {
@@ -844,35 +837,35 @@
         "pct_1d": -8.045,
         "pct_5d": -9.61,
         "vs_sma20_pct": -14.3,
-        "rsi14": 36.6
+        "rsi14": 36.4
       },
       "AVGO": {
         "close": 323.31,
         "pct_1d": -4.311,
         "pct_5d": -6.095,
         "vs_sma20_pct": -7.71,
-        "rsi14": 34.8
+        "rsi14": 34.7
       },
       "TSM": {
         "close": 412.3,
         "pct_1d": -4.509,
         "pct_5d": -2.377,
         "vs_sma20_pct": -7.81,
-        "rsi14": 37.8
+        "rsi14": 37.9
       },
       "MU": {
         "close": 855.88,
         "pct_1d": -6.319,
         "pct_5d": -8.106,
         "vs_sma20_pct": -14.15,
-        "rsi14": 35.2
+        "rsi14": 34.2
       },
       "INTC": {
         "close": 85.5,
         "pct_1d": -7.975,
         "pct_5d": -10.307,
         "vs_sma20_pct": -19.25,
-        "rsi14": 30.4
+        "rsi14": 30.3
       }
     }
   },
@@ -952,54 +945,144 @@
   "news": [
     {
       "symbols": [
-        "META"
+        "TSLA"
       ],
-      "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
-      "summary": "Bill Ackman says Meta\u2019s $82 billion cash pile and low leverage give it ample room to fund its AI expansion.",
+      "headline": "Tesla Drops Plans To Produce Cybertruck For Australia And New Zealand Markets",
+      "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62548583/meta-ai-spending-bill-ackman-cash",
-      "created_at": "2026-10-22T21:15:12Z"
+      "url": "https://www.benzinga.com/news/26/10/62551752/tesla-drops-plans-produce-cybertruck-australia-and-new-zealand-markets",
+      "created_at": "2026-10-23T07:26:23Z"
     },
     {
       "symbols": [
-        "TSLA"
+        "GOOGL",
+        "META",
+        "NVDA"
       ],
-      "headline": "SpaceX Says Any Potential Tesla Combination Would Be Subject To Further Approval By Our Special Committee, Board & Controlling Shareholder",
+      "headline": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk, Zuckerberg and Huang: \u2018We\u2019re Still Early'",
+      "summary": "Tech stocks plunged on AI spending fears, but Gene Munster says the AI revolution is early, with Meta\u2019s Muse poised to reshape commerce.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62551736/meta-nvidia-lead-tech-sell-off-as-ai-spending-fears-rattle-wall-street-but-gene-munster-sides-with-musk-zuckerberg-and-huang-were-still-early",
+      "created_at": "2026-10-23T07:19:22Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Pony.ai And inDrive Plan Astana Launch Of Gen-7 Robotaxis, Pending Kazakhstan Government Agreement, Under MOU With NVIDIA To Explore Autonomous Mobility",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62547949/spacex-says-any-potential-tesla-combination-would-be-subject-further-approval-our-special-committee-",
-      "created_at": "2026-10-22T20:45:43Z"
+      "url": "https://www.benzinga.com/quote/NVDA",
+      "created_at": "2026-10-23T07:14:22Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "OpenAI Signs Agreement With Poland\u2019s NASK To Explore Collaboration On AI Safety, Security And Technical Research, Strengthening Safeguards Against Emerging Risks",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/MSFT",
+      "created_at": "2026-10-23T07:11:39Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "AI Stocks Are Getting Crushed, But This Strategist Says the Pullback Could Keep the Boom Alive: 'Restraint Prevents Excess'",
+      "summary": "James Thorne argued Thursday that the market is misreading the AI stock slide, a pullback that may help the boom last longer.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62551526/james-thorne-ai-selloff-healthy-correction-restraint-more-time-to-run",
+      "created_at": "2026-10-23T07:02:01Z"
     },
     {
       "symbols": [
         "QQQ",
         "SPY"
       ],
-      "headline": "SCHD ETF Hits Record High as Inflows Rise While Tech Stocks and Treasury Yields Slip",
-      "summary": "The SCHD ETF has jumped to a record high as technology stocks and US Treasury yields continue falling today.",
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds sit at 49% as Wall Street digests $114 Brent crude, Anthropic IPO buzz, and a CFTC market probe.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62547318/schd-etf-hits-record-high-as-inflows-rise-while-tech-stocks-and-treasury-yields-slip",
-      "created_at": "2026-10-22T20:32:36Z"
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62551350/stock-market-will-sp-500-open-up-or-down-today-64",
+      "created_at": "2026-10-23T06:36:08Z"
     },
     {
       "symbols": [
-        "NVDA"
+        "GOOGL"
       ],
-      "headline": "Merck Collaborates with NVIDIA, Microsoft, and Dawn Health on Patient Support Model",
-      "summary": "Merck is partnering with NVIDIA, Microsoft, and Dawn Health to develop an innovative patient support program for rare tumors.",
-      "source": "fiscal.ai",
-      "url": "https://www.businesswirechina.com/en/news/64377.html",
-      "created_at": "2026-10-22T20:31:20Z"
+      "headline": "Trump Asked Google\u2019s Sundar Pichai to Rename Atlantic Ocean After America, But the CEO Wasn\u2019t Having It: \u2018Please Don\u2019t Ask Us to Do That\u2019",
+      "summary": "Donald Trump dropped his Atlantic Ocean renaming idea after Google CEO Sundar Pichai pushed back saying, &#34;don\u2019t ask us to do that.&#34;",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62551058/trump-asked-googles-sundar-pichai-to-rename-atlantic-ocean-after-america-but-the-ceo-wasnt-having-it-please-dont-ask-us-to-do-that",
+      "created_at": "2026-10-23T06:08:18Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To \u2018Extreme Fear\u2019 Zone",
+      "summary": "Market sentiment hit Extreme Fear as Nasdaq plunged 2.6%; Meta, AMD, Nvidia and Tesla fell, while the Dow edged higher.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/10/62550969/nasdaq-records-worst-session-since-june-investor-sentiment-weakens-greed-index-moves-to-extreme-fear-zone",
+      "created_at": "2026-10-23T05:54:06Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "META"
+      ],
+      "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals \u2018Far More Consequential\u2019 Shift",
+      "summary": "Danielle DiMartino Booth warns a recession may already be underway, with Treasury yields falling and credit stress widening at AI spenders.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/10/62550709/former-fed-insider-warns-recession-underway-treasury-rally",
+      "created_at": "2026-10-23T04:55:07Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Crown Castle Stock Jumps as SpaceX Eyes 80,000 Cell Sites for Wireless Network: \u2018We\u2019re Talking to All Parties\u2019",
+      "summary": "Crown Castle shares surged 9.46% after hours as SpaceX reportedly pursued cell tower leases, boosting investor interest.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62550649/crown-castle-shares-surge-spacex-cell-site-talks",
+      "created_at": "2026-10-23T04:26:05Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META"
+      ],
+      "headline": "Ro Khanna Says Zuckerberg\u2019s California Deal Undercuts Billionaire Tax Exodus Warnings: \u2018Gavin, Can You and Sergey Brin Stop...\u2019",
+      "summary": "Ro Khanna says Zuckerberg\u2019s California deal undermines claims that a proposed billionaire tax will drive the wealthy out of the state.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62550501/khanna-zuckerberg-california-billionaire-tax",
+      "created_at": "2026-10-23T03:27:59Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' \u2014 'This Is October'",
+      "summary": "Peter Schiff warns of a possible stock market crash before the midterms, citing inflation, a weak economy and costly AI financing.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/10/62550388/peter-schiff-october-stock-market-crash-warning-midterms",
+      "created_at": "2026-10-23T02:32:48Z"
     },
     {
       "symbols": [
         "TSLA"
       ],
-      "headline": "SpaceX Says During Three & Nine Months Ended September 30, Purchased $151M And $480M, Respectively, Of Megapack Products From Tesla",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62547233/spacex-says-during-three-nine-months-ended-september-30-purchased-151m-and-480m-respectively-megapac",
-      "created_at": "2026-10-22T20:31:01Z"
+      "headline": "Tesla Updates Long-Term Production Targets and Facility Plans",
+      "summary": "During its third-quarter earnings call, Tesla disclosed updated long-term production goals and plans for a new facility in Austin.",
+      "source": "fiscal.ai",
+      "url": "https://www.morningstar.com/news/marketwatch/20261022104/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more",
+      "created_at": "2026-10-23T02:01:30Z"
     },
     {
       "symbols": [
@@ -1010,27 +1093,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/10/62546901/openai-nears-30-billion-funding-round-1-25-trillion-valuation-led-uae-investors-cnbc",
       "created_at": "2026-10-22T20:21:48Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta\u2019s Muse Downloads Top 10 Million, Join Elite Company: Here\u2019s the 2 Non-Game Apps to Hit Same Milestone",
-      "summary": "Meta hit an impressive milestone with Muse, but it&#39;s one that may represent slower growth coming.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/social-media/26/10/62546804/metas-muse-downloads-top-10-million-join-elite-company-heres-the-2-non-game-apps-to-hit-same-milestone",
-      "created_at": "2026-10-22T20:19:35Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "SPY"
-      ],
-      "headline": "Walmart\u2019s Best Month Since 1999 Leads a Record Staples Rally: Is This a Warning Sign?",
-      "summary": "Walmart is on track for its best month since 1999 as XLP heads for a record October. Past staples surges like this often came before weaker markets.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62546738/walmart-stock-best-month-since-1999-record-staples-rally",
-      "created_at": "2026-10-22T20:18:29Z"
     },
     {
       "symbols": [
@@ -1062,27 +1124,6 @@
     },
     {
       "symbols": [
-        "META",
-        "QQQ"
-      ],
-      "headline": "Ten-Year Treasury Yields Fall Below 5%: These 10 Real-Estate Stocks Are Rallying Sharply",
-      "summary": "Homebuilders rally as the 10-year Treasury yield falls below 5%. Lennar, KB Home and Zillow lead while REITs lag ahead of next week&#39;s Fed meeting.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/real-estate/26/10/62545365/10-year-treasury-yield-falls-homebuilder-real-estate-stocks-rally",
-      "created_at": "2026-10-22T20:03:40Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "OpenAI Makes The Decisions API Generally Available",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62544124/openai-makes-decisions-api-generally-available",
-      "created_at": "2026-10-22T19:40:30Z"
-    },
-    {
-      "symbols": [
         "AAPL",
         "AMZN",
         "GOOGL",
@@ -1103,29 +1144,6 @@
       "source": "fiscal.ai",
       "url": "https://appleosophy.com/wire/52venfd/",
       "created_at": "2026-10-22T19:01:30Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "META",
-        "NVDA"
-      ],
-      "headline": "Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge",
-      "summary": "Meta\u2019s debt insurance costs hit a record as AI spending concerns mount, despite strong cash reserves and revenue.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62541680/meta-bulls-beware-bond-market-sends-its-loudest-warning-on-zuckerbergs-borrowing-binge",
-      "created_at": "2026-10-22T18:30:02Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "NVDA"
-      ],
-      "headline": "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It",
-      "summary": "Blackstone (NYSE: BX) Q3 earnings beat estimates on $1.4T record AUM, driven by AI infrastructure and private credit expansion.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/earnings/26/10/62541272/blackstone-ceo-sounds-alarm-on-ai-supply-crunch-seldom-in-my-career-have-i-seen-anything-like-it",
-      "created_at": "2026-10-22T18:18:40Z"
     }
   ]
 }
