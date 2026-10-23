@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-22",
-  "for_date": "2026-10-23",
+  "as_of": "2026-10-23",
+  "for_date": "2026-10-26",
   "anchor": "SPY",
   "targets": [
     "SPY",
@@ -18,31 +18,23 @@
   "missing_symbols": [],
   "target_data": {
     "SPY": {
-      "latest_close": 764.03,
-      "prev_close": 773.13,
+      "latest_close": 759.83,
+      "prev_close": 764.03,
       "prev_day_direction": "down",
-      "prev_day_pct": -1.177,
-      "pct_5d": -1.003,
-      "pct_20d": -0.425,
+      "prev_day_pct": -0.55,
+      "pct_5d": -0.459,
+      "pct_20d": -1.493,
       "indicators": {
-        "sma20": 770.73,
-        "sma50": 767.21,
-        "close_vs_sma20_pct": -0.869,
-        "close_vs_sma50_pct": -0.414,
+        "sma20": 770.15,
+        "sma50": 766.89,
+        "close_vs_sma20_pct": -1.34,
+        "close_vs_sma50_pct": -0.92,
         "sma20_vs_sma50": "above",
-        "rsi14": 45.39,
-        "macd_hist": -1.134,
-        "atr14_pct_of_close": 0.95
+        "rsi14": 42.13,
+        "macd_hist": -1.5874,
+        "atr14_pct_of_close": 0.94
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 765.67,
-          "h": 772.29,
-          "l": 764.34,
-          "c": 769.09,
-          "v": 1235267
-        },
         {
           "t": "2026-10-21",
           "o": 771.2,
@@ -58,6 +50,14 @@
           "l": 761.17,
           "c": 764.03,
           "v": 1595162
+        },
+        {
+          "t": "2026-10-23",
+          "o": 759.88,
+          "h": 763.44,
+          "l": 758.68,
+          "c": 759.83,
+          "v": 1089706
         }
       ],
       "signal": {
@@ -71,48 +71,47 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 770.73,
-          "sma50": 767.21,
-          "sma50_slope_10d_pct": 0.225,
-          "rsi14": 45.4,
-          "stretch_atr_from_sma20": -0.92,
-          "relative_volume_20d": 1.33,
-          "up_down_volume_ratio_20d": 1.05,
-          "obv_10d": "rising",
+          "sma20": 770.15,
+          "sma50": 766.89,
+          "sma50_slope_10d_pct": 0.082,
+          "rsi14": 42.1,
+          "stretch_atr_from_sma20": -1.45,
+          "relative_volume_20d": 0.92,
+          "up_down_volume_ratio_20d": 0.86,
+          "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -0.42,
+          "pct_20d": -1.49,
           "spy_regime": "below_sma50"
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "regulatory_legal",
+          "headline": "Texas Attorney General Paxton Sues OpenAI, CEO Altman Over Alleged Imposition Of Negative Side Effects On Clients",
+          "url": "https://www.benzinga.com/news/26/10/62572952/texas-attorney-general-paxton-sued-openai-over-alleged-imposition-of-negative-side-effects-on-clients",
+          "created_at": "2026-10-23T19:23:56Z"
+        }
+      ]
     },
     "QQQ": {
-      "latest_close": 704.56,
-      "prev_close": 725.25,
+      "latest_close": 704.21,
+      "prev_close": 704.56,
       "prev_day_direction": "down",
-      "prev_day_pct": -2.853,
-      "pct_5d": -3.245,
-      "pct_20d": -4.929,
+      "prev_day_pct": -0.05,
+      "pct_5d": -0.79,
+      "pct_20d": -5.404,
       "indicators": {
-        "sma20": 737.21,
-        "sma50": 725.97,
-        "close_vs_sma20_pct": -4.428,
-        "close_vs_sma50_pct": -2.95,
+        "sma20": 735.2,
+        "sma50": 725.43,
+        "close_vs_sma20_pct": -4.215,
+        "close_vs_sma50_pct": -2.925,
         "sma20_vs_sma50": "above",
-        "rsi14": 36.61,
-        "macd_hist": -4.9785,
-        "atr14_pct_of_close": 1.711
+        "rsi14": 36.48,
+        "macd_hist": -5.1773,
+        "atr14_pct_of_close": 1.714
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 715.24,
-          "h": 722.74,
-          "l": 710.42,
-          "c": 717.21,
-          "v": 506120
-        },
         {
           "t": "2026-10-21",
           "o": 722.28,
@@ -128,6 +127,14 @@
           "l": 701.94,
           "c": 704.56,
           "v": 913881
+        },
+        {
+          "t": "2026-10-23",
+          "o": 702.15,
+          "h": 709.15,
+          "l": 701.18,
+          "c": 704.21,
+          "v": 584436
         }
       ],
       "signal": {
@@ -141,51 +148,42 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 737.21,
-          "sma50": 725.97,
-          "sma50_slope_10d_pct": 0.465,
-          "rsi14": 36.6,
-          "stretch_atr_from_sma20": -2.71,
-          "relative_volume_20d": 1.69,
-          "up_down_volume_ratio_20d": 0.69,
+          "sma20": 735.2,
+          "sma50": 725.43,
+          "sma50_slope_10d_pct": 0.2,
+          "rsi14": 36.5,
+          "stretch_atr_from_sma20": -2.57,
+          "relative_volume_20d": 1.06,
+          "up_down_volume_ratio_20d": 0.57,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -4.93,
+          "pct_20d": -5.4,
           "spy_regime": "below_sma50"
         },
         "notes": [
-          "Price is -2.7 ATRs from SMA20 - stretched. Context only.",
-          "Volume 1.7x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+          "Price is -2.6 ATRs from SMA20 - stretched. Context only."
         ]
       },
       "material_news": []
     },
     "AAPL": {
-      "latest_close": 348.34,
-      "prev_close": 343.94,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.281,
-      "pct_5d": 1.881,
-      "pct_20d": 3.71,
+      "latest_close": 347.69,
+      "prev_close": 348.34,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.187,
+      "pct_5d": 1.252,
+      "pct_20d": 1.956,
       "indicators": {
-        "sma20": 338.62,
-        "sma50": 328.64,
-        "close_vs_sma20_pct": 2.872,
-        "close_vs_sma50_pct": 5.994,
+        "sma20": 338.95,
+        "sma50": 329.49,
+        "close_vs_sma20_pct": 2.579,
+        "close_vs_sma50_pct": 5.524,
         "sma20_vs_sma50": "above",
-        "rsi14": 65.13,
-        "macd_hist": 0.2037,
-        "atr14_pct_of_close": 1.735
+        "rsi14": 64.03,
+        "macd_hist": 0.2984,
+        "atr14_pct_of_close": 1.767
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 339.86,
-          "h": 343.06,
-          "l": 338.71,
-          "c": 339.66,
-          "v": 834562
-        },
         {
           "t": "2026-10-21",
           "o": 339.42,
@@ -201,6 +199,14 @@
           "l": 342.29,
           "c": 348.34,
           "v": 980486
+        },
+        {
+          "t": "2026-10-23",
+          "o": 349.15,
+          "h": 351.68,
+          "l": 345.76,
+          "c": 347.69,
+          "v": 960247
         }
       ],
       "signal": {
@@ -214,16 +220,16 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 338.62,
-          "sma50": 328.64,
-          "sma50_slope_10d_pct": 1.97,
-          "rsi14": 65.1,
-          "stretch_atr_from_sma20": 1.61,
-          "relative_volume_20d": 0.86,
-          "up_down_volume_ratio_20d": 1.4,
+          "sma20": 338.95,
+          "sma50": 329.49,
+          "sma50_slope_10d_pct": 2.21,
+          "rsi14": 64.0,
+          "stretch_atr_from_sma20": 1.42,
+          "relative_volume_20d": 0.84,
+          "up_down_volume_ratio_20d": 1.19,
           "obv_10d": "rising",
           "macd_hist_sign": "positive",
-          "pct_20d": 3.71,
+          "pct_20d": 1.96,
           "spy_regime": "below_sma50"
         },
         "notes": []
@@ -231,31 +237,23 @@
       "material_news": []
     },
     "MSFT": {
-      "latest_close": 521.6,
-      "prev_close": 532.8,
-      "prev_day_direction": "down",
-      "prev_day_pct": -2.102,
-      "pct_5d": -3.293,
-      "pct_20d": 4.826,
+      "latest_close": 524.38,
+      "prev_close": 521.6,
+      "prev_day_direction": "up",
+      "prev_day_pct": 0.532,
+      "pct_5d": -0.872,
+      "pct_20d": 1.593,
       "indicators": {
-        "sma20": 526.32,
-        "sma50": 507.79,
-        "close_vs_sma20_pct": -0.897,
-        "close_vs_sma50_pct": 2.72,
+        "sma20": 526.73,
+        "sma50": 508.36,
+        "close_vs_sma20_pct": -0.448,
+        "close_vs_sma50_pct": 3.151,
         "sma20_vs_sma50": "above",
-        "rsi14": 51.25,
-        "macd_hist": -1.9252,
-        "atr14_pct_of_close": 2.158
+        "rsi14": 52.95,
+        "macd_hist": -2.3376,
+        "atr14_pct_of_close": 2.077
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 533.79,
-          "h": 534.17,
-          "l": 525.86,
-          "c": 532.02,
-          "v": 463037
-        },
         {
           "t": "2026-10-21",
           "o": 529.44,
@@ -271,6 +269,14 @@
           "l": 520.35,
           "c": 521.6,
           "v": 675626
+        },
+        {
+          "t": "2026-10-23",
+          "o": 517.75,
+          "h": 525.72,
+          "l": 515.79,
+          "c": 524.38,
+          "v": 446134
         }
       ],
       "signal": {
@@ -284,48 +290,47 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 526.32,
-          "sma50": 507.79,
-          "sma50_slope_10d_pct": 1.866,
-          "rsi14": 51.2,
-          "stretch_atr_from_sma20": -0.42,
-          "relative_volume_20d": 0.96,
-          "up_down_volume_ratio_20d": 1.65,
+          "sma20": 526.73,
+          "sma50": 508.36,
+          "sma50_slope_10d_pct": 1.636,
+          "rsi14": 53.0,
+          "stretch_atr_from_sma20": -0.22,
+          "relative_volume_20d": 0.69,
+          "up_down_volume_ratio_20d": 1.45,
           "obv_10d": "rising",
           "macd_hist_sign": "negative",
-          "pct_20d": 4.83,
+          "pct_20d": 1.59,
           "spy_regime": "below_sma50"
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "regulatory_legal",
+          "headline": "Texas Attorney General Paxton Sues OpenAI, CEO Altman Over Alleged Imposition Of Negative Side Effects On Clients",
+          "url": "https://www.benzinga.com/news/26/10/62572952/texas-attorney-general-paxton-sued-openai-over-alleged-imposition-of-negative-side-effects-on-clients",
+          "created_at": "2026-10-23T19:23:56Z"
+        }
+      ]
     },
     "GOOGL": {
-      "latest_close": 324.19,
-      "prev_close": 334.71,
+      "latest_close": 320.23,
+      "prev_close": 324.19,
       "prev_day_direction": "down",
-      "prev_day_pct": -3.143,
-      "pct_5d": -7.179,
-      "pct_20d": -5.298,
+      "prev_day_pct": -1.223,
+      "pct_5d": -5.988,
+      "pct_20d": -6.868,
       "indicators": {
-        "sma20": 344.26,
-        "sma50": 343.38,
-        "close_vs_sma20_pct": -5.829,
-        "close_vs_sma50_pct": -5.586,
+        "sma20": 343.08,
+        "sma50": 342.86,
+        "close_vs_sma20_pct": -6.66,
+        "close_vs_sma50_pct": -6.6,
         "sma20_vs_sma50": "above",
-        "rsi14": 33.15,
-        "macd_hist": -2.3112,
-        "atr14_pct_of_close": 2.58
+        "rsi14": 31.01,
+        "macd_hist": -3.0395,
+        "atr14_pct_of_close": 2.586
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 343.65,
-          "h": 344.75,
-          "l": 338.36,
-          "c": 340.05,
-          "v": 672495
-        },
         {
           "t": "2026-10-21",
           "o": 336.98,
@@ -341,6 +346,14 @@
           "l": 322.0,
           "c": 324.19,
           "v": 1083471
+        },
+        {
+          "t": "2026-10-23",
+          "o": 321.1,
+          "h": 324.49,
+          "l": 320.19,
+          "c": 320.23,
+          "v": 446514
         }
       ],
       "signal": {
@@ -354,57 +367,49 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 344.26,
-          "sma50": 343.38,
-          "sma50_slope_10d_pct": -0.691,
-          "rsi14": 33.2,
-          "stretch_atr_from_sma20": -2.4,
-          "relative_volume_20d": 1.57,
-          "up_down_volume_ratio_20d": 0.96,
+          "sma20": 343.08,
+          "sma50": 342.86,
+          "sma50_slope_10d_pct": -0.945,
+          "rsi14": 31.0,
+          "stretch_atr_from_sma20": -2.76,
+          "relative_volume_20d": 0.65,
+          "up_down_volume_ratio_20d": 0.83,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -5.3,
+          "pct_20d": -6.87,
           "spy_regime": "below_sma50"
         },
         "notes": [
-          "Volume 1.6x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+          "Price is -2.8 ATRs from SMA20 - stretched. Context only."
         ]
       },
       "material_news": [
         {
-          "event": "corporate",
-          "headline": "Trump Asked Google\u2019s Sundar Pichai to Rename Atlantic Ocean After America, But the CEO Wasn\u2019t Having It: \u2018Please Don\u2019t Ask Us to Do That\u2019",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62551058/trump-asked-googles-sundar-pichai-to-rename-atlantic-ocean-after-america-but-the-ceo-wasnt-having-it-please-dont-ask-us-to-do-that",
-          "created_at": "2026-10-23T06:08:18Z"
+          "event": "regulatory_legal",
+          "headline": "Hims & Hers Defends Subscription Practices And Privacy Disclosures Against Lawsuit",
+          "url": "https://www.benzinga.com/news/health-care/26/10/62569106/hims-hers-defends-subscription-practices-and-privacy-disclosures-against-lawsuit",
+          "created_at": "2026-10-23T17:26:26Z"
         }
       ]
     },
     "AMZN": {
-      "latest_close": 250.39,
-      "prev_close": 262.37,
+      "latest_close": 247.99,
+      "prev_close": 250.39,
       "prev_day_direction": "down",
-      "prev_day_pct": -4.564,
-      "pct_5d": -1.715,
-      "pct_20d": 0.421,
+      "prev_day_pct": -0.961,
+      "pct_5d": -0.774,
+      "pct_20d": -0.659,
       "indicators": {
-        "sma20": 254.53,
-        "sma50": 255.99,
-        "close_vs_sma20_pct": -1.626,
-        "close_vs_sma50_pct": -2.186,
+        "sma20": 254.45,
+        "sma50": 255.64,
+        "close_vs_sma20_pct": -2.54,
+        "close_vs_sma50_pct": -2.995,
         "sma20_vs_sma50": "below",
-        "rsi14": 45.23,
-        "macd_hist": 0.2038,
-        "atr14_pct_of_close": 2.822
+        "rsi14": 43.27,
+        "macd_hist": -0.4427,
+        "atr14_pct_of_close": 2.839
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 264.3,
-          "h": 265.28,
-          "l": 260.45,
-          "c": 262.78,
-          "v": 1672247
-        },
         {
           "t": "2026-10-21",
           "o": 262.78,
@@ -420,6 +425,14 @@
           "l": 248.02,
           "c": 250.39,
           "v": 1941349
+        },
+        {
+          "t": "2026-10-23",
+          "o": 248.74,
+          "h": 250.0,
+          "l": 246.49,
+          "c": 247.99,
+          "v": 896130
         }
       ],
       "signal": {
@@ -433,50 +446,40 @@
           "sma20_vs_sma50": -1
         },
         "evidence": {
-          "sma20": 254.53,
-          "sma50": 255.99,
-          "sma50_slope_10d_pct": -0.991,
-          "rsi14": 45.2,
-          "stretch_atr_from_sma20": -0.59,
-          "relative_volume_20d": 1.57,
-          "up_down_volume_ratio_20d": 1.01,
+          "sma20": 254.45,
+          "sma50": 255.64,
+          "sma50_slope_10d_pct": -1.327,
+          "rsi14": 43.3,
+          "stretch_atr_from_sma20": -0.92,
+          "relative_volume_20d": 0.73,
+          "up_down_volume_ratio_20d": 0.85,
           "obv_10d": "falling",
-          "macd_hist_sign": "positive",
-          "pct_20d": 0.42,
+          "macd_hist_sign": "negative",
+          "pct_20d": -0.66,
           "spy_regime": "below_sma50"
         },
-        "notes": [
-          "Volume 1.6x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
-        ]
+        "notes": []
       },
       "material_news": []
     },
     "NVDA": {
-      "latest_close": 212.27,
-      "prev_close": 221.9,
+      "latest_close": 211.02,
+      "prev_close": 212.27,
       "prev_day_direction": "down",
-      "prev_day_pct": -4.34,
-      "pct_5d": -2.328,
-      "pct_20d": -5.481,
+      "prev_day_pct": -0.589,
+      "pct_5d": -1.45,
+      "pct_20d": -6.23,
       "indicators": {
-        "sma20": 226.28,
-        "sma50": 222.7,
-        "close_vs_sma20_pct": -6.19,
-        "close_vs_sma50_pct": -4.682,
+        "sma20": 225.58,
+        "sma50": 222.42,
+        "close_vs_sma20_pct": -6.453,
+        "close_vs_sma50_pct": -5.123,
         "sma20_vs_sma50": "above",
-        "rsi14": 38.96,
-        "macd_hist": -2.0653,
-        "atr14_pct_of_close": 2.889
+        "rsi14": 37.98,
+        "macd_hist": -2.1708,
+        "atr14_pct_of_close": 2.82
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 215.99,
-          "h": 218.46,
-          "l": 212.78,
-          "c": 216.41,
-          "v": 2760246
-        },
         {
           "t": "2026-10-21",
           "o": 220.88,
@@ -492,6 +495,14 @@
           "l": 211.27,
           "c": 212.27,
           "v": 4565631
+        },
+        {
+          "t": "2026-10-23",
+          "o": 211.0,
+          "h": 213.79,
+          "l": 210.22,
+          "c": 211.02,
+          "v": 2911853
         }
       ],
       "signal": {
@@ -505,16 +516,16 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 226.28,
-          "sma50": 222.7,
-          "sma50_slope_10d_pct": 0.65,
-          "rsi14": 39.0,
-          "stretch_atr_from_sma20": -2.28,
-          "relative_volume_20d": 1.49,
-          "up_down_volume_ratio_20d": 0.95,
+          "sma20": 225.58,
+          "sma50": 222.42,
+          "sma50_slope_10d_pct": 0.21,
+          "rsi14": 38.0,
+          "stretch_atr_from_sma20": -2.45,
+          "relative_volume_20d": 0.94,
+          "up_down_volume_ratio_20d": 0.8,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -5.48,
+          "pct_20d": -6.23,
           "spy_regime": "below_sma50"
         },
         "notes": []
@@ -522,31 +533,23 @@
       "material_news": []
     },
     "META": {
-      "latest_close": 648.76,
-      "prev_close": 698.54,
+      "latest_close": 642.24,
+      "prev_close": 648.76,
       "prev_day_direction": "down",
-      "prev_day_pct": -7.126,
-      "pct_5d": -11.923,
-      "pct_20d": -16.583,
+      "prev_day_pct": -1.005,
+      "pct_5d": -9.47,
+      "pct_20d": -14.512,
       "indicators": {
-        "sma20": 723.1,
-        "sma50": 662.61,
-        "close_vs_sma20_pct": -10.281,
-        "close_vs_sma50_pct": -2.09,
+        "sma20": 717.65,
+        "sma50": 663.57,
+        "close_vs_sma20_pct": -10.508,
+        "close_vs_sma50_pct": -3.214,
         "sma20_vs_sma50": "above",
-        "rsi14": 37.07,
-        "macd_hist": -12.4961,
-        "atr14_pct_of_close": 3.924
+        "rsi14": 35.94,
+        "macd_hist": -14.3297,
+        "atr14_pct_of_close": 3.92
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 695.15,
-          "h": 696.5,
-          "l": 681.18,
-          "c": 693.91,
-          "v": 597029
-        },
         {
           "t": "2026-10-21",
           "o": 699.32,
@@ -562,6 +565,14 @@
           "l": 639.85,
           "c": 648.76,
           "v": 1442061
+        },
+        {
+          "t": "2026-10-23",
+          "o": 637.08,
+          "h": 647.9,
+          "l": 633.39,
+          "c": 642.24,
+          "v": 801508
         }
       ],
       "signal": {
@@ -575,51 +586,61 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 723.1,
-          "sma50": 662.61,
-          "sma50_slope_10d_pct": 4.221,
-          "rsi14": 37.1,
-          "stretch_atr_from_sma20": -2.92,
-          "relative_volume_20d": 2.09,
+          "sma20": 717.65,
+          "sma50": 663.57,
+          "sma50_slope_10d_pct": 3.784,
+          "rsi14": 35.9,
+          "stretch_atr_from_sma20": -3.0,
+          "relative_volume_20d": 1.17,
           "up_down_volume_ratio_20d": 0.53,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -16.58,
+          "pct_20d": -14.51,
           "spy_regime": "below_sma50"
         },
         "notes": [
-          "Price is -2.9 ATRs from SMA20 - stretched. Context only.",
-          "Volume 2.1x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+          "Price is -3.0 ATRs from SMA20 - stretched. Context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "'Meta acquires AI data platform Sundial'- Axios",
+          "url": "https://www.benzinga.com/news/26/10/62575914/meta-acquires-ai-data-platform-sundial-axios",
+          "created_at": "2026-10-23T20:59:49Z"
+        },
+        {
+          "event": "regulatory_legal",
+          "headline": "Rhode Island Files Lawsuit Against Meta Over Scam Ads",
+          "url": "https://www.pymnts.com/legal/2026/rhode-island-lawsuit-claims-meta-knowingly-profits-from-financial-scam-ads/",
+          "created_at": "2026-10-23T19:01:27Z"
+        },
+        {
+          "event": "regulatory_legal",
+          "headline": "Hims & Hers Defends Subscription Practices And Privacy Disclosures Against Lawsuit",
+          "url": "https://www.benzinga.com/news/health-care/26/10/62569106/hims-hers-defends-subscription-practices-and-privacy-disclosures-against-lawsuit",
+          "created_at": "2026-10-23T17:26:26Z"
+        }
+      ]
     },
     "TSLA": {
-      "latest_close": 374.7,
-      "prev_close": 386.63,
+      "latest_close": 372.15,
+      "prev_close": 374.7,
       "prev_day_direction": "down",
-      "prev_day_pct": -3.086,
-      "pct_5d": 3.385,
-      "pct_20d": -0.87,
+      "prev_day_pct": -0.681,
+      "pct_5d": 4.934,
+      "pct_20d": 0.016,
       "indicators": {
-        "sma20": 369.87,
-        "sma50": 363.13,
-        "close_vs_sma20_pct": 1.305,
-        "close_vs_sma50_pct": 3.186,
+        "sma20": 369.88,
+        "sma50": 363.77,
+        "close_vs_sma20_pct": 0.614,
+        "close_vs_sma50_pct": 2.303,
         "sma20_vs_sma50": "above",
-        "rsi14": 52.95,
-        "macd_hist": 0.0444,
-        "atr14_pct_of_close": 3.185
+        "rsi14": 51.56,
+        "macd_hist": -0.1491,
+        "atr14_pct_of_close": 3.118
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 370.24,
-          "h": 377.52,
-          "l": 363.69,
-          "c": 373.62,
-          "v": 607480
-        },
         {
           "t": "2026-10-21",
           "o": 382.19,
@@ -635,6 +656,14 @@
           "l": 374.07,
           "c": 374.7,
           "v": 1259902
+        },
+        {
+          "t": "2026-10-23",
+          "o": 373.13,
+          "h": 377.25,
+          "l": 365.31,
+          "c": 372.15,
+          "v": 810599
         }
       ],
       "signal": {
@@ -648,50 +677,47 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 369.87,
-          "sma50": 363.13,
-          "sma50_slope_10d_pct": 2.793,
-          "rsi14": 52.9,
-          "stretch_atr_from_sma20": 0.4,
-          "relative_volume_20d": 1.73,
-          "up_down_volume_ratio_20d": 0.71,
+          "sma20": 369.88,
+          "sma50": 363.77,
+          "sma50_slope_10d_pct": 2.545,
+          "rsi14": 51.6,
+          "stretch_atr_from_sma20": 0.2,
+          "relative_volume_20d": 1.14,
+          "up_down_volume_ratio_20d": 0.74,
           "obv_10d": "falling",
-          "macd_hist_sign": "positive",
-          "pct_20d": -0.87,
+          "macd_hist_sign": "negative",
+          "pct_20d": 0.02,
           "spy_regime": "below_sma50"
         },
-        "notes": [
-          "Volume 1.7x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
-        ]
+        "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "guidance",
+          "headline": "Tesla Outlook is 'Grim,' Former Hedge Fund Manager Won\u2019t Touch Stock 'With 10-Foot Pole'",
+          "url": "https://www.benzinga.com/markets/large-cap/26/10/62570491/tesla-outlook-grim-former-hedge-fund-manager-touch-stock-10-foot-pole",
+          "created_at": "2026-10-23T18:00:20Z"
+        }
+      ]
     },
     "SMH": {
-      "latest_close": 523.24,
-      "prev_close": 556.57,
-      "prev_day_direction": "down",
-      "prev_day_pct": -5.988,
-      "pct_5d": -6.374,
-      "pct_20d": -12.872,
+      "latest_close": 527.17,
+      "prev_close": 523.24,
+      "prev_day_direction": "up",
+      "prev_day_pct": 0.751,
+      "pct_5d": -2.347,
+      "pct_20d": -13.089,
       "indicators": {
-        "sma20": 589.49,
-        "sma50": 576.28,
-        "close_vs_sma20_pct": -11.238,
-        "close_vs_sma50_pct": -9.203,
+        "sma20": 585.52,
+        "sma50": 575.04,
+        "close_vs_sma20_pct": -9.965,
+        "close_vs_sma50_pct": -8.324,
         "sma20_vs_sma50": "above",
-        "rsi14": 31.39,
-        "macd_hist": -9.0483,
-        "atr14_pct_of_close": 3.432
+        "rsi14": 33.21,
+        "macd_hist": -8.8614,
+        "atr14_pct_of_close": 3.465
       },
       "last_3_days": [
-        {
-          "t": "2026-10-20",
-          "o": 541.8,
-          "h": 553.81,
-          "l": 536.39,
-          "c": 546.08,
-          "v": 359215
-        },
         {
           "t": "2026-10-21",
           "o": 556.48,
@@ -707,6 +733,14 @@
           "l": 520.59,
           "c": 523.24,
           "v": 483574
+        },
+        {
+          "t": "2026-10-23",
+          "o": 522.54,
+          "h": 533.26,
+          "l": 521.5,
+          "c": 527.17,
+          "v": 339641
         }
       ],
       "signal": {
@@ -720,20 +754,20 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 589.49,
-          "sma50": 576.28,
-          "sma50_slope_10d_pct": -0.111,
-          "rsi14": 31.4,
-          "stretch_atr_from_sma20": -3.69,
-          "relative_volume_20d": 1.44,
-          "up_down_volume_ratio_20d": 0.4,
+          "sma20": 585.52,
+          "sma50": 575.04,
+          "sma50_slope_10d_pct": -0.549,
+          "rsi14": 33.2,
+          "stretch_atr_from_sma20": -3.19,
+          "relative_volume_20d": 0.99,
+          "up_down_volume_ratio_20d": 0.43,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -12.87,
+          "pct_20d": -13.09,
           "spy_regime": "below_sma50"
         },
         "notes": [
-          "Price is -3.7 ATRs from SMA20 - stretched. Context only."
+          "Price is -3.2 ATRs from SMA20 - stretched. Context only."
         ]
       },
       "material_news": []
@@ -742,130 +776,130 @@
   "context_data": {
     "volatility": {
       "VIXY": {
-        "close": 17.71,
-        "pct_1d": 6.175,
-        "pct_5d": 7.988,
-        "vs_sma20_pct": 6.22,
-        "rsi14": 57.8
+        "close": 17.93,
+        "pct_1d": 1.242,
+        "pct_5d": 1.299,
+        "vs_sma20_pct": 7.12,
+        "rsi14": 59.6
       },
       "VXX": {
-        "close": 18.45,
-        "pct_1d": 5.974,
-        "pct_5d": 8.021,
-        "vs_sma20_pct": 6.2,
-        "rsi14": 57.7
+        "close": 18.71,
+        "pct_1d": 1.409,
+        "pct_5d": 1.409,
+        "vs_sma20_pct": 7.26,
+        "rsi14": 59.8
       }
     },
     "metals": {
       "GLD": {
-        "close": 369.08,
-        "pct_1d": -2.612,
-        "pct_5d": -3.554,
-        "vs_sma20_pct": -2.99,
-        "rsi14": 35.9
+        "close": 366.61,
+        "pct_1d": -0.669,
+        "pct_5d": -4.039,
+        "vs_sma20_pct": -3.3,
+        "rsi14": 34.2
       },
       "SLV": {
-        "close": 49.34,
-        "pct_1d": -5.587,
-        "pct_5d": -4.96,
-        "vs_sma20_pct": -7.97,
-        "rsi14": 32.9
+        "close": 48.72,
+        "pct_1d": -1.257,
+        "pct_5d": -5.407,
+        "vs_sma20_pct": -8.32,
+        "rsi14": 31.5
       }
     },
     "bonds": {
       "TLT": {
-        "close": 81.73,
-        "pct_1d": 1.857,
-        "pct_5d": 2.175,
-        "vs_sma20_pct": 3.97,
-        "rsi14": 67.5
+        "close": 81.33,
+        "pct_1d": -0.483,
+        "pct_5d": 1.624,
+        "vs_sma20_pct": 3.31,
+        "rsi14": 63.5
       },
       "IEF": {
-        "close": 91.2,
-        "pct_1d": 1.081,
-        "pct_5d": 0.946,
-        "vs_sma20_pct": 1.75,
-        "rsi14": 64.9
+        "close": 91.05,
+        "pct_1d": -0.175,
+        "pct_5d": 0.686,
+        "vs_sma20_pct": 1.5,
+        "rsi14": 62.1
       }
     },
     "credit": {
       "HYG": {
-        "close": 77.09,
-        "pct_1d": 0.162,
-        "pct_5d": -0.013,
-        "vs_sma20_pct": 0.04,
-        "rsi14": 43.0
+        "close": 77.05,
+        "pct_1d": -0.052,
+        "pct_5d": 0.228,
+        "vs_sma20_pct": 0.02,
+        "rsi14": 42.1
       },
       "LQD": {
-        "close": 104.3,
-        "pct_1d": 1.056,
-        "pct_5d": 0.758,
-        "vs_sma20_pct": 1.67,
-        "rsi14": 62.7
+        "close": 103.83,
+        "pct_1d": -0.446,
+        "pct_5d": 0.43,
+        "vs_sma20_pct": 1.17,
+        "rsi14": 56.6
       }
     },
     "dollar": {
       "UUP": {
-        "close": 28.89,
-        "pct_1d": -0.069,
-        "pct_5d": -0.379,
-        "vs_sma20_pct": -0.14,
-        "rsi14": 55.0
+        "close": 28.95,
+        "pct_1d": 0.225,
+        "pct_5d": 0.069,
+        "vs_sma20_pct": 0.03,
+        "rsi14": 58.0
       }
     },
     "energy": {
       "USO": {
-        "close": 162.49,
-        "pct_1d": 1.715,
-        "pct_5d": 3.293,
-        "vs_sma20_pct": 7.11,
-        "rsi14": 66.0
+        "close": 169.55,
+        "pct_1d": 4.345,
+        "pct_5d": 4.822,
+        "vs_sma20_pct": 10.99,
+        "rsi14": 72.1
       }
     },
     "breadth": {
       "IWM": {
-        "close": 276.64,
-        "pct_1d": 0.067,
-        "pct_5d": 0.591,
-        "vs_sma20_pct": -0.31,
-        "rsi14": 44.5
+        "close": 275.72,
+        "pct_1d": -0.334,
+        "pct_5d": 1.941,
+        "vs_sma20_pct": -0.53,
+        "rsi14": 43.0
       }
     },
     "semis": {
       "AMD": {
-        "close": 508.13,
-        "pct_1d": -8.045,
-        "pct_5d": -9.61,
-        "vs_sma20_pct": -14.3,
-        "rsi14": 36.4
+        "close": 516.85,
+        "pct_1d": 1.715,
+        "pct_5d": -2.254,
+        "vs_sma20_pct": -11.98,
+        "rsi14": 38.9
       },
       "AVGO": {
-        "close": 323.31,
-        "pct_1d": -4.311,
-        "pct_5d": -6.095,
-        "vs_sma20_pct": -7.71,
-        "rsi14": 34.7
+        "close": 321.74,
+        "pct_1d": -0.486,
+        "pct_5d": -2.116,
+        "vs_sma20_pct": -7.75,
+        "rsi14": 34.1
       },
       "TSM": {
-        "close": 412.3,
-        "pct_1d": -4.509,
-        "pct_5d": -2.377,
-        "vs_sma20_pct": -7.81,
-        "rsi14": 37.9
+        "close": 418.37,
+        "pct_1d": 1.472,
+        "pct_5d": 1.421,
+        "vs_sma20_pct": -6.11,
+        "rsi14": 41.3
       },
       "MU": {
-        "close": 855.88,
-        "pct_1d": -6.319,
-        "pct_5d": -8.106,
-        "vs_sma20_pct": -14.15,
-        "rsi14": 34.2
+        "close": 877.38,
+        "pct_1d": 2.513,
+        "pct_5d": -0.159,
+        "vs_sma20_pct": -11.08,
+        "rsi14": 37.8
       },
       "INTC": {
-        "close": 85.5,
-        "pct_1d": -7.975,
-        "pct_5d": -10.307,
-        "vs_sma20_pct": -19.25,
-        "rsi14": 30.3
+        "close": 86.96,
+        "pct_1d": 1.708,
+        "pct_5d": -3.13,
+        "vs_sma20_pct": -16.45,
+        "rsi14": 32.6
       }
     }
   },
@@ -874,69 +908,69 @@
       "n": 7,
       "up_today": 1,
       "above_sma20": 2,
-      "median_move_pct": -3.143
+      "median_move_pct": -0.681
     },
     "semi_breadth": {
       "n": 6,
-      "up_today": 0,
+      "up_today": 4,
       "above_sma20": 0,
-      "median_move_pct": -5.414
+      "median_move_pct": 1.59
     },
     "ratios": [
       {
         "pair": "HYG/LQD",
-        "value": 0.7391,
-        "pct_1d": -0.884,
-        "pct_5d": -0.766,
-        "percentile_60d": 0.0,
+        "value": 0.742,
+        "pct_1d": 0.396,
+        "pct_5d": -0.202,
+        "percentile_60d": 1.7,
         "reads": "credit risk appetite; rising = risk-on"
       },
       {
         "pair": "IWM/SPY",
-        "value": 0.3621,
-        "pct_1d": 1.259,
-        "pct_5d": 1.61,
-        "percentile_60d": 20.3,
+        "value": 0.3629,
+        "pct_1d": 0.217,
+        "pct_5d": 2.411,
+        "percentile_60d": 22.0,
         "reads": "small-cap breadth; rising = broad participation"
       },
       {
         "pair": "GLD/SLV",
-        "value": 7.4803,
-        "pct_1d": 3.151,
-        "pct_5d": 1.48,
-        "percentile_60d": 98.3,
+        "value": 7.5248,
+        "pct_1d": 0.595,
+        "pct_5d": 1.447,
+        "percentile_60d": 100.0,
         "reads": "rising = defensive within metals"
       },
       {
         "pair": "QQQ/SPY",
-        "value": 0.9222,
-        "pct_1d": -1.696,
-        "pct_5d": -2.265,
-        "percentile_60d": 0.0,
+        "value": 0.9268,
+        "pct_1d": 0.503,
+        "pct_5d": -0.333,
+        "percentile_60d": 6.8,
         "reads": "rising = tech leadership, narrow market"
       }
     ],
     "volatility": {
-      "VIXY_pct_1d": 6.175,
-      "VIXY_pct_5d": 7.988,
-      "VIXY_percentile_60d": 62.7,
+      "VIXY_pct_1d": 1.242,
+      "VIXY_pct_5d": 1.299,
+      "VIXY_percentile_60d": 69.5,
       "note": "VIXY bleeds to contango - read the change and percentile, not the level",
-      "SPY_realized_vol_20d_annualized_pct": 9.82
+      "SPY_realized_vol_20d_annualized_pct": 9.76
     },
     "correlations_20d_vs_SPY": {
-      "TLT": -0.285,
-      "GLD": 0.56,
-      "HYG": 0.553,
-      "UUP": -0.145
+      "TLT": -0.223,
+      "GLD": 0.55,
+      "HYG": 0.566,
+      "UUP": -0.124
     },
     "risk_on_score": {
-      "score": 2,
+      "score": 4,
       "of": 5,
       "components": {
-        "credit_risk_on": false,
+        "credit_risk_on": true,
         "breadth_risk_on": true,
         "vol_risk_on": false,
-        "rates_risk_on": false,
+        "rates_risk_on": true,
         "gold_risk_on": true
       },
       "reads": "count of cross-asset signals pointing risk-on today; 0-1 is risk-off, 4-5 risk-on"
@@ -945,205 +979,189 @@
   "news": [
     {
       "symbols": [
-        "TSLA"
+        "AAPL"
       ],
-      "headline": "Tesla Drops Plans To Produce Cybertruck For Australia And New Zealand Markets",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62551752/tesla-drops-plans-produce-cybertruck-australia-and-new-zealand-markets",
-      "created_at": "2026-10-23T07:26:23Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "META",
-        "NVDA"
-      ],
-      "headline": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk, Zuckerberg and Huang: \u2018We\u2019re Still Early'",
-      "summary": "Tech stocks plunged on AI spending fears, but Gene Munster says the AI revolution is early, with Meta\u2019s Muse poised to reshape commerce.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62551736/meta-nvidia-lead-tech-sell-off-as-ai-spending-fears-rattle-wall-street-but-gene-munster-sides-with-musk-zuckerberg-and-huang-were-still-early",
-      "created_at": "2026-10-23T07:19:22Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Pony.ai And inDrive Plan Astana Launch Of Gen-7 Robotaxis, Pending Kazakhstan Government Agreement, Under MOU With NVIDIA To Explore Autonomous Mobility",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/NVDA",
-      "created_at": "2026-10-23T07:14:22Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "OpenAI Signs Agreement With Poland\u2019s NASK To Explore Collaboration On AI Safety, Security And Technical Research, Strengthening Safeguards Against Emerging Risks",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/MSFT",
-      "created_at": "2026-10-23T07:11:39Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "AI Stocks Are Getting Crushed, But This Strategist Says the Pullback Could Keep the Boom Alive: 'Restraint Prevents Excess'",
-      "summary": "James Thorne argued Thursday that the market is misreading the AI stock slide, a pullback that may help the boom last longer.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62551526/james-thorne-ai-selloff-healthy-correction-restraint-more-time-to-run",
-      "created_at": "2026-10-23T07:02:01Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "summary": "Will S&amp;P 500 open higher? Polymarket odds sit at 49% as Wall Street digests $114 Brent crude, Anthropic IPO buzz, and a CFTC market probe.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62551350/stock-market-will-sp-500-open-up-or-down-today-64",
-      "created_at": "2026-10-23T06:36:08Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Trump Asked Google\u2019s Sundar Pichai to Rename Atlantic Ocean After America, But the CEO Wasn\u2019t Having It: \u2018Please Don\u2019t Ask Us to Do That\u2019",
-      "summary": "Donald Trump dropped his Atlantic Ocean renaming idea after Google CEO Sundar Pichai pushed back saying, &#34;don\u2019t ask us to do that.&#34;",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62551058/trump-asked-googles-sundar-pichai-to-rename-atlantic-ocean-after-america-but-the-ceo-wasnt-having-it-please-dont-ask-us-to-do-that",
-      "created_at": "2026-10-23T06:08:18Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To \u2018Extreme Fear\u2019 Zone",
-      "summary": "Market sentiment hit Extreme Fear as Nasdaq plunged 2.6%; Meta, AMD, Nvidia and Tesla fell, while the Dow edged higher.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/market-summary/26/10/62550969/nasdaq-records-worst-session-since-june-investor-sentiment-weakens-greed-index-moves-to-extreme-fear-zone",
-      "created_at": "2026-10-23T05:54:06Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "META"
-      ],
-      "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals \u2018Far More Consequential\u2019 Shift",
-      "summary": "Danielle DiMartino Booth warns a recession may already be underway, with Treasury yields falling and credit stress widening at AI spenders.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/economic-data/26/10/62550709/former-fed-insider-warns-recession-underway-treasury-rally",
-      "created_at": "2026-10-23T04:55:07Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Crown Castle Stock Jumps as SpaceX Eyes 80,000 Cell Sites for Wireless Network: \u2018We\u2019re Talking to All Parties\u2019",
-      "summary": "Crown Castle shares surged 9.46% after hours as SpaceX reportedly pursued cell tower leases, boosting investor interest.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62550649/crown-castle-shares-surge-spacex-cell-site-talks",
-      "created_at": "2026-10-23T04:26:05Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "META"
-      ],
-      "headline": "Ro Khanna Says Zuckerberg\u2019s California Deal Undercuts Billionaire Tax Exodus Warnings: \u2018Gavin, Can You and Sergey Brin Stop...\u2019",
-      "summary": "Ro Khanna says Zuckerberg\u2019s California deal undermines claims that a proposed billionaire tax will drive the wealthy out of the state.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/10/62550501/khanna-zuckerberg-california-billionaire-tax",
-      "created_at": "2026-10-23T03:27:59Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' \u2014 'This Is October'",
-      "summary": "Peter Schiff warns of a possible stock market crash before the midterms, citing inflation, a weak economy and costly AI financing.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/economic-data/26/10/62550388/peter-schiff-october-stock-market-crash-warning-midterms",
-      "created_at": "2026-10-23T02:32:48Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Updates Long-Term Production Targets and Facility Plans",
-      "summary": "During its third-quarter earnings call, Tesla disclosed updated long-term production goals and plans for a new facility in Austin.",
+      "headline": "Simfabric Signs Agreement with Apple for iPhone Duo App Development",
+      "summary": "Simfabric SA's unit, Mobilefabric, has entered into an agreement with Apple to develop a new application and adapt four existing products for the iPhone Duo platform.",
       "source": "fiscal.ai",
-      "url": "https://www.morningstar.com/news/marketwatch/20261022104/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more",
-      "created_at": "2026-10-23T02:01:30Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62546901/openai-nears-30-billion-funding-round-1-25-trillion-valuation-led-uae-investors-cnbc",
-      "created_at": "2026-10-22T20:21:48Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-      "summary": "Michael Burry\u2019s new song warns AI-driven data centers and GPU spending will become obsolete, echoing his bearish tech bets.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-      "created_at": "2026-10-22T20:12:46Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "QQQ",
-        "SMH",
-        "SPY"
-      ],
-      "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
-      "summary": "SOXL dropped to a six-month low as chip stocks came under pressure. Nvidia CEO&#39;s warning and a surge in oil prices may hold clues to what spooked investors.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout",
-      "created_at": "2026-10-22T20:07:14Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "META"
-      ],
-      "headline": "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain",
-      "summary": "Meta shares fell after Q3 earnings missed expectations. Analysts mostly raised targets but warned about elevated 2027 capex higher.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
-      "created_at": "2026-10-22T19:36:24Z"
+      "url": "https://www.moomoo.com/stock/AAPL-US/news?chain_id=Name1K9-3FXPhg.1l7q280&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Ftw-prepaid-%E8%A2%AB%E5%8A%A8%E6%94%B6%E5%85%A5-104392995%2Fpost%2Fall%22%7D",
+      "created_at": "2026-10-23T21:31:54Z"
     },
     {
       "symbols": [
         "AAPL"
       ],
-      "headline": "Apple Reportedly Testing Second-Generation iPhone Duo Prototypes",
-      "summary": "Reports indicate that Apple is currently testing prototypes for a second-generation iPhone Duo featuring under-display Face ID technology.",
+      "headline": "Here\u2019s How Much You Would Have Made Owning Apple Stock In The Last 15 Years",
+      "summary": "Apple (NASDAQ:AAPL) has outperformed the market over the past 15 years by 10.86% on an annualized basis producing an average annual return of 23.62%. Currently, Apple has a market capitalization of $5.05 trillion.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62576407/here-s-how-much-you-would-have-made-owning-apple-stock-last-15-years",
+      "created_at": "2026-10-23T21:30:14Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "'Meta acquires AI data platform Sundial'- Axios",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62575914/meta-acquires-ai-data-platform-sundial-axios",
+      "created_at": "2026-10-23T20:59:49Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "TSLA"
+      ],
+      "headline": "NHTSA Proposes Updating Vehicle Lighting Standard, Federal Motor Vehicle Safety Standards No. 108, To Accommodate Automated Driving Systems And Modernize Headlamp Requirements; NHTSA Says The Changes Are Intended To Eliminate Unnecessary Regulatory Barriers, Reduce Costs, And Enable Innovation Without Compromising Vehicle Safety",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62573841/nhtsa-proposes-updating-vehicle-lighting-standard-federal-motor-vehicle-safety-standards-no-108-acco",
+      "created_at": "2026-10-23T19:51:16Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Palmer Luckey's New Defense Startup Is Cloning War Dogs",
+      "summary": "Palmer Luckey and Ben Lamm launch Warhound with $200M to genetically engineer military dogs for U.S. defense and first responders.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/private-markets/26/10/62573550/palmer-luckeys-new-defense-startup-is-cloning-war-dogs",
+      "created_at": "2026-10-23T19:41:58Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "President Donald J. Trump Further Modifies Canadian Products Subject To Tariffs Under Section 338; Removing Certain Products Such As Plywood Sheets, Some Paper Products, Certain Machinery And Refrigeration Equipment, And Certain Packing Crates And Boxes; Replacing Those Products With Certain Valves, Carpets, Waste Products, And Others; Product Additions And Removals Will Take Effect On October 30, 2026",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62573523/president-donald-j-trump-further-modifies-canadian-products-subject-tariffs-under-section-338-removi",
+      "created_at": "2026-10-23T19:41:42Z"
+    },
+    {
+      "symbols": [
+        "MSFT",
+        "SPY"
+      ],
+      "headline": "Texas Attorney General Paxton Sues OpenAI, CEO Altman Over Alleged Imposition Of Negative Side Effects On Clients",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62572952/texas-attorney-general-paxton-sued-openai-over-alleged-imposition-of-negative-side-effects-on-clients",
+      "created_at": "2026-10-23T19:23:56Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "OpenAI Says It Expects That Future Models Will Be Able To Identify & Exploit Vulnerabilities Of Which It Is Not Yet Aware",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62572623/openai-says-it-expects-future-models-will-be-able-identify-exploit-vulnerabilities-which-it-not-yet-",
+      "created_at": "2026-10-23T19:14:18Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Iraq Aims To Gradually Raise Oil Production To 10M Barrels Per Day By 2032",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62572378/iraq-aims-gradually-raise-oil-production-10m-barrels-day-2032",
+      "created_at": "2026-10-23T19:05:36Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "The AI Boom Isn't 1999\u2014and Big Tech Could Cushion a Market Crash, This CEO Says",
+      "summary": "One investing CEO says today&#39;s AI boom isn&#39;t 1999 and argues Big Tech&#39;s earnings, dividends and buybacks could help investors weather a correction.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62572321/ai-boom-big-tech-market-crash",
+      "created_at": "2026-10-23T19:02:28Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Rhode Island Files Lawsuit Against Meta Over Scam Ads",
+      "summary": "The state of Rhode Island has filed a lawsuit against Meta, alleging the company knowingly facilitates scam advertisements on its platforms to generate revenue.",
       "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/52venfd/",
-      "created_at": "2026-10-22T19:01:30Z"
+      "url": "https://www.pymnts.com/legal/2026/rhode-island-lawsuit-claims-meta-knowingly-profits-from-financial-scam-ads/",
+      "created_at": "2026-10-23T19:01:27Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "NVDA"
+      ],
+      "headline": "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
+      "summary": "Andy Jassy says AI inference costs must fall sharply and argues Amazon\u2019s Trainium chips can help bring them down",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62571409/amazon-ai-inference-cost-trainium-jassy",
+      "created_at": "2026-10-23T18:28:24Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Plans Cybercab Sales to Fleet Customers in 2026",
+      "summary": "Tesla plans to begin selling its steering-wheel-free Cybercab vehicles to outside fleet customers before the end of 2026.",
+      "source": "fiscal.ai",
+      "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-plans-cybercab-sales-by-end-of-2026-as-robotaxi-expansion-faces-safety-probe",
+      "created_at": "2026-10-23T18:01:38Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Outlook is 'Grim,' Former Hedge Fund Manager Won\u2019t Touch Stock 'With 10-Foot Pole'",
+      "summary": "Whitney Tilson says Tesla outlook is trending downward at an extreme valuation: &#34;I wouldn\u2019t touch it with a 10-foot pole.\u201d",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/large-cap/26/10/62570491/tesla-outlook-grim-former-hedge-fund-manager-touch-stock-10-foot-pole",
+      "created_at": "2026-10-23T18:00:20Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "META",
+        "MSFT",
+        "NVDA",
+        "QQQ",
+        "SPY",
+        "TSLA"
+      ],
+      "headline": "Time To Start Deploying Cash In The AI Trade?",
+      "summary": "\n\n\n\n60% Of Capitulation Criteria Met\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors reflect the AI trade, and SOXL is the",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/opinion/26/10/62569872/time-to-start-deploying-cash-in-the-ai-trade",
+      "created_at": "2026-10-23T17:45:15Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META"
+      ],
+      "headline": "Hims & Hers Defends Subscription Practices And Privacy Disclosures Against Lawsuit",
+      "summary": "Hims &amp; Hers seeks dismissal of a consumer lawsuit, arguing upfront disclosures refute claims about user privacy, billing, and cancellations.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/health-care/26/10/62569106/hims-hers-defends-subscription-practices-and-privacy-disclosures-against-lawsuit",
+      "created_at": "2026-10-23T17:26:26Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "QQQ"
+      ],
+      "headline": "Oil Tops $100 on Iran Fears, Energy ETF XLE Hits New Record: Stock Market Today",
+      "summary": "WTI crude rose above $100 on fears of renewed U.S. strikes on Iran, lifting XLE to a record while staples, telecoms and the Dow slipped at midday Friday.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62568689/oil-tops-100-iran-energy-etf-record-stock-market-today",
+      "created_at": "2026-10-23T17:15:48Z"
     }
   ]
 }
