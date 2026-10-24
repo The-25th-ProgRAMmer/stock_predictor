@@ -30,8 +30,8 @@
         "close_vs_sma20_pct": -1.34,
         "close_vs_sma50_pct": -0.92,
         "sma20_vs_sma50": "above",
-        "rsi14": 42.13,
-        "macd_hist": -1.5874,
+        "rsi14": 42.56,
+        "macd_hist": -1.5903,
         "atr14_pct_of_close": 0.94
       },
       "last_3_days": [
@@ -74,7 +74,7 @@
           "sma20": 770.15,
           "sma50": 766.89,
           "sma50_slope_10d_pct": 0.082,
-          "rsi14": 42.1,
+          "rsi14": 42.6,
           "stretch_atr_from_sma20": -1.45,
           "relative_volume_20d": 0.92,
           "up_down_volume_ratio_20d": 0.86,
@@ -107,8 +107,8 @@
         "close_vs_sma20_pct": -4.215,
         "close_vs_sma50_pct": -2.925,
         "sma20_vs_sma50": "above",
-        "rsi14": 36.48,
-        "macd_hist": -5.1773,
+        "rsi14": 36.96,
+        "macd_hist": -5.1851,
         "atr14_pct_of_close": 1.714
       },
       "last_3_days": [
@@ -151,7 +151,7 @@
           "sma20": 735.2,
           "sma50": 725.43,
           "sma50_slope_10d_pct": 0.2,
-          "rsi14": 36.5,
+          "rsi14": 37.0,
           "stretch_atr_from_sma20": -2.57,
           "relative_volume_20d": 1.06,
           "up_down_volume_ratio_20d": 0.57,
@@ -179,8 +179,8 @@
         "close_vs_sma20_pct": 2.579,
         "close_vs_sma50_pct": 5.524,
         "sma20_vs_sma50": "above",
-        "rsi14": 64.03,
-        "macd_hist": 0.2984,
+        "rsi14": 63.87,
+        "macd_hist": 0.3028,
         "atr14_pct_of_close": 1.767
       },
       "last_3_days": [
@@ -223,7 +223,7 @@
           "sma20": 338.95,
           "sma50": 329.49,
           "sma50_slope_10d_pct": 2.21,
-          "rsi14": 64.0,
+          "rsi14": 63.9,
           "stretch_atr_from_sma20": 1.42,
           "relative_volume_20d": 0.84,
           "up_down_volume_ratio_20d": 1.19,
@@ -249,8 +249,8 @@
         "close_vs_sma20_pct": -0.448,
         "close_vs_sma50_pct": 3.151,
         "sma20_vs_sma50": "above",
-        "rsi14": 52.95,
-        "macd_hist": -2.3376,
+        "rsi14": 52.55,
+        "macd_hist": -2.3236,
         "atr14_pct_of_close": 2.077
       },
       "last_3_days": [
@@ -293,7 +293,7 @@
           "sma20": 526.73,
           "sma50": 508.36,
           "sma50_slope_10d_pct": 1.636,
-          "rsi14": 53.0,
+          "rsi14": 52.5,
           "stretch_atr_from_sma20": -0.22,
           "relative_volume_20d": 0.69,
           "up_down_volume_ratio_20d": 1.45,
@@ -326,8 +326,8 @@
         "close_vs_sma20_pct": -6.66,
         "close_vs_sma50_pct": -6.6,
         "sma20_vs_sma50": "above",
-        "rsi14": 31.01,
-        "macd_hist": -3.0395,
+        "rsi14": 31.72,
+        "macd_hist": -3.0451,
         "atr14_pct_of_close": 2.586
       },
       "last_3_days": [
@@ -370,7 +370,7 @@
           "sma20": 343.08,
           "sma50": 342.86,
           "sma50_slope_10d_pct": -0.945,
-          "rsi14": 31.0,
+          "rsi14": 31.7,
           "stretch_atr_from_sma20": -2.76,
           "relative_volume_20d": 0.65,
           "up_down_volume_ratio_20d": 0.83,
@@ -405,8 +405,8 @@
         "close_vs_sma20_pct": -2.54,
         "close_vs_sma50_pct": -2.995,
         "sma20_vs_sma50": "below",
-        "rsi14": 43.27,
-        "macd_hist": -0.4427,
+        "rsi14": 43.45,
+        "macd_hist": -0.4401,
         "atr14_pct_of_close": 2.839
       },
       "last_3_days": [
@@ -449,7 +449,7 @@
           "sma20": 254.45,
           "sma50": 255.64,
           "sma50_slope_10d_pct": -1.327,
-          "rsi14": 43.3,
+          "rsi14": 43.5,
           "stretch_atr_from_sma20": -0.92,
           "relative_volume_20d": 0.73,
           "up_down_volume_ratio_20d": 0.85,
@@ -475,8 +475,8 @@
         "close_vs_sma20_pct": -6.453,
         "close_vs_sma50_pct": -5.123,
         "sma20_vs_sma50": "above",
-        "rsi14": 37.98,
-        "macd_hist": -2.1708,
+        "rsi14": 38.18,
+        "macd_hist": -2.1736,
         "atr14_pct_of_close": 2.82
       },
       "last_3_days": [
@@ -519,7 +519,7 @@
           "sma20": 225.58,
           "sma50": 222.42,
           "sma50_slope_10d_pct": 0.21,
-          "rsi14": 38.0,
+          "rsi14": 38.2,
           "stretch_atr_from_sma20": -2.45,
           "relative_volume_20d": 0.94,
           "up_down_volume_ratio_20d": 0.8,
@@ -545,8 +545,8 @@
         "close_vs_sma20_pct": -10.508,
         "close_vs_sma50_pct": -3.214,
         "sma20_vs_sma50": "above",
-        "rsi14": 35.94,
-        "macd_hist": -14.3297,
+        "rsi14": 35.98,
+        "macd_hist": -14.3245,
         "atr14_pct_of_close": 3.92
       },
       "last_3_days": [
@@ -589,7 +589,7 @@
           "sma20": 717.65,
           "sma50": 663.57,
           "sma50_slope_10d_pct": 3.784,
-          "rsi14": 35.9,
+          "rsi14": 36.0,
           "stretch_atr_from_sma20": -3.0,
           "relative_volume_20d": 1.17,
           "up_down_volume_ratio_20d": 0.53,
@@ -636,8 +636,8 @@
         "close_vs_sma20_pct": 0.614,
         "close_vs_sma50_pct": 2.303,
         "sma20_vs_sma50": "above",
-        "rsi14": 51.56,
-        "macd_hist": -0.1491,
+        "rsi14": 51.98,
+        "macd_hist": -0.1463,
         "atr14_pct_of_close": 3.118
       },
       "last_3_days": [
@@ -680,7 +680,7 @@
           "sma20": 369.88,
           "sma50": 363.77,
           "sma50_slope_10d_pct": 2.545,
-          "rsi14": 51.6,
+          "rsi14": 52.0,
           "stretch_atr_from_sma20": 0.2,
           "relative_volume_20d": 1.14,
           "up_down_volume_ratio_20d": 0.74,
@@ -693,10 +693,10 @@
       },
       "material_news": [
         {
-          "event": "guidance",
-          "headline": "Tesla Outlook is 'Grim,' Former Hedge Fund Manager Won\u2019t Touch Stock 'With 10-Foot Pole'",
-          "url": "https://www.benzinga.com/markets/large-cap/26/10/62570491/tesla-outlook-grim-former-hedge-fund-manager-touch-stock-10-foot-pole",
-          "created_at": "2026-10-23T18:00:20Z"
+          "event": "deal",
+          "headline": "Analyst Speculation Regarding Potential Tesla-SpaceX Merger",
+          "url": "https://www.barchart.com/story/news/8371810/the-biggest-merger-ever-tesla-and-spacex-could-combine-and-give-elon-musk-56-control",
+          "created_at": "2026-10-24T00:01:30Z"
         }
       ]
     },
@@ -713,8 +713,8 @@
         "close_vs_sma20_pct": -9.965,
         "close_vs_sma50_pct": -8.324,
         "sma20_vs_sma50": "above",
-        "rsi14": 33.21,
-        "macd_hist": -8.8614,
+        "rsi14": 33.7,
+        "macd_hist": -8.8811,
         "atr14_pct_of_close": 3.465
       },
       "last_3_days": [
@@ -757,7 +757,7 @@
           "sma20": 585.52,
           "sma50": 575.04,
           "sma50_slope_10d_pct": -0.549,
-          "rsi14": 33.2,
+          "rsi14": 33.7,
           "stretch_atr_from_sma20": -3.19,
           "relative_volume_20d": 0.99,
           "up_down_volume_ratio_20d": 0.43,
@@ -780,14 +780,14 @@
         "pct_1d": 1.242,
         "pct_5d": 1.299,
         "vs_sma20_pct": 7.12,
-        "rsi14": 59.6
+        "rsi14": 59.3
       },
       "VXX": {
         "close": 18.71,
         "pct_1d": 1.409,
         "pct_5d": 1.409,
         "vs_sma20_pct": 7.26,
-        "rsi14": 59.8
+        "rsi14": 59.4
       }
     },
     "metals": {
@@ -796,14 +796,14 @@
         "pct_1d": -0.669,
         "pct_5d": -4.039,
         "vs_sma20_pct": -3.3,
-        "rsi14": 34.2
+        "rsi14": 34.0
       },
       "SLV": {
         "close": 48.72,
         "pct_1d": -1.257,
         "pct_5d": -5.407,
         "vs_sma20_pct": -8.32,
-        "rsi14": 31.5
+        "rsi14": 31.3
       }
     },
     "bonds": {
@@ -819,7 +819,7 @@
         "pct_1d": -0.175,
         "pct_5d": 0.686,
         "vs_sma20_pct": 1.5,
-        "rsi14": 62.1
+        "rsi14": 62.0
       }
     },
     "credit": {
@@ -828,7 +828,7 @@
         "pct_1d": -0.052,
         "pct_5d": 0.228,
         "vs_sma20_pct": 0.02,
-        "rsi14": 42.1
+        "rsi14": 42.2
       },
       "LQD": {
         "close": 103.83,
@@ -853,7 +853,7 @@
         "pct_1d": 4.345,
         "pct_5d": 4.822,
         "vs_sma20_pct": 10.99,
-        "rsi14": 72.1
+        "rsi14": 72.3
       }
     },
     "breadth": {
@@ -862,7 +862,7 @@
         "pct_1d": -0.334,
         "pct_5d": 1.941,
         "vs_sma20_pct": -0.53,
-        "rsi14": 43.0
+        "rsi14": 43.1
       }
     },
     "semis": {
@@ -871,35 +871,35 @@
         "pct_1d": 1.715,
         "pct_5d": -2.254,
         "vs_sma20_pct": -11.98,
-        "rsi14": 38.9
+        "rsi14": 39.1
       },
       "AVGO": {
         "close": 321.74,
         "pct_1d": -0.486,
         "pct_5d": -2.116,
         "vs_sma20_pct": -7.75,
-        "rsi14": 34.1
+        "rsi14": 34.4
       },
       "TSM": {
         "close": 418.37,
         "pct_1d": 1.472,
         "pct_5d": 1.421,
         "vs_sma20_pct": -6.11,
-        "rsi14": 41.3
+        "rsi14": 41.7
       },
       "MU": {
         "close": 877.38,
         "pct_1d": 2.513,
         "pct_5d": -0.159,
         "vs_sma20_pct": -11.08,
-        "rsi14": 37.8
+        "rsi14": 38.1
       },
       "INTC": {
         "close": 86.96,
         "pct_1d": 1.708,
         "pct_5d": -3.13,
         "vs_sma20_pct": -16.45,
-        "rsi14": 32.6
+        "rsi14": 32.9
       }
     }
   },
@@ -977,6 +977,46 @@
     }
   },
   "news": [
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple\u2019s iPhone Duo Launch Lines Surprise Gene Munster, Who Sees 20 Million Units and $8 Billion Revenue Boost; Tim Cook Says, \u2018Welcome to the World\u2019",
+      "summary": "Gene Munster expects Apple\u2019s Duo iPhone to sell 20 million units and add $8 billion in fiscal 2027 revenue.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62577354/apple-duo-iphone-sales-revenue",
+      "created_at": "2026-10-24T07:28:35Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Mark Cuban Says AI Agents Can Be Like \u2018Cockroaches\u2019 That Find Ways Into Systems, But Defenders Can Fight Back With AI: \u2018We\u2019ve Always Had Hacks\u2019",
+      "summary": "Mark Cuban warns AI-powered hacking threatens cybersecurity as attackers scale up brute-force attacks using autonomous agents.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62577241/mark-cuban-ai-hacking-cybersecurity-cockroach-theory",
+      "created_at": "2026-10-24T05:11:56Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Higgsfield AI Extends Series B Financing with Investment from NVIDIA",
+      "summary": "Higgsfield AI announced an extension of its Series B financing round, which includes new investment from TCV and NVIDIA.",
+      "source": "fiscal.ai",
+      "url": "https://www.moomoo.com/stock/NVDA-US/news?chain_id=Name1K9-3FXPhg.1lddbo0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Foptions%2FNVDA261021C125000-US%22%7D",
+      "created_at": "2026-10-24T00:02:01Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Analyst Speculation Regarding Potential Tesla-SpaceX Merger",
+      "summary": "Barclays analyst Dan Levy has suggested the possibility of a merger between Tesla and SpaceX ahead of Tesla's annual meeting in December 2026.",
+      "source": "fiscal.ai",
+      "url": "https://www.barchart.com/story/news/8371810/the-biggest-merger-ever-tesla-and-spacex-could-combine-and-give-elon-musk-56-control",
+      "created_at": "2026-10-24T00:01:30Z"
+    },
     {
       "symbols": [
         "AAPL"
@@ -1112,16 +1152,6 @@
       "source": "fiscal.ai",
       "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-plans-cybercab-sales-by-end-of-2026-as-robotaxi-expansion-faces-safety-probe",
       "created_at": "2026-10-23T18:01:38Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Outlook is 'Grim,' Former Hedge Fund Manager Won\u2019t Touch Stock 'With 10-Foot Pole'",
-      "summary": "Whitney Tilson says Tesla outlook is trending downward at an extreme valuation: &#34;I wouldn\u2019t touch it with a 10-foot pole.\u201d",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/large-cap/26/10/62570491/tesla-outlook-grim-former-hedge-fund-manager-touch-stock-10-foot-pole",
-      "created_at": "2026-10-23T18:00:20Z"
     },
     {
       "symbols": [
