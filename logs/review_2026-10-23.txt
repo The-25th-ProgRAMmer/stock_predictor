@@ -1,0 +1,79 @@
+==============================================================================
+DAILY REVIEW - 2026-10-23
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-10-23: $98,416.73  (-1.58%, -32% of the way)
+  Peak $99,999.88, now -1.58% from peak
+  $6,583.27 to go over 5 session(s): needs +1.303% per session, compounded
+  Realised so far -0.114% per session - behind pace
+  (Pace is a yardstick only; it never changes position size.)
+
+TRADES CLOSED:
+  Since 2026-10-23: no closed trades yet
+  October to date: 11 closed, 1 profitable / 10 not (9% win rate), net $-1,754.97
+    avg win  $+206.40
+    avg loss $-196.14
+    profit factor 0.11 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+    2026-10-09  AMZN   short stop      held 3s  $  -101.97 (-2.35%)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+    2026-10-16  META   long  stop      held 8s  $  -195.30 (-4.40%)
+    2026-10-19  AMZN   short stop      held 0s  $  -208.08 (-2.39%)
+    2026-10-21  SMH    short stop      held 1s  $  -190.55 (-3.20%)
+    2026-10-22  NVDA   short target    held 1s  $  +206.40 (+2.60%)
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 7/10 = 70%
+Baseline 'always up': 20%
+Your edge vs always_up: +50%
+
+CORRECT (7):
+  AMZN   called down@50%  -> down (-0.96%)
+    Close ($250.39) is below both SMA20 ($254.53) and SMA50 ($255.99), a clean net -
+  GOOGL  called down@50%  -> down (-1.22%)
+    Close ($324.19) is below both SMA20 ($344.26) and SMA50 ($343.38), net -1 of 3 v
+  META   called down@50%  -> down (-1.00%)
+    Close ($648.76) is below both SMA20 ($723.10) and SMA50 ($662.61), net -1 of 3 v
+  MSFT   called up  @52%  -> up   (+0.53%)
+    Close ($521.60) is just below SMA20 ($526.32) but still above SMA50 ($507.79), n
+  NVDA   called down@50%  -> down (-0.59%)
+    Close ($212.27) is below both SMA20 ($226.28) and SMA50 ($222.70), net -1 of 3 v
+  QQQ    called down@50%  -> down (-0.05%)
+    Close ($704.56) is well below SMA20 ($737.21) and SMA50 ($725.97), a net -1 of 3
+  SPY    called down@50%  -> down (-0.55%)
+    Close ($764.03) sits below both SMA20 ($770.73) and SMA50 ($767.21), a net -1 of
+
+WRONG (3):
+  AAPL   called up  @52%  -> down (-0.19%)
+    Signals: close_above_sma20, close_above_sma50, sma50_slope_positive
+    Close ($348.34) is above both SMA20 ($338.62) and SMA50 ($328.64), a clean net +
+  SMH    called down@50%  -> up   (+0.75%)
+    Signals: close_below_sma20, close_below_sma50, rsi14_weak
+    Close ($523.24) is below both SMA20 ($589.49) and SMA50 ($576.28), net -1 of 3 v
+  TSLA   called up  @52%  -> down (-0.68%)
+    Signals: close_above_sma20, close_above_sma50, sma50_slope_positive
+    Close ($374.70) is above both SMA20 ($369.87) and SMA50 ($363.13), a clean net +
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - close_below_sma20: 6/7 correct predictions
+    - close_below_sma50: 6/7 correct predictions
+    - macd_hist_negative: 2/7 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - close_above_sma20: 2/3 wrong predictions
+    - close_above_sma50: 2/3 wrong predictions
+    - sma50_slope_positive: 2/3 wrong predictions
+  Biggest magnitude misses:
+    - TSLA: called up, actual down (-0.68%)
+    - SMH: called down, actual up (+0.75%)
+
+==============================================================================
