@@ -302,14 +302,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
-          "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates",
-          "created_at": "2026-10-26T20:31:25Z"
-        }
-      ]
+      "material_news": []
     },
     "GOOGL": {
       "latest_close": 316.81,
@@ -522,7 +515,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "Reports of Potential NVIDIA Interest in Ambarella Acquisition",
+          "url": "https://www.barchart.com/story/news/8459384/nvidia-just-gave-a-huge-catalyst-to-this-ai-stock-how-to-play-amba-stock-here",
+          "created_at": "2026-10-27T02:01:18Z"
+        }
+      ]
     },
     "META": {
       "latest_close": 630.43,
@@ -946,43 +946,134 @@
   "news": [
     {
       "symbols": [
+        "AAPL",
+        "AMZN",
+        "GOOGL"
+      ],
+      "headline": "'We're Trading Them Like Baseball Cards': Mark Cuban Warns \u2018Everything\u2019s a Meme Stock\u2019 as AAPL, GOOGL and MU Fuel Market Bubble Fears",
+      "summary": "Mark Cuban warns tech giants like Apple and Google are trading as &#34;meme stocks&#34; based on perceived value amid a growing market bubble.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62610386/mark-cuban-warns-everything-meme-stock-aapl-googl-mu-ai-bubble-baseball-cards",
+      "created_at": "2026-10-27T08:44:54Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Elizabeth Warren Sees 2008-Style Warning Signs in AI Boom \u2014 \u2018Trump\u2019s Regulators Are Choosing to Look the Other Way\u2019",
+      "summary": "Warren warned that Big Tech\u2019s massive AI investments, rising debt and weak regulatory oversight could trigger a financial crisis.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62610077/elizabeth-warren-warns-ai-bubble",
+      "created_at": "2026-10-27T08:03:30Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
         "TSLA"
       ],
-      "headline": "Tesla and Nvidia Reportedly Funding Samsung AI Chip Substrate Production",
-      "summary": "Tesla and Nvidia are reportedly committing 3.7 trillion won to fund the expansion of Samsung Electro-Mechanics' FC-BGA substrate production lines.",
-      "source": "fiscal.ai",
-      "url": "https://finimize.com/content/tesla-and-nvidia-are-reportedly-funding-samsungs-ai-chip-substrate-push",
-      "created_at": "2026-10-27T00:01:40Z"
+      "headline": "\u2018Where Are The Cybercabs?\u2019 Tesla Investor Ross Gerber Takes Aim at Elon Musk as Amazon\u2019s Zoox Eyes Expansion With Santa Monica Deal for 150 Robotaxis",
+      "summary": "Zoox nears a Santa Monica deal to stage 150 robotaxis, prompting investor Ross Gerber to question Tesla\u2019s Cybercab rollout pace.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62610060/where-are-the-cybercabs-tesla-ross-gerber-takes-aim-elon-musk-amazon-zoox-deal",
+      "created_at": "2026-10-27T08:01:22Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Anthropic\u2019s IPO Filing Reveals Over $500 Billion AI Compute Spending Across AMZN, GOOGL, MSFT, AVGO and SPCX: Top Analyst Says It Has \u2018Barely Started\u2019",
+      "summary": "Anthropic\u2019s $500B compute commitments span Broadcom, Google, Amazon, Microsoft, AMD and SpaceX, Nicholas Mugalli says.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/ipos/26/10/62609946/anthropics-ipo-filing-reveals-over-500-billion-ai-compute-spending-across-amzn-googl-msft-avgo-and-spcx-top-analyst-says-it-has-barely-started",
+      "created_at": "2026-10-27T07:48:01Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' \u2014 This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
+      "summary": "Elon Musk predicted robots will drive more memory demand than anything else on Earth, which analyst Shay Boloor sees as a chip opportunity.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62609333/elon-musk-says-robots-to-top-memory-demand-micron-sk-hynix-boloor",
+      "created_at": "2026-10-27T06:30:41Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Futures edge higher as earnings, the Fed meeting and Anthropic IPO drive markets; oil falls as traders see 67% odds of an S&amp;P 500 up open.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62609196/stock-market-will-sp-500-open-up-or-down-today-66",
+      "created_at": "2026-10-27T06:04:37Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "NVDA"
+      ],
+      "headline": "NVIDIA And Meta To Expand Muse Model Collaboration On Inference And Training Performance; NVIDIA To Invest $3B In Meta\u2019s Equity Offering",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62609103/nvidia-and-meta-expand-muse-model-collaboration-inference-and-training-performance-nvidia-invest-3b-",
+      "created_at": "2026-10-27T05:56:31Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta Prices 250M Depositary Shares At $50 Of 6.50% Series A Mandatory Convertible Preferred And 40M Class A Shares At $625 Under Forward Sale Agreements; Common Offering Upsized To $25B From $22.5B",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62608952/meta-prices-250m-depositary-shares-50-6-50-series-mandatory-convertible-preferred-and-40m-class-shar",
+      "created_at": "2026-10-27T05:19:35Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Could Go Beyond Robotaxis Into Underground Travel And Electric Aviation \u2014 TSLA Could \u2018Own\u2019 Transportation, ARK Says",
+      "summary": "ARK sees Tesla expanding via underground robotaxis and electric aviation, with SpaceX enabling intercontinental flights.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62608823/tesla-could-go-beyond-robotaxis-into-underground-travel-and-electric-aviation-tsla-could-own-transportation-ark-says",
+      "created_at": "2026-10-27T04:32:47Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "\u2018Aware of an Issue\u2019: Apple Offers Replacements for iPhone Duo Display Defects After Users Report Cracks Near Hinge",
+      "summary": "Apple is now offering replacements for foldable iPhone Duo units with reported display cracks near the hinge.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62608801/apple-iphone-duo-display-defects-hinge-cracks-replacements",
+      "created_at": "2026-10-27T04:12:27Z"
     },
     {
       "symbols": [
         "MSFT"
       ],
-      "headline": "Verosoft Launches AI Orchestration Platform Built on Microsoft Dynamics 365",
-      "summary": "Industrial technology company Verosoft has announced the general availability of Verovia, an AI orchestration platform built on Microsoft Dynamics 365.",
+      "headline": "Narmi Expands Model Context Protocol Capabilities to Microsoft 365 Copilot",
+      "summary": "Digital banking solutions provider Narmi has integrated its Model Context Protocol (MCP) capabilities into Microsoft 365 Copilot.",
       "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/in/news-releases/verosoft-launches-verovia-to-turn-ai-into-industrial-value-302918490.html",
-      "created_at": "2026-10-26T23:01:26Z"
+      "url": "https://www.newscom.com/accesswire?p_p_id=listenersearchresults_WAR_searchportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_listenersearchresults_WAR_searchportlet_pageNumber=1&_listenersearchresults_WAR_searchportlet_photoSets=true&_listenersearchresults_WAR_searchportlet_excludeRestricted=true&_listenersearchresults_WAR_searchportlet_struts.portlet.action=%2Fview%2FshowDetail&_listenersearchresults_WAR_searchportlet_tagId=awire236975",
+      "created_at": "2026-10-27T02:01:34Z"
     },
     {
       "symbols": [
-        "MSFT"
+        "NVDA"
       ],
-      "headline": "Semperis Expands Security Collaboration with Microsoft",
-      "summary": "Semperis has deepened its security collaboration with Microsoft by integrating its Lightning Platform with Microsoft Sentinel and Security Copilot.",
+      "headline": "Reports of Potential NVIDIA Interest in Ambarella Acquisition",
+      "summary": "Market reports suggest NVIDIA may be exploring an acquisition of Ambarella, a company specializing in low-power AI chips.",
       "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/semperis-deepens-microsoft-security-collaboration-integrating-the-lightning-platform-with-microsoft-sentinel-and-security-copilot-302919004.html",
-      "created_at": "2026-10-26T23:01:26Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Business to Host Annual 'Reshape 2026' Conference",
-      "summary": "Amazon Business is set to hold its fifth annual 'Reshape' conference in Nashville, Tennessee, focusing on procurement strategy and AI implementation.",
-      "source": "fiscal.ai",
-      "url": "https://procurementmag.com/news/amazon-business-reshape-2026-what-cpos-need-to-know",
-      "created_at": "2026-10-26T23:01:23Z"
+      "url": "https://www.barchart.com/story/news/8459384/nvidia-just-gave-a-huge-catalyst-to-this-ai-stock-how-to-play-amba-stock-here",
+      "created_at": "2026-10-27T02:01:18Z"
     },
     {
       "symbols": [
@@ -993,61 +1084,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/politics/26/10/62607697/trump-approval-hits-record-lows-75-say-economy-not-so-good-or-poor",
       "created_at": "2026-10-26T22:42:28Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Cancels Cybertruck in Two Countries: An Omen for the Vehicle's Future?",
-      "summary": "The Tesla Cybertruck has underperformed expectations. News on the vehicle&#39;s international expansion doesn&#39;t look good for the company.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/large-cap/26/10/62606038/tesla-cybertruck-in-two-countries-is-this-an-ominous-sign-for-vehicles-future",
-      "created_at": "2026-10-26T20:48:20Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "SpaceX Merger Could Accelerate Tesla's Push Into AI and Autonomous Driving: Barclays",
-      "summary": "A SpaceX merger could help Tesla accelerate AI, autonomous driving and chip development as Elon Musk pushes beyond vehicle sales.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62605726/tesla-spacex-merger",
-      "created_at": "2026-10-26T20:38:11Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
-      "summary": "Microsoft has initiated a voluntary buyout program for approximately 60,000 employees, representing about 27% of its global workforce, as the company shifts its focus toward artificial intelligence investments.",
-      "source": "fiscal.ai",
-      "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates",
-      "created_at": "2026-10-26T20:31:25Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL"
-      ],
-      "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
-      "created_at": "2026-10-26T20:26:29Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
-      "summary": "CoreWeave CDS hit a one-year record of 1,167 bps, implying about 62% default odds, as strategists draw Lehman parallels and Musk warns on neoclouds.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
-      "created_at": "2026-10-26T19:58:10Z"
     },
     {
       "symbols": [
@@ -1088,60 +1124,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62602063/anthropic-ipo-filing-reveals-ai-booms-next-test-7-etfs-with-pre-launch-exposure",
       "created_at": "2026-10-26T19:07:51Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Siri AI Is Available In More Languages Starting Today; Expanding To More People Around World, With Availability In French, Japanese, Korean, Portuguese, And Spanish Languages; Siri AI Currently Unavailable In EU; Working With EU On Path Forward",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62601321/siri-ai-available-more-languages-starting-today-expanding-more-people-around-world-availability-fren",
-      "created_at": "2026-10-26T18:41:07Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Michael Burry Eyes the Exit on Walmart, Alphabet and Valero",
-      "summary": "Michael Burry may trim Walmart, Alphabet and Valero over valuation concerns, while buying beaten-down stocks and shorting AI names.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62600475/michael-burry-eyes-the-exit-on-walmart-alphabet-and-valero",
-      "created_at": "2026-10-26T18:10:47Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Announces $95 Billion Capital Raise Plan for AI Infrastructure",
-      "summary": "Meta Platforms, Inc. has announced a comprehensive $95 billion financing plan to support its massive investments in artificial intelligence infrastructure and personal superintelligence.",
-      "source": "fiscal.ai",
-      "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
-      "created_at": "2026-10-26T18:01:46Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Releases Public Software Updates",
-      "summary": "Apple has rolled out several software updates, including watchOS 27.2, macOS 27.2, tvOS 27.2, visionOS 27.2, and HomePod version 27.2.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/13b2e2j/",
-      "created_at": "2026-10-26T18:01:30Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "TSLA"
-      ],
-      "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
-      "summary": "The Nasdaq 100 gains 1.2% as chipmakers rebound and Tesla jumps on an upgrade, while Brazil&#39;s EWZ sinks 21.7% after Lula&#39;s win. Yields ease.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
-      "created_at": "2026-10-26T17:09:01Z"
     }
   ]
 }
