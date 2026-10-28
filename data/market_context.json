@@ -225,7 +225,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "regulatory_legal",
+          "headline": "Jeff Bezos Just Got a New Boost in His Rivalry With Elon Musk \u2014 Amazon Wins FCC Approval for $11.5 Billion Globalstar Deal to Expand Satellite Connectivity",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62644373/jeff-bezos-rivalry-elon-musk-amazon-fcc-approval-11-5-billion-globalstar-deal",
+          "created_at": "2026-10-28T07:50:03Z"
+        }
+      ]
     },
     "MSFT": {
       "latest_close": 531.58,
@@ -295,7 +302,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "earnings",
+          "headline": "Microsoft Stock Gained Nearly 22% in July Earnings Week; Will It Rally Again This Time? Polymarket Traders Weigh In",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62643954/microsoft-earnings-preview-polymarket-traders-say-july-size-jump-unlikely",
+          "created_at": "2026-10-28T07:07:46Z"
+        }
+      ]
     },
     "GOOGL": {
       "latest_close": 320.6,
@@ -368,9 +382,9 @@
       "material_news": [
         {
           "event": "deal",
-          "headline": "Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed",
-          "url": "https://www.benzinga.com/m/26/10/62639109/anthropic-acquires-mithril-medicine-financial-terms-not-disclosed",
-          "created_at": "2026-10-27T20:46:09Z"
+          "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
+          "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information",
+          "created_at": "2026-10-28T07:51:40Z"
         }
       ]
     },
@@ -444,10 +458,10 @@
       },
       "material_news": [
         {
-          "event": "deal",
-          "headline": "Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed",
-          "url": "https://www.benzinga.com/m/26/10/62639109/anthropic-acquires-mithril-medicine-financial-terms-not-disclosed",
-          "created_at": "2026-10-27T20:46:09Z"
+          "event": "regulatory_legal",
+          "headline": "Jeff Bezos Just Got a New Boost in His Rivalry With Elon Musk \u2014 Amazon Wins FCC Approval for $11.5 Billion Globalstar Deal to Expand Satellite Connectivity",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62644373/jeff-bezos-rivalry-elon-musk-amazon-fcc-approval-11-5-billion-globalstar-deal",
+          "created_at": "2026-10-28T07:50:03Z"
         }
       ]
     },
@@ -522,9 +536,9 @@
       "material_news": [
         {
           "event": "deal",
-          "headline": "Jim Cramer Dares Nvidia's Jensen Huang to Buy CoreWeave\u2019s 15% Debt",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62641316/jim-cramer-dares-nvidias-jensen-huang-to-buy-coreweaves-15-debt",
-          "created_at": "2026-10-27T21:57:13Z"
+          "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
+          "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information",
+          "created_at": "2026-10-28T07:51:40Z"
         }
       ]
     },
@@ -955,6 +969,160 @@
   "news": [
     {
       "symbols": [
+        "GOOGL",
+        "TSLA"
+      ],
+      "headline": "Gary Black Has a Warning for Tesla Bulls Betting on Robotaxi Dominance: Same \u2018Delusional Thinking\u2019 That Underestimated Chinese EV Rivals",
+      "summary": "Gary Black warns Tesla bulls not to underestimate Waymo and Chinese robotaxi rivals, which could erode its autonomy lead and lofty valuation.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62644925/gary-black-warning-tesla-bulls-betting-robotaxi-delusional-thinking-chinese-ev-rivals",
+      "created_at": "2026-10-28T08:57:35Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Bernie Sanders Slams Microsoft Over 60,000 Workers Facing Buyouts and Trump-Era Tax Breaks Amid Billions in Profits: \u2018A Total Scam\u2019",
+      "summary": "Bernie Sanders slams Microsoft over $19 billion in tax breaks, $134 billion in profits and 60,000 job cuts under Trump.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62644909/bernie-sanders-slams-microsoft-over-60000-workers-facing-buyouts-and-trump-era-tax-breaks-amid-billions-in-profits-a-total-scam",
+      "created_at": "2026-10-28T08:53:50Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Google 'Putting Profits Over People' With AI Push In Classrooms, Says Richard Blumenthal: Warns Children\u2019s Academic and Emotional Well-Being at Risk",
+      "summary": "Blumenthal accused Google of prioritizing profits by aggressively promoting classroom AI, potentially harming students\u2019 academic and emotional",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62644686/google-putting-profits-over-people-with-ai-push-in-classrooms-says-richard-blumenthal-warns-childrens-academic-and-emotional-well-being-at-risk",
+      "created_at": "2026-10-28T08:27:05Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Kevin O'Leary Warns Investors Could Get 'Slaughtered' by Ignoring Diversification, Shares His 5% Stock and 20% Sector Rule",
+      "summary": "Kevin O&#39;Leary advises limiting individual stocks to 5% and sectors to 20%, crediting diversification for improving returns after past losses.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62644518/kevin-oleary-warns-investors-could-get-slaughtered-by-ignoring-diversification-shares-his-5-stock-and-20-sector-rule",
+      "created_at": "2026-10-28T08:06:22Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "GOOGL"
+      ],
+      "headline": "Korea Media And Communications Commission Orders Google And Apple To Allow External Payments, Improve Commission Structures; Imposes KRW 42.9B (~$32M) Penalty On Google, KRW 20.81B On Apple",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/GOOGL",
+      "created_at": "2026-10-28T08:03:38Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "NVDA"
+      ],
+      "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information",
+      "created_at": "2026-10-28T07:51:40Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "AMZN"
+      ],
+      "headline": "Jeff Bezos Just Got a New Boost in His Rivalry With Elon Musk \u2014 Amazon Wins FCC Approval for $11.5 Billion Globalstar Deal to Expand Satellite Connectivity",
+      "summary": "FCC approves Amazon&#39;s Globalstar acquisition, boosting its satellite network and direct-to-device ambitions as it challenges Starlink.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62644373/jeff-bezos-rivalry-elon-musk-amazon-fcc-approval-11-5-billion-globalstar-deal",
+      "created_at": "2026-10-28T07:50:03Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Reported Earlier, Meta Launches Muse Personal AI Agent In Singapore With Connectors To Shopee, Grab, Singapore Airlines, Agoda, ShopBack, Klook, Trip.com And Lazada",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62644362/reported-earlier-meta-launches-muse-personal-ai-agent-singapore-connectors-shopee-grab-singapore-air",
+      "created_at": "2026-10-28T07:49:23Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Microsoft Stock Gained Nearly 22% in July Earnings Week; Will It Rally Again This Time? Polymarket Traders Weigh In",
+      "summary": "Microsoft shares ended July\u2019s earnings week nearly 22% higher, but Polymarket traders are not betting on a similar move this week.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62643954/microsoft-earnings-preview-polymarket-traders-say-july-size-jump-unlikely",
+      "created_at": "2026-10-28T07:07:46Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "headline": "Apple Is Breaking Away From Big Tech in a Way Wall Street Has Rarely Seen: \u2018Unprecedented\u2019",
+      "summary": "Kobeissi flags an unprecedented Apple and Nasdaq decoupling, closing the Nvidia valuation gap amid safe-haven flows.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62643849/apple-is-breaking-away-from-big-tech-in-a-way-wall-street-has-rarely-seen-unprecedented",
+      "created_at": "2026-10-28T06:46:31Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds hit 55% as Wall Street weighs Big Tech earnings, the Fed rate decision, and the AI build-out.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62643298/stock-market-will-sp-500-open-up-or-down-today-67",
+      "created_at": "2026-10-28T05:36:20Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "TSLA"
+      ],
+      "headline": "Elon Musk Says Tesla Robotaxi Expansion to Miami, Tampa Beaches Is \u2018Coming Soon\u2019 After Ron DeSantis\u2019 Call for Expansion",
+      "summary": "Tesla CEO Elon Musk says company will expand Robotaxi service to Miami and Tampa beaches after Ron DeSantis points out gap.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62643287/elon-musk-says-tesla-robotaxi-expansion-to-miami-tampa-beaches-is-coming-soon-after-ron-desantis-call-for-expansion",
+      "created_at": "2026-10-28T05:35:20Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Jim Cramer Says Micron Shouldn't Follow 'Whatever' SK Hynix Does As MU Shares Jump After Hours: 'I'm Hoping The Linkage Ends One Day'",
+      "summary": "Micron Technology shares rise 1.37% after hours as Jim Cramer highlights their close tracking of SK Hynix.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62642902/jim-cramer-micron-technology-shares-rise-after-hours-sk-hynix",
+      "created_at": "2026-10-28T03:26:17Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Anthony Scaramucci Says Joe Biden Was 'Actually Good for the Stock Market,' Blames Trump for Causing 'Self-Harm' to Economy",
+      "summary": "Anthony Scaramucci accused Trump of damaging the economy, saying the stock market would be far better off had he left everything else alone.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/10/62642840/scaramucci-says-trump-self-harm-economy-biden-good-stock-market",
+      "created_at": "2026-10-28T03:03:05Z"
+    },
+    {
+      "symbols": [
         "META"
       ],
       "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
@@ -975,16 +1143,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "Jim Cramer Dares Nvidia's Jensen Huang to Buy CoreWeave\u2019s 15% Debt",
-      "summary": "Jim Cramer challenges Nvidia CEO Jensen Huang to buy CoreWeave debt as yields soar.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62641316/jim-cramer-dares-nvidias-jensen-huang-to-buy-coreweaves-15-debt",
-      "created_at": "2026-10-27T21:57:13Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "API Crude Oil Stock 2.031M Barrel Draw Vs 0.800M Barrel Build Est.",
@@ -992,69 +1150,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/quote/SPY",
       "created_at": "2026-10-27T20:49:18Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL"
-      ],
-      "headline": "Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/m/26/10/62639109/anthropic-acquires-mithril-medicine-financial-terms-not-disclosed",
-      "created_at": "2026-10-27T20:46:09Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL"
-      ],
-      "headline": "Anthropic Announces Plan To Continue Extending Claude\u2019s Role Into Clinical Trials As Drug Programs Advance",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62639077/anthropic-announces-plan-continue-extending-claude-s-role-clinical-trials-drug-programs-advance",
-      "created_at": "2026-10-27T20:44:52Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Dayforce Expands Collaboration With Microsoft Across HR, Finance, Operations; Dayforce Build And Dayforce Marketplace To Be Be Available Next Year",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62638705/dayforce-expands-collaboration-microsoft-across-hr-finance-operations-dayforce-build-and-dayforce-ma",
-      "created_at": "2026-10-27T20:37:34Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Analysts Adjust Price Targets for Tesla",
-      "summary": "Daiwa Securities and China Renaissance updated their price targets for Tesla shares on October 27, 2026.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/options/TSLA261028C310000-US",
-      "created_at": "2026-10-27T20:31:54Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "NVDA"
-      ],
-      "headline": "Mark Cuban Warns of AI Debt Bubble Despite Optimism: 'I\u2019m Not a Naysayer'",
-      "summary": "Mark Cuban has positive and negative thoughts about AI in a new interview, including a potential doomsday scenario for some companies.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62636904/mark-cuban-ai-debt-bubble-optimism-not-a-naysayer",
-      "created_at": "2026-10-27T20:13:26Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
-      "summary": "SPY rose 14% in a year and its P/E fell from 28.6x to 24.5x as earnings grew about a third, with the Mag 7 delivering half the growth.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/10/62636823/sp500-rose-14-percent-in-a-year-and-got-cheaper",
-      "created_at": "2026-10-27T20:12:04Z"
     },
     {
       "symbols": [
@@ -1072,99 +1167,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/opinion/26/10/62632804/ai-biggest-constraint-could-be-capital-availability-anthropic-meta-and-spacex-put-markets-to-the-test",
       "created_at": "2026-10-27T18:42:47Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Google Rolls Out Gemini Robotics Embodied Reasoning 2 For Public Review On Gemini Platform",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62634738/google-rolls-out-gemini-robotics-embodied-reasoning-2-public-review-gemini-platform",
-      "created_at": "2026-10-27T19:40:12Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "MSFT"
-      ],
-      "headline": "Microsoft, Alphabet On Deck Wednesday As AI Spending, Cloud Growth Face Test",
-      "summary": "Microsoft and Alphabet headline Wednesday\u2019s reports, with investors weighing whether AI infrastructure spending is translating into durable cloud and advertising growth. GE Vernova, Amphenol, Banco Santander, UBS Group",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62634379/microsoft-alphabet-on-deck-wednesday-as-ai-spending-cloud-growth-face-test",
-      "created_at": "2026-10-27T19:30:44Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla\u2019s New Robotaxi Problem Would Make Most Rivals Jealous",
-      "summary": "Tesla management says the company is making the Cybercab vehicle too fast.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/large-cap/26/10/62633009/teslas-new-robotaxi-problem-would-make-most-rivals-jealous",
-      "created_at": "2026-10-27T18:48:02Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Creator Studio Update Adds MotionVFX and AI Assistants",
-      "summary": "Apple announced a major update to its Creator Studio software suite, integrating MotionVFX tools and new AI-powered assistants across its professional and creative applications.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/x2n4dvt/",
-      "created_at": "2026-10-27T18:01:26Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Alphabet Q3 Earnings Preview: 'Bears Have Technical Advantage,' Here's What Could Help Bulls",
-      "summary": "Alphabet stock hit new all-time highs earlier this year. Here&#39;s a look at some items that could get shares back to those levels.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/earnings/26/10/62629300/alphabet-q3-earnings-preview-bears-have-technical-advantage-heres-what-could-help-bulls",
-      "created_at": "2026-10-27T17:03:18Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "NVDA",
-        "QQQ",
-        "SMH",
-        "TSLA"
-      ],
-      "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-      "summary": "Chipmakers lift the Nasdaq 100 as Meta&#39;s share sale draws Nvidia and AMD, while Boeing slides on a 737 production delay.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62629254/stock-market-today-nasdaq-100-chip-rally-meta-boeing-737-delay",
-      "created_at": "2026-10-27T17:01:35Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/AAPL",
-      "created_at": "2026-10-27T17:01:19Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "SMH"
-      ],
-      "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
-      "summary": "Anthropic\u2019s $750B compute ambitions put semiconductor and power infrastructure ETFs in focus as AI spending grows.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
-      "created_at": "2026-10-27T16:44:02Z"
     }
   ]
 }
