@@ -297,16 +297,10 @@
       },
       "material_news": [
         {
-          "event": "earnings",
-          "headline": "Microsoft Q1 2027 Earnings Call Transcript",
-          "url": "https://www.benzinga.com/news/26/10/62680566/microsoft-q1-2027-earnings-call-transcript",
-          "created_at": "2026-10-28T22:12:10Z"
-        },
-        {
-          "event": "earnings",
-          "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
-          "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est",
-          "created_at": "2026-10-28T22:01:25Z"
+          "event": "rating_change",
+          "headline": "Piper Sandler Reiterates Overweight on Microsoft, Raises Price Target to $650",
+          "url": "https://www.benzinga.com/news/26/10/62684472/piper-sandler-reiterates-overweight-microsoft-raises-price-target-650",
+          "created_at": "2026-10-29T09:20:00Z"
         }
       ]
     },
@@ -380,14 +374,7 @@
           "Volume 1.9x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "Lumentum Stock Soars 17% on Marvell Takeover Talk",
-          "url": "https://www.benzinga.com/m-a/26/10/62680188/lumentum-stock-soars-17-on-marvell-takeover-talk",
-          "created_at": "2026-10-28T21:55:11Z"
-        }
-      ]
+      "material_news": []
     },
     "AMZN": {
       "latest_close": 254.69,
@@ -529,22 +516,16 @@
       },
       "material_news": [
         {
+          "event": "regulatory_legal",
+          "headline": "Nvidia Faces DOJ Scrutiny Over $12.9 Billion Hugging Face Deal Amid Concerns About Unfair AI Advantage: Report",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62684670/nvidia-faces-doj-scrutiny-over-12-9-billion-hugging-face-deal-amid-concerns-about-unfair-ai-advantage-report",
+          "created_at": "2026-10-29T09:39:25Z"
+        },
+        {
           "event": "earnings",
           "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
           "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
           "created_at": "2026-10-28T23:01:30Z"
-        },
-        {
-          "event": "deal",
-          "headline": "Lumentum Stock Soars 17% on Marvell Takeover Talk",
-          "url": "https://www.benzinga.com/m-a/26/10/62680188/lumentum-stock-soars-17-on-marvell-takeover-talk",
-          "created_at": "2026-10-28T21:55:11Z"
-        },
-        {
-          "event": "deal",
-          "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
-          "url": "https://www.marketscreener.com/news/doj-probes-nvidia-s-hugging-face-deal-over-ai-competition-ce785cd3d98bf223",
-          "created_at": "2026-10-28T21:32:28Z"
         }
       ]
     },
@@ -968,6 +949,147 @@
   "news": [
     {
       "symbols": [
+        "NVDA"
+      ],
+      "headline": "Nvidia Faces DOJ Scrutiny Over $12.9 Billion Hugging Face Deal Amid Concerns About Unfair AI Advantage: Report",
+      "summary": "The DOJ is scrutinizing Nvidia\u2019s $12.9 billion Hugging Face deal amid broader concerns over AI competition and business practices.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62684670/nvidia-faces-doj-scrutiny-over-12-9-billion-hugging-face-deal-amid-concerns-about-unfair-ai-advantage-report",
+      "created_at": "2026-10-29T09:39:25Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged \u2014 MSFT, GOOG, TMUS in Focus",
+      "summary": "U.S. stocks were mixed Thursday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions,",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62684592/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-fed-keeps-rates-unchanged-msft-goog-tmus-in-focus",
+      "created_at": "2026-10-29T09:33:23Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Top Economist Slams Trump\u2019s $21 Trillion Investment Boast \u2014 \u2018The Jobs Are American. The Profits Aren\u2019t\u2019",
+      "summary": "Economist Justin Wolfers says foreign-built factories bring U.S. jobs but not profits, taking aim at Trump\u2019s $21 trillion investment boast.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/10/62684510/justin-wolfers-trump-foreign-investment-boast-profits-go-abroad",
+      "created_at": "2026-10-29T09:24:02Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Piper Sandler Reiterates Overweight on Microsoft, Raises Price Target to $650",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62684472/piper-sandler-reiterates-overweight-microsoft-raises-price-target-650",
+      "created_at": "2026-10-29T09:20:00Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "How High Can Amazon\u2019s AI Spending Go? Crypto Prediction Market Is Taking Bets After Andy Jassy\u2019s $220 Billion Warning",
+      "summary": "Polymarket traders are betting on whether Amazon\u2019s 2026 spending will exceed $220 billion amid surging AI demand.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62684211/amazon-capex-ai-polymarket-jassy",
+      "created_at": "2026-10-29T08:58:07Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'",
+      "summary": "Tom Lee says the Fed won&#39;t slow AI ahead of tech earnings, but FOMC minutes reveal AI investments are actively driving up inflation.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/10/62684176/tom-lee-sees-big-beats-ahead-says-kevin-warsh-led-fed-wont-slow-ai-growth-despite-inflation-good-news-is-good-news",
+      "created_at": "2026-10-29T08:51:08Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "MSFT Stock Eyes Best Day In Over 3 Months After Earnings Beat \u2014 Gene Munster Says 'Software Is Alive And Well, At Least For Now'",
+      "summary": "Gene Munster says Microsoft\u2019s strong cloud growth and earnings defy AI fears, though he expects AI to pressure software demand within a year.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62683953/msft-stock-eyes-best-day-in-over-3-months-after-earnings-beat-gene-munster-says-software-is-alive-and-well-at-least-for-now",
+      "created_at": "2026-10-29T08:13:33Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META"
+      ],
+      "headline": "Anthropic's 'Deviously Self-Serving' Voting Structure \u2018Would Put Kim Jong Un to Shame,\u2019 says Aswath Damodaran",
+      "summary": "Aswath Damodaran slams Anthropic\u2019s voting structure as \u201cdeviously self-serving\u201d and values the company near $1.48 trillion.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/ipos/26/10/62683687/anthropics-deviously-self-serving-voting-structure-would-put-kim-jong-un-to-shame-says-aswath-damodaran",
+      "created_at": "2026-10-29T07:51:11Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "TSLA"
+      ],
+      "headline": "GOOGL Stock Headed for Worst Single-Day Decline in Over Six Years as Waymo, Other Bets Widens Q3 Loss to Over $2 Billion",
+      "summary": "Waymo surpasses 300M autonomous miles and plans global expansion, but widening losses continue to plague Other Bets division.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62683676/googl-stock-headed-for-worst-single-day-decline-in-over-six-years-as-waymo-other-bets-widens-q3-loss-to-over-2-billion",
+      "created_at": "2026-10-29T07:50:48Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "MSFT"
+      ],
+      "headline": "Microsoft Has a Tool That 'Governs and Contains Agents,' Says Satya Nadella \u2014 Meta's Muse, OpenAI, Anthropic Are Lining Up",
+      "summary": "Microsoft is pitching itself as the gatekeeper for AI agents, and OpenAI, Anthropic and Meta\u2019s Muse are adopting its containment tool. ",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62683384/microsoft-ai-agents-gatekeeper-mxc-openai-anthropic-meta",
+      "created_at": "2026-10-29T07:13:07Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 47% as Wall Street weighs a tech selloff, Amazon earnings, PCE inflation, and cooling oil.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62682843/stock-market-will-sp-500-open-up-or-down-today-68",
+      "created_at": "2026-10-29T06:04:17Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "NVDA"
+      ],
+      "headline": "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA",
+      "summary": "One of Jim Cramer\u2019s favorite stocks, Nvidia, is down nearly 6% this month, and he wonders if bad tech news hits it first.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62681998/nvidia-stock-drops-6-percent-jim-cramer-tech-weakness-nvda",
+      "created_at": "2026-10-29T02:00:35Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
+      "summary": "A Democratic Party win in the 2026 midterms could provide a boost to the electric vehicle sector. Elon Musk is paying up to keep this from happening.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62681813/elon-musk-vs-tesla-his-midterm-money-could-work-against-his-own-cars",
+      "created_at": "2026-10-29T01:04:09Z"
+    },
+    {
+      "symbols": [
         "TSLA"
       ],
       "headline": "Tesla Full Self-Driving V14 Software Update",
@@ -985,127 +1107,6 @@
       "source": "fiscal.ai",
       "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
       "created_at": "2026-10-28T23:01:30Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Expands 'Shop Direct' Catalog to Retain Site Traffic",
-      "summary": "Amazon is significantly expanding its 'Shop Direct' initiative, increasing the number of product listings from external brands to encourage customers to complete purchases directly on its platform.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-expands-shop-direct-catalog-keep-shoppers-off-ai-shopping-agents/",
-      "created_at": "2026-10-28T23:01:27Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon",
-      "summary": "Google rolls out Gemini 4 Carbon, ranked No. 1 by Artificial Analysis, with strong cybersecurity scores.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62680620/elon-musk-has-a-one-word-verdict",
-      "created_at": "2026-10-28T22:14:18Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft Q1 2027 Earnings Call Transcript",
-      "summary": "Microsoft (NASDAQ:MSFT) reported first-quarter financial results on Wednesday. The transcript from the company\u2019s first-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62680566/microsoft-q1-2027-earnings-call-transcript",
-      "created_at": "2026-10-28T22:12:10Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est",
-      "created_at": "2026-10-28T22:01:25Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49%",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62680277/microsoft-cfo-says-q2-agents-and-infra-revenue-expected-be-80-1b-80-7b-q2-azure-growth-expected-be-4",
-      "created_at": "2026-10-28T22:00:32Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "NVDA"
-      ],
-      "headline": "Lumentum Stock Soars 17% on Marvell Takeover Talk",
-      "summary": "Lumentum shares surged on reports Marvell may acquire the optical components maker, boosting its AI and data center capabilities.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/m-a/26/10/62680188/lumentum-stock-soars-17-on-marvell-takeover-talk",
-      "created_at": "2026-10-28T21:55:11Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
-      "summary": "The U.S. Department of Justice is reportedly inquiring into NVIDIA's acquisition of Hugging Face as part of an investigation into AI market competition.",
-      "source": "fiscal.ai",
-      "url": "https://www.marketscreener.com/news/doj-probes-nvidia-s-hugging-face-deal-over-ai-competition-ce785cd3d98bf223",
-      "created_at": "2026-10-28T21:32:28Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "On CNBC, Treasury Secretary Bessent Said Consumer Behavior Is Quite Strong, Business Behavior Is Quite Strong; In General The Trade Deals Are Pretty Locked In",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-10-28T21:20:10Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Alphabet CEO Says We Are Working On Distilled Versions Of Gemini 4 Carbon For More Than 1B Users; Gemini 4 Carbon Will Be Available To Consumers Later This Year",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62679001/alphabet-ceo-says-we-are-working-distilled-versions-gemini-4-carbon-more-1b-users-gemini-4-carbon-wi",
-      "created_at": "2026-10-28T21:15:49Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62677203/vance-reaches-out-iranian-hard-liner-bid-restart-peace-talks-wsj-exclusive",
-      "created_at": "2026-10-28T20:38:05Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Launches 'Muse' Personal AI Agent in Singapore",
-      "summary": "Meta has introduced its personal AI agent, Muse, in the Singapore market, integrating it with several local service providers.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1ldvqc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fwhalehead-151181600%2Fpost%2Fall%22%7D",
-      "created_at": "2026-10-28T20:31:44Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Live On CNBC, Treasury Secretary Bessent Says Operation Economic Outcast Against Iran Has Been Very Successful, Currency Has Collapsed",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62675546/live-cnbc-treasury-secretary-bessent-says-operation-economic-outcast-against-iran-has-been-very-succ",
-      "created_at": "2026-10-28T20:20:25Z"
     }
   ]
 }
