@@ -297,14 +297,7 @@
           "Volume 1.8x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "rating_change",
-          "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
-          "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
-          "created_at": "2026-10-29T21:38:47Z"
-        }
-      ]
+      "material_news": []
     },
     "GOOGL": {
       "latest_close": 283.56,
@@ -378,20 +371,7 @@
           "Volume 5.3x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "rating_change",
-          "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
-          "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
-          "created_at": "2026-10-29T21:48:24Z"
-        },
-        {
-          "event": "rating_change",
-          "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
-          "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375",
-          "created_at": "2026-10-29T20:31:02Z"
-        }
-      ]
+      "material_news": []
     },
     "AMZN": {
       "latest_close": 243.76,
@@ -463,14 +443,7 @@
           "Volume 2.0x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
-          "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript",
-          "created_at": "2026-10-29T22:06:20Z"
-        }
-      ]
+      "material_news": []
     },
     "NVDA": {
       "latest_close": 213.7,
@@ -540,14 +513,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "corporate",
-          "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
-          "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/",
-          "created_at": "2026-10-29T20:31:24Z"
-        }
-      ]
+      "material_news": []
     },
     "META": {
       "latest_close": 624.5,
@@ -975,43 +941,147 @@
   "news": [
     {
       "symbols": [
-        "AMZN"
+        "NVDA"
       ],
-      "headline": "Amazon Surpasses One Million Robots in Fulfillment Network",
-      "summary": "Amazon announced it has deployed over one million robots across its fulfillment network and doubled its fleet of robotic arms in 2026.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/earnings/2026/amazon-puts-a-million-robots-behind-its-ai-ambitions/",
-      "created_at": "2026-10-30T00:01:40Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Introduces New Capabilities for Alexa for Shopping",
-      "summary": "Amazon has launched over 100 new shopping-related actions for its Alexa AI assistant to enhance convenience for customers.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant/",
-      "created_at": "2026-10-29T23:01:24Z"
+      "headline": "INTC Stock Heads for Worst Single-Day Drop in Over 2 Years, but CEO Lip-Bu Tan Says AI Agents Could Drive Server CPU Market to $200 Billion",
+      "summary": "Intel shares plunge 23% after weak Q4 guidance despite an earnings beat; CEO Tan predicts AI could expand the server CPU market to $200B.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62729704/intc-stock-heads-for-worst-single-day-drop-in-over-2-years-but-ceo-lip-bu-tan-says-ai-agents-could-drive-server-cpu-market-to-200-billion",
+      "created_at": "2026-10-30T09:31:24Z"
     },
     {
       "symbols": [
         "TSLA"
       ],
-      "headline": "$1000 Invested In Tesla 15 Years Ago Would Be Worth This Much Today",
-      "summary": "Tesla (NASDAQ:TSLA) has outperformed the market over the past 15 years by 28.89% on an annualized basis producing an average annual return of 41.74%. Currently, Tesla has a market capitalization of $1.60 trillion.",
+      "headline": "Elon Musk Casts Early Texas Ballot, Warns Democratic 'Clean Sweep' Could Make US a 'Permanent' One-Party State: 'End of Democracy'",
+      "summary": "Elon Musk urges Texas voters to back GOP Senate candidates, warning a Democratic sweep could create a &#39;permanent one-party state.&#39;",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62725327/1000-invested-tesla-15-years-ago-would-be-worth-much-today",
-      "created_at": "2026-10-29T22:30:15Z"
+      "url": "https://www.benzinga.com/news/politics/26/10/62729693/elon-musk-casts-early-texas-ballot-warns-democratic-clean-sweep-could-make-us-a-permanent-one-party-state-end-of-democracy",
+      "created_at": "2026-10-30T09:30:46Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL"
+      ],
+      "headline": "SK Hynix, Samsung Tumble in South Korea as Wall Street's AI Sell-Off Rattles Asian Markets \u2014 KOSPI Triggers Rare Sell-Side Trading Halt",
+      "summary": "SK Hynix and Samsung shares plunge as AI spending fears trigger a South Korean market sell-off, dragging the KOSPI and Nikkei lower.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62729331/sk-hynix-samsung-tumble-in-south-korea-as-wall-streets-ai-sell-off-rattles-asian-markets-kospi-triggers-rare-sell-side-trading-halt",
+      "created_at": "2026-10-30T09:00:05Z"
     },
     {
       "symbols": [
         "AMZN"
       ],
-      "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
-      "summary": "Amazon.com (NASDAQ:AMZN) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
+      "headline": "AMZN Stock Is Trending in Premarket Trading: Here's Why",
+      "summary": "Amazon shares fall 7.30% in premarket trading after third-quarter revenue and earnings miss analyst expectations.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript",
-      "created_at": "2026-10-29T22:06:20Z"
+      "url": "https://www.benzinga.com/markets/equities/26/10/62729274/amazon-shares-fall-q3-2026-earnings-revenue-eps-miss",
+      "created_at": "2026-10-30T08:52:43Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Rivian CEO Says Autonomy Could Drive \u2018Huge Changes\u2019 in Market Share as Tesla FSD Rival Emerges",
+      "summary": "Rivian CEO says autonomy could reshape the auto industry, boost demand and market share, with Level 4 capability planned for 2028.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62729111/rivian-ceo-says-autonomy-could-drive-huge-changes-in-market-share-as-tesla-fsd-rival-emerges",
+      "created_at": "2026-10-30T08:27:07Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Micron, SanDisk Stocks Remain Far Below Highs Despite \u2018Exploding\u2019 Memory Profits \u2014 Chamath Palihapitiya Asks Why",
+      "summary": "Chamath Palihapitiya questions why Micron and SanDisk remain below highs despite surging memory profits and margins.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62729059/micron-sandisk-stocks-remain-far-below-highs-despite-exploding-memory-profits-chamath-palihapitiya-asks-why",
+      "created_at": "2026-10-30T08:11:47Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "S&P 500 Ends Three-Day Surge as Alphabet Shares Plunge: Greed Index Remains in \u2018Fear\u2019 Zone",
+      "summary": "Market sentiment slightly improved but stayed in Fear at 35; U.S. stocks fell, led by Nasdaq, despite strong GDP and lower jobless claims.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/10/62728869/sp-500-ends-three-day-surge-as-alphabet-shares-plunge-greed-index-remains-in-fear-zone",
+      "created_at": "2026-10-30T07:59:46Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "ExxonMobil, Amazon and 3 Stocks to Watch Heading Into Friday",
+      "summary": "ExxonMobil and Chevron report earnings; Coinbase beats profit but misses revenue; Amazon misses estimates, shares tumble 7.3%.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62728306/exxonmobil-amazon-and-3-stocks-to-watch-heading-into-friday",
+      "created_at": "2026-10-30T07:17:47Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds plunge to 14% as Wall Street reacts to Alphabet&#39;s 10% drop, rising oil, and a broad tech selloff.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62727776/stock-market-will-sp-500-open-up-or-down-today-69",
+      "created_at": "2026-10-30T06:21:23Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "'Nvidia Moves to Backstop a Cloud Provider\u2019s $45 Billion Anthropic Project' - The Information",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62727630/nvidia-moves-backstop-cloud-provider-s-45-billion-anthropic-project-information",
+      "created_at": "2026-10-30T06:09:36Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Hillary Clinton Says She's \u2018Most Worried\u2019 About \u2018Flood of Money From the Elon Musks\u2019 Ahead of Midterms",
+      "summary": "Hillary Clinton warns Elon Musk\u2019s GOP funding and election misinformation could pose a challenge for Democrats.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62727473/hillary-clinton-says-shes-most-worried-about-flood-of-money-from-the-elon-musks-ahead-of-midterms",
+      "created_at": "2026-10-30T05:57:21Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "'He Lied': Nancy Pelosi Blasts Trump for Not Keeping Promise to Lower Costs on 'Day One'",
+      "summary": "Nancy Pelosi accused Trump of lying about lowering costs and blamed his tariffs and inflation for hurting families, days before midterms.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/10/62727214/nancy-pelosi-trump-lied-costs-tariffs-inflation-midterm-elections",
+      "created_at": "2026-10-30T05:02:58Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta Completes Capital Raising Through Convertible Preferred Offering and Forward Sale",
+      "summary": "Meta finalized an offering of 250 million depositary shares of mandatory convertible preferred stock and established forward sale agreements for 40 million Class A shares.",
+      "source": "fiscal.ai",
+      "url": "https://www.tradingview.com/news/tradingview:933bf58930d87:0-meta-raises-capital-through-convertible-preferred-offering-and-40-million-share-forward-sale/",
+      "created_at": "2026-10-30T02:01:37Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Microsoft Reports Fiscal First-Quarter 2026 Financial Results",
+      "summary": "Microsoft announced its fiscal first-quarter financial results, reporting $92.28 billion in revenue and a 48% growth in its Azure cloud business.",
+      "source": "fiscal.ai",
+      "url": "https://www.manilatimes.net/2026/10/30/business/foreign-business/microsofts-cloud-growth-cash-flow-offer-respite-from-ai-spending-fears/2457803",
+      "created_at": "2026-10-30T02:01:36Z"
     },
     {
       "symbols": [
@@ -1028,26 +1098,6 @@
     },
     {
       "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
-      "created_at": "2026-10-29T21:48:24Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
-      "created_at": "2026-10-29T21:38:47Z"
-    },
-    {
-      "symbols": [
         "META"
       ],
       "headline": "Quantryon Capital Upgrades Meta to Buy",
@@ -1055,16 +1105,6 @@
       "source": "fiscal.ai",
       "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
       "created_at": "2026-10-29T21:31:37Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Loses Appeal in French Media Payment Dispute",
-      "summary": "The Paris Court of Appeals has upheld temporary sanctions against Meta, requiring the company to negotiate payments with French news publishers for the use of their content.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/",
-      "created_at": "2026-10-29T20:31:32Z"
     },
     {
       "symbols": [
@@ -1078,26 +1118,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
-      "summary": "NVIDIA issued a formal response to media reports alleging that CEO Jensen Huang was a target of a Chinese intelligence operation, stating that all business dealings were routine and involved no sensitive trade secrets.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/",
-      "created_at": "2026-10-29T20:31:24Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375",
-      "created_at": "2026-10-29T20:31:02Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "Bitcoin Could Repeat Its SpaceX IPO Dump Ahead of Anthropic IPO, Analyst Warns",
@@ -1105,69 +1125,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62720440/bitcoin-could-repeat-its-spacex-ipo-dump-ahead-of-anthropic-ipo-analyst-warns",
       "created_at": "2026-10-29T20:30:41Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target",
-      "created_at": "2026-10-29T20:21:36Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Polymarket Temporarily Halts Trading After Third-Party Provider Impacted",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62714478/polymarket-temporarily-halts-trading-after-third-party-provider-impacted",
-      "created_at": "2026-10-29T19:25:39Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
-      "summary": "IWD is beating SPY by 4.2 points in October, the widest monthly gap since 2001; Alphabet and ServiceNow lead a rotation away from AI.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
-      "created_at": "2026-10-29T19:19:59Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
-      "summary": "NVIDIA joined as an investor in the initial close of Cohere's Series E funding round, which is targeting $5 billion.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/seekingalpha:cfc3ffc5f094b:0-nvidia-backed-cohere-closes-in-on-5b-funding-round/",
-      "created_at": "2026-10-29T19:01:34Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62713396/nvidia-ceo-says-ties-company-under-spying-probe-were-normal-bloomberg-news",
-      "created_at": "2026-10-29T19:00:22Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "TSLA"
-      ],
-      "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/options/26/10/62709901/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
-      "created_at": "2026-10-29T17:37:47Z"
     }
   ]
 }
