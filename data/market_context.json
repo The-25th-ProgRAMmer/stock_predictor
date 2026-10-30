@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-28",
-  "for_date": "2026-10-29",
+  "as_of": "2026-10-29",
+  "for_date": "2026-10-30",
   "anchor": "SPY",
   "targets": [
     "SPY",
@@ -18,31 +18,23 @@
   "missing_symbols": [],
   "target_data": {
     "SPY": {
-      "latest_close": 772.28,
-      "prev_close": 769.7,
-      "prev_day_direction": "up",
-      "prev_day_pct": 0.335,
-      "pct_5d": -0.11,
-      "pct_20d": 1.304,
+      "latest_close": 769.49,
+      "prev_close": 772.28,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.361,
+      "pct_5d": 0.715,
+      "pct_20d": 0.705,
       "indicators": {
-        "sma20": 770.9,
-        "sma50": 766.82,
-        "close_vs_sma20_pct": 0.179,
-        "close_vs_sma50_pct": 0.712,
+        "sma20": 771.17,
+        "sma50": 766.86,
+        "close_vs_sma20_pct": -0.218,
+        "close_vs_sma50_pct": 0.342,
         "sma20_vs_sma50": "above",
-        "rsi14": 53.48,
-        "macd_hist": -0.5344,
-        "atr14_pct_of_close": 0.917
+        "rsi14": 51.04,
+        "macd_hist": -0.3897,
+        "atr14_pct_of_close": 0.921
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 762.26,
-          "h": 767.73,
-          "l": 761.69,
-          "c": 765.23,
-          "v": 887327
-        },
         {
           "t": "2026-10-27",
           "o": 767.43,
@@ -58,29 +50,37 @@
           "l": 769.27,
           "c": 772.28,
           "v": 1163105
+        },
+        {
+          "t": "2026-10-29",
+          "o": 768.78,
+          "h": 770.75,
+          "l": 766.62,
+          "c": 769.49,
+          "v": 1050759
         }
       ],
       "signal": {
         "direction": "up",
         "confidence": 52,
         "rule": "direction follows SMA trend alignment; tie -> up (base rate)",
-        "basis": "close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3)",
+        "basis": "close below SMA20, above SMA50; SMA20 above SMA50 (net +1 of 3)",
         "trend_votes": {
-          "close_vs_sma20": 1,
+          "close_vs_sma20": -1,
           "close_vs_sma50": 1,
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 770.9,
-          "sma50": 766.82,
-          "sma50_slope_10d_pct": -0.072,
-          "rsi14": 53.5,
-          "stretch_atr_from_sma20": 0.19,
-          "relative_volume_20d": 1.02,
-          "up_down_volume_ratio_20d": 1.57,
+          "sma20": 771.17,
+          "sma50": 766.86,
+          "sma50_slope_10d_pct": -0.076,
+          "rsi14": 51.0,
+          "stretch_atr_from_sma20": -0.24,
+          "relative_volume_20d": 0.94,
+          "up_down_volume_ratio_20d": 1.25,
           "obv_10d": "rising",
           "macd_hist_sign": "negative",
-          "pct_20d": 1.3,
+          "pct_20d": 0.71,
           "spy_regime": "above_sma50"
         },
         "notes": []
@@ -88,31 +88,23 @@
       "material_news": []
     },
     "QQQ": {
-      "latest_close": 725.59,
-      "prev_close": 721.22,
-      "prev_day_direction": "up",
-      "prev_day_pct": 0.606,
-      "pct_5d": 0.047,
-      "pct_20d": -1.882,
+      "latest_close": 715.42,
+      "prev_close": 725.59,
+      "prev_day_direction": "down",
+      "prev_day_pct": -1.402,
+      "pct_5d": 1.541,
+      "pct_20d": -3.585,
       "indicators": {
-        "sma20": 732.44,
+        "sma20": 731.11,
         "sma50": 725.08,
-        "close_vs_sma20_pct": -0.935,
-        "close_vs_sma50_pct": 0.07,
+        "close_vs_sma20_pct": -2.146,
+        "close_vs_sma50_pct": -1.333,
         "sma20_vs_sma50": "above",
-        "rsi14": 49.45,
-        "macd_hist": -2.0482,
-        "atr14_pct_of_close": 1.648
+        "rsi14": 44.71,
+        "macd_hist": -1.8011,
+        "atr14_pct_of_close": 1.757
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 707.1,
-          "h": 715.19,
-          "l": 705.64,
-          "c": 712.11,
-          "v": 455039
-        },
         {
           "t": "2026-10-27",
           "o": 715.22,
@@ -128,29 +120,37 @@
           "l": 720.34,
           "c": 725.59,
           "v": 454900
+        },
+        {
+          "t": "2026-10-29",
+          "o": 716.58,
+          "h": 718.07,
+          "l": 711.67,
+          "c": 715.42,
+          "v": 491344
         }
       ],
       "signal": {
-        "direction": "up",
-        "confidence": 52,
+        "direction": "down",
+        "confidence": 50,
         "rule": "direction follows SMA trend alignment; tie -> up (base rate)",
-        "basis": "close below SMA20, above SMA50; SMA20 above SMA50 (net +1 of 3)",
+        "basis": "close below SMA20, below SMA50; SMA20 above SMA50 (net -1 of 3)",
         "trend_votes": {
           "close_vs_sma20": -1,
-          "close_vs_sma50": 1,
+          "close_vs_sma50": -1,
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 732.44,
+          "sma20": 731.11,
           "sma50": 725.08,
-          "sma50_slope_10d_pct": -0.149,
-          "rsi14": 49.5,
-          "stretch_atr_from_sma20": -0.57,
-          "relative_volume_20d": 0.84,
-          "up_down_volume_ratio_20d": 0.77,
+          "sma50_slope_10d_pct": -0.182,
+          "rsi14": 44.7,
+          "stretch_atr_from_sma20": -1.25,
+          "relative_volume_20d": 0.91,
+          "up_down_volume_ratio_20d": 0.64,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -1.88,
+          "pct_20d": -3.58,
           "spy_regime": "above_sma50"
         },
         "notes": []
@@ -158,31 +158,23 @@
       "material_news": []
     },
     "AAPL": {
-      "latest_close": 344.06,
-      "prev_close": 347.1,
-      "prev_day_direction": "down",
-      "prev_day_pct": -0.876,
-      "pct_5d": 0.036,
-      "pct_20d": 3.256,
+      "latest_close": 348.98,
+      "prev_close": 344.06,
+      "prev_day_direction": "up",
+      "prev_day_pct": 1.43,
+      "pct_5d": 0.184,
+      "pct_20d": 5.611,
       "indicators": {
-        "sma20": 340.64,
-        "sma50": 331.76,
-        "close_vs_sma20_pct": 1.003,
-        "close_vs_sma50_pct": 3.709,
+        "sma20": 341.57,
+        "sma50": 332.4,
+        "close_vs_sma20_pct": 2.169,
+        "close_vs_sma50_pct": 4.989,
         "sma20_vs_sma50": "above",
-        "rsi14": 56.87,
-        "macd_hist": -0.1345,
-        "atr14_pct_of_close": 1.795
+        "rsi14": 61.64,
+        "macd_hist": 0.0168,
+        "atr14_pct_of_close": 1.72
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 343.88,
-          "h": 347.08,
-          "l": 341.06,
-          "c": 343.93,
-          "v": 960938
-        },
         {
           "t": "2026-10-27",
           "o": 343.17,
@@ -198,6 +190,14 @@
           "l": 343.53,
           "c": 344.06,
           "v": 882011
+        },
+        {
+          "t": "2026-10-29",
+          "o": 348.03,
+          "h": 351.37,
+          "l": 347.42,
+          "c": 348.98,
+          "v": 974472
         }
       ],
       "signal": {
@@ -211,16 +211,16 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 340.64,
-          "sma50": 331.76,
-          "sma50_slope_10d_pct": 2.249,
-          "rsi14": 56.9,
-          "stretch_atr_from_sma20": 0.55,
-          "relative_volume_20d": 0.8,
-          "up_down_volume_ratio_20d": 1.21,
-          "obv_10d": "falling",
-          "macd_hist_sign": "negative",
-          "pct_20d": 3.26,
+          "sma20": 341.57,
+          "sma50": 332.4,
+          "sma50_slope_10d_pct": 2.25,
+          "rsi14": 61.6,
+          "stretch_atr_from_sma20": 1.23,
+          "relative_volume_20d": 0.89,
+          "up_down_volume_ratio_20d": 1.45,
+          "obv_10d": "rising",
+          "macd_hist_sign": "positive",
+          "pct_20d": 5.61,
           "spy_regime": "above_sma50"
         },
         "notes": []
@@ -228,31 +228,23 @@
       "material_news": []
     },
     "MSFT": {
-      "latest_close": 532.23,
-      "prev_close": 531.58,
-      "prev_day_direction": "up",
-      "prev_day_pct": 0.122,
-      "pct_5d": -0.107,
-      "pct_20d": 3.767,
+      "latest_close": 530.39,
+      "prev_close": 532.23,
+      "prev_day_direction": "down",
+      "prev_day_pct": -0.346,
+      "pct_5d": 1.685,
+      "pct_20d": 3.448,
       "indicators": {
-        "sma20": 529.99,
-        "sma50": 511.18,
-        "close_vs_sma20_pct": 0.423,
-        "close_vs_sma50_pct": 4.117,
+        "sma20": 530.87,
+        "sma50": 512.12,
+        "close_vs_sma20_pct": -0.091,
+        "close_vs_sma50_pct": 3.567,
         "sma20_vs_sma50": "above",
-        "rsi14": 57.13,
-        "macd_hist": -1.7152,
-        "atr14_pct_of_close": 1.962
+        "rsi14": 55.41,
+        "macd_hist": -1.7165,
+        "atr14_pct_of_close": 2.059
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 527.33,
-          "h": 533.21,
-          "l": 521.93,
-          "c": 532.54,
-          "v": 625026
-        },
         {
           "t": "2026-10-27",
           "o": 532.36,
@@ -268,68 +260,70 @@
           "l": 526.3,
           "c": 532.23,
           "v": 803668
+        },
+        {
+          "t": "2026-10-29",
+          "o": 540.31,
+          "h": 540.79,
+          "l": 519.59,
+          "c": 530.39,
+          "v": 1173477
         }
       ],
       "signal": {
         "direction": "up",
         "confidence": 52,
         "rule": "direction follows SMA trend alignment; tie -> up (base rate)",
-        "basis": "close above SMA20, above SMA50; SMA20 above SMA50 (net +3 of 3)",
+        "basis": "close below SMA20, above SMA50; SMA20 above SMA50 (net +1 of 3)",
         "trend_votes": {
-          "close_vs_sma20": 1,
+          "close_vs_sma20": -1,
           "close_vs_sma50": 1,
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 529.99,
-          "sma50": 511.18,
-          "sma50_slope_10d_pct": 1.485,
-          "rsi14": 57.1,
-          "stretch_atr_from_sma20": 0.21,
-          "relative_volume_20d": 1.24,
-          "up_down_volume_ratio_20d": 1.74,
-          "obv_10d": "rising",
+          "sma20": 530.87,
+          "sma50": 512.12,
+          "sma50_slope_10d_pct": 1.459,
+          "rsi14": 55.4,
+          "stretch_atr_from_sma20": -0.04,
+          "relative_volume_20d": 1.75,
+          "up_down_volume_ratio_20d": 1.61,
+          "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": 3.77,
+          "pct_20d": 3.45,
           "spy_regime": "above_sma50"
         },
-        "notes": []
+        "notes": [
+          "Volume 1.8x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+        ]
       },
       "material_news": [
         {
           "event": "rating_change",
-          "headline": "Piper Sandler Reiterates Overweight on Microsoft, Raises Price Target to $650",
-          "url": "https://www.benzinga.com/news/26/10/62684472/piper-sandler-reiterates-overweight-microsoft-raises-price-target-650",
-          "created_at": "2026-10-29T09:20:00Z"
+          "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
+          "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
+          "created_at": "2026-10-29T21:38:47Z"
         }
       ]
     },
     "GOOGL": {
-      "latest_close": 325.37,
-      "prev_close": 320.6,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.488,
-      "pct_5d": -2.792,
-      "pct_20d": -5.443,
+      "latest_close": 283.56,
+      "prev_close": 325.37,
+      "prev_day_direction": "down",
+      "prev_day_pct": -12.85,
+      "pct_5d": -12.534,
+      "pct_20d": -16.201,
       "indicators": {
-        "sma20": 339.83,
-        "sma50": 341.45,
-        "close_vs_sma20_pct": -4.255,
-        "close_vs_sma50_pct": -4.709,
+        "sma20": 337.09,
+        "sma50": 340.23,
+        "close_vs_sma20_pct": -15.879,
+        "close_vs_sma50_pct": -16.656,
         "sma20_vs_sma50": "below",
-        "rsi14": 39.01,
-        "macd_hist": -2.829,
-        "atr14_pct_of_close": 2.441
+        "rsi14": 22.48,
+        "macd_hist": -4.9555,
+        "atr14_pct_of_close": 3.775
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 320.99,
-          "h": 321.43,
-          "l": 316.61,
-          "c": 316.81,
-          "v": 990403
-        },
         {
           "t": "2026-10-27",
           "o": 317.0,
@@ -345,6 +339,14 @@
           "l": 322.66,
           "c": 325.37,
           "v": 1388291
+        },
+        {
+          "t": "2026-10-29",
+          "o": 286.88,
+          "h": 288.32,
+          "l": 280.38,
+          "c": 283.56,
+          "v": 4949248
         }
       ],
       "signal": {
@@ -358,50 +360,57 @@
           "sma20_vs_sma50": -1
         },
         "evidence": {
-          "sma20": 339.83,
-          "sma50": 341.45,
-          "sma50_slope_10d_pct": -1.053,
-          "rsi14": 39.0,
-          "stretch_atr_from_sma20": -1.82,
-          "relative_volume_20d": 1.88,
-          "up_down_volume_ratio_20d": 1.06,
+          "sma20": 337.09,
+          "sma50": 340.23,
+          "sma50_slope_10d_pct": -1.333,
+          "rsi14": 22.5,
+          "stretch_atr_from_sma20": -5.0,
+          "relative_volume_20d": 5.27,
+          "up_down_volume_ratio_20d": 0.68,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -5.44,
+          "pct_20d": -16.2,
           "spy_regime": "above_sma50"
         },
         "notes": [
-          "Volume 1.9x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+          "RSI 22.5 is oversold. Shown for context; it does not vote.",
+          "Price is -5.0 ATRs from SMA20 - stretched. Context only.",
+          "Volume 5.3x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "rating_change",
+          "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
+          "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
+          "created_at": "2026-10-29T21:48:24Z"
+        },
+        {
+          "event": "rating_change",
+          "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
+          "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375",
+          "created_at": "2026-10-29T20:31:02Z"
+        }
+      ]
     },
     "AMZN": {
-      "latest_close": 254.69,
-      "prev_close": 253.15,
-      "prev_day_direction": "up",
-      "prev_day_pct": 0.61,
-      "pct_5d": -2.925,
-      "pct_20d": 2.215,
+      "latest_close": 243.76,
+      "prev_close": 254.69,
+      "prev_day_direction": "down",
+      "prev_day_pct": -4.291,
+      "pct_5d": -2.648,
+      "pct_20d": -1.817,
       "indicators": {
-        "sma20": 255.19,
-        "sma50": 255.11,
-        "close_vs_sma20_pct": -0.196,
-        "close_vs_sma50_pct": -0.165,
+        "sma20": 254.96,
+        "sma50": 254.67,
+        "close_vs_sma20_pct": -4.394,
+        "close_vs_sma50_pct": -4.285,
         "sma20_vs_sma50": "above",
-        "rsi14": 50.2,
-        "macd_hist": -0.4648,
-        "atr14_pct_of_close": 2.601
+        "rsi14": 40.75,
+        "macd_hist": -1.0207,
+        "atr14_pct_of_close": 2.858
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 249.45,
-          "h": 250.78,
-          "l": 247.29,
-          "c": 249.13,
-          "v": 1214590
-        },
         {
           "t": "2026-10-27",
           "o": 250.6,
@@ -417,6 +426,14 @@
           "l": 252.0,
           "c": 254.69,
           "v": 1291418
+        },
+        {
+          "t": "2026-10-29",
+          "o": 246.66,
+          "h": 249.1,
+          "l": 241.26,
+          "c": 243.76,
+          "v": 2609124
         }
       ],
       "signal": {
@@ -430,48 +447,49 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 255.19,
-          "sma50": 255.11,
-          "sma50_slope_10d_pct": -1.069,
-          "rsi14": 50.2,
-          "stretch_atr_from_sma20": -0.08,
-          "relative_volume_20d": 1.04,
-          "up_down_volume_ratio_20d": 1.07,
-          "obv_10d": "rising",
+          "sma20": 254.96,
+          "sma50": 254.67,
+          "sma50_slope_10d_pct": -1.103,
+          "rsi14": 40.8,
+          "stretch_atr_from_sma20": -1.61,
+          "relative_volume_20d": 1.98,
+          "up_down_volume_ratio_20d": 0.95,
+          "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": 2.22,
+          "pct_20d": -1.82,
           "spy_regime": "above_sma50"
         },
-        "notes": []
+        "notes": [
+          "Volume 2.0x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+        ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "earnings",
+          "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
+          "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript",
+          "created_at": "2026-10-29T22:06:20Z"
+        }
+      ]
     },
     "NVDA": {
-      "latest_close": 215.34,
-      "prev_close": 217.87,
+      "latest_close": 213.7,
+      "prev_close": 215.34,
       "prev_day_direction": "down",
-      "prev_day_pct": -1.161,
-      "pct_5d": -2.956,
-      "pct_20d": -5.673,
+      "prev_day_pct": -0.762,
+      "pct_5d": 0.674,
+      "pct_20d": -7.505,
       "indicators": {
-        "sma20": 223.82,
-        "sma50": 222.01,
-        "close_vs_sma20_pct": -3.787,
-        "close_vs_sma50_pct": -3.007,
+        "sma20": 222.95,
+        "sma50": 221.94,
+        "close_vs_sma20_pct": -4.148,
+        "close_vs_sma50_pct": -3.714,
         "sma20_vs_sma50": "above",
-        "rsi14": 43.69,
-        "macd_hist": -1.1419,
-        "atr14_pct_of_close": 2.801
+        "rsi14": 42.28,
+        "macd_hist": -1.047,
+        "atr14_pct_of_close": 2.772
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 213.06,
-          "h": 217.74,
-          "l": 212.66,
-          "c": 216.01,
-          "v": 3252237
-        },
         {
           "t": "2026-10-27",
           "o": 218.33,
@@ -487,6 +505,14 @@
           "l": 214.47,
           "c": 215.34,
           "v": 2713311
+        },
+        {
+          "t": "2026-10-29",
+          "o": 214.44,
+          "h": 215.32,
+          "l": 212.09,
+          "c": 213.7,
+          "v": 2610378
         }
       ],
       "signal": {
@@ -500,61 +526,47 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 223.82,
-          "sma50": 222.01,
-          "sma50_slope_10d_pct": -0.488,
-          "rsi14": 43.7,
-          "stretch_atr_from_sma20": -1.41,
-          "relative_volume_20d": 0.9,
-          "up_down_volume_ratio_20d": 0.74,
+          "sma20": 222.95,
+          "sma50": 221.94,
+          "sma50_slope_10d_pct": -0.507,
+          "rsi14": 42.3,
+          "stretch_atr_from_sma20": -1.56,
+          "relative_volume_20d": 0.86,
+          "up_down_volume_ratio_20d": 0.62,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -5.67,
+          "pct_20d": -7.51,
           "spy_regime": "above_sma50"
         },
         "notes": []
       },
       "material_news": [
         {
-          "event": "regulatory_legal",
-          "headline": "Nvidia Faces DOJ Scrutiny Over $12.9 Billion Hugging Face Deal Amid Concerns About Unfair AI Advantage: Report",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62684670/nvidia-faces-doj-scrutiny-over-12-9-billion-hugging-face-deal-amid-concerns-about-unfair-ai-advantage-report",
-          "created_at": "2026-10-29T09:39:25Z"
-        },
-        {
-          "event": "earnings",
-          "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
-          "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
-          "created_at": "2026-10-28T23:01:30Z"
+          "event": "corporate",
+          "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
+          "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/",
+          "created_at": "2026-10-29T20:31:24Z"
         }
       ]
     },
     "META": {
-      "latest_close": 612.63,
-      "prev_close": 620.12,
-      "prev_day_direction": "down",
-      "prev_day_pct": -1.209,
-      "pct_5d": -12.299,
-      "pct_20d": -15.527,
+      "latest_close": 624.5,
+      "prev_close": 612.63,
+      "prev_day_direction": "up",
+      "prev_day_pct": 1.938,
+      "pct_5d": -3.739,
+      "pct_20d": -13.945,
       "indicators": {
-        "sma20": 701.82,
-        "sma50": 666.81,
-        "close_vs_sma20_pct": -12.709,
-        "close_vs_sma50_pct": -8.125,
+        "sma20": 696.76,
+        "sma50": 668.38,
+        "close_vs_sma20_pct": -10.371,
+        "close_vs_sma50_pct": -6.566,
         "sma20_vs_sma50": "above",
-        "rsi14": 30.73,
-        "macd_hist": -16.3689,
-        "atr14_pct_of_close": 4.156
+        "rsi14": 35.27,
+        "macd_hist": -14.8495,
+        "atr14_pct_of_close": 4.195
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 637.22,
-          "h": 647.49,
-          "l": 627.86,
-          "c": 630.43,
-          "v": 1101307
-        },
         {
           "t": "2026-10-27",
           "o": 627.23,
@@ -570,6 +582,14 @@
           "l": 609.04,
           "c": 612.63,
           "v": 1420092
+        },
+        {
+          "t": "2026-10-29",
+          "o": 621.25,
+          "h": 634.67,
+          "l": 616.97,
+          "c": 624.5,
+          "v": 1171986
         }
       ],
       "signal": {
@@ -583,51 +603,49 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 701.82,
-          "sma50": 666.81,
-          "sma50_slope_10d_pct": 2.651,
-          "rsi14": 30.7,
-          "stretch_atr_from_sma20": -3.5,
-          "relative_volume_20d": 1.84,
-          "up_down_volume_ratio_20d": 0.35,
+          "sma20": 696.76,
+          "sma50": 668.38,
+          "sma50_slope_10d_pct": 2.427,
+          "rsi14": 35.3,
+          "stretch_atr_from_sma20": -2.76,
+          "relative_volume_20d": 1.45,
+          "up_down_volume_ratio_20d": 0.41,
           "obv_10d": "falling",
           "macd_hist_sign": "negative",
-          "pct_20d": -15.53,
+          "pct_20d": -13.95,
           "spy_regime": "above_sma50"
         },
         "notes": [
-          "Price is -3.5 ATRs from SMA20 - stretched. Context only.",
-          "Volume 1.8x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
+          "Price is -2.8 ATRs from SMA20 - stretched. Context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "rating_change",
+          "headline": "Quantryon Capital Upgrades Meta to Buy",
+          "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
+          "created_at": "2026-10-29T21:31:37Z"
+        }
+      ]
     },
     "TSLA": {
-      "latest_close": 404.34,
-      "prev_close": 407.51,
+      "latest_close": 403.33,
+      "prev_close": 404.34,
       "prev_day_direction": "down",
-      "prev_day_pct": -0.778,
-      "pct_5d": 4.581,
-      "pct_20d": 13.934,
+      "prev_day_pct": -0.249,
+      "pct_5d": 7.642,
+      "pct_20d": 13.875,
       "indicators": {
-        "sma20": 376.8,
-        "sma50": 367.47,
-        "close_vs_sma20_pct": 7.31,
-        "close_vs_sma50_pct": 10.033,
+        "sma20": 379.25,
+        "sma50": 368.52,
+        "close_vs_sma20_pct": 6.35,
+        "close_vs_sma50_pct": 9.449,
         "sma20_vs_sma50": "above",
-        "rsi14": 63.07,
-        "macd_hist": 3.2638,
-        "atr14_pct_of_close": 3.453
+        "rsi14": 63.33,
+        "macd_hist": 3.3686,
+        "atr14_pct_of_close": 3.335
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 383.88,
-          "h": 397.25,
-          "l": 383.88,
-          "c": 391.69,
-          "v": 1194018
-        },
         {
           "t": "2026-10-27",
           "o": 397.76,
@@ -643,6 +661,14 @@
           "l": 397.19,
           "c": 404.34,
           "v": 720266
+        },
+        {
+          "t": "2026-10-29",
+          "o": 405.47,
+          "h": 406.94,
+          "l": 400.61,
+          "c": 403.33,
+          "v": 535180
         }
       ],
       "signal": {
@@ -656,16 +682,16 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 376.8,
-          "sma50": 367.47,
-          "sma50_slope_10d_pct": 2.662,
-          "rsi14": 63.1,
-          "stretch_atr_from_sma20": 1.97,
-          "relative_volume_20d": 0.97,
-          "up_down_volume_ratio_20d": 0.99,
-          "obv_10d": "falling",
+          "sma20": 379.25,
+          "sma50": 368.52,
+          "sma50_slope_10d_pct": 2.718,
+          "rsi14": 63.3,
+          "stretch_atr_from_sma20": 1.79,
+          "relative_volume_20d": 0.73,
+          "up_down_volume_ratio_20d": 1.01,
+          "obv_10d": "rising",
           "macd_hist_sign": "positive",
-          "pct_20d": 13.93,
+          "pct_20d": 13.88,
           "spy_regime": "above_sma50"
         },
         "notes": []
@@ -673,31 +699,23 @@
       "material_news": []
     },
     "SMH": {
-      "latest_close": 568.09,
-      "prev_close": 557.77,
-      "prev_day_direction": "up",
-      "prev_day_pct": 1.85,
-      "pct_5d": 2.07,
-      "pct_20d": -6.649,
+      "latest_close": 561.62,
+      "prev_close": 568.09,
+      "prev_day_direction": "down",
+      "prev_day_pct": -1.139,
+      "pct_5d": 7.335,
+      "pct_20d": -9.101,
       "indicators": {
-        "sma20": 578.09,
-        "sma50": 573.36,
-        "close_vs_sma20_pct": -1.73,
-        "close_vs_sma50_pct": -0.918,
+        "sma20": 575.28,
+        "sma50": 573.38,
+        "close_vs_sma20_pct": -2.374,
+        "close_vs_sma50_pct": -2.051,
         "sma20_vs_sma50": "above",
-        "rsi14": 49.31,
-        "macd_hist": -2.3496,
-        "atr14_pct_of_close": 3.26
+        "rsi14": 47.61,
+        "macd_hist": -0.9976,
+        "atr14_pct_of_close": 3.277
       },
       "last_3_days": [
-        {
-          "t": "2026-10-26",
-          "o": 531.27,
-          "h": 545.3,
-          "l": 530.44,
-          "c": 541.56,
-          "v": 470117
-        },
         {
           "t": "2026-10-27",
           "o": 548.82,
@@ -713,6 +731,14 @@
           "l": 560.61,
           "c": 568.09,
           "v": 362511
+        },
+        {
+          "t": "2026-10-29",
+          "o": 558.92,
+          "h": 565.87,
+          "l": 555.73,
+          "c": 561.62,
+          "v": 318545
         }
       ],
       "signal": {
@@ -726,16 +752,16 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 578.09,
-          "sma50": 573.36,
-          "sma50_slope_10d_pct": -1.121,
-          "rsi14": 49.3,
-          "stretch_atr_from_sma20": -0.54,
-          "relative_volume_20d": 0.98,
-          "up_down_volume_ratio_20d": 0.65,
+          "sma20": 575.28,
+          "sma50": 573.38,
+          "sma50_slope_10d_pct": -1.079,
+          "rsi14": 47.6,
+          "stretch_atr_from_sma20": -0.74,
+          "relative_volume_20d": 0.85,
+          "up_down_volume_ratio_20d": 0.56,
           "obv_10d": "rising",
           "macd_hist_sign": "negative",
-          "pct_20d": -6.65,
+          "pct_20d": -9.1,
           "spy_regime": "above_sma50"
         },
         "notes": []
@@ -746,202 +772,202 @@
   "context_data": {
     "volatility": {
       "VIXY": {
-        "close": 17.04,
-        "pct_1d": -1.843,
-        "pct_5d": 2.158,
-        "vs_sma20_pct": 1.34,
-        "rsi14": 49.5
+        "close": 16.67,
+        "pct_1d": -2.171,
+        "pct_5d": -5.872,
+        "vs_sma20_pct": -0.74,
+        "rsi14": 45.7
       },
       "VXX": {
-        "close": 17.76,
-        "pct_1d": -2.014,
-        "pct_5d": 2.01,
-        "vs_sma20_pct": 1.32,
-        "rsi14": 49.5
+        "close": 17.39,
+        "pct_1d": -2.055,
+        "pct_5d": -5.718,
+        "vs_sma20_pct": -0.66,
+        "rsi14": 45.9
       }
     },
     "metals": {
       "GLD": {
-        "close": 373.52,
-        "pct_1d": 0.326,
-        "pct_5d": -1.441,
-        "vs_sma20_pct": -1.11,
-        "rsi14": 42.8
+        "close": 368.6,
+        "pct_1d": -1.317,
+        "pct_5d": -0.13,
+        "vs_sma20_pct": -2.23,
+        "rsi14": 38.6
       },
       "SLV": {
-        "close": 49.04,
-        "pct_1d": -0.264,
-        "pct_5d": -6.162,
-        "vs_sma20_pct": -6.12,
-        "rsi14": 33.7
+        "close": 47.27,
+        "pct_1d": -3.609,
+        "pct_5d": -4.195,
+        "vs_sma20_pct": -8.84,
+        "rsi14": 29.2
       }
     },
     "bonds": {
       "TLT": {
-        "close": 81.01,
-        "pct_1d": -0.772,
-        "pct_5d": 0.96,
-        "vs_sma20_pct": 2.22,
-        "rsi14": 58.5
+        "close": 81.48,
+        "pct_1d": 0.58,
+        "pct_5d": -0.306,
+        "vs_sma20_pct": 2.57,
+        "rsi14": 61.6
       },
       "IEF": {
-        "close": 90.86,
-        "pct_1d": -0.258,
-        "pct_5d": 0.693,
-        "vs_sma20_pct": 0.97,
-        "rsi14": 57.8
+        "close": 91.23,
+        "pct_1d": 0.418,
+        "pct_5d": 0.033,
+        "vs_sma20_pct": 1.28,
+        "rsi14": 62.5
       }
     },
     "credit": {
       "HYG": {
-        "close": 77.6,
-        "pct_1d": 0.0,
-        "pct_5d": 0.825,
-        "vs_sma20_pct": 0.65,
-        "rsi14": 56.9
+        "close": 77.58,
+        "pct_1d": -0.019,
+        "pct_5d": 0.642,
+        "vs_sma20_pct": 0.59,
+        "rsi14": 56.5
       },
       "LQD": {
-        "close": 104.06,
-        "pct_1d": -0.244,
-        "pct_5d": 0.824,
-        "vs_sma20_pct": 1.06,
-        "rsi14": 57.6
+        "close": 104.23,
+        "pct_1d": 0.168,
+        "pct_5d": -0.062,
+        "vs_sma20_pct": 1.12,
+        "rsi14": 59.3
       }
     },
     "dollar": {
       "UUP": {
-        "close": 29.07,
-        "pct_1d": -0.137,
-        "pct_5d": 0.553,
-        "vs_sma20_pct": 0.26,
-        "rsi14": 61.5
+        "close": 29.04,
+        "pct_1d": -0.12,
+        "pct_5d": 0.502,
+        "vs_sma20_pct": 0.13,
+        "rsi14": 59.4
       }
     },
     "energy": {
       "USO": {
-        "close": 166.69,
-        "pct_1d": 1.873,
-        "pct_5d": 4.344,
-        "vs_sma20_pct": 7.1,
-        "rsi14": 64.9
+        "close": 168.21,
+        "pct_1d": 0.912,
+        "pct_5d": 3.52,
+        "vs_sma20_pct": 7.45,
+        "rsi14": 66.3
       }
     },
     "breadth": {
       "IWM": {
-        "close": 281.3,
-        "pct_1d": 0.4,
-        "pct_5d": 1.751,
-        "vs_sma20_pct": 1.46,
-        "rsi14": 53.8
+        "close": 284.01,
+        "pct_1d": 0.963,
+        "pct_5d": 2.662,
+        "vs_sma20_pct": 2.35,
+        "rsi14": 58.5
       }
     },
     "semis": {
       "AMD": {
-        "close": 578.43,
-        "pct_1d": 3.268,
-        "pct_5d": 4.677,
-        "vs_sma20_pct": -0.16,
-        "rsi14": 53.5
+        "close": 566.52,
+        "pct_1d": -2.059,
+        "pct_5d": 11.491,
+        "vs_sma20_pct": -1.8,
+        "rsi14": 51.1
       },
       "AVGO": {
-        "close": 351.9,
-        "pct_1d": 2.76,
-        "pct_5d": 4.152,
-        "vs_sma20_pct": 1.37,
-        "rsi14": 52.6
+        "close": 345.06,
+        "pct_1d": -1.942,
+        "pct_5d": 6.73,
+        "vs_sma20_pct": -0.61,
+        "rsi14": 49.4
       },
       "TSM": {
-        "close": 439.65,
-        "pct_1d": 0.633,
-        "pct_5d": 1.825,
-        "vs_sma20_pct": -0.61,
-        "rsi14": 51.8
+        "close": 431.63,
+        "pct_1d": -1.824,
+        "pct_5d": 4.688,
+        "vs_sma20_pct": -2.12,
+        "rsi14": 48.3
       },
       "MU": {
-        "close": 982.97,
-        "pct_1d": 5.797,
-        "pct_5d": 7.592,
-        "vs_sma20_pct": 1.53,
-        "rsi14": 52.9
+        "close": 934.49,
+        "pct_1d": -4.932,
+        "pct_5d": 9.185,
+        "vs_sma20_pct": -2.66,
+        "rsi14": 47.2
       },
       "INTC": {
-        "close": 95.53,
-        "pct_1d": 1.893,
-        "pct_5d": 2.815,
-        "vs_sma20_pct": -4.91,
-        "rsi14": 44.8
+        "close": 92.08,
+        "pct_1d": -3.606,
+        "pct_5d": 7.696,
+        "vs_sma20_pct": -7.05,
+        "rsi14": 41.5
       }
     }
   },
   "cross_asset": {
     "mag7_breadth": {
       "n": 7,
-      "up_today": 3,
-      "above_sma20": 3,
-      "median_move_pct": -0.778
+      "up_today": 2,
+      "above_sma20": 2,
+      "median_move_pct": -0.346
     },
     "semi_breadth": {
       "n": 6,
-      "up_today": 5,
-      "above_sma20": 2,
-      "median_move_pct": 2.326
+      "up_today": 0,
+      "above_sma20": 0,
+      "median_move_pct": -2.001
     },
     "ratios": [
       {
         "pair": "HYG/LQD",
-        "value": 0.7457,
-        "pct_1d": 0.245,
-        "pct_5d": 0.001,
-        "percentile_60d": 15.3,
+        "value": 0.7443,
+        "pct_1d": -0.187,
+        "pct_5d": 0.705,
+        "percentile_60d": 8.5,
         "reads": "credit risk appetite; rising = risk-on"
       },
       {
         "pair": "IWM/SPY",
-        "value": 0.3642,
-        "pct_1d": 0.064,
-        "pct_5d": 1.863,
-        "percentile_60d": 27.1,
+        "value": 0.3691,
+        "pct_1d": 1.329,
+        "pct_5d": 1.934,
+        "percentile_60d": 44.1,
         "reads": "small-cap breadth; rising = broad participation"
       },
       {
         "pair": "GLD/SLV",
-        "value": 7.6166,
-        "pct_1d": 0.592,
-        "pct_5d": 5.031,
+        "value": 7.7978,
+        "pct_1d": 2.378,
+        "pct_5d": 4.243,
         "percentile_60d": 100.0,
         "reads": "rising = defensive within metals"
       },
       {
         "pair": "QQQ/SPY",
-        "value": 0.9395,
-        "pct_1d": 0.27,
-        "pct_5d": 0.157,
-        "percentile_60d": 57.6,
+        "value": 0.9297,
+        "pct_1d": -1.044,
+        "pct_5d": 0.821,
+        "percentile_60d": 10.2,
         "reads": "rising = tech leadership, narrow market"
       }
     ],
     "volatility": {
-      "VIXY_pct_1d": -1.843,
-      "VIXY_pct_5d": 2.158,
-      "VIXY_percentile_60d": 39.0,
+      "VIXY_pct_1d": -2.171,
+      "VIXY_pct_5d": -5.872,
+      "VIXY_percentile_60d": 18.6,
       "note": "VIXY bleeds to contango - read the change and percentile, not the level",
-      "SPY_realized_vol_20d_annualized_pct": 9.97
+      "SPY_realized_vol_20d_annualized_pct": 10.06
     },
     "correlations_20d_vs_SPY": {
-      "TLT": -0.402,
-      "GLD": 0.587,
-      "HYG": 0.552,
-      "UUP": -0.005
+      "TLT": -0.414,
+      "GLD": 0.597,
+      "HYG": 0.558,
+      "UUP": -0.02
     },
     "risk_on_score": {
-      "score": 4,
+      "score": 3,
       "of": 5,
       "components": {
-        "credit_risk_on": true,
+        "credit_risk_on": false,
         "breadth_risk_on": true,
         "vol_risk_on": true,
-        "rates_risk_on": true,
-        "gold_risk_on": false
+        "rates_risk_on": false,
+        "gold_risk_on": true
       },
       "reads": "count of cross-asset signals pointing risk-on today; 0-1 is risk-off, 4-5 risk-on"
     }
@@ -949,164 +975,199 @@
   "news": [
     {
       "symbols": [
-        "NVDA"
+        "AMZN"
       ],
-      "headline": "Nvidia Faces DOJ Scrutiny Over $12.9 Billion Hugging Face Deal Amid Concerns About Unfair AI Advantage: Report",
-      "summary": "The DOJ is scrutinizing Nvidia\u2019s $12.9 billion Hugging Face deal amid broader concerns over AI competition and business practices.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62684670/nvidia-faces-doj-scrutiny-over-12-9-billion-hugging-face-deal-amid-concerns-about-unfair-ai-advantage-report",
-      "created_at": "2026-10-29T09:39:25Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged \u2014 MSFT, GOOG, TMUS in Focus",
-      "summary": "U.S. stocks were mixed Thursday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions,",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62684592/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-fed-keeps-rates-unchanged-msft-goog-tmus-in-focus",
-      "created_at": "2026-10-29T09:33:23Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Top Economist Slams Trump\u2019s $21 Trillion Investment Boast \u2014 \u2018The Jobs Are American. The Profits Aren\u2019t\u2019",
-      "summary": "Economist Justin Wolfers says foreign-built factories bring U.S. jobs but not profits, taking aim at Trump\u2019s $21 trillion investment boast.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/economic-data/26/10/62684510/justin-wolfers-trump-foreign-investment-boast-profits-go-abroad",
-      "created_at": "2026-10-29T09:24:02Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Piper Sandler Reiterates Overweight on Microsoft, Raises Price Target to $650",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/10/62684472/piper-sandler-reiterates-overweight-microsoft-raises-price-target-650",
-      "created_at": "2026-10-29T09:20:00Z"
+      "headline": "Amazon Surpasses One Million Robots in Fulfillment Network",
+      "summary": "Amazon announced it has deployed over one million robots across its fulfillment network and doubled its fleet of robotic arms in 2026.",
+      "source": "fiscal.ai",
+      "url": "https://www.pymnts.com/earnings/2026/amazon-puts-a-million-robots-behind-its-ai-ambitions/",
+      "created_at": "2026-10-30T00:01:40Z"
     },
     {
       "symbols": [
         "AMZN"
       ],
-      "headline": "How High Can Amazon\u2019s AI Spending Go? Crypto Prediction Market Is Taking Bets After Andy Jassy\u2019s $220 Billion Warning",
-      "summary": "Polymarket traders are betting on whether Amazon\u2019s 2026 spending will exceed $220 billion amid surging AI demand.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62684211/amazon-capex-ai-polymarket-jassy",
-      "created_at": "2026-10-29T08:58:07Z"
+      "headline": "Amazon Introduces New Capabilities for Alexa for Shopping",
+      "summary": "Amazon has launched over 100 new shopping-related actions for its Alexa AI assistant to enhance convenience for customers.",
+      "source": "fiscal.ai",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant/",
+      "created_at": "2026-10-29T23:01:24Z"
     },
     {
       "symbols": [
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'",
-      "summary": "Tom Lee says the Fed won&#39;t slow AI ahead of tech earnings, but FOMC minutes reveal AI investments are actively driving up inflation.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/economic-data/26/10/62684176/tom-lee-sees-big-beats-ahead-says-kevin-warsh-led-fed-wont-slow-ai-growth-despite-inflation-good-news-is-good-news",
-      "created_at": "2026-10-29T08:51:08Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "MSFT Stock Eyes Best Day In Over 3 Months After Earnings Beat \u2014 Gene Munster Says 'Software Is Alive And Well, At Least For Now'",
-      "summary": "Gene Munster says Microsoft\u2019s strong cloud growth and earnings defy AI fears, though he expects AI to pressure software demand within a year.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62683953/msft-stock-eyes-best-day-in-over-3-months-after-earnings-beat-gene-munster-says-software-is-alive-and-well-at-least-for-now",
-      "created_at": "2026-10-29T08:13:33Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "META"
-      ],
-      "headline": "Anthropic's 'Deviously Self-Serving' Voting Structure \u2018Would Put Kim Jong Un to Shame,\u2019 says Aswath Damodaran",
-      "summary": "Aswath Damodaran slams Anthropic\u2019s voting structure as \u201cdeviously self-serving\u201d and values the company near $1.48 trillion.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/ipos/26/10/62683687/anthropics-deviously-self-serving-voting-structure-would-put-kim-jong-un-to-shame-says-aswath-damodaran",
-      "created_at": "2026-10-29T07:51:11Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
         "TSLA"
       ],
-      "headline": "GOOGL Stock Headed for Worst Single-Day Decline in Over Six Years as Waymo, Other Bets Widens Q3 Loss to Over $2 Billion",
-      "summary": "Waymo surpasses 300M autonomous miles and plans global expansion, but widening losses continue to plague Other Bets division.",
+      "headline": "$1000 Invested In Tesla 15 Years Ago Would Be Worth This Much Today",
+      "summary": "Tesla (NASDAQ:TSLA) has outperformed the market over the past 15 years by 28.89% on an annualized basis producing an average annual return of 41.74%. Currently, Tesla has a market capitalization of $1.60 trillion.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/earnings/26/10/62683676/googl-stock-headed-for-worst-single-day-decline-in-over-six-years-as-waymo-other-bets-widens-q3-loss-to-over-2-billion",
-      "created_at": "2026-10-29T07:50:48Z"
+      "url": "https://www.benzinga.com/news/26/10/62725327/1000-invested-tesla-15-years-ago-would-be-worth-much-today",
+      "created_at": "2026-10-29T22:30:15Z"
     },
     {
       "symbols": [
-        "META",
-        "MSFT"
+        "AMZN"
       ],
-      "headline": "Microsoft Has a Tool That 'Governs and Contains Agents,' Says Satya Nadella \u2014 Meta's Muse, OpenAI, Anthropic Are Lining Up",
-      "summary": "Microsoft is pitching itself as the gatekeeper for AI agents, and OpenAI, Anthropic and Meta\u2019s Muse are adopting its containment tool. ",
+      "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
+      "summary": "Amazon.com (NASDAQ:AMZN) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/earnings/26/10/62683384/microsoft-ai-agents-gatekeeper-mxc-openai-anthropic-meta",
-      "created_at": "2026-10-29T07:13:07Z"
+      "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript",
+      "created_at": "2026-10-29T22:06:20Z"
     },
     {
       "symbols": [
         "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "El-Sayed Leads Michigan Senate Poll by 7 Points, Wants 50% Public Ownership of OpenAI, Anthropic",
+      "summary": "Michigan Senate candidate Abdul El-Sayed leads by 7 points and wants Americans to own 50% of OpenAI, Anthropic and other AI giants.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62724648/el-sayed-ai-ownership",
+      "created_at": "2026-10-29T22:00:30Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
+      "created_at": "2026-10-29T21:48:24Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
+      "created_at": "2026-10-29T21:38:47Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Quantryon Capital Upgrades Meta to Buy",
+      "summary": "Quantryon Capital has upgraded Meta Platforms, Inc. from Hold to Buy, citing strong advertising performance and improved AI monetization.",
+      "source": "fiscal.ai",
+      "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
+      "created_at": "2026-10-29T21:31:37Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta Loses Appeal in French Media Payment Dispute",
+      "summary": "The Paris Court of Appeals has upheld temporary sanctions against Meta, requiring the company to negotiate payments with French news publishers for the use of their content.",
+      "source": "fiscal.ai",
+      "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/",
+      "created_at": "2026-10-29T20:31:32Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
+      "summary": "Memory and storage manufacturer SK Hynix has warned Apple that ongoing chip shortages are expected to persist until 2030, potentially impacting component costs.",
+      "source": "fiscal.ai",
+      "url": "https://appleosophy.com/2026/10/29/why-apple-products-prices-may-keep-rising-until-2030/",
+      "created_at": "2026-10-29T20:31:27Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
+      "summary": "NVIDIA issued a formal response to media reports alleging that CEO Jensen Huang was a target of a Chinese intelligence operation, stating that all business dealings were routine and involved no sensitive trade secrets.",
+      "source": "fiscal.ai",
+      "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/",
+      "created_at": "2026-10-29T20:31:24Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375",
+      "created_at": "2026-10-29T20:31:02Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Bitcoin Could Repeat Its SpaceX IPO Dump Ahead of Anthropic IPO, Analyst Warns",
+      "summary": "Bitcoin mirrors its pre-SpaceX IPO slump as Cowen warns Anthropic\u2019s listing may be pulling capital away from crypto.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62720440/bitcoin-could-repeat-its-spacex-ipo-dump-ahead-of-anthropic-ipo-analyst-warns",
+      "created_at": "2026-10-29T20:30:41Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target",
+      "created_at": "2026-10-29T20:21:36Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Polymarket Temporarily Halts Trading After Third-Party Provider Impacted",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62714478/polymarket-temporarily-halts-trading-after-third-party-provider-impacted",
+      "created_at": "2026-10-29T19:25:39Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
         "QQQ",
         "SPY"
       ],
-      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 47% as Wall Street weighs a tech selloff, Amazon earnings, PCE inflation, and cooling oil.",
+      "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
+      "summary": "IWD is beating SPY by 4.2 points in October, the widest monthly gap since 2001; Alphabet and ServiceNow lead a rotation away from AI.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62682843/stock-market-will-sp-500-open-up-or-down-today-68",
-      "created_at": "2026-10-29T06:04:17Z"
-    },
-    {
-      "symbols": [
-        "META",
-        "NVDA"
-      ],
-      "headline": "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA",
-      "summary": "One of Jim Cramer\u2019s favorite stocks, Nvidia, is down nearly 6% this month, and he wonders if bad tech news hits it first.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62681998/nvidia-stock-drops-6-percent-jim-cramer-tech-weakness-nvda",
-      "created_at": "2026-10-29T02:00:35Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
-      "summary": "A Democratic Party win in the 2026 midterms could provide a boost to the electric vehicle sector. Elon Musk is paying up to keep this from happening.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/10/62681813/elon-musk-vs-tesla-his-midterm-money-could-work-against-his-own-cars",
-      "created_at": "2026-10-29T01:04:09Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Full Self-Driving V14 Software Update",
-      "summary": "Tesla has released version 14 of its Full Self-Driving (FSD) software, enabling enhanced autonomous navigation capabilities.",
-      "source": "fiscal.ai",
-      "url": "https://cleantechnica.com/2026/10/28/teslas-full-self-driving-has-now-dramatically-reduced-the-number-of-reasons-to-intervene-or-complain/",
-      "created_at": "2026-10-29T00:01:28Z"
+      "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
+      "created_at": "2026-10-29T19:19:59Z"
     },
     {
       "symbols": [
         "NVDA"
       ],
-      "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
-      "summary": "NVIDIA has scheduled its conference call to discuss financial results for the third quarter of fiscal year 2027 for November 17, 2026.",
+      "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
+      "summary": "NVIDIA joined as an investor in the initial close of Cohere's Series E funding round, which is targeting $5 billion.",
       "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
-      "created_at": "2026-10-28T23:01:30Z"
+      "url": "https://www.tradingview.com/news/seekingalpha:cfc3ffc5f094b:0-nvidia-backed-cohere-closes-in-on-5b-funding-round/",
+      "created_at": "2026-10-29T19:01:34Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62713396/nvidia-ceo-says-ties-company-under-spying-probe-were-normal-bloomberg-news",
+      "created_at": "2026-10-29T19:00:22Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "TSLA"
+      ],
+      "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/options/26/10/62709901/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
+      "created_at": "2026-10-29T17:37:47Z"
     }
   ]
 }
