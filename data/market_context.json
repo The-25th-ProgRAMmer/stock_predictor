@@ -445,14 +445,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "rating_change",
-          "headline": "Phillip Securities Upgrades Amazon to Buy",
-          "url": "https://www.tradingview.com/news/gurufocus:48db88985094b:0-aws-growth-wins-amazon-stock-a-330-upgrade/",
-          "created_at": "2026-11-02T21:31:33Z"
-        }
-      ]
+      "material_news": []
     },
     "NVDA": {
       "latest_close": 202.21,
@@ -596,7 +589,14 @@
           "Price is -3.3 ATRs from SMA20 - stretched. Context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "guidance",
+          "headline": "Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62807084/shopify-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+          "created_at": "2026-11-03T08:18:06Z"
+        }
+      ]
     },
     "TSLA": {
       "latest_close": 403.93,
@@ -947,83 +947,172 @@
   "news": [
     {
       "symbols": [
+        "TSLA"
+      ],
+      "headline": "'Paid Far More in Taxes': Elon Musk Fires Back at Democrat Nominee James Talarico Over Tesla's $465 Million Government Loan",
+      "summary": "Elon Musk says his Texas taxes exceeded Tesla\u2019s repaid DOE loan, clashing with Senate candidate James Talarico over taxpayer support.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62808513/elon-musk-fires-back-democrat-nominee-james-talarico-over-tesla-465-million-loan",
+      "created_at": "2026-11-03T10:32:43Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "META"
+      ],
+      "headline": "'Throwback to 1984:' Apple's Mac Business Just Surged 24% \u2014 Top Analyst Says the Real Boom Is Only Getting Started",
+      "summary": "Gene Munster predicts an AI-driven Mac super cycle, forecasting 15%+ growth fueled by education deals and Apple\u2019s affordable MacBook Neo.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62808316/throwback-to-1984-apples-mac-business-just-surged-24-top-analyst-says-the-real-boom-is-only-getting-started",
+      "created_at": "2026-11-03T10:25:32Z"
+    },
+    {
+      "symbols": [
         "SPY"
       ],
-      "headline": "\"U.S. Strikes Iran\u2019s Qeshm Island As Trump Talks Down War Risks; Trump Told Reporters Monday \u2018We Haven\u2019t Been Doing Any Fighting For Months\u2019\" - WSJ Exclusive",
-      "summary": "",
+      "headline": "SPY Vs. IWM: Why 3.4% GDP Growth Leaves Two Different Tests For Investors",
+      "summary": "The U.S. expansion reached 78 months through October as third-quarter GDP grew 3.4%, while September real spending stalled. SPY investors face a test of earnings breadth and investment returns; IWM investors must also",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62805674/u-s-strikes-iran-s-qeshm-island-trump-talks-down-war-risks-trump-told-reporters-monday-we-haven-t-be",
-      "created_at": "2026-11-03T02:53:42Z"
+      "url": "https://www.benzinga.com/opinion/26/11/62808292/spy-vs-iwm-why-gdp-growth-leaves-two-different-tests-for-investors",
+      "created_at": "2026-11-03T10:22:28Z"
     },
     {
       "symbols": [
-        "AAPL"
+        "QQQ",
+        "SPY"
       ],
-      "headline": "iPhone Owners Can Get Up to $95 From Apple Over Siri Promises: Here\u2019s How to Claim",
-      "summary": "Apple\u2019s $250 million AI settlement lets eligible iPhone buyers claim up to $95, with claims due Dec. 21, 2026.",
+      "headline": "$80 Billion Hedge Fund Braces for Bear Market",
+      "summary": "Paul Singer&#39;s Elliott warns a massive bear market looms. See how the $80B fund is hedging against AI hype and market excess.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/62805659/apple-iphone-siri-settlement-95-claim-how-to",
-      "created_at": "2026-11-03T02:49:34Z"
+      "url": "https://www.benzinga.com/markets/equities/26/11/62808278/80-billion-hedge-fund-braces-for-bear-market",
+      "created_at": "2026-11-03T10:19:54Z"
     },
     {
       "symbols": [
-        "AAPL"
+        "NVDA"
       ],
-      "headline": "Apple, Palantir, Marvell Technology, Oracle and Aehr Test Systems: Why These 5 Stocks Are on Investors' Radars Today",
-      "summary": "Major indices closed mixed on Monday, with the Dow Jones Industrial Average gaining 0.41% to 51,983.98.",
+      "headline": "SPCX CEO Elon Musk Says Cooling AI Data Centers in Space Is 'Much Easier' \u2014 Here's How His Plan Could Work",
+      "summary": "Elon Musk says space-based AI data centers could cool more easily with aluminum radiators, but launch costs and scaling challenges remain.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62805372/apple-palantir-marvell-technology-oracle-and-aehr-test-systems-why-these-5-stocks-are-on-investors-radars-today",
-      "created_at": "2026-11-03T01:16:25Z"
+      "url": "https://www.benzinga.com/markets/tech/26/11/62808265/spcx-ceo-elon-musk-says-cooling-ai-data-centers-in-space-is-much-easier-heres-how-his-plan-could-work",
+      "created_at": "2026-11-03T10:16:06Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow, S&P 500 Futures Mixed as Trump Touts Iran Settlement Hopes \u2014 AAPL, PLTR, AMD in Focus",
+      "summary": "U.S. stocks were mixed on Tuesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus",
+      "created_at": "2026-11-03T10:06:30Z"
     },
     {
       "symbols": [
         "TSLA"
       ],
-      "headline": "Tesla Powerwall 3 Updated to Integrate with Heat Pumps",
-      "summary": "Tesla has introduced a new capability for the Powerwall 3, allowing it to boost heat pumps to store solar energy as thermal heat.",
-      "source": "fiscal.ai",
-      "url": "https://www.newsnow.co.uk/h/Industry+Sectors/Automotive/US+Manufacturers/Tesla",
-      "created_at": "2026-11-03T01:01:49Z"
+      "headline": "Tesla Bulls Are Betting on a SpaceX Merger \u2014 Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows What Could Go Wrong",
+      "summary": "Gary Black warns a stock-funded Tesla-SpaceX merger could hurt investors, citing Marvell\u2019s Lumentum deal, where both stocks plunged.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62807684/tesla-bulls-are-betting-on-a-spacex-merger-top-analyst-says-marvells-115-billion-lumentum-deal-shows-what-could-go-wrong",
+      "created_at": "2026-11-03T09:30:05Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "'The First Victim': Chamath Palihapitiya Warns AI Startups are In the Crosshairs as OpenAI, Google Move Into Software",
+      "summary": "Palihapitiya warns AI giants like OpenAI and Google could disrupt AI-native startups by expanding into software applications and workplace tools.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62807654/the-first-victim-chamath-palihapitiya-warns-ai-startups-are-in-the-crosshairs-as-openai-google-move-into-software",
+      "created_at": "2026-11-03T09:23:39Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Tom Lee Says 'We Are at the Bottom' as Tech Sell-Off Rocks Markets \u2014 But He Still Sees S&P 500 Above 8,200 By Year-End",
+      "summary": "Fundstrat&#39;s Tom Lee calls a market bottom, maintaining his S&amp;P 500 year-end target above 8,200 as the AI market remains very tight.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/11/62807521/tom-lee-says-we-are-at-the-bottom-as-tech-sell-off-rocks-markets-but-he-still-sees-sp-500-above-8200-by-year-end",
+      "created_at": "2026-11-03T09:02:52Z"
     },
     {
       "symbols": [
         "NVDA"
       ],
-      "headline": "NVIDIA Begins Shipping Vera Rubin Platform",
-      "summary": "NVIDIA has officially commenced shipments of its new Vera Rubin platform, which the company anticipates will experience the fastest product ramp in its history.",
-      "source": "fiscal.ai",
-      "url": "https://www.barchart.com/story/news/8597937/nvidia-stock-looks-surprisingly-cheap-why-nvda-could-rise-61",
-      "created_at": "2026-11-03T00:01:32Z"
+      "headline": "'Nvidia Orders Data Centre Clients to Reduce China Exposure' - FT",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/62807428/nvidia-orders-data-centre-clients-reduce-china-exposure-ft",
+      "created_at": "2026-11-03T08:52:10Z"
     },
     {
       "symbols": [
-        "NVDA"
+        "META"
       ],
-      "headline": "XMax Signs Five-Year AI Infrastructure Agreement Involving NVIDIA GPUs",
-      "summary": "XMax Inc. has entered into a five-year AI infrastructure services agreement that includes the deployment of 512 NVIDIA Blackwell Ultra B300 GPUs.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/",
-      "created_at": "2026-11-03T00:01:32Z"
+      "headline": "Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "summary": "Shopify reports Q3 earnings Tuesday, with EPS forecast at 46 cents and revenue at $3.74B. Meta partnership expands AI-powered shopping via Shop Pay.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62807084/shopify-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+      "created_at": "2026-11-03T08:18:06Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Registrations Explode Across Europe as Iran War Sends Fuel Prices Soaring \u2014 But BYD and Chinese EV Rivals Are Gaining Fast",
+      "summary": "Tesla registrations surged across Europe, but faces growing competition from Chinese automakers BYD, Geely and others.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/eurozone/26/11/62806894/tesla-registrations-explode-across-europe-as-iran-war-sends-fuel-prices-soaring-but-byd-and-chinese-ev-rivals-are-gaining-fast",
+      "created_at": "2026-11-03T08:08:03Z"
     },
     {
       "symbols": [
         "AAPL"
       ],
-      "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
-      "summary": "Apple announced record-breaking revenue of $114.5 billion for its fiscal fourth quarter, marking a 12% increase year-over-year and the company's best fiscal year to date.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/4etili1/",
-      "created_at": "2026-11-03T00:01:17Z"
+      "headline": "Apple CEO Says Memory Prices Are \u2018Unprecedented\u2019 and Could Keep Climbing \u2014 iPhone, Mac and iPad Costs Face Fresh Pressure After Recent Price Hikes",
+      "summary": "Apple warns of unprecedented memory price increases and expects Mac and iPad supply constraints to persist through the December quarter.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62806799/apple-ceo-says-memory-prices-are-unprecedented-and-could-keep-climbing-iphone-mac-and-ipad-costs-face-fresh-pressure-after-recent-price-hikes",
+      "created_at": "2026-11-03T07:58:17Z"
     },
     {
       "symbols": [
-        "SPY"
+        "META",
+        "NVDA"
       ],
-      "headline": "'US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week-US official'- Reuters",
-      "summary": "",
+      "headline": "Nasdaq Dips Over 1% as Tech Stocks Fall: Investor Sentiment Weakens, Fear & Greed Index Moves to \u2018Extreme Fear\u2019 Zone",
+      "summary": "CNN Fear &amp; Greed fell to 23, signaling Extreme Fear, as tech stocks dragged Nasdaq down 1.07%; Dow rose 214 points amid U.S.-Iran diplomacy hopes.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62804713/us-hold-trilateral-talks-ukraine-russia-abu-dhabi-next-week-us-official-reuters",
-      "created_at": "2026-11-02T23:07:18Z"
+      "url": "https://www.benzinga.com/markets/market-summary/26/11/62806764/nasdaq-dips-over-1-as-tech-stocks-fall-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone",
+      "created_at": "2026-11-03T07:52:09Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Bill Ackman on MSFT, AMZN and META: Why Big Tech's Trillion-Dollar AI Spend Is 'Offensive Rather Than Defensive'",
+      "summary": "Bill Ackman calls the trillion-dollar AI spend by Microsoft, Amazon, and Meta &#39;offensive rather than defensive.&#39; Inside his Q3 letter.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62806716/bill-ackman-on-msft-amzn-and-meta-why-big-techs-trillion-dollar-ai-spend-is-offensive-rather-than-defensive",
+      "created_at": "2026-11-03T07:43:29Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "GOOGL"
+      ],
+      "headline": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
+      "summary": "CNBC\u2019s Jim Cramer is not buying Monday\u2019s selloff in Apple, Palantir and Marvell as the tech slump stretches into a new week.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick",
+      "created_at": "2026-11-03T03:25:37Z"
     },
     {
       "symbols": [
@@ -1047,36 +1136,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks",
       "created_at": "2026-11-02T22:46:19Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'US Said to Plan Fresh NATO Push for Ukraine Arms Deliveries'- Bloomberg",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62803685/us-said-plan-fresh-nato-push-ukraine-arms-deliveries-bloomberg",
-      "created_at": "2026-11-02T22:26:51Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Launches $25 Thanksgiving Meal Deal",
-      "summary": "Amazon has introduced a $25 holiday dinner package available through Amazon Grocery.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/benzinga:4c9f4e0e9094b:0-amazon-stock-rises-what-s-going-on/",
-      "created_at": "2026-11-02T21:31:33Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Phillip Securities Upgrades Amazon to Buy",
-      "summary": "Phillip Securities upgraded Amazon.com, Inc. to \"Buy\" from \"Accumulate\" and raised its price target to $330.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/gurufocus:48db88985094b:0-aws-growth-wins-amazon-stock-a-330-upgrade/",
-      "created_at": "2026-11-02T21:31:33Z"
     }
   ]
 }
