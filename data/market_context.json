@@ -368,7 +368,14 @@
           "Price is -4.6 ATRs from SMA20 - stretched. Context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "deal",
+          "headline": "'Google Extends Voluntary Buyout Offers To Employees in Several Countries' - Reuters Exclusive",
+          "url": "https://www.benzinga.com/news/26/11/62853563/google-extends-voluntary-buyout-offers-employees-several-countries-reuters-exclusive",
+          "created_at": "2026-11-04T08:37:47Z"
+        }
+      ]
     },
     "AMZN": {
       "latest_close": 250.72,
@@ -929,226 +936,163 @@
   "news": [
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "AP Calls Democrat Jared Moskowitz Winner In Florida's 25th Congressional District, Securing Third Term Over Republican Scott Singer",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-04T01:14:35Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "AMD, Super Micro Computer, Arista Networks, Astera Labs and Nvidia: Why These 5 Stocks Are on Investors' Radars Today",
-      "summary": "Major U.S. indices closed mixed on Tuesday, with the Dow Jones Industrial Average falling 0.38% to 51,786.72.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62850282/amd-super-micro-computer-arista-networks-astera-labs-and-nvidia-why-these-5-stocks-are-on-investors-radars-today",
-      "created_at": "2026-11-04T01:03:53Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "AP Calls Democrat Ed Markey Defeats John Deaton For Senate In Massachusetts",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-04T01:03:36Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "AP Calls Democrat Jack Reed Winner In Rhode Island Senate Race, Securing Sixth Term Over Republican Raymond McKay",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-04T01:03:22Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "DeepInfra Announces New Benefits for NVIDIA Inception Members",
-      "summary": "DeepInfra has launched a new benefit for members of the NVIDIA Inception program, offering eligible startups access to NVIDIA Nemotron models on its inference platform.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/03/3394716/0/en/deepinfra-expands-startup-support-through-nvidia-inception-offering.html",
-      "created_at": "2026-11-04T00:01:37Z"
-    },
-    {
-      "symbols": [
         "AMZN",
         "GOOGL",
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "Nancy Pelosi Isn't Running for Re-Election in 2026 Midterms: Say Goodbye to Her Stock Picks in Two Months",
-      "summary": "Nancy Pelosi is not seeking re-election Tuesday and will leave Congress in January 2027.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/11/62849869/nancy-pelosi-isnt-running-for-re-election-in-2026-midterms-say-goodbye-to-her-stock-picks-in-two-months",
-      "created_at": "2026-11-03T23:55:14Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft, Google, and OpenAI Support New Standard for AI Training Opt-Outs",
-      "summary": "Microsoft and other major AI companies have announced support for a new robots.txt standard to simplify how website owners opt out of AI training.",
-      "source": "fiscal.ai",
-      "url": "https://newswire.co.nz/2026/11/robots-txt-ai-training-opt-out-google-openai-microsoft-new-zealand/",
-      "created_at": "2026-11-03T22:31:37Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "2026 Midterms Prediction Market Odds Update: Democratic Senate Chances Fall to 73%",
-      "summary": "Prediction markets show Democrats favored to sweep the 2026 midterms, but their odds of winning the Senate have slipped to 73% on Kalshi.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/11/62846923/2026-midterms-prediction-market-odds-update-democratic-senate-chances-fall-to-73",
-      "created_at": "2026-11-03T22:01:50Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Expands Robotaxi Service to Fort Worth",
-      "summary": "Tesla has extended its Robotaxi service into Fort Worth, Texas, further growing its commercial footprint in the state.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/gurufocus:0623b5e63094b:0-tesla-stocks-move-lower-with-fort-worth-robotaxi-expansion-in-focus/",
-      "created_at": "2026-11-03T21:31:42Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'Xbox\u2019s Arkane Studios Attracts Multiple Bidders, Including Ubisoft' - Bloomberg Exclusive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62840421/xboxs-arkane-studios-attracts-multiple-bidders-including-ubisoft-bloomberg-exclusive",
-      "created_at": "2026-11-03T20:56:18Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62837416/jill-hazelbaker-jumps-to-openai-as-chief-corporate-affairs-officer-axios",
-      "created_at": "2026-11-03T19:22:31Z"
-    },
-    {
-      "symbols": [
         "META",
-        "NVDA",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Jim Cramer Sees These 'Non-Magnificent' Tech Stocks Emerging as Market Leaders While Nvidia, Microsoft Struggle: 'It's Just Not The Tech That's Led Us'",
+      "summary": "Jim Cramer sees &#39;non-Magnificent&#39; tech stocks gaining leadership as AMD, Broadcom and Micron outperform Magnificent Seven peers.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62854558/jim-cramer-sees-these-non-magnificent-tech-stocks-emerging-as-market-leaders-while-nvidia-microsoft-struggle-its-just-not-the-tech-thats-led-us",
+      "created_at": "2026-11-04T10:27:43Z"
+    },
+    {
+      "symbols": [
         "QQQ",
         "SPY"
       ],
-      "headline": "Growth And Cyclical Lead Sectors Tuesday",
-      "summary": "Four sectors are higher and six are lower among those with available change data in Tuesday&#39;s regular session, with growth and cyclical sectors splitting the top of the table. The leaders are separated rather than clustered, with no single gap cl",
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress\u2014AMD, AMGN, NVO in Focus",
+      "summary": "U.S. stocks rose on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures advanced, following Tuesday&#39;s mixed close.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62838995/growth-and-cyclical-lead-sectors-tuesday",
-      "created_at": "2026-11-03T20:08:43Z"
+      "url": "https://www.benzinga.com/markets/equities/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus",
+      "created_at": "2026-11-04T10:17:28Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Democrat Aaron Ford wins election for governor in Nevada: AP",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-11-04T10:02:43Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Democrat Susie Lee wins reelection to U.S. House in Nevada\u2019s 3rd Congressional District: AP",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-11-04T10:02:20Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "TSLA, SPCX Sink Over 4% as Democrats Flip Texas: What's Going On?",
+      "summary": "SpaceX and Tesla shares fell after Texas Democrats\u2019 wins raised doubts about Musk-backed AI data centers and the companies\u2019 prospects.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/62853710/tsla-spcx-sink-over-4-as-democrats-flip-texas-whats-going-on",
+      "created_at": "2026-11-04T08:58:04Z"
     },
     {
       "symbols": [
         "META"
       ],
-      "headline": "'Meta Draws $58 Billion Demand for US Leg of Cross-Border Bond' - Bloomberg News",
+      "headline": "'Meta Starts Debut Euro Bond Sale After $15 Billion US Deal' - Bloomberg",
       "summary": "",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62837242/meta-draws-58-billion-demand-us-leg-cross-border-bond-bloomberg-news",
-      "created_at": "2026-11-03T19:16:42Z"
+      "url": "https://www.benzinga.com/news/26/11/62853698/meta-starts-debut-euro-bond-sale-after-15-billion-us-deal-bloomberg",
+      "created_at": "2026-11-04T08:56:51Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk, Who Voted 'Red,' Reacts to GOP Midterm Losses With 'Election-Interfering' Space Laser Joke: 'Didn't Work This Time'",
+      "summary": "Elon Musk jokes his &#39;election-interfering space lasers&#39; failed after Democrats scored major victories in the 2026 midterm elections.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/62853673/elon-musk-who-voted-red-reacts-to-gop-midterm-losses-with-election-interfering-space-laser-joke-didnt-work-this-time",
+      "created_at": "2026-11-04T08:51:02Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "'Google Extends Voluntary Buyout Offers To Employees in Several Countries' - Reuters Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/62853563/google-extends-voluntary-buyout-offers-employees-several-countries-reuters-exclusive",
+      "created_at": "2026-11-04T08:37:47Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "TSLA"
+      ],
+      "headline": "Elon Musk's SpaceX Could Build More Data Center Capacity in 18 Months Than Google Did in 27 Years, Says SemiAnalysis",
+      "summary": "SpaceX is rapidly building a 13GW AI data center network and its efforts will surpass Google\u2019s pace that lasted over three decades.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62853551/elon-musks-spacex-could-build-more-data-center-capacity-in-18-months-than-google-did-in-27-years-says-semianalysis",
+      "created_at": "2026-11-04T08:37:19Z"
     },
     {
       "symbols": [
         "QQQ",
         "SPY"
       ],
-      "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
-      "summary": "JPMorgan sees the S&amp;P 500 holding firm across all four midterm scenarios. Here are five ETFs to watch for potential policy-driven gains.",
+      "headline": "'Worst Possible Combination:' Top Analyst Warns of Trump White House With Democratic Congress \u2014 Here's What the S&P 500 Has Historically Averaged",
+      "summary": "S&amp;P 500 data shows gridlock is the market&#39;s best scenario at 15.1%, while a GOP president and Dem Congress is the worst at 4.9%.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62837162/sp-500-could-win-no-matter-who-wins-the-midterms-5-etfs-to-watch-under-jpmorgans-4-scenarios",
-      "created_at": "2026-11-03T19:14:56Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "SUNGBOON EDITOR Receives 2026 Amazon Innovator Award",
-      "summary": "Korean skincare brand SUNGBOON EDITOR was named a recipient of the 2026 Amazon Innovator Award following strong commercial performance and successful collaboration with the platform.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/news/post/1003346633/from-tiktok-virality-to-amazon-recognition-sungboon-editor-is-emerging",
-      "created_at": "2026-11-03T19:01:33Z"
+      "url": "https://www.benzinga.com/news/politics/26/11/62852886/worst-possible-combination-top-analyst-warns-of-trump-white-house-with-democratic-congress-heres-what-the-sp-500-has-historically-averaged",
+      "created_at": "2026-11-04T07:18:38Z"
     },
     {
       "symbols": [
         "AAPL"
       ],
-      "headline": "Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3",
-      "summary": "Apple has released the first developer betas for iOS 27.3, iPadOS 27.3, and macOS Golden Gate 27.3, introducing Apple Intelligence features for users in China.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/kkp59lh/",
-      "created_at": "2026-11-03T19:01:21Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
-      "summary": "Apple analysts are worried about revenue growth slowing for the company, along with lower gross margins.",
+      "headline": "Nasdaq Jumps Over 200 Points as Chip Stocks Gain: Fear & Greed Index Remains in \u2018Extreme Fear\u2019 Zone",
+      "summary": "Markets closed mixed as CNN Fear &amp; Greed stayed at 19 (Extreme Fear); Nasdaq rose 0.83%, Dow fell, Apple dropped and Aehr surged 26%.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836578/apple-stock-at-extreme-overvaluation-analysts-see-slowing-revenue-growth",
-      "created_at": "2026-11-03T18:58:07Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Announces Redesigned Health App Expands Language Support",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62835644/apple-announces-redesigned-health-app-expands-language-support",
-      "created_at": "2026-11-03T18:31:42Z"
+      "url": "https://www.benzinga.com/markets/market-summary/26/11/62852873/nasdaq-jumps-over-200-points-as-chip-stocks-gain-fear-greed-index-remains-in-extreme-fear-zone",
+      "created_at": "2026-11-04T07:17:40Z"
     },
     {
       "symbols": [
         "AMZN",
-        "TSLA"
-      ],
-      "headline": "'Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms' - CoinDesk",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62835094/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-deadline-looms-coindesk",
-      "created_at": "2026-11-03T18:18:11Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "SpaceX Could Be Biggest Loser From Successful Anthropic IPO, Finance Professor Warns",
-      "summary": "Anthropic\u2019s IPO could pull AI investors away from SpaceX, finance professor Cathy Zheng says.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62834282/anthropic-ipo-spacex",
-      "created_at": "2026-11-03T18:00:13Z"
-    },
-    {
-      "symbols": [
-        "META",
         "MSFT"
       ],
-      "headline": "What Is Going on With Meta Platforms Stock on Tuesday?",
-      "summary": "Meta stock rebounds to $620 despite S&amp;P cutting its credit outlook, as investors weigh $140B in AI CapEx against bullish $860 price forecasts.",
+      "headline": "Dow Futures Fall as Democrats Take Control of Congress: Peter Schiff Warns Trump Now Has a \u2018Scapegoat\u2019 for the \u2018Coming Economic Collapse\u2019",
+      "summary": "U.S. stock futures fell early Wednesday as Democrats won the Senate and moved to the brink of taking the House.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/62834129/what-is-going-on-with-meta-platforms-stock-on-tuesday",
-      "created_at": "2026-11-03T17:56:40Z"
+      "url": "https://www.benzinga.com/markets/equities/26/11/62851943/stock-futures-fall-democrats-win-senate-midterms-peter-schiff-anthony-scaramucci",
+      "created_at": "2026-11-04T06:35:59Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "'Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered' - Bloomberg Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/62851824/nvidia-china-clients-get-1-70-billion-rtx-chips-ordered-bloomberg-exclusive",
+      "created_at": "2026-11-04T06:16:26Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds plunge to 22% as Wall Street digests midterm results, a tech futures drop, and key earnings.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62851581/stock-market-will-sp-500-open-up-or-down-today-72",
+      "created_at": "2026-11-04T05:57:08Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Grant Cardone Warns James Talarico's Texas Win Could Spell Trouble for Elon Musk's SPCX, AI Bets\u2014Gina Hinojosa Governor Win Sparks Data Center Moratorium Talk",
+      "summary": "Grant Cardone warns a James Talarico win could challenge SpaceX and AI investments through stricter data-center regulations and taxes.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/62851381/grant-cardone-warns-james-talaricos-texas-win-could-spell-trouble-for-elon-musks-spcx-ai-bets-gina-hinojosa-governor-win-sparks-data-center-moratorium-talk",
+      "created_at": "2026-11-04T05:08:49Z"
     }
   ]
 }
