@@ -588,20 +588,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "Meta Platforms Acquires AI Coding Startup Conductor",
-          "url": "https://www.marketscreener.com/news/meta-platforms-acquires-ai-coding-startup-conductor-ce785fdfde8bf325",
-          "created_at": "2026-11-04T20:02:11Z"
-        },
-        {
-          "event": "deal",
-          "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
-          "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive",
-          "created_at": "2026-11-04T18:17:55Z"
-        }
-      ]
+      "material_news": []
     },
     "TSLA": {
       "latest_close": 385.2,
@@ -952,13 +939,154 @@
   "news": [
     {
       "symbols": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Microsoft\u2019s $5 Billion AI Spending Shortfall Puts IREN, Nebius Under Spotlight as Satellite Imagery Shows Data Center Delays: Report",
+      "summary": "Microsoft&#39;s $5 billion AI spending shortfall raises questions as satellite images reportedly point to delays at IREN data center projects.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62906647/microsofts-5-billion-ai-spending-shortfall-puts-iren-nebius-under-spotlight-as-satellite-imagery-shows-data-center-delays-report",
+      "created_at": "2026-11-05T10:30:55Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Post-Midterm Rally \u2014 TM, ARM, QCOM in Focus",
+      "summary": "U.S. stocks were mixed on Thursday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures diverged, following Wednesday&#39;s higher close.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus",
+      "created_at": "2026-11-05T10:30:31Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Robert Reich Takes Aim at Elon Musk After Ken Paxton's Double-Digit Texas Senate Loss: 'Organized People Can Still Defeat...'",
+      "summary": "Robert Reich criticized Elon Musk&#39;s political spending after Ken Paxton&#39;s Texas Senate defeat, saying grassroots organizing can overcome billionaire money.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62906547/robert-reich-takes-aim-at-elon-musk-after-ken-paxtons-double-digit-texas-senate-loss-organized-people-can-still-defeat",
+      "created_at": "2026-11-05T10:22:47Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Arm CEO Acknowledges AMD's Head Start in AI Chips, But Says 'We're Very, Very Serious' About Competing",
+      "summary": "Arm CEO Rene Haas acknowledged AMD\u2019s long lead in data center chips but said Arm is serious about competing with its first chip.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/11/62906358/arm-holdings-rene-haas-advanced-micro-devices-data-center-chips",
+      "created_at": "2026-11-05T10:08:49Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Dan Ives Warns Chip Stocks Aren't Done Falling, Sees Another 12% Drop \u2014 But Tom Lee Calls AI Selloff an 'Overreaction,' Predicts 20% Tech Rally",
+      "summary": "Dan Ives sees another 10%-12% drop for chip stocks, while Tom Lee calls the AI selloff an overreaction and sees 20% tech upside.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62904872/dan-ives-warns-chip-stocks-arent-done-falling-sees-another-12-drop-but-tom-lee-calls-ai-selloff-an-overreaction-predicts-20-tech-rally",
+      "created_at": "2026-11-05T09:08:34Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "MSFT"
+      ],
+      "headline": "Jim Cramer Warns Friday's Jobs Report Could 'Repeal' Midterm Rally, Says Elections 'Did Not Upend' Business Cycle: \u2018I Hesitate To Guess Where We Go Next\u2019",
+      "summary": "Jim Cramer warns Friday&#39;s jobs report could &#39;repeal&#39; the midterm rally, arguing elections did not upend the business cycle.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62904858/jim-cramer-warns-fridays-jobs-report-could-repeal-midterm-rally-says-elections-did-not-upend-business-cycle-i-hesitate-to-guess-where-we-go-next",
+      "created_at": "2026-11-05T09:07:28Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Kevin O'Leary Predicts Political U-Turn on AI Data Centers, Says They Will Become a Middle-Class Wealth Engine: 'Resistance is Going to Disappear'",
+      "summary": "Kevin O\u2019Leary predicts opposition to U.S. AI data centers will fade as states embrace high-paying jobs and major power investments.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62904812/kevin-oleary-ai-data-centers-middle-class-wealth-engine-states-embrace-projects",
+      "created_at": "2026-11-05T09:00:02Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "'Microsoft Rejects Multibillion-Dollar AI Deal with UK\u2019s Nscale' - FT",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/62904721/microsoft-rejects-multibillion-dollar-ai-deal-uk-s-nscale-ft",
+      "created_at": "2026-11-05T08:46:49Z"
+    },
+    {
+      "symbols": [
         "AAPL"
       ],
-      "headline": "Apple Reportedly Reduces Employee AI Spending Budgets",
-      "summary": "Apple has reportedly implemented cuts to internal budgets allocated for employee AI spending.",
-      "source": "fiscal.ai",
-      "url": "https://www.marketscreener.com/news/apple-cuts-employee-ai-spending-budgets-ce785fdfde8cf12d",
-      "created_at": "2026-11-05T01:01:58Z"
+      "headline": "Apple\u2019s Slow Breakup With Qualcomm Still Hurts \u2014 China Android Is Rebounding, But Handset Revenue Is Set to Slip as QCOM Raises Prices",
+      "summary": "Qualcomm Inc (NASDAQ: QCOM) said its China Android business hit bottom in the June quarter and has grown sequentially since, but the chipmaker is raising prices, still losing Apple revenue, and facing skepticism over its handset outlook.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62904506/apples-slow-breakup-with-qualcomm-still-hurts-china-android-is-rebounding-but-handset-revenue-is-set-to-slip-as-qcom-raises-prices",
+      "created_at": "2026-11-05T08:23:25Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
+      "summary": "Gary Black warns a Tesla-SpaceX stock merger could dilute Tesla holders, citing losses after Marvell-Lumentum\u2019s premium deal.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62904059/tesla-bulls-could-get-burned-gary-black-sees-trouble-with-spacex-all-stock-merger-warns-24-premium-can-quickly-go-negative",
+      "created_at": "2026-11-05T07:29:23Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Microsoft Is the Last Big Tech Buyback Holdout: Alphabet, Meta, Amazon Go Dark as AI Spending Eats Cash, Says This Market Commentator",
+      "summary": "Big Tech\u2019s era of mega buybacks is giving way to mega AI spending, as companies put their cash into data centers, not their own stock.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62903942/big-tech-stock-buybacks-lowest-since-2017-ai-spending-microsoft-alphabet-meta",
+      "created_at": "2026-11-05T07:14:39Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 41% as Wall Street digests post-midterm gridlock, AI regulations, and market tailwinds.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62903482/stock-market-will-sp-500-open-up-or-down-today-73",
+      "created_at": "2026-11-05T06:34:09Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "TSLA, SPCX Stocks Fall Overnight as Ted Cruz Says Democrats Will \u2018Persecute\u2019 Elon Musk: Ron DeSantis Warns \u2018I Guarantee You They Will Do That\u2019",
+      "summary": "Tesla and SpaceX shares fell overnight as warnings of Democrats making Musk a target begins gathering pace, raising concerns.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62903277/tsla-spcx-stocks-fall-overnight-ted-cruz-desantis-warn-democrats-persecute-elon-musk",
+      "created_at": "2026-11-05T06:03:49Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Cathie Wood Buys $47.4 Million of SpaceX as Democratic Congress Looms Over Elon Musk\u2019s Businesses After Midterms",
+      "summary": "Ark added 348,406 SpaceX shares across three funds and trimmed Alphabet for a second straight session.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62902549/cathie-wood-ark-buys-spacex-elon-musk-midterms",
+      "created_at": "2026-11-05T02:27:27Z"
     },
     {
       "symbols": [
@@ -969,16 +1097,6 @@
       "source": "fiscal.ai",
       "url": "https://www.tradingview.com/news/gurufocus:36533a7da094b:0-meta-stocks-rise-1-77-while-15-billion-bond-deal-adds-a-cash-hurdle/",
       "created_at": "2026-11-04T22:31:45Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft Updates Clarity Analytics Tool with AI Agent Tracking Features",
-      "summary": "Microsoft has introduced three new features to its Clarity analytics platform to help website owners monitor interactions from both human users and AI agents.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-clarity-helps-merchants-welcome-ai-shopping-agents/",
-      "created_at": "2026-11-04T22:31:39Z"
     },
     {
       "symbols": [
@@ -1000,147 +1118,6 @@
       "source": "fiscal.ai",
       "url": "https://www.prnewswire.com/news-releases/fermaca-unveils-nvidia-powered-ai-factory-platform-to-power-mexico-and-latin-america-302929673.html",
       "created_at": "2026-11-04T21:31:40Z"
-    },
-    {
-      "symbols": [
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
-      "summary": "Trump claims record highs after Democrats\u2019 midterm sweep, but no major index set a record; the Dow surged 2.9% while oil fell 7%.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62886507/trump-celebrates-stock-rally-fueled-by-his-own-partys-midterm-defeat",
-      "created_at": "2026-11-04T20:53:11Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "MSFT",
-        "NVDA",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "VTI Vs. SPY: Why Wall Street's Post-Midterm Rally Isn't as Broad as It Looks",
-      "summary": "VTI and SPY rally after Democrats win Congress, but mega-cap tech concentration raises questions about the rally&#39;s breadth.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62885449/vti-vs-spy-why-wall-streets-post-midterm-rally-isnt-as-broad-as-it-looks",
-      "created_at": "2026-11-04T20:27:55Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "MSFT"
-      ],
-      "headline": "From Pharmaceuticals to PCs: HP Bets on Emma Walmsley to Navigate Chip Crisis",
-      "summary": "HP stock rises as former GSK CEO Emma Walmsley is named chief amid soaring memory costs, declining PC shipments and growing AI opportunities.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62885199/from-pharmaceuticals-to-pcs-hp-bets-on-emma-walmsley-to-navigate-chip-crisis",
-      "created_at": "2026-11-04T20:20:49Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Platforms Acquires AI Coding Startup Conductor",
-      "summary": "Meta Platforms has acquired Conductor, an artificial intelligence coding startup that enables software engineers to manage multiple coding agents simultaneously.",
-      "source": "fiscal.ai",
-      "url": "https://www.marketscreener.com/news/meta-platforms-acquires-ai-coding-startup-conductor-ce785fdfde8bf325",
-      "created_at": "2026-11-04T20:02:11Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Trump diesel deal with Russia falters as US fuel supplies hit 20-year low' - Financial Times",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/government/26/11/62884154/trump-diesel-deal-russia-falters-us-fuel-supplies-hit-20-year-low-financial-times",
-      "created_at": "2026-11-04T19:59:53Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "TSLA"
-      ],
-      "headline": "Apple, Tesla Supplier Is Taking on 3M: Here's What Investors Should Know",
-      "summary": "Crown New Materials&#39; blockbuster IPO puts China&#39;s specialty adhesive industry in focus as it competes with 3M and Nitto Denko.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62883254/crown-new-materials-3m",
-      "created_at": "2026-11-04T19:34:09Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Launches Shop Direct Merchant Workspace",
-      "summary": "Amazon has introduced the Shop Direct Merchant Workspace, a new portal designed to help merchants integrate their own stores with Amazon's platform.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/04/3395414/0/en/feedonomics-now-available-in-amazon-s-shop-direct-merchant-workspace-making-it-easier-for-brands-to-get-their-products-in-front-of-amazon-customers.html",
-      "created_at": "2026-11-04T19:01:41Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk \u2018Needs to be Held Accountable\u2019: Tesla Takedown Says \u2018Voters Have Done Their Part, Now Its Congress\u2019 Turn\u2019",
-      "summary": "A Democratic majority in Congress could be bad news for Elon Musk. Tesla Takedown is encouraging DOGE investigations to happen next.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/11/62880177/elon-musk-needs-to-be-held-accountable-tesla-takedown-says-voters-have-done-their-part-now-its-congress-turn",
-      "created_at": "2026-11-04T18:20:24Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive",
-      "created_at": "2026-11-04T18:17:55Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Alphabet Stock Jumps: What's Going On?",
-      "summary": "Alphabet Inc (NASDAQ:GOOG) shares are rebounding Wednesday from the slide that followed last week&#39;s earnings as a broad rally lifts the stock. Here&#39;s what you should know.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62879587/alphabet-stock-jumps-whats-going-on",
-      "created_at": "2026-11-04T18:08:34Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
-      "summary": "Democrats&#39; sweep of Congress lifted hyperscalers and retailers, sank oil and data-center builders, and pulled yields lower.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
-      "created_at": "2026-11-04T17:31:02Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
-      "summary": "\n\n\n\nLook Ahead \u2013 Iran Is The Key\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nAs a reminder, our report is politically",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/11/62876539/why-investors-may-be-getting-the-blue-wave-trade-wrong-iran-remains-the-wild-card",
-      "created_at": "2026-11-04T17:03:06Z"
     }
   ]
 }
