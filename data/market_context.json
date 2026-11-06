@@ -459,14 +459,7 @@
           "Volume 2.0x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "regulatory_legal",
-          "headline": "Beijing Green Forest Certification Approved for Amazon Climate Pledge Friendly Standard",
-          "url": "https://www.streetinsider.com/ACCESS+Newswire/Beijing+Green+Forest+Certification+Approved+to+Certify+Electronics+Under+Amazon-Recognized+Recycled+Content+Standard/27295968.html",
-          "created_at": "2026-11-05T22:31:43Z"
-        }
-      ]
+      "material_news": []
     },
     "NVDA": {
       "latest_close": 181.59,
@@ -612,14 +605,7 @@
           "Price is -2.7 ATRs from SMA20 - stretched. Context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "regulatory_legal",
-          "headline": "Meta, Google, and TikTok Sue to Block California Youth Social Media Law",
-          "url": "https://www.tradingview.com/news/seekingalpha:51f9438f3094b:0-meta-google-and-tiktok-sue-california-over-youth-social-media-law/",
-          "created_at": "2026-11-05T19:01:43Z"
-        }
-      ]
+      "material_news": []
     },
     "TSLA": {
       "latest_close": 343.55,
@@ -974,6 +960,160 @@
   "news": [
     {
       "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed Ahead of October's Jobs Report\u2014 Airbnb, Cloudflare, Lam Research in Focus",
+      "summary": "U.S. stocks were mixed on Friday, with the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moving in different directions.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62968424/stock-market-today-dow-jones-sp-500-futures-trade-mixed-ahead-of-octobers-jobs-report-airbnb-cloudflare-lam-research-in-focus",
+      "created_at": "2026-11-06T10:14:49Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Dan Ives Forecasts 25% Drop In Capital Raises for MSFT, META, GOOGL, AMZN as 2027 CapEx Peak Sets Up \u2018Massive\u2019 Cash Flow Ramp by 2029",
+      "summary": "Dan Ives forecasts a 2027 capex peak and 25% drop in capital raises for MSFT, META, GOOGL &amp; AMZN, sparking a massive FCF ramp by 2029.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62968059/dan-ives-forecasts-25-drop-in-capital-raises-for-msft-meta-googl-amzn-as-2027-capex-peak-sets-up-massive-cash-flow-ramp-by-2029",
+      "created_at": "2026-11-06T09:28:34Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Google, Meta and TikTok Sue California Over Gavin Newsom's Law Restricting Addictive Social Media Features for Children",
+      "summary": "Google, Meta and TikTok sue California to block a new law targeting addictive social media features and protecting children online.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62967810/google-meta-and-tiktok-sue-california-over-gavin-newsoms-law-restricting-addictive-social-media-features-for-children",
+      "created_at": "2026-11-06T09:01:57Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Gets an Overseas Offer for His AI, Data Center Ambitions After Texas Democrats' Midterm Sweep",
+      "summary": "After GOP losses cloud Elon Musk\u2019s Texas AI plans, this country has invited his data centers on one condition.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62967645/elon-musk-gets-an-overseas-offer-for-his-ai-data-center-ambitions-after-texas-democrats-midterm-sweep",
+      "created_at": "2026-11-06T08:36:11Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "NVDA"
+      ],
+      "headline": "$3 Trillion Wiped Out, But This Strategist Says AI's Biggest Problem Isn't Demand: 'Compute Will Become More Scarce'",
+      "summary": "James Thorne said the AI selloff, which erased about $3 trillion from U.S. stocks, reflects heavy leverage and weak sentiment.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62967631/james-thorne-ai-selloff-leverage-slower-spending-compute-scarce",
+      "created_at": "2026-11-06T08:28:53Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Confirms Cybertruck Production Wind-Down at Texas Factory as Tesla Makes Room for Cybercab",
+      "summary": "Tesla will end Cybertruck production in Texas around mid-2027, shifting capacity to Cybercab amid weak sales and missed targets.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62967441/elon-musk-confirms-cybertruck-production-wind-down-at-texas-factory-as-tesla-makes-room-for-cybercab",
+      "created_at": "2026-11-06T08:02:09Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Trump Governed 'Almost Entirely Without Congress,' Justin Wolfers Says: 'The Real Question' Is Who Will Stop Him",
+      "summary": "Economist Justin Wolfers said the midterms sent a message on the economy and will test if Congress will stop Trump, who governs without it.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/11/62967345/economist-justin-wolfers-donald-trump-governed-without-congress-economy-midterms",
+      "created_at": "2026-11-06T07:42:51Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla To Wind Down Cybertruck Production At Gigafactory Texas Around Mid-Next Year To Make Room For Increased Cybercab Production",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/62966983/tesla-wind-down-cybertruck-production-gigafactory-texas-around-mid-next-year-make-room-increased-cyb",
+      "created_at": "2026-11-06T07:09:21Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL"
+      ],
+      "headline": "Robotaxis Aren't Killing Lyft's Business: CEO Says Company Is Growing in AV Markets, Details Waymo Partnership",
+      "summary": "Lyft says robotaxis aren&#39;t hurting growth, focusing on Waymo and Baidu partnerships while expanding autonomous fleets.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/11/62966806/robotaxis-arent-killing-lyfts-business-ceo-says-company-is-growing-in-av-markets-details-waymo-partnership",
+      "created_at": "2026-11-06T06:27:04Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Asian Stocks Tumble After $3 Trillion US Wipeout as SK hynix Leads KOSPI Rout \u2014 Mohamed El-Erian Says 'When the Nasdaq Sneezes...'",
+      "summary": "Asian chipmakers sank Friday as the AI selloff that erased $3 trillion from U.S. stocks spread, on fears Democrats could slow AI buildout.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62966567/asian-stocks-sk-hynix-samsung-electronics-tsmc-nikkei-kospi-nasdaq-selloff",
+      "created_at": "2026-11-06T05:56:19Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds hit 62% as Wall Street eyes jobs data and a tech rebound.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62966566/stock-market-will-sp-500-open-up-or-down-today-74",
+      "created_at": "2026-11-06T05:56:08Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "QQQ",
+        "SMH",
+        "SPY",
+        "TSLA"
+      ],
+      "headline": "Peter Schiff Sees More Pain Ahead After $3 Trillion Wipeout, While Gary Black Spots a Tech Buying Opportunity: 'The Market Has Reset'",
+      "summary": "Peter Schiff warned of further losses after a $3 trillion market rout, while Gary Black saw a buying opportunity in tech stocks.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62966353/peter-schiff-stock-market-gary-black",
+      "created_at": "2026-11-06T05:29:23Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "QQQ",
+        "SMH",
+        "SPY",
+        "TSLA"
+      ],
+      "headline": "Trump Blames 'Dumocrats' as Stock Market Suffers $3 Trillion Rout After Democrats Win Congress: 'Your 401(k)s Have Dropped'",
+      "summary": "Donald Trump blamed Democrats for a rout that erased about $3 trillion from the S&amp;P 500 and handed the Nasdaq 100 its worst day since 2020",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/62965277/donald-trump-democrats-stock-market-selloff-3-trillion-nasdaq-100-midterms",
+      "created_at": "2026-11-06T01:59:15Z"
+    },
+    {
+      "symbols": [
         "MSFT"
       ],
       "headline": "Microsoft Adjusts AI Infrastructure Strategy and Capital Expenditure Outlook",
@@ -984,16 +1124,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "NVIDIA Plans to Convert Telecom Facilities into AI Data Centers",
-      "summary": "NVIDIA is reportedly developing a strategy to repurpose existing telecommunications infrastructure into small-scale AI data centers to accelerate chip deployment and bypass construction hurdles.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/stocktwits:f1672d0bc094b:0-nvidia-eyes-apollo-s-struggling-telecom-sites-to-sidestep-data-center-moratoriums-report/",
-      "created_at": "2026-11-06T00:01:31Z"
-    },
-    {
-      "symbols": [
         "AAPL"
       ],
       "headline": "Apple Completes $7.5 Billion Bond Offering",
@@ -1001,66 +1131,6 @@
       "source": "fiscal.ai",
       "url": "https://www.tradingview.com/news/stocktwits:339036295094b:0-apple-reportedly-set-to-raise-7-5b-from-bond-offering-amid-market-selloff/",
       "created_at": "2026-11-06T00:01:24Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
-      "summary": "Chip stocks posted their worst day since March 2020 as 28 of the 30 stocks in the iShares Semiconductor ETF now trade at least 20% below record highs.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
-      "created_at": "2026-11-05T23:16:48Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Rubio Rejects Reports He Will Leave His Jobs To Run For President; President Trump\u2019s Secretary Of State And National Security Adviser Said He Intended To Stick With The Administration To The End' - NY Times",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62959284/rubio-rejects-reports-he-will-leave-his-jobs-run-president-president-trump-s-secretary-state-and-nat",
-      "created_at": "2026-11-05T22:38:21Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Concentrix Launches New AI Application for Microsoft Dynamics 365",
-      "summary": "Concentrix has released a new AI-powered application for Microsoft Dynamics 365, now available on the Microsoft Marketplace.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396551/0/en/concentrix-brings-agentic-ai-migration-engine-to-microsoft-marketplace.html",
-      "created_at": "2026-11-05T22:31:46Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Announces 2027 Fulfillment Fee Adjustments for Marketplace Sellers",
-      "summary": "Amazon will increase fulfillment fees for U.S. marketplace sellers by an average of 19 cents per item starting in 2027, alongside changes to storage fee structures.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/news/retail/2026/amazon-raises-seller-fees-walmart-expands-drone-delivery/",
-      "created_at": "2026-11-05T22:31:43Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Beijing Green Forest Certification Approved for Amazon Climate Pledge Friendly Standard",
-      "summary": "Beijing Green Forest Certification Co., Ltd. has been approved to certify electronics under Amazon's SCS-103 Annex A standard for recycled content.",
-      "source": "fiscal.ai",
-      "url": "https://www.streetinsider.com/ACCESS+Newswire/Beijing+Green+Forest+Certification+Approved+to+Certify+Electronics+Under+Amazon-Recognized+Recycled+Content+Standard/27295968.html",
-      "created_at": "2026-11-05T22:31:43Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "IREN Says At Microsoft\u2019s Request, We Are Implementing Network Design Change Across Horizon Deployments; Under Microsoft Agreement, Delivery Dates Are Extended, Without Delay Credits, For Delays Resulting From Microsoft-Requested Change; Expect Making Significant Investments For Foreseeable Future, Including Capital Requirements Related To Microsoft & NVIDIA Agreements; Expect Making Significant Investments For Foreseeable Future, Including GPU Acquisitions, Development Of Additional Data Center Capacity",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62957898/iren-says-microsoft-s-request-we-are-implementing-network-design-change-across-horizon-deployments-u",
-      "created_at": "2026-11-05T22:15:29Z"
     },
     {
       "symbols": [
@@ -1076,49 +1146,6 @@
     },
     {
       "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Faces Potential Regulatory Headwinds in Texas Following Election Results",
-      "summary": "Tesla's data center operations in Texas face potential regulatory scrutiny following the election of Gina Hinojosa as governor.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/gurufocus:5b2c56cc2094b:0-elon-musk-faces-a-new-28-5-trillion-problem-after-texas-upset/",
-      "created_at": "2026-11-05T21:32:34Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62953587/glj-research-reiterates-sell-tesla-maintains-24-86-price-target",
-      "created_at": "2026-11-05T21:27:03Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
-      "summary": "Michael Burry questions whether Anthropic\u2019s cloud partners are helping polish expenses and margins ahead of its IPO.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/62948723/michael-burry-asks-whether-anthropics-partners-are-polishing-its-ipo-numbers",
-      "created_at": "2026-11-05T21:02:04Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk's SpaceX Default Risk Hits Record High as Democratic Sweep Adds to AI Rout",
-      "summary": "SpaceX default insurance hit a record high as the AI selloff deepened and Democratic victories added new political risks.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62948387/elon-musks-spacex-default-risk-hits-record-high-as-democratic-sweep-adds-to-ai-rout",
-      "created_at": "2026-11-05T21:00:08Z"
-    },
-    {
-      "symbols": [
         "AAPL",
         "META",
         "MSFT"
@@ -1131,40 +1158,6 @@
     },
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "'Trump-Backed Critical Minerals Deals Face Growing Pressure After Blue Wave' - Bloomberg News",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62947342/trump-backed-critical-minerals-deals-face-growing-pressure-after-blue-wave-bloomberg-news",
-      "created_at": "2026-11-05T20:40:04Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
-      "summary": "AMD CEO Lisa Su dismissed AI spending fears, calling markets short-sighted and reaffirming long-term demand despite the chip sector\u2019s selloff.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
-      "created_at": "2026-11-05T20:32:21Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Rubio Considers Leaving Administration After GOP\u2019s Midterm Loss' - Bloomberg Exclusive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62945061/rubio-considers-leaving-administration-after-gop-s-midterm-loss-bloomberg-exclusive",
-      "created_at": "2026-11-05T19:50:59Z"
-    },
-    {
-      "symbols": [
         "NVDA",
         "SMH"
       ],
@@ -1173,71 +1166,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/equities/26/11/62944321/nvidia-stock-cheaper-than-toilet-paper-company-kimberly-clark-forward-pe",
       "created_at": "2026-11-05T19:36:27Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Google Says Fuel Cells For Wyoming Project Will Be Made In America By Bloom Energy",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/62943516/google-says-fuel-cells-wyoming-project-will-be-made-america-bloom-energy",
-      "created_at": "2026-11-05T19:20:02Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta, Google, and TikTok Sue to Block California Youth Social Media Law",
-      "summary": "Meta, Google, and TikTok have filed lawsuits challenging a California law that restricts online platforms from offering features deemed 'psychologically exploitative' to minors.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/seekingalpha:51f9438f3094b:0-meta-google-and-tiktok-sue-california-over-youth-social-media-law/",
-      "created_at": "2026-11-05T19:01:43Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ"
-      ],
-      "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-      "summary": "Rising U.S. data center bans and a Democratic sweep fueled AI expansion fears, hammering tech, chipmaker and neocloud stocks.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
-      "created_at": "2026-11-05T18:14:20Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "QQQ",
-        "SMH",
-        "TSLA"
-      ],
-      "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
-      "summary": "The AI sell-off deepens after the Democratic midterm sweep, sending the S&amp;P 500 toward its worst day since April 2025 as Nvidia, AMD and Micron sank.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
-      "created_at": "2026-11-05T18:13:10Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
-      "summary": "\n\n\n\nUnrealistic Expectations\n\n\n\nPlease click here for an enlarged chart of State Street Health Care Select Sector SPDR ETF (NYSE:XLV).\n\n\n\nNote the following:\n\n\n\n\nAs a reminder, we are politically agnostic.\u00a0 \n\n\n\nThe momo",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/11/62937968/market-bets-on-democrats-magic-wands-why-you-should-be-skeptical",
-      "created_at": "2026-11-05T17:37:12Z"
     }
   ]
 }
