@@ -372,14 +372,7 @@
           "Price is -2.9 ATRs from SMA20 - stretched. Context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe\u2019s Data Center Site In Southeast Wyoming, Completing Crusoe\u2019s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy",
-          "url": "https://www.benzinga.com/m/26/11/63004829/crusoe-announces-wyoming-data-center-campus-update-google-has-acquired-crusoe-s-data-center-site-sou",
-          "created_at": "2026-11-06T19:02:14Z"
-        }
-      ]
+      "material_news": []
     },
     "AMZN": {
       "latest_close": 259.45,
@@ -664,10 +657,10 @@
       },
       "material_news": [
         {
-          "event": "deal",
-          "headline": "Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63006843/reported-earlier-spacex-tesla-merger-less-likely-after-midterms-texas-gov-requests-pause-land-talks-",
-          "created_at": "2026-11-06T19:35:22Z"
+          "event": "earnings",
+          "headline": "\u2018Another Failure For Tesla\u2019: Ross Gerber Slams Elon Musk Amid Cybertruck Shutdown Plans, Gary Black Calls It a \u2018Missed Opportunity\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63017393/tesla-cybertruck-gerber-black-musk",
+          "created_at": "2026-11-07T06:31:36Z"
         }
       ]
     },
@@ -951,33 +944,95 @@
   "news": [
     {
       "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Takes a Swipe at 'Princes In Palaces,' Says Nobody Wants to 'Bleed' for Leaders Who Stay Behind",
+      "summary": "Elon Musk says leaders must work alongside employees, highlighting his hands-on role at xAI\u2019s Memphis data center.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63017490/elon-musk-leadership-xai-memphis-data-center",
+      "created_at": "2026-11-07T08:17:41Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "\u2018Another Failure For Tesla\u2019: Ross Gerber Slams Elon Musk Amid Cybertruck Shutdown Plans, Gary Black Calls It a \u2018Missed Opportunity\u2019",
+      "summary": "Tesla investors slammed the Cybertruck\u2019s poor sales after Elon Musk announced plans to wind down production by 2027.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63017393/tesla-cybertruck-gerber-black-musk",
+      "created_at": "2026-11-07T06:31:36Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Microsoft Reportedly Looks to Cut Reliance on Some Neocloud Partners, Plans to Prioritize Its Own Data Centers",
+      "summary": "Microsoft is reducing its neocloud partnerships as it expands data centers, raising concerns for AI infrastructure companies and investors.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63017347/microsoft-cuts-neocloud-partners-ai-data-center-expansion",
+      "created_at": "2026-11-07T06:08:27Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk Touts Terafab's Ambitious Goal to Cut Chip Development Time From a Year to a Month: \u2018If You Want to Iterate Fast...\u2019",
+      "summary": "Musk says Austin research chip fab may cut a year-long process to a month.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63017194/elon-musk-touts-terafabs-ambitious-goal-to-cut-chip-development-time-from-a-year-to-a-month-if-you-want-to-iterate-fast",
+      "created_at": "2026-11-07T05:24:55Z"
+    },
+    {
+      "symbols": [
         "META"
       ],
-      "headline": "Meta Expands Muse Personal AI Agent Capabilities",
-      "summary": "Meta has introduced new features including custom planners, trackers, and games to its Muse personal AI agent.",
+      "headline": "OpenAI CFO Sarah Friar Isn't Letting Midterm Voter Backlash Derail AI Data Center Spending, Says Company Will \u2018Build Trust\u2019 With Communities",
+      "summary": "OpenAI CFO Sarah Friar vowed to continue data center investments despite voter backlash and political opposition.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63017146/openai-sarah-friar-data-center-midterms",
+      "created_at": "2026-11-07T04:36:33Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon Doubles Down on Melania Trump Content With New Prime Video Series After $75 Million Documentary: Touts \u2018Never-Before-Told Stories\u2019",
+      "summary": "Amazon will release a two-part Melania Trump series on Prime Video, following its $75 million documentary investment.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/63017093/amazon-melania-trump-two-part-series-prime-video",
+      "created_at": "2026-11-07T03:38:48Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta Launches Voice Chats and Expressive Avatars for Muse App",
+      "summary": "Meta has introduced voice chats and expressive avatars to its Muse app and added Muse Charm to its AI glasses.",
       "source": "fiscal.ai",
-      "url": "https://www.forbesmiddleeast.com/innovation/artificial-intelligence-machine-learning/meta-lets-muse-users-build-custom-spaces-for-planners-trackers-and-games",
-      "created_at": "2026-11-06T21:31:33Z"
+      "url": "https://forbesmiddleeast.com/innovation/artificial-intelligence-machine-learning/meta-lets-muse-users-build-custom-spaces-for-planners-trackers-and-games",
+      "created_at": "2026-11-07T03:01:42Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "headline": "Google, Meta and TikTok Sue California Over Gavin Newsom's Law Restricting Addictive Social Media Features for Children (UPDATED)",
+      "summary": "Google, Meta and TikTok sue California to block a new law targeting addictive social media features and protecting children online.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62967810/google-meta-and-tiktok-sue-california-over-gavin-newsoms-law-restricting-addictive-social-media-features-for-children",
+      "created_at": "2026-11-07T01:06:10Z"
     },
     {
       "symbols": [
         "MSFT"
       ],
-      "headline": "Microsoft to Wind Down AI Computing Rental Agreement with Oracle",
-      "summary": "Microsoft is reportedly concluding its contract to rent AI computing capacity from Oracle as it reevaluates its cloud infrastructure strategy.",
+      "headline": "Microsoft Hosts Financial Services Industry AI Roundtable",
+      "summary": "Microsoft held an AI roundtable in New York City to discuss the integration of artificial intelligence within the financial services sector.",
       "source": "fiscal.ai",
-      "url": "https://www.fidelity.com/news/article/company-news/202611061346MIDNIGHTUSEQUITY_A3748788",
-      "created_at": "2026-11-06T21:31:32Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft Expands Copilot for Finance with New Skills and Partner Plugins",
-      "summary": "Microsoft has introduced over 25 new finance-specific skills and partner-developed plugins for its Copilot AI assistant.",
-      "source": "fiscal.ai",
-      "url": "https://cloudwars.com/ai/microsoft-is-building-copilot-for-finance-with-new-skills-and-industry-specific-plugins/",
-      "created_at": "2026-11-06T21:31:32Z"
+      "url": "https://natlawreview.com/press-releases/cambay-solutions-joins-microsoft-financial-services-ai-roundtable-nyc-ai",
+      "created_at": "2026-11-07T01:01:28Z"
     },
     {
       "symbols": [
@@ -988,16 +1043,6 @@
       "source": "fiscal.ai",
       "url": "https://www.moomoo.com/news/post/1003849998/apple-iphone-wait-times-ease-while-duo-availability-still-in",
       "created_at": "2026-11-06T21:31:30Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value' - Bloomberg News",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63012491/openai-completes-11-billion-portion-funding-1-25-trillion-value-bloomberg-news",
-      "created_at": "2026-11-06T21:01:33Z"
     },
     {
       "symbols": [
@@ -1061,26 +1106,6 @@
     },
     {
       "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk Pardon Request Hits Change.org with Tesla Influencer Sharing: What Investors Should Know",
-      "summary": "Calls to pardon Elon Musk as a way to protect against pressure from Congress are growing.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/11/63006892/elon-musk-pardon-request-hits-change-org-with-tesla-influencer-sharing-what-investors-should-know",
-      "created_at": "2026-11-06T19:35:50Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63006843/reported-earlier-spacex-tesla-merger-less-likely-after-midterms-texas-gov-requests-pause-land-talks-",
-      "created_at": "2026-11-06T19:35:22Z"
-    },
-    {
-      "symbols": [
         "QQQ"
       ],
       "headline": "QQQ Vs. TQQQ: 3X Nasdaq ETFs Compounding Trap Is Costing Investors Big",
@@ -1088,16 +1113,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63005632/qqq-vs-tqqq-3x-nasdaq-etfs-compounding-trap-is-costing-investors-big",
       "created_at": "2026-11-06T19:14:09Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe\u2019s Data Center Site In Southeast Wyoming, Completing Crusoe\u2019s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/m/26/11/63004829/crusoe-announces-wyoming-data-center-campus-update-google-has-acquired-crusoe-s-data-center-site-sou",
-      "created_at": "2026-11-06T19:02:14Z"
     },
     {
       "symbols": [
@@ -1111,18 +1126,6 @@
     },
     {
       "symbols": [
-        "AMZN",
-        "META",
-        "MSFT"
-      ],
-      "headline": "AI Stocks Got Hammered After Midterms, but This Analyst Says the Panic Is Overblown",
-      "summary": "Bernstein calls the AI data center stock drop overblown, forecasting just a 2% to 4% national capacity impact post-elections.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63002288/ai-stocks-got-hammered-after-midterms-but-this-analyst-says-the-panic-is-overblown",
-      "created_at": "2026-11-06T18:25:32Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "\"White House Weighs Executive Order Attaching Terrorist Label To Some Nonprofits; The Order, Which Hasn\u2019t Been Finalized, Would Immediately Suspend Groups\u2019 Tax-Exempt Status\" - WSJ Exclusive",
@@ -1133,16 +1136,6 @@
     },
     {
       "symbols": [
-        "META"
-      ],
-      "headline": "Meta Introduces Spaces Feature In Muse App",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63001345/meta-introduces-spaces-feature-muse-app",
-      "created_at": "2026-11-06T18:12:43Z"
-    },
-    {
-      "symbols": [
         "NVDA"
       ],
       "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
@@ -1150,30 +1143,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63001253/ai-stocks-gpu-demand",
       "created_at": "2026-11-06T18:11:50Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "QQQ",
-        "SMH",
-        "TSLA"
-      ],
-      "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
-      "summary": "Chipmakers bounce in the stock market today after October payrolls smash estimates. Nasdaq 100 eyes its best day since Sept. 21; QQQ gains 2%.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
-      "created_at": "2026-11-06T17:38:16Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "SMH"
-      ],
-      "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
-      "summary": "Chip stocks now trade at a 22% discount to the S&amp;P 500, Bank of America says, after the SOX fell 38% from its June peak. SMH rebounds Friday.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
-      "created_at": "2026-11-06T17:25:01Z"
     }
   ]
 }
