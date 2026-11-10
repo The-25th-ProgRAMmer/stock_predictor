@@ -365,14 +365,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "regulatory_legal",
-          "headline": "Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses",
-          "url": "https://www.benzinga.com/markets/private-markets/26/11/63071430/waymo-faces-fresh-federal-probe-as-robotaxis-keep-blowing-past-stopped-school-buses",
-          "created_at": "2026-11-09T21:23:49Z"
-        }
-      ]
+      "material_news": []
     },
     "AMZN": {
       "latest_close": 266.93,
@@ -516,20 +509,7 @@
           "Volume 5.0x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": [
-        {
-          "event": "regulatory_legal",
-          "headline": "Securities Class Action Lawsuit Filed Against NVIDIA Corporation",
-          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399115/32716/en/nvda-investor-alert-hagens-berman-urges-nvidia-corporation-nasdaq-nvda-investors-with-substantial-losses-to-contact-firm-ahead-of-january-8-2027-lead-plaintiff-deadline.html",
-          "created_at": "2026-11-10T03:01:19Z"
-        },
-        {
-          "event": "regulatory_legal",
-          "headline": "Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy",
-          "url": "https://www.benzinga.com/news/26/11/63075419/shareholders-file-class-action-lawsuit-against-nvidia-and-ceo-concealing-ties-suspected-chinese-spy",
-          "created_at": "2026-11-09T22:28:52Z"
-        }
-      ]
+      "material_news": []
     },
     "META": {
       "latest_close": 641.3,
@@ -948,13 +928,131 @@
   "news": [
     {
       "symbols": [
+        "SPY"
+      ],
+      "headline": "Fed's Waller Said I Don't Think Any Of My Fed Colleagues Think We Are In The Right Place On Rates",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/SPY",
+      "created_at": "2026-11-10T10:24:04Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow, S&P 500 Futures Rise, Nasdaq 100 Futures Fall as Trump Signals Iran War to End \u2018Fairly Soon\u2019 \u2014 CRWV, TTWO, BW In Focus",
+      "summary": "U.S. futures were mixed as Dow and S&amp;P rose, Nasdaq fell. Trump cited Iran peace progress; markets see 82.2% odds of a December Fed hike.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63080302/stock-market-today-dow-sp-500-futures-rise-nasdaq-100-futures-fall-as-trump-signals-iran-war-to-end-fairly-soon-crwv-ttwo-bw-in-focus",
+      "created_at": "2026-11-10T09:56:54Z"
+    },
+    {
+      "symbols": [
+        "SPY"
+      ],
+      "headline": "Fed's Waller Said Fed Staff Analyses Suggest Further Producer Price Increases Ahead, With Potential For A More Persistent Energy Price Shock",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/UNG",
+      "created_at": "2026-11-10T09:56:36Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Kevin O'Leary Calls Texas Political Shift a 'Shockeroo' for AI Investors, Says 'That Capacity Will Go Somewhere Else'",
+      "summary": "O&#39;Leary warns Texas&#39; political shift could disrupt AI investments, but says surging demand for computing power will push companies elsewhere.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63080151/kevin-oleary-texas-political-shift-shockeroo-ai-investors-capacity-move-elsewhere",
+      "created_at": "2026-11-10T09:41:42Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "'This Is Not The Moment To Get Bearish': Morgan Stanley's Mike Wilson Sees Market Correction Nearing End, Stays Selective on Chip Stocks",
+      "summary": "Last week\u2019s crash wiped $3 trillion off the S&amp;P 500, but Morgan Stanley\u2019s Mike Wilson says the correction looks much closer to its end.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63079530/morgan-stanley-mike-wilson-market-done-most-work-correction",
+      "created_at": "2026-11-10T08:35:58Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Lucid CEO Responds to Tesla FSD Comparison, Says Company Is Working With Outside Partners to Bring Hands-Free City Driving In 2027",
+      "summary": "Lucid plans to launch hands-free city driving in 2027 with partners, following its highway rollout, while expanding robotaxi efforts.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63079519/lucid-ceo-responds-to-tesla-fsd-comparison-says-company-is-working-with-outside-partners-to-bring-hands-free-city-driving-in-2027",
+      "created_at": "2026-11-10T08:35:40Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "headline": "'Elon Musk and Michael Miebach to join Trump at Apec in Shenzhen. What about Jensen Huang?' - SCMP",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63079414/elon-musk-and-michael-miebach-join-trump-apec-shenzhen-what-about-jensen-huang-scmp",
+      "created_at": "2026-11-10T08:18:01Z"
+    },
+    {
+      "symbols": [
         "NVDA"
       ],
-      "headline": "Securities Class Action Lawsuit Filed Against NVIDIA Corporation",
-      "summary": "A securities class action lawsuit has been filed against NVIDIA Corporation, with law firms soliciting investors who suffered losses during the specified class period.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399115/32716/en/nvda-investor-alert-hagens-berman-urges-nvidia-corporation-nasdaq-nvda-investors-with-substantial-losses-to-contact-firm-ahead-of-january-8-2027-lead-plaintiff-deadline.html",
-      "created_at": "2026-11-10T03:01:19Z"
+      "headline": "'Moonshot Rents Nvidia\u2019s Top AI Chips in China, Documents Show' - Bloomberg",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63078948/moonshot-rents-nvidia-s-top-ai-chips-china-documents-show-bloomberg",
+      "created_at": "2026-11-10T07:08:28Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Reported Earlier, 'Anthropic\u2019s Nearly $70 Billion IPO Plan Briefly Circulated to Banks, Then Retracted' - Reuters Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63078936/reported-earlier-anthropic-s-nearly-70-billion-ipo-plan-briefly-circulated-banks-then-retracted-reut",
+      "created_at": "2026-11-10T07:07:26Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon Announces Black Friday Week, Cyber Monday Events Will Return November 19-30 With Millions Of Deals, Daily Drops Up To 60% Off",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63078464/amazon-announces-black-friday-week-cyber-monday-events-will-return-november-19-30-millions-deals-dai",
+      "created_at": "2026-11-10T06:22:58Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "NVDA"
+      ],
+      "headline": "Jim Cramer Calls AMD a Winner After 13% Surge, But Warns US Data Center Roadmap Is 'Suspect'",
+      "summary": "Jim Cramer called AMD a winner as shares jumped more than 13%, but warned that a multi-year data center roadmap in the U.S. is now suspect.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63078362/dvanced-micro-devices-stock-surges-jim-cramer-winner-data-center-suspect",
+      "created_at": "2026-11-10T06:05:49Z"
+    },
+    {
+      "symbols": [
+        "META",
+        "NVDA"
+      ],
+      "headline": "Jensen Huang Affair Could Have a Bigger Impact on America's AI Race Than Nvidia, Says Gene Munster: 'Both Democrats and Republicans Will Need to...'",
+      "summary": "Munster said the Huang controversy highlights the need for the U.S. to accelerate AI data center construction.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63077927/gene-munster-jensen-huang-data-center-us-china-ai-race-democrats-republicans",
+      "created_at": "2026-11-10T04:45:06Z"
     },
     {
       "symbols": [
@@ -969,16 +1067,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "'Materially False and Misleading': Nvidia, Jensen Huang Sued Over Alleged Chinese Spy Affair, Shareholder Says NVDA Stock Was 'Artificially Inflated'",
-      "summary": "Nvidia and CEO Jensen Huang were sued over alleged false statements, after Huang admitted a relationship. ",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/63077533/nvidia-jensen-huang-sued-class-action-megaspeed-alice-huang-chinese-spy",
-      "created_at": "2026-11-10T02:14:11Z"
-    },
-    {
-      "symbols": [
         "AAPL"
       ],
       "headline": "Apple Receives Regulatory Clearance for AI Services in China",
@@ -986,16 +1074,6 @@
       "source": "fiscal.ai",
       "url": "https://www.tradingview.com/news/gurufocus:5a33038c4094b:0-apple-clears-major-hurdle-as-ai-push-gains-momentum/",
       "created_at": "2026-11-10T01:01:34Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63075419/shareholders-file-class-action-lawsuit-against-nvidia-and-ceo-concealing-ties-suspected-chinese-spy",
-      "created_at": "2026-11-09T22:28:52Z"
     },
     {
       "symbols": [
@@ -1010,26 +1088,6 @@
     },
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "Bitcoin\u2019s \u2018Glory Days Are Over,\u2019 Bloomberg Expert Says as Bulls Push Back",
-      "summary": "Mike McGlone says Bitcoin\u2019s \u201cglory days are over,\u201d while Kyle Reidhead sees resilience and an early-stage bull market.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63073903/bitcoins-glory-days-are-over-bloomberg-expert-says-as-bulls-push-back",
-      "created_at": "2026-11-09T22:00:06Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "President Trump Says Seeing Positive Momentum Toward An End To Iran Conflict; Much Was Discussed With Qatar With Respect To Iran",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63072145/president-trump-says-seeing-positive-momentum-toward-end-iran-conflict-much-was-discussed-qatar-resp",
-      "created_at": "2026-11-09T21:33:42Z"
-    },
-    {
-      "symbols": [
         "MSFT"
       ],
       "headline": "Microsoft and Northern Trust Expand AI Collaboration",
@@ -1040,26 +1098,6 @@
     },
     {
       "symbols": [
-        "GOOGL"
-      ],
-      "headline": "Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses",
-      "summary": "Waymo is facing a new federal probe after its robotaxis continued passing stopped school buses despite a software fix.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/private-markets/26/11/63071430/waymo-faces-fresh-federal-probe-as-robotaxis-keep-blowing-past-stopped-school-buses",
-      "created_at": "2026-11-09T21:23:49Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Elon Musk Goes From SNL Host to Joke Punchline: \u2018My Car Did a Flip\u2019",
-      "summary": "\u201cSaturday Night Live\u201d mocked Elon Musk\u2019s midterm losses on \u201cWeekend Update,\u201d and Katie Miller called the sketch a \u201cpolitical hit job.\u201d",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/entertainment/26/11/63067723/elon-musk-goes-from-snl-host-to-joke-punchline-my-car-did-a-flip",
-      "created_at": "2026-11-09T20:54:46Z"
-    },
-    {
-      "symbols": [
         "AAPL"
       ],
       "headline": "$1000 Invested In Apple 10 Years Ago Would Be Worth This Much Today",
@@ -1067,77 +1105,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/11/63064828/1000-invested-apple-10-years-ago-would-be-worth-much-today",
       "created_at": "2026-11-09T20:15:20Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "JPMorgan Names Amazon a Top AI Pick, Citing AWS Growth Projections",
-      "summary": "JPMorgan designated Amazon as a top artificial intelligence pick on its Analyst Focus List, highlighting expectations for significant AWS revenue growth.",
-      "source": "fiscal.ai",
-      "url": "https://www.barchart.com/story/news/8737564/why-amazon-amzn-stock-is-up-today",
-      "created_at": "2026-11-09T20:01:43Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Platforms Rolls Out AI Age-Estimation Technology Globally In Teen Account Protections On Instagram",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63063574/meta-platforms-rolls-out-ai-age-estimation-technology-globally-teen-account-protections-instagram",
-      "created_at": "2026-11-09T19:57:18Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "NVDA"
-      ],
-      "headline": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
-      "summary": "AMD is supplying EPYC processors for Google\u2019s new TPU system as the search giant expands its challenge to Nvidia.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu",
-      "created_at": "2026-11-09T19:16:48Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Announces 'Early Haul-iday' Event and Expansion of Haul Marketplace",
-      "summary": "Amazon is celebrating the second anniversary of its 'Haul' discount store with a week-long promotional event and a significant expansion of its product selection.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/commerce/2026/amazon-haul-launches-pre-holiday-deals-as-users-jump-350percent/",
-      "created_at": "2026-11-09T19:01:41Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "JPMorgan Adds Meta Platforms to Analyst Focus List",
-      "summary": "JPMorgan has added Meta Platforms, Inc. to its Analyst Focus List, citing strong momentum in AI-driven advertising.",
-      "source": "fiscal.ai",
-      "url": "https://www.tradingview.com/news/stocktwits:c083f9213094b:0-meta-amzn-stocks-jump-as-jpmorgan-picks-pair-over-alphabet-sees-stronger-ai-returns-cloud-growth/",
-      "created_at": "2026-11-09T19:01:39Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Expands AI-Powered Age Estimation Technology Globally",
-      "summary": "Meta is rolling out its AI-based age-estimation tools worldwide to identify and protect teenagers who have registered with adult birthdays.",
-      "source": "fiscal.ai",
-      "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-expands-instagram-ai-age-detection-worldwide-even-for-teens-using-adult-birthdays",
-      "created_at": "2026-11-09T19:01:39Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Announces Multiyear Investment in T\u00fcrkiye",
-      "summary": "Apple is launching a multiyear investment in T\u00fcrkiye, including the establishment of new Developer Academies, a Developer Center, and a Manufacturing Academy.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/5nzgplq/",
-      "created_at": "2026-11-09T19:01:34Z"
     }
   ]
 }
