@@ -1,0 +1,81 @@
+==============================================================================
+DAILY REVIEW - 2026-11-09
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-11-10: $98,438.32  (-1.56%, -31% of the way)
+  Peak $99,999.88, now -1.56% from peak
+  Goal window closed $6,561.68 short.
+
+TRADES CLOSED:
+  Since 2026-11-09: no closed trades yet
+  October to date: 12 closed, 2 profitable / 10 not (17% win rate), net $-1,599.29
+    avg win  $+181.04
+    avg loss $-196.14
+    profit factor 0.18 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+    2026-10-09  AMZN   short stop      held 3s  $  -101.97 (-2.35%)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+    2026-10-16  META   long  stop      held 8s  $  -195.30 (-4.40%)
+    2026-10-19  AMZN   short stop      held 0s  $  -208.08 (-2.39%)
+    2026-10-21  SMH    short stop      held 1s  $  -190.55 (-3.20%)
+    2026-10-22  NVDA   short target    held 1s  $  +206.40 (+2.60%)
+    2026-10-30  NVDA   short target    held 3s  $  +155.68 (+4.46%)
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 4/10 = 40%
+Baseline 'always up': 90%
+Your edge vs always_up: -50%
+
+CORRECT (4):
+  AAPL   called up  @52%  -> up   (+2.37%)
+    Close ($342.41) is slightly below SMA20 ($343.46) but above SMA50 ($336.06), wit
+  AMZN   called up  @52%  -> up   (+2.88%)
+    Close ($259.45) is above both SMA20 ($254.34) and SMA50 ($253.97), with SMA20 ab
+  MSFT   called up  @52%  -> up   (+2.76%)
+    Close ($530.58) is marginally below SMA20 ($531.55) but above SMA50 ($516.68), w
+  NVDA   called down@50%  -> down (-4.32%)
+    Close ($186.70) is below both SMA20 ($211.57) and SMA50 ($219.79), with SMA20 be
+
+WRONG (6):
+  GOOGL  called down@50%  -> up   (+1.20%)
+    Signals: close<SMA20<SMA50 (net -3/3), RSI14 29.8 (oversold, context only)
+    Close ($284.72) is below SMA20 ($317.44) and SMA50 ($332.90), with SMA20 below S
+  META   called down@50%  -> up   (+5.11%)
+    Signals: close<SMA20<SMA50 (net -3/3), RSI14 36.6, MACD hist -5.83
+    Close ($610.12) is below both SMA20 ($662.68) and SMA50 ($674.76), with SMA20 be
+  QQQ    called down@50%  -> up   (+3.42%)
+    Signals: close<SMA20<SMA50 (net -3/3), RSI14 31.1, MACD hist -6.61
+    Close ($656.31) is below SMA20 ($707.68) and SMA50 ($720.76), with SMA20 below S
+  SMH    called down@50%  -> up   (+5.09%)
+    Signals: close<SMA20<SMA50 (net -3/3), relative volume 1.95x (context only)
+    Close ($463.71) is below both SMA20 ($536.85) and SMA50 ($565.58), with SMA20 be
+  SPY    called down@50%  -> up   (+2.36%)
+    Signals: close<SMA20<SMA50 (net -3/3), RSI14 35.0, MACD hist -3.44
+    Close ($735.40) sits below both SMA20 ($763.39) and SMA50 ($765.15), with SMA20 
+  TSLA   called down@50%  -> up   (+5.50%)
+    Signals: close<SMA20, close<SMA50, SMA20>SMA50 (net -1/3), negative Cybertruck/earnings headline agrees with call
+    Close ($358.21) is below SMA20 ($380.43) and SMA50 ($372.14), though SMA20 is ab
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - close<SMA20, close>SMA50, SMA20>SMA50 (net +1/3): 2/4 correct predictions
+    - RSI14 51.5: 1/4 correct predictions
+    - RSI14 52.1: 1/4 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - close<SMA20<SMA50 (net -3/3): 5/6 wrong predictions
+    - RSI14 35.0, MACD hist -3.44: 1/6 wrong predictions
+    - RSI14 31.1, MACD hist -6.61: 1/6 wrong predictions
+  Biggest magnitude misses:
+    - META: called down, actual up (+5.11%)
+    - TSLA: called down, actual up (+5.50%)
+
+==============================================================================
