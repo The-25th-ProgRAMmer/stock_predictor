@@ -509,7 +509,14 @@
           "Volume 3.1x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "corporate",
+          "headline": "Chuck Schumer Blasts Trump Over Nvidia CEO Jensen Huang\u2019s Alleged China Spy Ties Despite Intelligence Warning a Year Ago: \u2018What a Dereliction of Duty\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63131521/schumer-trump-huang-china-spy-allegations",
+          "created_at": "2026-11-11T08:41:41Z"
+        }
+      ]
     },
     "META": {
       "latest_close": 641.43,
@@ -649,7 +656,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "regulatory_legal",
+          "headline": "Elon Musk\u2019s \u2018Funding Secured\u2019 Post to Take Tesla Private Still Cost Him 8 Years Later: SEC Moves to Close Payout to TSLA Investors",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63131695/elon-musks-funding-secured-post-to-take-tesla-private-still-cost-him-8-years-later-sec-moves-to-close-payout-to-tsla-investors",
+          "created_at": "2026-11-11T09:01:26Z"
+        }
+      ]
     },
     "SMH": {
       "latest_close": 483.76,
@@ -719,14 +733,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "Chip ETFs Earnings Doubled In A Year. Their P/E Fell From 40x To 25x.",
-          "url": "https://www.benzinga.com/opinion/26/11/63123868/chip-etfs-earnings-doubled-in-a-year-their-p-e-fell-from-40x-to-25x",
-          "created_at": "2026-11-10T21:21:38Z"
-        }
-      ]
+      "material_news": []
     }
   },
   "context_data": {
@@ -935,6 +942,156 @@
   "news": [
     {
       "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Bessent Urges US-China to 'De-Risk' \u2014 CRWV, RGTI, FNV in Focus",
+      "summary": "U.S. stock futures rose on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices advanced, following Tuesday&#39;s lower close.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63132394/stock-market-today-dow-jones-sp-500-futures-rise-as-bessent-urges-us-china-to-de-risk-crwv-rgti-fnv-in-focus",
+      "created_at": "2026-11-11T10:16:37Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Anthropic Expands Claude's Workplace Arsenal to Rival Google and Microsoft: What Its New AI Tools Can Do Differently",
+      "summary": "On Tuesday, AI startup Anthropic added AI-powered workplace tools to Claude to compete with Google and Microsoft.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63132158/anthropic-claude-workplace-tools-google-microsoft",
+      "created_at": "2026-11-11T09:59:06Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "SPY"
+      ],
+      "headline": "Reuters Reported Earlier, People's Liberation Army-Linked Chinese University Bought Nvidia H200 Chips Despite US Blacklist",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63132097/reuters-reported-earlier-people-s-liberation-army-linked-chinese-university-bought-nvidia-h200-chips",
+      "created_at": "2026-11-11T09:44:55Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Elon Musk\u2019s \u2018Funding Secured\u2019 Post to Take Tesla Private Still Cost Him 8 Years Later: SEC Moves to Close Payout to TSLA Investors",
+      "summary": "The SEC is closing Elon Musk&#39;s 2018 &#39;funding secured&#39; settlement fund after distributing $41.5 million to eligible Tesla investors.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63131695/elon-musks-funding-secured-post-to-take-tesla-private-still-cost-him-8-years-later-sec-moves-to-close-payout-to-tsla-investors",
+      "created_at": "2026-11-11T09:01:26Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "Chuck Schumer Blasts Trump Over Nvidia CEO Jensen Huang\u2019s Alleged China Spy Ties Despite Intelligence Warning a Year Ago: \u2018What a Dereliction of Duty\u2019",
+      "summary": "Schumer accused Trump of ignoring warnings about Huang\u2019s alleged China spy ties, while Schiff demanded a congressional probe.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63131521/schumer-trump-huang-china-spy-allegations",
+      "created_at": "2026-11-11T08:41:41Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "Micron (MU) Stock Is Trending Pre-Market: Here\u2019s What You Should Know",
+      "summary": "Micron shares rise 1.5% premarket as the company joins a $26 billion investor group backing Anthropic&#39;s IPO.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63131455/micron-shares-rise-premarket-anthropic-ipo-investment",
+      "created_at": "2026-11-11T08:29:13Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "\u2018Sinking Under Water\u2019: Americans Feel the Inflation Squeeze as Prices Outpace Wage Growth, Economist Says \u2014 Warns 50-Basis-Point Fed Hike Is Back on the Table",
+      "summary": "October CPI outpaces wages, leaving workers &#39;sinking under water,&#39; says Justin Wolfers. Experts warn of a Fed rate hike.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/economic-data/26/11/63131120/sinking-under-water-americans-feel-the-inflation-squeeze-as-prices-outpace-wage-growth-economist-says-warns-50-basis-point-fed-hike-is-back-on-the-table",
+      "created_at": "2026-11-11T07:45:22Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Reported Earlier, Alphabet Mandates HSBC, JP Morgan As Joint Global Coordinators For Potential Inaugural HKD, SGD Bond Offering, Term Sheet Shows",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63130998/reported-earlier-alphabet-mandates-hsbc-jp-morgan-joint-global-coordinators-potential-inaugural-hkd-",
+      "created_at": "2026-11-11T07:42:16Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla May Be Done With Cybertruck, but This Company Wants to Keep It Alive \u2014 and Ross Gerber Is on Board",
+      "summary": "Unplugged Tesla offers to take over Tesla\u2019s Cybertruck line, build a three-row CyberSUV as Tesla pivots to Cybercab production.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63130810/tesla-may-be-done-with-cybertruck-but-this-company-wants-to-keep-it-alive-and-ross-gerber-is-on-board",
+      "created_at": "2026-11-11T07:07:40Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds hit 83% as Wall Street rides a massive tech rally, weighs Iran diplomacy, and eyes a Fed rate hike.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63130550/stock-market-will-sp-500-open-up-or-down-today-75",
+      "created_at": "2026-11-11T06:19:23Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "TSLA"
+      ],
+      "headline": "\u2018That\u2019s The Bet\u2019: Palmer Luckey Backs Elon Musk\u2019s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas",
+      "summary": "Tesla\u2019s Texas Robotaxi fleet surpassed Waymo with 1,302 vehicles as Palmer Luckey touted a $150B+ Robotaxi opportunity.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63130557/thats-the-bet-palmer-luckey-backs-elon-musks-150-billion-robotaxi-ambitions-as-tesla-tops-waymo-in-texas",
+      "created_at": "2026-11-11T06:19:42Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "headline": "TSMC Stock Is Trending After Hours As Chipmaker Plans Up To $1 Billion Bet On Anthropic, OpenAI",
+      "summary": "TSMC shares rise 1.54% after hours as the chipmaker approves up to $1 billion in investments in Anthropic and OpenAI.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63129980/tsmc-shares-rise-after-hours-anthropic-openai-investment",
+      "created_at": "2026-11-11T04:01:42Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple to Shut Down Support Community Forums on November 20",
+      "summary": "Apple is closing its long-running Support Community forums, with the site transitioning to a read-only state before its final shutdown.",
+      "source": "fiscal.ai",
+      "url": "https://appleosophy.com/wire/3qyakii/",
+      "created_at": "2026-11-11T03:01:24Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Cathie Wood Sells Tesla\u2019s Chinese Rival BYD, Buys $6.3 Million of Air Taxi Stock Archer",
+      "summary": "Cathie Wood\u2019s Ark Invest added Rocket Lab and Archer Aviation while trimming its BYD, Palantir and Amazon stakes on Tuesday.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63129838/cathie-wood-sells-teslas-chinese-rival-byd-buys-6-3-million-of-air-taxi-stock-archer",
+      "created_at": "2026-11-11T02:56:49Z"
+    },
+    {
+      "symbols": [
         "AAPL"
       ],
       "headline": "Apple Adds Sign Language Interpretation to Apple TV Originals",
@@ -955,58 +1112,6 @@
     },
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "Fed\u2019s Paulson Said Exact Path Of Rate Policy Depends On How Economy Evolves; Monetary Policy Needs To Be Somewhat Restrictive",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-10T23:57:12Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Philadelphia Fed President Paulson, Speaking At  81st Annual Field Meeting Capstone, Said Further Gradual Rate Hikes Appropriate Given High Inflation; Fed Will Move More Aggressively If Inflation Landscape Worsens",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-10T23:54:46Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Fed\u2019s Goolsbee On PBS NewsHour: We Have A Real Inflation Issue That Must Be Addressed",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-10T23:48:37Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "The Musk Midterms Trade: SPCX Flat, TSLA Drops 5% but DOGE Plunges 7%",
-      "summary": "Dogecoin falls 7% since the midterms, trailing SpaceX and Tesla as Musk-linked stocks rebound while crypto lacks a catalyst.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63128576/the-musk-midterms-trade-spcx-flat-tsla-drops-5-but-doge-plunges-7",
-      "created_at": "2026-11-10T23:10:07Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead",
-      "summary": "Microsoft briefly overtook Nvidia after a $1.8 trillion valuation gap vanished amid Jensen Huang\u2019s affair-driven selloff.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63128428/microsoft-overtakes-nvidia",
-      "created_at": "2026-11-10T23:00:16Z"
-    },
-    {
-      "symbols": [
         "AMZN"
       ],
       "headline": "Amazon Web Services Launches $100 Million Health Impact Initiative",
@@ -1024,111 +1129,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/11/63127660/100-invested-vaneck-semiconductor-etf-5-years-ago-would-be-worth-much-today",
       "created_at": "2026-11-10T22:31:29Z"
-    },
-    {
-      "symbols": [
-        "SMH"
-      ],
-      "headline": "Chip ETFs Earnings Doubled In A Year. Their P/E Fell From 40x To 25x.",
-      "summary": "Chip ETFs SMH and SOXX had their worst day since 2020, but in a year their earnings more than doubled and their P/E fell from 40x to about 25x.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/11/63123868/chip-etfs-earnings-doubled-in-a-year-their-p-e-fell-from-40x-to-25x",
-      "created_at": "2026-11-10T21:21:38Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "'OpenAI Revenue Jumps to $10B in Third Quarter'- The Information",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63123069/openai-revenue-jumps-10b-third-quarter-information",
-      "created_at": "2026-11-10T21:14:22Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Jensen Huang\u2019s Love Life Just Made Nvidia the Dow\u2019s Cheapest Stock",
-      "summary": "Nvidia\u2019s forward P/E fell to a Dow-low 10.64 after CEO Jensen Huang\u2019s affair and spy probe triggered a selloff despite strong growth.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63122164/jensen-huangs-love-life-just-made-nvidia-the-dows-cheapest-stock",
-      "created_at": "2026-11-10T21:06:17Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Semiconductor Rally Defies Nvidia Scandal; Hot CPI; CoreWeave Earnings Ahead",
-      "summary": "\n\n\n\nA Powerful Edge\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors reflect the AI trade, and SOXL is the momo crowd\u2019s",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/11/63121292/semiconductor-rally-defies-nvidia-scandal-hot-cpi-coreweave-earnings-ahead",
-      "created_at": "2026-11-10T21:00:21Z"
-    },
-    {
-      "symbols": [
-        "GOOGL"
-      ],
-      "headline": "SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast",
-      "summary": "Deutsche Bank says tighter data-center rules could benefit SpaceX by keeping compute scarce and supporting higher prices.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63121272/spacex-data-center-crackdown",
-      "created_at": "2026-11-10T21:00:07Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Anthropic IPO Pricing Impresses Dan Ives: 'A Deal of This Size Gets One Shot at Its Debut'",
-      "summary": "The Anthropic IPO could create optimism for the technology sector. Here&#39;s one analyst&#39;s take on the positives.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63119292/anthropic-ipo-pricing-impresses-dan-ives-a-deal-of-this-size-gets-one-shot-at-its-debut",
-      "created_at": "2026-11-10T20:28:33Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Executives Explain Removal of Opening Sunroof in Model Y L",
-      "summary": "Tesla's design and engineering leadership detailed the rationale behind omitting the opening sunroof feature in the new Model Y L, citing data-driven insights on customer usage and mechanical complexity.",
-      "source": "fiscal.ai",
-      "url": "https://www.businessinsider.com/tesla-killing-off-sunroof-option-model-y-2026-11",
-      "created_at": "2026-11-10T20:01:54Z"
-    },
-    {
-      "symbols": [
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
-      "summary": "Hotter October CPI pushed the 10-year Treasury yield to 5% and the 2-year up 17 basis points, while Nvidia&#39;s slide weighed on the Nasdaq 100.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
-      "created_at": "2026-11-10T20:00:07Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "NVDA"
-      ],
-      "headline": "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019",
-      "summary": "AMD rallied as chip analyst Jay Goldberg praised Lisa Su\u2019s execution and supply strategy while Nvidia shares slipped.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63115849/amd-lisa-su",
-      "created_at": "2026-11-10T19:30:08Z"
     }
   ]
 }
