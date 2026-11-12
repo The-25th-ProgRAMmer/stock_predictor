@@ -85,14 +85,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "corporate",
-          "headline": "The Washington Post Reported White House Not Intervening In NVIDIA Board Decision Regarding CEO Jensen Huang",
-          "url": "https://www.benzinga.com/news/26/11/63171413/washington-post-reported-white-house-not-intervening-nvidia-board-decision-regarding-ceo-jensen-huan",
-          "created_at": "2026-11-12T00:58:38Z"
-        }
-      ]
+      "material_news": []
     },
     "QQQ": {
       "latest_close": 690.4,
@@ -165,45 +158,45 @@
       "material_news": []
     },
     "AAPL": {
-      "latest_close": 355.78,
-      "prev_close": 348.49,
+      "latest_close": 355.51,
+      "prev_close": 348.23,
       "prev_day_direction": "up",
-      "prev_day_pct": 2.092,
+      "prev_day_pct": 2.091,
       "pct_5d": 1.781,
       "pct_20d": 3.723,
       "indicators": {
-        "sma20": 344.93,
-        "sma50": 337.91,
+        "sma20": 344.66,
+        "sma50": 337.66,
         "close_vs_sma20_pct": 3.147,
         "close_vs_sma50_pct": 5.288,
         "sma20_vs_sma50": "above",
         "rsi14": 60.56,
-        "macd_hist": 0.4867,
-        "atr14_pct_of_close": 2.517
+        "macd_hist": 0.4862,
+        "atr14_pct_of_close": 2.516
       },
       "last_3_days": [
         {
           "t": "2026-11-09",
-          "o": 345.0,
-          "h": 352.28,
-          "l": 344.78,
-          "c": 350.53,
+          "o": 344.74,
+          "h": 352.01,
+          "l": 344.52,
+          "c": 350.26,
           "v": 1438187
         },
         {
           "t": "2026-11-10",
-          "o": 351.44,
-          "h": 353.79,
-          "l": 346.47,
-          "c": 348.49,
+          "o": 351.17,
+          "h": 353.52,
+          "l": 346.21,
+          "c": 348.23,
           "v": 1256844
         },
         {
           "t": "2026-11-11",
-          "o": 349.54,
-          "h": 355.9,
-          "l": 349.32,
-          "c": 355.78,
+          "o": 349.27,
+          "h": 355.63,
+          "l": 349.06,
+          "c": 355.51,
           "v": 1133672
         }
       ],
@@ -218,8 +211,8 @@
           "sma20_vs_sma50": 1
         },
         "evidence": {
-          "sma20": 344.93,
-          "sma50": 337.91,
+          "sma20": 344.66,
+          "sma50": 337.66,
           "sma50_slope_10d_pct": 1.856,
           "rsi14": 60.6,
           "stretch_atr_from_sma20": 1.21,
@@ -232,7 +225,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "corporate",
+          "headline": "Tim Cook as Nvidia CEO? Kalshi Bettors See These Names as Top Replacement Bets for Scandal-Embroiled Jensen Huang",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63171801/tim-cook-nvidia-ceo-jensen-huang-kalshi-prediction-market",
+          "created_at": "2026-11-12T04:08:09Z"
+        }
+      ]
     },
     "MSFT": {
       "latest_close": 520.63,
@@ -442,14 +442,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "regulatory_legal",
-          "headline": "Court Grants Class Certification in Amazon Photos Biometric Privacy Lawsuit",
-          "url": "https://www.globenewswire.com/news-release/2026/11/11/3401049/0/en/wexler-boley-elgersma-announces-court-certification-of-class-action-against-amazon-over-alleged-collection-of-biometric-data-through-amazon-photos.html",
-          "created_at": "2026-11-11T21:31:33Z"
-        }
-      ]
+      "material_news": []
     },
     "NVDA": {
       "latest_close": 173.85,
@@ -526,9 +519,9 @@
       "material_news": [
         {
           "event": "corporate",
-          "headline": "The Washington Post Reported White House Not Intervening In NVIDIA Board Decision Regarding CEO Jensen Huang",
-          "url": "https://www.benzinga.com/news/26/11/63171413/washington-post-reported-white-house-not-intervening-nvidia-board-decision-regarding-ceo-jensen-huan",
-          "created_at": "2026-11-12T00:58:38Z"
+          "headline": "Tim Cook as Nvidia CEO? Kalshi Bettors See These Names as Top Replacement Bets for Scandal-Embroiled Jensen Huang",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63171801/tim-cook-nvidia-ceo-jensen-huang-kalshi-prediction-market",
+          "created_at": "2026-11-12T04:08:09Z"
         }
       ]
     },
@@ -672,10 +665,10 @@
       },
       "material_news": [
         {
-          "event": "regulatory_legal",
-          "headline": "SEC Completes Distribution of Fair Fund from 2018 Tesla Settlement",
-          "url": "https://www.manilatimes.net/2026/11/12/business/foreign-business/closure-of-musk-tesla-settlement-fund-sought/2467800",
-          "created_at": "2026-11-11T20:01:20Z"
+          "event": "corporate",
+          "headline": "Porsche CEO Takes a Swipe at Elon Musk\u2019s Flying Tesla Roadster: \u2018We Want to Steer Clear of Effects and Shows\u2019",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63174269/porsche-ceo-takes-a-swipe-at-elon-musks-flying-tesla-roadster-we-want-to-steer-clear-of-effects-and-shows",
+          "created_at": "2026-11-12T10:27:25Z"
         }
       ]
     },
@@ -885,7 +878,7 @@
       "n": 7,
       "up_today": 4,
       "above_sma20": 3,
-      "median_move_pct": 2.092
+      "median_move_pct": 2.091
     },
     "semi_breadth": {
       "n": 6,
@@ -956,13 +949,158 @@
   "news": [
     {
       "symbols": [
+        "GOOGL",
+        "MSFT"
+      ],
+      "headline": "Coinbase CEO Says AI Agents Are Sending Hundreds of Feature Requests Daily, With Some Updates Live in Under 24 Hours",
+      "summary": "Coinbase CEO Brian Armstrong says AI agents submit hundreds of daily feature requests, with some becoming production updates within 24 hours.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63174427/coinbase-ceo-says-ai-agents-are-sending-hundreds-of-feature-requests-daily-with-some-updates-live-in-under-24-hours",
+      "created_at": "2026-11-12T10:42:11Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "SPY"
+      ],
+      "headline": "Megaspeed In A Statement Thursday, Said The Company \"Has Cooperated With Inspections By The U.S. Department Of Commerce\u2019s Bureau Of Industry And Security (BIS) And Stands Ready To Cooperate Fully With Any Other Relevant U.S. Government Authority\"",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/FXI",
+      "created_at": "2026-11-12T10:41:49Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang\u2019s Future \u2014 CRWV, TTEK, FNV in Focus",
+      "summary": "U.S. stock futures were mixed on Thursday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices diverged, following Wednesday&#39;s higher close.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63174263/stock-market-today-nvda-rout-drags-nasdaq-sp-500-futures-lower-as-nvidia-board-weighs-jensen-huangs-future-crwv-ttek-fnv-in-focus",
+      "created_at": "2026-11-12T10:26:55Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Porsche CEO Takes a Swipe at Elon Musk\u2019s Flying Tesla Roadster: \u2018We Want to Steer Clear of Effects and Shows\u2019",
+      "summary": "Porsche\u2019s CEO criticized Tesla\u2019s flying Roadster spectacle, favoring engineering, as Tesla targets 2028 production.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63174269/porsche-ceo-takes-a-swipe-at-elon-musks-flying-tesla-roadster-we-want-to-steer-clear-of-effects-and-shows",
+      "created_at": "2026-11-12T10:27:25Z"
+    },
+    {
+      "symbols": [
         "NVDA"
       ],
-      "headline": "Jensen Huang Heat Intensifies As Taiwan Revokes Entry for Alleged Spy Who Slipped In On Hong Kong Passport",
-      "summary": "Taiwan revoked the entry permit of a woman accused of spying for China and linked to Nvidia CEO Jensen Huang.",
+      "headline": "Why Is Alibaba Stock Falling Thursday?",
+      "summary": "Alibaba (BABA) stock falls nearly 5% premarket as U.S. scrutiny over NVIDIA AI chip access weighs on shares ahead of Nov. 19 earnings.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/63171508/taiwan-china-spy-jensen-huang-permit",
-      "created_at": "2026-11-12T01:44:54Z"
+      "url": "https://www.benzinga.com/markets/tech/26/11/63174214/why-is-alibaba-stock-falling-thursday",
+      "created_at": "2026-11-12T10:16:45Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META"
+      ],
+      "headline": "United Airlines Blocks AI Agents From Booking Flights as Analyst Says Carrier Wants to Avoid Another Google-Like Intermediary",
+      "summary": "United Airlines bans AI agents from booking flights, but an analyst warns the carrier wants to avoid another powerful middleman like Google.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/travel/26/11/63174130/united-airlines-blocks-ai-agents-from-booking-flights-as-analyst-says-carrier-wants-to-avoid-another-google-like-intermediary",
+      "created_at": "2026-11-12T10:15:52Z"
+    },
+    {
+      "symbols": [
+        "GOOGL",
+        "META"
+      ],
+      "headline": "Sundar Pichai Says \u2018Every Cell In Our Body Shares the Same DNA Blueprint\u2019 as Google DeepMind Unveils AlphaGenome 2 Amid Drugmakers' AI Skepticism",
+      "summary": "Google DeepMind&#39;s AlphaGenome 2 predicts cell-specific DNA effects, helping researchers investigate disease-linked genetic changes.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63173368/sundar-pichai-says-every-cell-in-our-body-shares-the-same-dna-blueprint-as-google-deepmind-unveils-alphagenome-2-amid-drugmakers-ai-skepticism",
+      "created_at": "2026-11-12T08:29:42Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Scott Bessent Confronts Lutnick Over Failure to Flag Nvidia Customer Megaspeed as Trump Backs Fresh China Chip Crackdown: Report",
+      "summary": "Treasury Secretary Scott Bessent reportedly challenged Commerce Secretary Howard Lutnick over why Nvidia Corp. (NASDAQ:NVDA) customer Megaspeed remains absent from a national security export-control list amid",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/63173108/scott-bessent-confronts-lutnick-over-failure-to-flag-nvidia-customer-megaspeed-as-trump-backs-fresh-china-chip-crackdown-report",
+      "created_at": "2026-11-12T07:56:03Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "SPY"
+      ],
+      "headline": "Reported Earlier, 'Top Democrats Target Trump Administration\u2019s Nvidia-China Records' - WSJ Exclusive",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63172919/reported-earlier-top-democrats-target-trump-administration-s-nvidia-china-records-wsj-exclusive",
+      "created_at": "2026-11-12T07:40:09Z"
+    },
+    {
+      "symbols": [
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Warren Buffett\u2019s 1979 Warning May Be the Perfect Lesson for Today\u2019s AI Boom, Says Howard Marks: \u2018Uncertainty Actually is the Friend\u2019",
+      "summary": "Howard Marks says Warren Buffett&#39;s 1979 warning on uncertainty is the perfect lesson for investors navigating today&#39;s AI boom.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/11/63172856/warren-buffetts-1979-warning-may-be-the-perfect-lesson-for-todays-ai-boom-says-howard-marks-uncertainty-actually-is-the-friend",
+      "created_at": "2026-11-12T07:29:17Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA"
+      ],
+      "headline": "\u2018SpaceX Will Be Worth More Than Earth\u2019: Elon Musk Reveals Bold 1 Petawatt Power Goal for the Moon",
+      "summary": "Elon Musk reaffirms SpaceX&#39;s goal of generating 1TW of power from Earth and over 1PW of power from the Moon.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/space/26/11/63172575/spacex-will-be-worth-more-than-earth-elon-musk-reveals-bold-1-petawatt-power-goal-for-the-moon",
+      "created_at": "2026-11-12T06:57:16Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Nasdaq Jumps 400 Points As CoreWeave Shares Jump: Greed Index Remains In \u2018Fear\u2019 Zone",
+      "summary": "Markets rose, led by CoreWeave, Gevo and Fossil gains, but CNN\u2019s Fear &amp; Greed Index stayed at 37 in the Fear zone.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/11/63172450/nasdaq-jumps-400-points-as-coreweave-shares-jump-greed-index-remains-in-fear-zone",
+      "created_at": "2026-11-12T06:36:13Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 33% as Wall Street digests Nvidia CEO ouster rumors, a tech futures drop, and falling oil.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63172206/stock-market-will-sp-500-open-up-or-down-today-76",
+      "created_at": "2026-11-12T06:00:43Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "headline": "Tim Cook as Nvidia CEO? Kalshi Bettors See These Names as Top Replacement Bets for Scandal-Embroiled Jensen Huang",
+      "summary": "Cryptocurrency bettors are now wagering on who might succeed Jensen Huang as NVIDIA Corp. CEO \u2014 and former Apple Inc. CEO Tim Cook is among the contenders.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63171801/tim-cook-nvidia-ceo-jensen-huang-kalshi-prediction-market",
+      "created_at": "2026-11-12T04:08:09Z"
     },
     {
       "symbols": [
@@ -977,17 +1115,6 @@
     },
     {
       "symbols": [
-        "NVDA",
-        "SPY"
-      ],
-      "headline": "The Washington Post Reported White House Not Intervening In NVIDIA Board Decision Regarding CEO Jensen Huang",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63171413/washington-post-reported-white-house-not-intervening-nvidia-board-decision-regarding-ceo-jensen-huan",
-      "created_at": "2026-11-12T00:58:38Z"
-    },
-    {
-      "symbols": [
         "SMH"
       ],
       "headline": "Michael Burry\u2019s Portfolio: What the \u2018Big Short\u2019 Investor Owns Now",
@@ -995,177 +1122,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63171116/michael-burrys-portfolio-what-the-big-short-investor-owns-now",
       "created_at": "2026-11-11T23:45:23Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "Democrat Scott Colom Will Win A US Senate Seat In Deep-Red Mississippi, CNN projects",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63170421/democrat-scott-colom-will-win-us-senate-seat-deep-red-mississippi-cnn-projects",
-      "created_at": "2026-11-11T22:18:17Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Court Grants Class Certification in Amazon Photos Biometric Privacy Lawsuit",
-      "summary": "A U.S. District Court judge has certified a class action lawsuit alleging that Amazon violated Illinois' Biometric Information Privacy Act through its Amazon Photos service.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/11/3401049/0/en/wexler-boley-elgersma-announces-court-certification-of-class-action-against-amazon-over-alleged-collection-of-biometric-data-through-amazon-photos.html",
-      "created_at": "2026-11-11T21:31:33Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft Announces 2026 Partner of the Year Award Winners",
-      "summary": "Microsoft has announced the winners and finalists for its 2026 Partner of the Year Awards, recognizing partners for their innovation and implementation of customer solutions using Microsoft technology.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/11/3401091/0/en/simpson-associates-recognised-as-the-winner-of-2026-microsoft-partner-of-the-year-for-community-response.html",
-      "created_at": "2026-11-11T21:31:26Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "'Bessent Moved to Military Housing Following Iranian Threats'- Bloomberg",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63169436/bessent-moved-military-housing-following-iranian-threats-bloomberg",
-      "created_at": "2026-11-11T21:20:15Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "QQQ"
-      ],
-      "headline": "Anthropic Perp Rallies 8%: Traders Price the Claude Maker at $1.8 Trillion",
-      "summary": "Anthropic&#39;s Polymarket perp rose 8% to imply a $1.84 trillion valuation as IPO demand builds and CoreWeave (CRWV) lifts AI stocks.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/ipos/26/11/63164916/anthropic-perp-rallies-8-traders-price-claude-maker-1-8-trillion",
-      "created_at": "2026-11-11T20:03:00Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "SEC Completes Distribution of Fair Fund from 2018 Tesla Settlement",
-      "summary": "The U.S. Securities and Exchange Commission has finalized the distribution of a $40-million fund established following a 2018 securities fraud settlement involving Elon Musk and Tesla.",
-      "source": "fiscal.ai",
-      "url": "https://www.manilatimes.net/2026/11/12/business/foreign-business/closure-of-musk-tesla-settlement-fund-sought/2467800",
-      "created_at": "2026-11-11T20:01:20Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Wins CNCF End User Case Study Contest",
-      "summary": "Meta was named the winner of the Cloud Native Computing Foundation's End User Case Study Contest for its advancements in AI infrastructure deployment.",
-      "source": "fiscal.ai",
-      "url": "https://www.morningstar.com/news/pr-newswire/20261111dc87018/meta-wins-cncf-end-user-case-study-contest-for-accelerating-ai-infrastructure-deployments-from-hours-to-minutes",
-      "created_at": "2026-11-11T19:01:31Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta Infrastructure Head Santosh Janardhan to Depart in 2027",
-      "summary": "Meta Platforms' head of infrastructure and co-head of engineering, Santosh Janardhan, will leave the company in early 2027.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/news/post/1004318752/market-chatter-meta-s-infrastructure-head-santosh-janardhan-to-depart",
-      "created_at": "2026-11-11T19:01:31Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "META",
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "EXCLUSIVE: Jensen Huang Drama Puts Q3 Financials on Backburner, Expert Says \u2018No One Cares About Their Record Revenues\u2019",
-      "summary": "Market expert Jay Woods shares what the Jensen Huang news means for Nvidia stock and what the future could look like in an exclusive interview.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63160921/exclusive-jensen-huang-drama-puts-q3-financials-on-backburner-expert-says-no-one-cares-about-their-record-revenues",
-      "created_at": "2026-11-11T18:50:57Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "SPY"
-      ],
-      "headline": "Nvidia\u2019s Earnings Day Is \u2018Earnings Day for Your 401(k).\u2019 Here\u2019s Why",
-      "summary": "NVIDIA&#39;s Nov. 17 earnings could affect millions of 401(k) investors. Here&#39;s why S&amp;P 500 concentration matters.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63159321/nvidia-earnings-401k-impact",
-      "created_at": "2026-11-11T18:26:29Z"
-    },
-    {
-      "symbols": [
-        "QQQ"
-      ],
-      "headline": "CNBC Halftime Report Final Trades: Walt Disney, Monolithic Power Systems, Amphenol, Invesco QQQ Trust, Series 1",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/APH",
-      "created_at": "2026-11-11T18:01:13Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves",
-      "summary": "\n\n\n\nAI Trade Rally\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors reflect the AI trade, and SOXL is the momo crowd\u2019s",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/11/63157294/is-coreweave-rally-durable-nvidia-stock-can-fall-25-percent-if-huang-leaves",
-      "created_at": "2026-11-11T17:53:29Z"
-    },
-    {
-      "symbols": [
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
-      "summary": "CoreWeave&#39;s 25.1% surge revived the AI trade, lifting chipmakers, memory and power stocks, while Nvidia shrugged off a Baird downgrade.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
-      "created_at": "2026-11-11T17:53:02Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "SMH"
-      ],
-      "headline": "Michael Burry Says Jensen\u2019s Affair Won\u2019t Sink Nvidia, But Regulators Might",
-      "summary": "Michael Burry says Nvidia\u2019s scandal could intensify antitrust and China scrutiny, weakening its advantage.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/63156711/michael-burry-says-jensens-affair-wont-sink-nvidia-but-regulators-might",
-      "created_at": "2026-11-11T17:45:45Z"
-    },
-    {
-      "symbols": [
-        "GOOGL",
-        "TSLA"
-      ],
-      "headline": "Google Could Buy Uber to Win the Robotaxi Wars, Reuters Columnist Argues",
-      "summary": "A Reuters columnist argues Google could buy Uber, combining Waymo\u2019s robotaxis with America\u2019s largest ride-hailing network.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63153119/google-uber-robotaxis",
-      "created_at": "2026-11-11T17:00:07Z"
     }
   ]
 }
