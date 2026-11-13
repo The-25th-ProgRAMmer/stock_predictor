@@ -85,14 +85,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "deal",
-          "headline": "DeSantis Asks How Congress Members With 'No Investment Acumen' Outperform Warren Buffett \u2014 'Oh You Just Happened to Buy Something\u2026Then It Goes Up 150%'",
-          "url": "https://www.benzinga.com/news/politics/26/11/63227874/desantis-asks-how-congress-members-with-no-investment-acumen-outperform-warren-buffett-oh-you-just-happened-to-buy-somethingthen-it-goes-up-150",
-          "created_at": "2026-11-12T23:30:14Z"
-        }
-      ]
+      "material_news": []
     },
     "QQQ": {
       "latest_close": 688.2,
@@ -232,7 +225,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "corporate",
+          "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
+          "url": "https://www.benzinga.com/news/politics/26/11/63229921/trump-urged-jensen-huang-to-keep-fighting-for-his-nvidia-ceo-job-two-days-before-resignation-report",
+          "created_at": "2026-11-13T06:34:51Z"
+        }
+      ]
     },
     "MSFT": {
       "latest_close": 523.0,
@@ -302,7 +302,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "guidance",
+          "headline": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63230820/microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release",
+          "created_at": "2026-11-13T09:09:58Z"
+        }
+      ]
     },
     "GOOGL": {
       "latest_close": 298.69,
@@ -516,7 +523,14 @@
           "Volume 3.4x its 20-day average. Heavy volume has preceded reversals slightly more often than continuation; context only."
         ]
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "corporate",
+          "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
+          "url": "https://www.benzinga.com/news/politics/26/11/63229921/trump-urged-jensen-huang-to-keep-fighting-for-his-nvidia-ceo-job-two-days-before-resignation-report",
+          "created_at": "2026-11-13T06:34:51Z"
+        }
+      ]
     },
     "META": {
       "latest_close": 623.51,
@@ -586,14 +600,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "earnings",
-          "headline": "ERock Stock Drops After Mixed Q3 Earnings",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63214317/erock-stock-drops-after-mixed-q3-earnings",
-          "created_at": "2026-11-12T19:15:00Z"
-        }
-      ]
+      "material_news": []
     },
     "TSLA": {
       "latest_close": 397.43,
@@ -942,13 +949,145 @@
   "news": [
     {
       "symbols": [
+        "AMZN"
+      ],
+      "headline": "Ed Bastian Says Delta Will Take \u2018Nuanced\u2019 Approach to AI Agents, Warns Oil Shock May Not Be \u2018Behind Us\u2019",
+      "summary": "Delta CEO Ed Bastian says Delta will cautiously adopt AI agents, prioritizing privacy and learning while seeking productivity gains.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/travel/26/11/63231528/ed-bastian-says-delta-will-be-nuanced-in-its-approach-to-ai-agents-looking-for-cheaper-fares-warns-oil-shock-may-not-be-behind-us",
+      "created_at": "2026-11-13T10:33:36Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Kevin O\u2019Leary Backs Elon Musk\u2019s Starlink as United CEO Calls It \u2018Biggest Near-Term Competitive Advantage\u2019 in 100 Years, Says Amazon Leo Is \u2018A Mistake\u2019",
+      "summary": "Kevin O\u2019Leary backs Starlink as United\u2019s CEO touts its Wi-Fi lead, rapid rollout and edge over Delta\u2019s Amazon Leo choice.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63231543/kevin-oleary-backs-elon-musks-starlink-as-united-ceo-calls-it-biggest-near-term-competitive-advantage-in-100-years-says-amazon-leo-is-a-mistake",
+      "created_at": "2026-11-13T10:34:27Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Cathie Wood Says Nvidia \u2018Cannot Be Just The Jensen Show\u2019 After Huang\u2019s Exit, Warns NVDA\u2019s Five-Year CAGR Could Be Cut in Half",
+      "summary": "Cathie Wood says Nvidia\u2019s engineering bench can endure Huang\u2019s exit, but intensifying competition could cut ARK\u2019s projected returns to 25%.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63231493/cathie-wood-says-nvidia-cannot-be-just-the-jensen-show-after-huangs-exit-warns-nvdas-five-year-cagr-could-be-cut-in-half",
+      "created_at": "2026-11-13T10:28:50Z"
+    },
+    {
+      "symbols": [
+        "MSFT",
         "NVDA"
       ],
-      "headline": "Jim Cramer Says Interim Nvidia CEO Colette Kress Leads With \u2018Steel Fist\u2019 After Jensen Huang Exit: \u2018Absolutely The One You Need Right Now\u2019",
-      "summary": "Cramer backed Colette Kress as a capable leader to steer Nvidia through its leadership transition following Jensen Huang\u2019s abrupt exit.",
+      "headline": "Nvidia-Backed Nscale Warns It Needs More 'Financing' Amid $44.6B Anthropic Contract Ahead of US IPO As Nine-Month Loss Widens to $1.69 Billion",
+      "summary": "Nvidia-backed Nscale reported a 1,344% revenue surge but a $1.69 billion quarterly loss in its updated U.S. IPO filing.",
       "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/11/63228620/jim-cramer-nvidia-interim-ceo-colette-kress-steel-fist-jensen-huang-exit",
-      "created_at": "2026-11-13T01:47:09Z"
+      "url": "https://www.benzinga.com/markets/private-markets/26/11/63231331/nvidia-backed-nscale-warns-it-needs-more-financing-amid-44-6b-anthropic-contract-ahead-of-us-ipo-as-nine-month-loss-widens-to-1-69-billion",
+      "created_at": "2026-11-13T10:10:30Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nvidia CEO Exit Remains in Focus \u2014 CSCO, AMAT, NU in Focus",
+      "summary": "U.S. stock futures were mixed on Friday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices were mixed, after Thursday&#39;s close lower.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63231225/stock-market-today-dow-jones-sp-500-futures-rise-nvidia-ceo-exit-remains-in-focus-csco-amat-nu-in-focus",
+      "created_at": "2026-11-13T09:59:13Z"
+    },
+    {
+      "symbols": [
+        "AMZN",
+        "MSFT"
+      ],
+      "headline": "Cerebras (CBRS) Stock Is Trending Pre-Market: Here's Why",
+      "summary": "Cerebras shares surged 19.39% premarket as raised revenue guidance and a Microsoft cloud deal boosted investor optimism.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63230833/cerebras-stock-surges-premarket-q3-results-microsoft-deal",
+      "created_at": "2026-11-13T09:14:43Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
+      "summary": "Microsoft outage disrupts Colorado jail bond processing, forcing in-person payments, while also affecting court operations.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63230820/microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release",
+      "created_at": "2026-11-13T09:09:58Z"
+    },
+    {
+      "symbols": [
+        "GOOGL"
+      ],
+      "headline": "Reported Earlier, South Korea Says Google Removed Map Coordinates, Will Delete Military And Security Facility Street View Imagery Under February Data Export Permit",
+      "summary": "",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/11/63230584/reported-earlier-south-korea-says-google-removed-map-coordinates-will-delete-military-and-security-f",
+      "created_at": "2026-11-13T08:21:42Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Anthony Scaramucci Rips Howard Lutnick Over Nvidia Chip Crackdown: \u2018Incompetence Is Random. This Broke The Same Way Every Time\u2019",
+      "summary": "Anthony Scaramucci questioned Lutnick\u2019s alleged delays in cracking down on Nvidia chip smuggling to China.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63229955/anthony-scaramucci-howard-lutnick-nvidia-chip-crackdown-criticism",
+      "created_at": "2026-11-13T06:45:10Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
+      "summary": "Trump urged Nvidia CEO Jensen Huang to stay despite China spy concerns, but Huang resigned; Colette Kress became interim CEO.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/63229921/trump-urged-jensen-huang-to-keep-fighting-for-his-nvidia-ceo-job-two-days-before-resignation-report",
+      "created_at": "2026-11-13T06:34:51Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 55% as Wall Street absorbs Nvidia&#39;s CEO exit, flat futures, and easing oil prices.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63229873/stock-market-will-sp-500-open-up-or-down-today-77",
+      "created_at": "2026-11-13T06:26:11Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Elon Musk Warns Against Pushing Founders Out \u2014 Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
+      "summary": "Elon Musk backs Naval Ravikant\u2019s warning that removing founders can hurt companies amid Jensen Huang&#39;s resignation from Nvidia.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63229525/elon-musk-warns-founders-out-steve-jobs-travis-kalanick-jensen-huang-nvidia-exit",
+      "created_at": "2026-11-13T05:46:54Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple Releases HomeView Software 27.2",
+      "summary": "Apple has released the 27.2 software update for its new HomeView hub ahead of the device's retail launch.",
+      "source": "fiscal.ai",
+      "url": "https://appleosophy.com/wire/pegq6zg/",
+      "created_at": "2026-11-13T03:01:29Z"
     },
     {
       "symbols": [
@@ -962,36 +1101,6 @@
     },
     {
       "symbols": [
-        "SPY"
-      ],
-      "headline": "NY Fed President Williams, Speaking At UC Berkley, Said Says US Economy Has Been Resilient, Growth Strong But Not Overheating",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/quote/SPY",
-      "created_at": "2026-11-13T00:26:23Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Launches Over 20 New Merchandise Products for Holidays and Some are Already Sold Out: Here\u2019s the List",
-      "summary": "Tesla has new clothes, toys and holiday items available for the 2026 holiday season. Here&#39;s a full list.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/large-cap/26/11/63227877/tesla-launches-over-20-new-merchandise-products-for-holidays-and-some-are-already-sold-out-heres-the-list",
-      "created_at": "2026-11-12T23:30:17Z"
-    },
-    {
-      "symbols": [
-        "SPY"
-      ],
-      "headline": "DeSantis Asks How Congress Members With 'No Investment Acumen' Outperform Warren Buffett \u2014 'Oh You Just Happened to Buy Something\u2026Then It Goes Up 150%'",
-      "summary": "Ron DeSantis questions how members of Congress with &#39;no investment acumen&#39; beat legendary investor Warren Buffett.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/politics/26/11/63227874/desantis-asks-how-congress-members-with-no-investment-acumen-outperform-warren-buffett-oh-you-just-happened-to-buy-somethingthen-it-goes-up-150",
-      "created_at": "2026-11-12T23:30:14Z"
-    },
-    {
-      "symbols": [
         "QQQ"
       ],
       "headline": "TQQQ ETF Barely Outpaces QQQ Despite Its 3X Leverage",
@@ -999,27 +1108,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/opinion/26/11/63227572/tqqq-etf-barely-outpaces-qqq-despite-its-3x-leverage",
       "created_at": "2026-11-12T22:56:23Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
-      "summary": "Traders are betting on Jensen Huang joining SpaceX after Elon Musk said hiring the former Nvidia CEO \u201cwould be an honor.\u201d",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63227294/jensen-huang-spacex",
-      "created_at": "2026-11-12T22:32:07Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Microsoft 365 Experiences Service Outage",
-      "summary": "Microsoft reported a service outage affecting Microsoft 365 connectivity for users across multiple regions due to elevated infrastructure load.",
-      "source": "fiscal.ai",
-      "url": "https://www.manilatimes.net/2026/11/13/world/americas-emea/major-outage-hits-microsoft-outlook/2469181",
-      "created_at": "2026-11-12T22:31:35Z"
     },
     {
       "symbols": [
@@ -1048,84 +1136,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63226690/exclusive-jay-woods-names-stock-to-watch-in-2027-amid-potential-democratic-big-tech-breakups",
       "created_at": "2026-11-12T22:12:57Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA"
-      ],
-      "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain",
-      "summary": "Nancy Tengler sees Nvidia as a bargain at 11X earnings, favoring the AI giant over Procter &amp; Gamble at 23X.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63222411/nvidia-stock-11x-earnings-bargain",
-      "created_at": "2026-11-12T21:10:07Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "NVDA",
-        "SMH"
-      ],
-      "headline": "Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186",
-      "summary": "Evercore cut its Nvidia (NVDA) target to $186 from $465, valuing it like Apple in 2012, as nine banks slashed targets after Jensen Huang&#39;s exit.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63216627/nvidia-price-targets-cut-evercore-apple-jensen-huang",
-      "created_at": "2026-11-12T19:58:54Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "MSFT",
-        "TSLA"
-      ],
-      "headline": "Workday CEO Admits He\u2019s \u2018Absolutely\u2019 Worried About AI Job Displacement \u2014 Says \u2018Yes,\u2019 Companies Will Want to Replace Humans for Less",
-      "summary": "Workday CEO Aneel Bhusri says AI agents will do the work of junior auditors and some lawyers within 5 years, and he is worried.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/topics/26/11/63215089/workday-ceo-aneel-bhusri-ai-agents-replace-junior-auditors-lawyers-5-years",
-      "created_at": "2026-11-12T19:30:10Z"
-    },
-    {
-      "symbols": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT"
-      ],
-      "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
-      "summary": "Google&#39;s and Microsoft&#39;s AI power pledges haven&#39;t satisfied Democrats, raising new regulatory risks for data centers and AI stocks.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
-      "created_at": "2026-11-12T19:24:59Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "ERock Stock Drops After Mixed Q3 Earnings",
-      "summary": "ERock Inc (NYSE:EROC) shares are falling Thursday after the onsite power provider delivered a split third-quarter report. Here&#39;s what you should know.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63214317/erock-stock-drops-after-mixed-q3-earnings",
-      "created_at": "2026-11-12T19:15:00Z"
-    },
-    {
-      "symbols": [
-        "AAPL",
-        "AMZN",
-        "META",
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
-      "summary": "\n\n\n\nAmerica\u2019s AI Advantage At Risk\n\n\n\nPlease click here for an enlarged weekly chart of NVIDIA Corp (NASDAQ:NVDA).\n\n\n\nNote the following:\n\n\n\n\nAt this time, it is critical for investors to remember our principle: Give",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/opinion/26/11/63213045/nvidia-crisis-visionary-huang-resignation-puts-america-ai-advantage-at-risk-gold-falls-below-4000",
-      "created_at": "2026-11-12T18:52:08Z"
     }
   ]
 }
