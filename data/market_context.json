@@ -232,7 +232,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "corporate",
+          "headline": "Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Potential Contender",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63273340/nvidia-rene-haas-jensen-huang",
+          "created_at": "2026-11-14T05:10:17Z"
+        }
+      ]
     },
     "MSFT": {
       "latest_close": 524.19,
@@ -517,10 +524,10 @@
       },
       "material_news": [
         {
-          "event": "rating_change",
-          "headline": "Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300",
-          "url": "https://www.benzinga.com/news/26/11/63270399/rosenblatt-maintains-buy-nvidia-lowers-price-target-300",
-          "created_at": "2026-11-13T21:33:05Z"
+          "event": "corporate",
+          "headline": "Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Potential Contender",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63273340/nvidia-rene-haas-jensen-huang",
+          "created_at": "2026-11-14T05:10:17Z"
         }
       ]
     },
@@ -948,6 +955,59 @@
   "news": [
     {
       "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "headline": "'Nvidia Will Die Without Jensen' Doesn't Add Up, Says Anthony Scaramucci, Pointing to Apple's Post-Steve Jobs Success: 'Great Entrepreneurs...'",
+      "summary": "On Friday, Anthony Scaramucci argued Nvidia can thrive without Jensen Huang, citing Apple&#39;s post-Steve Jobs success.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63273511/anthony-scaramucci-nvidia-jensen-huang",
+      "created_at": "2026-11-14T08:00:57Z"
+    },
+    {
+      "symbols": [
+        "NVDA",
+        "TSLA"
+      ],
+      "headline": "Gary Black Says Tesla Board Would Be Reluctant to Hire Jensen Huang, Warns Against Bringing Ex-Nvidia Chief Into Elon Musk's Empire",
+      "summary": "On Friday, Gary Black says Tesla\u2019s board would resist hiring former Nvidia CEO Jensen Huang due to governance risks.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63273462/gary-black-tesla-board-jensen-huang",
+      "created_at": "2026-11-14T06:59:12Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "FAA Resumes Flights After Nationwide Ground Stop, Says No Link to Microsoft Outage or Cyberattack; Marjorie Taylor Greene Slams Duffy's $50 Billion Ask (UPDATED)",
+      "summary": "FAA lifts nationwide ground stop after a telecommunications failure disrupted air traffic operations, delaying thousands of flights.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/11/63273371/faa-lifts-nationwide-ground-stop-telecommunications-outage",
+      "created_at": "2026-11-14T06:28:22Z"
+    },
+    {
+      "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "headline": "Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Potential Contender",
+      "summary": "Nvidia has yet to begin its CEO search, with Arm&#39;s Rene Haas emerging as a potential successor to Jensen Huang.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63273340/nvidia-rene-haas-jensen-huang",
+      "created_at": "2026-11-14T05:10:17Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "ChatGPT Wallet Lets OpenAI's Dots AI Agents Shop On Your Behalf Without Accessing Actual Card Details",
+      "summary": "OpenAI unveiled ChatGPT Wallet, a new payment capability that allows its \u201cdots\u201d AI agents to complete purchases for users&#39; behalf.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63273173/chatgpt-wallet-openais-dots",
+      "created_at": "2026-11-14T02:34:24Z"
+    },
+    {
+      "symbols": [
         "SPY"
       ],
       "headline": "'Outages Include Air Traffic Control Radars And Radio Frequencies, Source Says'- CNN",
@@ -988,16 +1048,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree",
-      "summary": "Bitcoin, Ethereum and XRP plunge as analysts split on a bottom and Polymarket bettors see BTC falling to $65,000.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63271367/bitcoin-ethereum-xrp-bottom-calls-get-louder-but-prediction-markets-disagree",
-      "created_at": "2026-11-13T22:00:08Z"
-    },
-    {
-      "symbols": [
         "SPY"
       ],
       "headline": "'The Reason For The Ground Stop Was Not Immediately Clear; Preliminary Reports Indicate This Is Not A Cyberattack, According To Two Law Enforcement Officials'-CNN",
@@ -1005,36 +1055,6 @@
       "source": "benzinga",
       "url": "https://www.benzinga.com/news/26/11/63271193/reason-ground-stop-was-not-immediately-clear-preliminary-reports-indicate-not-cyberattack-according-",
       "created_at": "2026-11-13T21:52:02Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "\u2018Nvidia Letting Jensen Go is Terrible for America\u2019: Podcaster Lex Fridman Compares Chipmaker to Apple Firing Steve Jobs",
-      "summary": "Podcaster Lex Fridman thinks Nvidia was wrong to force Jensen Huang out as CEO.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63271091/nvidia-letting-jensen-go-is-terrible-for-america-podcaster-lex-fridman-compares-chipmaker-to-apple-firing-steve-jobs",
-      "created_at": "2026-11-13T21:48:57Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300",
-      "summary": "",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/news/26/11/63270399/rosenblatt-maintains-buy-nvidia-lowers-price-target-300",
-      "created_at": "2026-11-13T21:33:05Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Releases tvOS 27.2.1 Update",
-      "summary": "Apple has released the tvOS 27.2.1 software update, which introduces support for Siri AI on older Apple TV models.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/2026/11/13/apple-rolls-out-tvos-27-2-1-with-support-for-siri-ai-on-older-apple-tv-models/",
-      "created_at": "2026-11-13T21:31:27Z"
     },
     {
       "symbols": [
@@ -1121,27 +1141,6 @@
     },
     {
       "symbols": [
-        "NVDA",
-        "TSLA"
-      ],
-      "headline": "Elon Musk's SpaceX\u2013Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says",
-      "summary": "Walter Isaacson says a SpaceX-Tesla merger may be almost impossible to avoid as the companies\u2019 AI and chip plans converge",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63263558/spacex-tesla-merger-2",
-      "created_at": "2026-11-13T19:45:06Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Launches HomeView Smart Home Hub",
-      "summary": "Apple has officially released its new HomeView smart home hub, featuring a 7-inch display and Siri AI integration.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/l1uksdi/",
-      "created_at": "2026-11-13T19:01:24Z"
-    },
-    {
-      "symbols": [
         "MSFT"
       ],
       "headline": "Microsoft Experiences Widespread Global Service Outage",
@@ -1149,31 +1148,6 @@
       "source": "fiscal.ai",
       "url": "https://www.newswire.lk/2026/11/13/widespread-microsoft-outage-takes-down-outlook-and-other-365-services/",
       "created_at": "2026-11-13T19:01:22Z"
-    },
-    {
-      "symbols": [
-        "MSFT",
-        "NVDA",
-        "QQQ",
-        "SMH"
-      ],
-      "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
-      "summary": "AMD lost about $100 billion as traders unwound the post-Huang chip rotation, Nvidia&#39;s China scandal deepened and Cisco slid on margins. QQQ fell 1.7%.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
-      "created_at": "2026-11-13T18:41:08Z"
-    },
-    {
-      "symbols": [
-        "NVDA",
-        "QQQ",
-        "SPY"
-      ],
-      "headline": "Why Is IREN Stock Falling on Friday?",
-      "summary": "IREN Limited (NASDAQ: IREN) stock falls Friday amid Bitcoin sliding under $70,000, rising Treasury yields, and NVIDIA Corp. (NASDAQ: NVDA) CEO Jensen Huang&#39;s resignation.",
-      "source": "benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63258769/why-is-iren-stock-falling-on-friday-3",
-      "created_at": "2026-11-13T18:19:49Z"
     }
   ]
 }
