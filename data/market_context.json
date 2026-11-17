@@ -936,6 +936,36 @@
       "symbols": [
         "MSFT"
       ],
+      "headline": "Microsoft Expands Use of Haivision Live Video Ecosystem",
+      "summary": "Microsoft has selected Haivision's video transport and control solutions to support the production of over 600 global events annually.",
+      "source": "fiscal.ai",
+      "url": "https://www.moomoo.com/news/post/1004882664/microsoft-selects-haivision-video-contribution-ecosystem-and-makito-one-video",
+      "created_at": "2026-11-17T11:31:30Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple Faces French Trial Over Alleged Planned Obsolescence",
+      "summary": "Apple is reportedly facing a trial in France regarding allegations of planned obsolescence concerning its iPhone devices.",
+      "source": "fiscal.ai",
+      "url": "https://www.manilatimes.net/2026/11/17/world/apple-faces-french-trial-over-alleged-planned-obsolescence-of-iphones-source/2471819",
+      "created_at": "2026-11-17T11:31:18Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "NVIDIA Establishes National Security and Export Control Oversight Committee",
+      "summary": "NVIDIA has formed a new board-level committee to oversee national security policies, export control compliance, and global trade risk management.",
+      "source": "fiscal.ai",
+      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html",
+      "created_at": "2026-11-17T11:31:18Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
       "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
       "summary": "Microsoft issued a preliminary post-incident report attributing the recent Microsoft 365 service disruption to a latent software defect and network capacity issues.",
       "source": "fiscal.ai",
@@ -994,16 +1024,6 @@
     },
     {
       "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple and OpenEvidence Launch Virtual Health AI Research Study",
-      "summary": "Apple has initiated a virtual research study in collaboration with OpenEvidence to investigate how consumers utilize conversational artificial intelligence for health-related purposes.",
-      "source": "fiscal.ai",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/apple-and-openevidence-seek-200000-consumers-for-health-ai-study/",
-      "created_at": "2026-11-16T19:01:36Z"
-    },
-    {
-      "symbols": [
         "AMZN"
       ],
       "headline": "Amnesty International Reports Continued Labor Issues at Amazon Saudi Arabia Facilities",
@@ -1031,26 +1051,6 @@
       "source": "fiscal.ai",
       "url": "https://www.globenewswire.com/news-release/2026/11/16/3403880/0/en/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents.html",
       "created_at": "2026-11-16T19:01:25Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "NVIDIA Launches Vera CPU Platform for High-Performance Computing",
-      "summary": "NVIDIA announced the 'NVIDIA Vera CPU' rack-scale platform, its first custom data center CPU designed for high-performance scientific modeling and simulation.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403879/0/en/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery.html",
-      "created_at": "2026-11-16T19:01:25Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Thread AI Joins Microsoft for Startups Pegasus Program",
-      "summary": "Thread AI has been accepted into the Microsoft for Startups Pegasus Program, providing the company with access to Azure AI models and enterprise-grade support.",
-      "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/thread-ai-joins-the-microsoft-for-startups-pegasus-program-to-deliver-its-ai-workflow-orchestration-platform-on-microsoft-marketplace-302940646.html",
-      "created_at": "2026-11-16T19:01:20Z"
     },
     {
       "symbols": [
