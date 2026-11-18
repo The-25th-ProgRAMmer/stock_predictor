@@ -928,6 +928,26 @@
   "news": [
     {
       "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Urges Shareholder Participation for 2026 Annual Meeting",
+      "summary": "Tesla has initiated a proxy solicitation campaign, urging shareholders to vote on board recommendations ahead of the company's 2026 Annual Meeting scheduled for December 3.",
+      "source": "fiscal.ai",
+      "url": "https://www.moomoo.com/stock/TSLA-US/announcement?chain_id=Name1K9-3FXPhg.1l4tp40&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FTSLS-US%22%7D",
+      "created_at": "2026-11-18T03:01:56Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Transamerica Expands AI Partnership with Amazon Web Services",
+      "summary": "Transamerica has deepened its collaboration with Amazon Web Services to scale artificial intelligence across its enterprise operations.",
+      "source": "fiscal.ai",
+      "url": "https://www.prnewswire.com/news-releases/transamerica-expands-strategic-relationship-with-aws-to-scale-responsible-ai-capabilities-302942296.html",
+      "created_at": "2026-11-18T03:01:22Z"
+    },
+    {
+      "symbols": [
         "AMZN"
       ],
       "headline": "Teamsters Rally Following Amazon's Termination of Delivery Partner",
@@ -1085,26 +1105,6 @@
       "source": "fiscal.ai",
       "url": "https://www.manilatimes.net/2026/11/17/world/apple-faces-french-trial-over-alleged-planned-obsolescence-of-iphones-source/2471819",
       "created_at": "2026-11-17T11:31:18Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Teamsters Organize Rally for Terminated Amazon Delivery Drivers in New York City",
-      "summary": "The Teamsters union is organizing a rally to support 200 delivery drivers who were dismissed after Amazon terminated its contract with their third-party employer.",
-      "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/teamsters-rally-to-support-amazon-e-bike-delivery-drivers-illegally-fired-by-company-302941100.html",
-      "created_at": "2026-11-17T00:01:27Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "Tesla Announces \u20ac3 Billion Expansion of German Gigafactory",
-      "summary": "Tesla plans to invest \u20ac3 billion ($3.31 billion) to expand its manufacturing facility in Gruenheide, Germany, to increase production capacity for its Cybercab autonomous vehicles.",
-      "source": "fiscal.ai",
-      "url": "https://www.fidelity.com/news/article/company-news/202611160938RTRSNEWSCOMBINED_KCN3WR1QL-OUSBS_1",
-      "created_at": "2026-11-16T16:01:24Z"
     }
   ]
 }
