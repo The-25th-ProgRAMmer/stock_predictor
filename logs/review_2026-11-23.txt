@@ -1,0 +1,84 @@
+==============================================================================
+DAILY REVIEW - 2026-11-23
+==============================================================================
+
+OCTOBER GOAL:
+  Goal: $100,000 -> $105,000 (+5.0%) by 2026-10-30
+  Equity 2026-11-24: $98,438.32  (-1.56%, -31% of the way)
+  Peak $99,999.88, now -1.56% from peak
+  Goal window closed $6,561.68 short.
+
+TRADES CLOSED:
+  Since 2026-11-23: no closed trades yet
+  October to date: 12 closed, 2 profitable / 10 not (17% win rate), net $-1,599.29
+    avg win  $+181.04
+    avg loss $-196.14
+    profit factor 0.18 (gross wins / gross losses; above 1.0 makes money)
+    2026-10-07  QQQ    long  stop      held 1s  $  -206.99 (-1.43%)
+    2026-10-08  SMH    long  stop      held 2s  $  -243.40 (-3.81%)
+    2026-10-08  NVDA   long  stop      held 2s  $  -204.41 (-3.67%)
+    2026-10-08  SPY    long  stop      held 2s  $  -204.64 (-1.01%)
+    2026-10-08  MSFT   long  stop      held 2s  $  -205.70 (-2.41%)
+    2026-10-09  AMZN   short stop      held 3s  $  -101.97 (-2.35%)
+    2026-10-14  TSLA   long  stop      held 6s  $  -200.33 (-4.05%)
+    2026-10-16  META   long  stop      held 8s  $  -195.30 (-4.40%)
+    2026-10-19  AMZN   short stop      held 0s  $  -208.08 (-2.39%)
+    2026-10-21  SMH    short stop      held 1s  $  -190.55 (-3.20%)
+    2026-10-22  NVDA   short target    held 1s  $  +206.40 (+2.60%)
+    2026-10-30  NVDA   short target    held 3s  $  +155.68 (+4.46%)
+
+PREDICTIONS:
+Predictions graded today: 10
+Correct: 1/10 = 10%
+Baseline 'always up': 100%
+Your edge vs always_up: -90%
+
+CORRECT (1):
+  AAPL   called up  @52%  -> up   (+1.75%)
+    Close $343.40 is below SMA20 ($347.40) but above SMA50 ($341.63), with SMA20 abo
+
+WRONG (9):
+  AMZN   called down@50%  -> up   (+3.27%)
+    Signals: close_below_sma20, close_above_sma50, sma20_above_sma50
+    Close $247.12 is below SMA20 ($257.48) but SMA20 remains above SMA50 ($255.06), 
+  GOOGL  called down@50%  -> up   (+6.25%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close $265.62 sits below both SMA20 ($289.48) and SMA50 ($322.31), with SMA20 be
+  META   called down@50%  -> up   (+6.52%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close $561.24 is below both SMA20 ($618.61) and SMA50 ($676.62), with SMA20 belo
+  MSFT   called down@50%  -> up   (+1.57%)
+    Signals: close_below_sma20, close_below_sma50, sma20_above_sma50
+    Close $485.34 is below both SMA20 ($522.20) and SMA50 ($518.93), though SMA20 re
+  NVDA   called down@50%  -> up   (+31.46%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close $125.65 is deeply below SMA20 ($181.46) and SMA50 ($207.01), with SMA20 be
+  QQQ    called down@50%  -> up   (+6.79%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close $609.75 sits below both SMA20 ($678.65) and SMA50 ($710.91), with SMA20 be
+  SMH    called down@50%  -> up   (+14.89%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close $400.19 sits below both SMA20 ($494.44) and SMA50 ($547.46), with SMA20 be
+  SPY    called down@50%  -> up   (+4.62%)
+    Signals: close_below_sma20, close_below_sma50, sma20_below_sma50
+    Close $690.68 sits below both SMA20 ($747.88) and SMA50 ($760.06), with SMA20 be
+  TSLA   called down@50%  -> up   (+11.25%)
+    Signals: close_below_sma20, close_above_sma50, sma20_above_sma50
+    Close $346.23 is below SMA20 ($384.81) though still above SMA50 ($375.65), netti
+
+WHAT WENT WELL:
+  Most reliable signals today:
+    - close_below_sma20: 1/1 correct predictions
+    - close_above_sma50: 1/1 correct predictions
+    - sma20_above_sma50: 1/1 correct predictions
+
+WHAT WENT WRONG:
+  Signals that led to misses:
+    - close_below_sma20: 9/9 wrong predictions
+    - close_below_sma50: 7/9 wrong predictions
+    - sma20_below_sma50: 6/9 wrong predictions
+  Biggest magnitude misses:
+    - SMH: called down, actual up (+14.89%)
+    - NVDA: called down, actual up (+31.46%)
+
+==============================================================================
