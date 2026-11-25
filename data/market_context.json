@@ -435,14 +435,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "corporate",
-          "headline": "AWS CEO Matt Garman Advocates for Architectural Containment in AI Security",
-          "url": "https://aimagazine.com/news/awss-matt-garman-ai-safety-needs-engineering-over-policy",
-          "created_at": "2026-11-24T12:31:27Z"
-        }
-      ]
+      "material_news": []
     },
     "NVDA": {
       "latest_close": 155.48,
@@ -524,12 +517,6 @@
           "headline": "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
           "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D",
           "created_at": "2026-11-23T12:32:04Z"
-        },
-        {
-          "event": "corporate",
-          "headline": "Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO",
-          "url": "https://www.morningstar.com/news/marketwatch/2026112333/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang",
-          "created_at": "2026-11-23T11:31:37Z"
         }
       ]
     },
@@ -963,6 +950,36 @@
   "news": [
     {
       "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon to Launch Auto Marketplace in the UK",
+      "summary": "Amazon plans to introduce an automotive marketplace in the United Kingdom early next year.",
+      "source": "fiscal.ai",
+      "url": "https://www.fidelity.com/news/article/default/202611250330PRIMZONEFULLFEED9884845",
+      "created_at": "2026-11-25T11:31:43Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "AWS Representatives Participate in AI Infrastructure Roundtable in South Korea",
+      "summary": "Representatives from Amazon Web Services met with South Korean AI policymakers to discuss expanding AI infrastructure and adoption.",
+      "source": "fiscal.ai",
+      "url": "https://www.koreaherald.com/article/10949349",
+      "created_at": "2026-11-25T11:31:43Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple Participates in Korea-US AI Infrastructure Roundtable",
+      "summary": "Apple representatives joined a closed-door roundtable in Seoul to discuss expanding AI infrastructure and accelerating AI adoption in manufacturing.",
+      "source": "fiscal.ai",
+      "url": "https://www.koreaherald.com/article/10949349",
+      "created_at": "2026-11-25T11:31:08Z"
+    },
+    {
+      "symbols": [
         "META"
       ],
       "headline": "Meta Releases 2026 Sustainability Report",
@@ -1063,16 +1080,6 @@
     },
     {
       "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Announces Fifth Season of 'Ted Lasso'",
-      "summary": "Apple has officially announced that its streaming service, Apple TV+, will produce a fifth season of the series 'Ted Lasso'.",
-      "source": "fiscal.ai",
-      "url": "https://www.finanzen.at/nachrichten/aktien/apple-aktie-gefragt-apple-tv-verlangert-comedy-erfolg-ted-lasso-erneut-1036795052",
-      "created_at": "2026-11-24T13:01:12Z"
-    },
-    {
-      "symbols": [
         "TSLA"
       ],
       "headline": "UBS Adjusts Price Target on Tesla to $430",
@@ -1083,16 +1090,6 @@
     },
     {
       "symbols": [
-        "AMZN"
-      ],
-      "headline": "AWS CEO Matt Garman Advocates for Architectural Containment in AI Security",
-      "summary": "Amazon Web Services (AWS) CEO Matt Garman has publicly urged enterprises to prioritize architectural containment over reliance on 'kill switches' for AI safety.",
-      "source": "fiscal.ai",
-      "url": "https://aimagazine.com/news/awss-matt-garman-ai-safety-needs-engineering-over-policy",
-      "created_at": "2026-11-24T12:31:27Z"
-    },
-    {
-      "symbols": [
         "META"
       ],
       "headline": "Analysts Adjust Price Targets for Meta Platforms",
@@ -1100,16 +1097,6 @@
       "source": "fiscal.ai",
       "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-meta-platforms-to-775-from-940-ce7851dbd988fe2c",
       "created_at": "2026-11-24T11:33:16Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Web Services Collaborates with Great Ormond Street Hospital on Agentic AI Programme",
-      "summary": "Amazon Web Services (AWS) is partnering with Great Ormond Street Hospital (GOSH) and Hyland on a 15-month 'Agentic Hospital' initiative to deploy agentic AI for administrative tasks.",
-      "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/great-ormond-street-hospital-announces-first-of-its-kind-agentic-ai-programme-in-an-nhs-hospital-in-collaboration-with-hyland-and-amazon-web-services-302948750.html",
-      "created_at": "2026-11-24T11:31:22Z"
     },
     {
       "symbols": [
@@ -1130,16 +1117,6 @@
       "source": "fiscal.ai",
       "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D",
       "created_at": "2026-11-23T12:32:04Z"
-    },
-    {
-      "symbols": [
-        "NVDA"
-      ],
-      "headline": "Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO",
-      "summary": "The Trump administration has publicly advocated for the rehiring of former CEO Jensen Huang to lead NVIDIA following his recent resignation.",
-      "source": "fiscal.ai",
-      "url": "https://www.morningstar.com/news/marketwatch/2026112333/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang",
-      "created_at": "2026-11-23T11:31:37Z"
     }
   ]
 }
