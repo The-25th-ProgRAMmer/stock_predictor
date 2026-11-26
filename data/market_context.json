@@ -435,7 +435,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "regulatory_legal",
+          "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
+          "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/",
+          "created_at": "2026-11-26T11:31:23Z"
+        }
+      ]
     },
     "NVDA": {
       "latest_close": 149.32,
@@ -944,6 +951,76 @@
   "news": [
     {
       "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple Removes Talkie AI App from App Store Worldwide",
+      "summary": "Apple has removed the Talkie AI chatbot app from its App Store globally, citing concerns regarding child safety.",
+      "source": "fiscal.ai",
+      "url": "https://www.marketscreener.com/news/minimax-s-talkie-removed-from-apple-app-store-worldwide-ce7851d8d18af721",
+      "created_at": "2026-11-26T11:32:14Z"
+    },
+    {
+      "symbols": [
+        "AAPL"
+      ],
+      "headline": "Apple to Open New Retail Store in Hyderabad, India",
+      "summary": "Apple is set to expand its retail footprint in India with the opening of a new store in Hyderabad on December 10, 2026.",
+      "source": "fiscal.ai",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/apple-to-open-new-store-in-hyderabad-expanding-indian-retail-business-1036802666",
+      "created_at": "2026-11-26T11:32:14Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "NVIDIA Orders Partners to Stop Server Shipments to ASEAN States",
+      "summary": "NVIDIA has directed its partners to halt server shipments to countries within the Association of Southeast Asian Nations (ASEAN).",
+      "source": "fiscal.ai",
+      "url": "https://www.marketscreener.com/news/nvidia-orders-partners-to-stop-server-shipments-to-asean-states-ce7851d8de89f626",
+      "created_at": "2026-11-26T11:31:41Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "S&P Global Ratings Places NVIDIA on CreditWatch Negative",
+      "summary": "S&P Global Ratings has warned of a potential credit rating downgrade for NVIDIA, citing governance and management concerns.",
+      "source": "fiscal.ai",
+      "url": "https://wjno.iheart.com/content/2026-11-26-sp-huang-drama-could-hurt-nvidias-credit-rating/",
+      "created_at": "2026-11-26T11:31:41Z"
+    },
+    {
+      "symbols": [
+        "META"
+      ],
+      "headline": "Meta and Philippine DICT Sign Memorandum of Understanding",
+      "summary": "Meta and the Philippine Department of Information and Communications Technology (DICT) have entered into a memorandum of understanding to collaborate on technology initiatives.",
+      "source": "fiscal.ai",
+      "url": "https://www.pna.gov.ph/article/dict-meta-ink-pact-vs-online-scams-child-exploitation",
+      "created_at": "2026-11-26T11:31:24Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "AWS and Amazon CloudFront Support Global Launch of GTA VI",
+      "summary": "Amazon Web Services (AWS) and its Amazon CloudFront content delivery network provided the infrastructure to support the massive global traffic demand for the launch of Grand Theft Auto VI.",
+      "source": "fiscal.ai",
+      "url": "https://money.udn.com/money/story/12987/9903872",
+      "created_at": "2026-11-26T11:31:23Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
+      "summary": "Amazon has publicly addressed FTC allegations concerning its 'Project Nessie' pricing tool, stating the agency's claims mischaracterize the tool's purpose and function.",
+      "source": "fiscal.ai",
+      "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/",
+      "created_at": "2026-11-26T11:31:23Z"
+    },
+    {
+      "symbols": [
         "MSFT"
       ],
       "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
@@ -984,16 +1061,6 @@
     },
     {
       "symbols": [
-        "AMZN"
-      ],
-      "headline": "Duracell and Amazon Partner for 'Power Playland on the Pier' Holiday Event",
-      "summary": "Duracell and Amazon are collaborating to host a free, family-friendly holiday experience at Chicago's Navy Pier in December 2026.",
-      "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/in-partnership-with-amazon-duracell-brings-holiday-magic-to-chicago-with-power-playland-on-the-pier-302950562.html",
-      "created_at": "2026-11-25T16:01:19Z"
-    },
-    {
-      "symbols": [
         "TSLA"
       ],
       "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
@@ -1011,26 +1078,6 @@
       "source": "fiscal.ai",
       "url": "https://www.marketscreener.com/news/meta-deploys-autonomous-food-preparation-system-for-employees-in-london-office-ce7851d8d88ff725",
       "created_at": "2026-11-25T14:31:49Z"
-    },
-    {
-      "symbols": [
-        "META"
-      ],
-      "headline": "Meta and Amazon Conclude Discussions to Lift Muse Shopping Robot Blockade",
-      "summary": "Meta and Amazon have reportedly reached an agreement to end the blockade on the Muse shopping robot, with advertising and search integration identified as key topics.",
-      "source": "fiscal.ai",
-      "url": "https://www.rootdata.com/news/844573",
-      "created_at": "2026-11-25T14:31:49Z"
-    },
-    {
-      "symbols": [
-        "AMZN"
-      ],
-      "headline": "Schneider Electric Integrates Industrial Intelligence Solutions with AWS",
-      "summary": "Schneider Electric has launched a new solution integrating its Open Software-Defined Automation with Amazon Web Services (AWS) to enhance industrial manufacturing operations.",
-      "source": "fiscal.ai",
-      "url": "https://www.morningstar.com/news/globe-newswire/9884913/manufacturers-can-scale-industrial-intelligence-faster-with-schneider-electric-open-software-defined-automation-on-aws",
-      "created_at": "2026-11-25T14:31:29Z"
     },
     {
       "symbols": [
@@ -1081,26 +1128,6 @@
       "source": "fiscal.ai",
       "url": "https://www.globenewswire.com/news-release/2026/11/24/3409926/0/en/maverick-medical-ai-surfaces-codeagent-within-microsoft-radiology-reporting-solutions-to-reduce-physician-rework.html",
       "created_at": "2026-11-25T01:01:34Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
-      "summary": "Apple announced a special event at its SoHo retail location in New York City to commemorate the 20th anniversary of its collaboration with the (RED) organization.",
-      "source": "fiscal.ai",
-      "url": "https://appleosophy.com/wire/5vlet9t/",
-      "created_at": "2026-11-24T19:02:41Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple",
-      "summary": "J.P. Morgan analyst Samik Chatterjee has reaffirmed a Buy rating and a $355 price target for Apple Inc. (AAPL).",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lgakgg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D",
-      "created_at": "2026-11-24T14:31:54Z"
     }
   ]
 }
