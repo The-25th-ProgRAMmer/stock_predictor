@@ -30,8 +30,8 @@
         "close_vs_sma20_pct": -3.2,
         "close_vs_sma50_pct": -5.431,
         "sma20_vs_sma50": "below",
-        "rsi14": 39.88,
-        "macd_hist": -2.9348,
+        "rsi14": 39.79,
+        "macd_hist": -2.926,
         "atr14_pct_of_close": 2.336
       },
       "last_3_days": [
@@ -74,7 +74,7 @@
           "sma20": 740.43,
           "sma50": 757.89,
           "sma50_slope_10d_pct": -0.872,
-          "rsi14": 39.9,
+          "rsi14": 39.8,
           "stretch_atr_from_sma20": -1.42,
           "relative_volume_20d": 0.99,
           "up_down_volume_ratio_20d": 0.39,
@@ -100,8 +100,8 @@
         "close_vs_sma20_pct": -4.94,
         "close_vs_sma50_pct": -10.343,
         "sma20_vs_sma50": "below",
-        "rsi14": 38.56,
-        "macd_hist": -2.5395,
+        "rsi14": 38.39,
+        "macd_hist": -2.5234,
         "atr14_pct_of_close": 3.612
       },
       "last_3_days": [
@@ -144,7 +144,7 @@
           "sma20": 666.86,
           "sma50": 707.05,
           "sma50_slope_10d_pct": -1.644,
-          "rsi14": 38.6,
+          "rsi14": 38.4,
           "stretch_atr_from_sma20": -1.44,
           "relative_volume_20d": 1.19,
           "up_down_volume_ratio_20d": 0.5,
@@ -170,8 +170,8 @@
         "close_vs_sma20_pct": 1.99,
         "close_vs_sma50_pct": 3.7,
         "sma20_vs_sma50": "above",
-        "rsi14": 57.97,
-        "macd_hist": -0.1033,
+        "rsi14": 57.36,
+        "macd_hist": -0.1071,
         "atr14_pct_of_close": 2.216
       },
       "last_3_days": [
@@ -214,7 +214,7 @@
           "sma20": 348.64,
           "sma50": 342.89,
           "sma50_slope_10d_pct": 1.551,
-          "rsi14": 58.0,
+          "rsi14": 57.4,
           "stretch_atr_from_sma20": 0.88,
           "relative_volume_20d": 1.33,
           "up_down_volume_ratio_20d": 0.7,
@@ -240,8 +240,8 @@
         "close_vs_sma20_pct": -5.131,
         "close_vs_sma50_pct": -5.537,
         "sma20_vs_sma50": "below",
-        "rsi14": 39.86,
-        "macd_hist": -4.1942,
+        "rsi14": 39.12,
+        "macd_hist": -4.1501,
         "atr14_pct_of_close": 3.411
       },
       "last_3_days": [
@@ -284,7 +284,7 @@
           "sma20": 516.49,
           "sma50": 518.71,
           "sma50_slope_10d_pct": 0.287,
-          "rsi14": 39.9,
+          "rsi14": 39.1,
           "stretch_atr_from_sma20": -1.59,
           "relative_volume_20d": 0.84,
           "up_down_volume_ratio_20d": 0.57,
@@ -295,7 +295,14 @@
         },
         "notes": []
       },
-      "material_news": []
+      "material_news": [
+        {
+          "event": "corporate",
+          "headline": "Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds",
+          "url": "https://af.net/fr/realtime/microsoft-ai-ceo-warns-labs-are-crossing-threshold-as-internal-models-break-containment/",
+          "created_at": "2026-11-26T19:01:32Z"
+        }
+      ]
     },
     "GOOGL": {
       "latest_close": 273.0,
@@ -310,8 +317,8 @@
         "close_vs_sma20_pct": -3.553,
         "close_vs_sma50_pct": -14.218,
         "sma20_vs_sma50": "below",
-        "rsi14": 36.77,
-        "macd_hist": 0.5943,
+        "rsi14": 37.28,
+        "macd_hist": 0.5922,
         "atr14_pct_of_close": 4.228
       },
       "last_3_days": [
@@ -354,7 +361,7 @@
           "sma20": 283.05,
           "sma50": 318.24,
           "sma50_slope_10d_pct": -3.527,
-          "rsi14": 36.8,
+          "rsi14": 37.3,
           "stretch_atr_from_sma20": -0.87,
           "relative_volume_20d": 0.8,
           "up_down_volume_ratio_20d": 0.49,
@@ -380,8 +387,8 @@
         "close_vs_sma20_pct": -5.011,
         "close_vs_sma50_pct": -4.236,
         "sma20_vs_sma50": "above",
-        "rsi14": 41.98,
-        "macd_hist": -1.9131,
+        "rsi14": 42.55,
+        "macd_hist": -1.9065,
         "atr14_pct_of_close": 4.227
       },
       "last_3_days": [
@@ -424,7 +431,7 @@
           "sma20": 257.22,
           "sma50": 255.14,
           "sma50_slope_10d_pct": 0.277,
-          "rsi14": 42.0,
+          "rsi14": 42.6,
           "stretch_atr_from_sma20": -1.25,
           "relative_volume_20d": 1.33,
           "up_down_volume_ratio_20d": 0.72,
@@ -437,10 +444,10 @@
       },
       "material_news": [
         {
-          "event": "regulatory_legal",
-          "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
-          "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/",
-          "created_at": "2026-11-26T11:31:23Z"
+          "event": "rating_change",
+          "headline": "Amazon Announces Quick Sight Upgrade and Autonomous Workload Build Capabilities",
+          "url": "https://aithority.com/machine-learning/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action/",
+          "created_at": "2026-11-26T16:01:46Z"
         }
       ]
     },
@@ -457,8 +464,8 @@
         "close_vs_sma20_pct": -13.437,
         "close_vs_sma50_pct": -26.686,
         "sma20_vs_sma50": "below",
-        "rsi14": 37.52,
-        "macd_hist": -0.6756,
+        "rsi14": 37.54,
+        "macd_hist": -0.672,
         "atr14_pct_of_close": 10.559
       },
       "last_3_days": [
@@ -512,14 +519,7 @@
         },
         "notes": []
       },
-      "material_news": [
-        {
-          "event": "corporate",
-          "headline": "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy",
-          "url": "https://www.marketscreener.com/news/nvidia-s-huang-reportedly-apologizes-to-staff-says-he-is-in-therapy-ce7851dbd088f321",
-          "created_at": "2026-11-25T12:32:12Z"
-        }
-      ]
+      "material_news": []
     },
     "META": {
       "latest_close": 609.98,
@@ -534,8 +534,8 @@
         "close_vs_sma20_pct": -0.871,
         "close_vs_sma50_pct": -9.285,
         "sma20_vs_sma50": "below",
-        "rsi14": 45.44,
-        "macd_hist": -0.2882,
+        "rsi14": 45.87,
+        "macd_hist": -0.3238,
         "atr14_pct_of_close": 3.944
       },
       "last_3_days": [
@@ -578,7 +578,7 @@
           "sma20": 615.34,
           "sma50": 672.41,
           "sma50_slope_10d_pct": -0.889,
-          "rsi14": 45.4,
+          "rsi14": 45.9,
           "stretch_atr_from_sma20": -0.22,
           "relative_volume_20d": 1.08,
           "up_down_volume_ratio_20d": 0.93,
@@ -604,8 +604,8 @@
         "close_vs_sma20_pct": -0.51,
         "close_vs_sma50_pct": 0.802,
         "sma20_vs_sma50": "above",
-        "rsi14": 50.47,
-        "macd_hist": -0.8961,
+        "rsi14": 50.39,
+        "macd_hist": -0.8885,
         "atr14_pct_of_close": 5.241
       },
       "last_3_days": [
@@ -648,7 +648,7 @@
           "sma20": 382.15,
           "sma50": 377.18,
           "sma50_slope_10d_pct": 0.942,
-          "rsi14": 50.5,
+          "rsi14": 50.4,
           "stretch_atr_from_sma20": -0.1,
           "relative_volume_20d": 1.06,
           "up_down_volume_ratio_20d": 0.64,
@@ -661,16 +661,16 @@
       },
       "material_news": [
         {
+          "event": "regulatory_legal",
+          "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
+          "created_at": "2026-11-26T20:01:30Z"
+        },
+        {
           "event": "deal",
           "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
           "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020",
           "created_at": "2026-11-25T19:01:38Z"
-        },
-        {
-          "event": "regulatory_legal",
-          "headline": "European Union Postpones Approval Discussion for Tesla's Self-Driving Technology",
-          "url": "https://www.marketscreener.com/news/tesla-faces-delay-to-secure-eu-wide-approval-for-assisted-self-driving-tech-ce7851dbd088f425",
-          "created_at": "2026-11-25T12:31:58Z"
         }
       ]
     },
@@ -687,8 +687,8 @@
         "close_vs_sma20_pct": -11.322,
         "close_vs_sma50_pct": -21.896,
         "sma20_vs_sma50": "below",
-        "rsi14": 37.22,
-        "macd_hist": -3.2876,
+        "rsi14": 36.99,
+        "macd_hist": -3.2622,
         "atr14_pct_of_close": 7.607
       },
       "last_3_days": [
@@ -731,7 +731,7 @@
           "sma20": 476.55,
           "sma50": 541.08,
           "sma50_slope_10d_pct": -3.732,
-          "rsi14": 37.2,
+          "rsi14": 37.0,
           "stretch_atr_from_sma20": -1.68,
           "relative_volume_20d": 0.97,
           "up_down_volume_ratio_20d": 0.43,
@@ -752,14 +752,14 @@
         "pct_1d": 3.973,
         "pct_5d": 13.943,
         "vs_sma20_pct": 17.16,
-        "rsi14": 60.4
+        "rsi14": 60.5
       },
       "VXX": {
         "close": 24.35,
         "pct_1d": 4.015,
         "pct_5d": 14.158,
         "vs_sma20_pct": 17.35,
-        "rsi14": 60.5
+        "rsi14": 60.6
       }
     },
     "metals": {
@@ -768,14 +768,14 @@
         "pct_1d": 0.615,
         "pct_5d": -4.033,
         "vs_sma20_pct": -7.51,
-        "rsi14": 31.8
+        "rsi14": 31.5
       },
       "SLV": {
         "close": 37.1,
         "pct_1d": 0.678,
         "pct_5d": -8.823,
         "vs_sma20_pct": -14.61,
-        "rsi14": 27.2
+        "rsi14": 26.9
       }
     },
     "bonds": {
@@ -784,14 +784,14 @@
         "pct_1d": 0.914,
         "pct_5d": 2.518,
         "vs_sma20_pct": 1.5,
-        "rsi14": 63.5
+        "rsi14": 63.3
       },
       "IEF": {
         "close": 92.06,
         "pct_1d": 0.458,
         "pct_5d": 1.539,
         "vs_sma20_pct": 0.97,
-        "rsi14": 65.6
+        "rsi14": 65.5
       }
     },
     "credit": {
@@ -800,14 +800,14 @@
         "pct_1d": 0.105,
         "pct_5d": -0.17,
         "vs_sma20_pct": -0.53,
-        "rsi14": 41.6
+        "rsi14": 41.4
       },
       "LQD": {
         "close": 104.31,
         "pct_1d": 0.462,
         "pct_5d": 1.13,
         "vs_sma20_pct": 0.55,
-        "rsi14": 60.3
+        "rsi14": 60.2
       }
     },
     "dollar": {
@@ -816,7 +816,7 @@
         "pct_1d": -0.084,
         "pct_5d": -0.034,
         "vs_sma20_pct": 0.97,
-        "rsi14": 63.8
+        "rsi14": 64.3
       }
     },
     "energy": {
@@ -825,7 +825,7 @@
         "pct_1d": 3.278,
         "pct_5d": 2.777,
         "vs_sma20_pct": -3.99,
-        "rsi14": 43.3
+        "rsi14": 43.4
       }
     },
     "breadth": {
@@ -834,7 +834,7 @@
         "pct_1d": 0.614,
         "pct_5d": -0.481,
         "vs_sma20_pct": -2.02,
-        "rsi14": 45.1
+        "rsi14": 44.9
       }
     },
     "semis": {
@@ -843,35 +843,35 @@
         "pct_1d": -1.779,
         "pct_5d": -23.506,
         "vs_sma20_pct": -17.04,
-        "rsi14": 38.3
+        "rsi14": 38.0
       },
       "AVGO": {
         "close": 300.61,
         "pct_1d": -0.219,
         "pct_5d": -15.101,
         "vs_sma20_pct": -8.07,
-        "rsi14": 40.8
+        "rsi14": 40.7
       },
       "TSM": {
         "close": 342.23,
         "pct_1d": -2.06,
         "pct_5d": -5.611,
         "vs_sma20_pct": -9.81,
-        "rsi14": 39.0
+        "rsi14": 38.8
       },
       "MU": {
         "close": 600.4,
         "pct_1d": -4.712,
         "pct_5d": -14.819,
         "vs_sma20_pct": -19.18,
-        "rsi14": 36.0
+        "rsi14": 35.5
       },
       "INTC": {
         "close": 54.46,
         "pct_1d": -0.801,
         "pct_5d": -0.402,
         "vs_sma20_pct": -8.27,
-        "rsi14": 36.2
+        "rsi14": 35.8
       }
     }
   },
@@ -951,6 +951,66 @@
   "news": [
     {
       "symbols": [
+        "AMZN"
+      ],
+      "headline": "MegazoneCloud Launches Amazon Quick Center of Excellence",
+      "summary": "MegazoneCloud has established a dedicated Center of Excellence to support enterprise adoption of Amazon's AI and data analytics tools.",
+      "source": "fiscal.ai",
+      "url": "https://aithority.com/machine-learning/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action/",
+      "created_at": "2026-11-27T01:01:24Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Deploys Manual Battery Preconditioning Feature",
+      "summary": "Tesla has introduced a manual battery preconditioning feature in its latest software update, allowing drivers to initiate battery heating for faster charging.",
+      "source": "fiscal.ai",
+      "url": "https://www.frandroid.com/marques/tesla/3341437_tesla-lance-enfin-une-fonction-que-ses-rivaux-proposaient-deja-depuis-des-annees-le-prechauffage-manuel-de-la-batterie",
+      "created_at": "2026-11-26T20:01:30Z"
+    },
+    {
+      "symbols": [
+        "TSLA"
+      ],
+      "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
+      "summary": "The European Union has delayed a meeting to consider the bloc-wide approval of Tesla's 'Assisted Driving' system until December 15.",
+      "source": "fiscal.ai",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
+      "created_at": "2026-11-26T20:01:30Z"
+    },
+    {
+      "symbols": [
+        "MSFT"
+      ],
+      "headline": "Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds",
+      "summary": "Microsoft AI CEO Mustafa Suleyman stated that the artificial intelligence industry is reaching a critical threshold where safety and alignment must become the primary focus.",
+      "source": "fiscal.ai",
+      "url": "https://af.net/fr/realtime/microsoft-ai-ceo-warns-labs-are-crossing-threshold-as-internal-models-break-containment/",
+      "created_at": "2026-11-26T19:01:32Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "Amazon Announces Quick Sight Upgrade and Autonomous Workload Build Capabilities",
+      "summary": "Amazon has introduced a new upgrade path for its Quick Sight business intelligence platform and launched autonomous workload build features for production environments.",
+      "source": "fiscal.ai",
+      "url": "https://aithority.com/machine-learning/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action/",
+      "created_at": "2026-11-26T16:01:46Z"
+    },
+    {
+      "symbols": [
+        "NVDA"
+      ],
+      "headline": "NVIDIA and Kioxia Announce Collaboration to Extend GPU Memory Capacity",
+      "summary": "NVIDIA and Kioxia America have announced a collaboration to demonstrate the potential to extend effective GPU memory capacity to petabyte scale.",
+      "source": "fiscal.ai",
+      "url": "https://natlawreview.com/press-releases/kioxia-and-nvidia-collaborate-expand-effective-high-bandwidth-memory",
+      "created_at": "2026-11-26T13:01:32Z"
+    },
+    {
+      "symbols": [
         "AAPL"
       ],
       "headline": "Apple Removes Talkie AI App from App Store Worldwide",
@@ -1011,16 +1071,6 @@
     },
     {
       "symbols": [
-        "AMZN"
-      ],
-      "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
-      "summary": "Amazon has publicly addressed FTC allegations concerning its 'Project Nessie' pricing tool, stating the agency's claims mischaracterize the tool's purpose and function.",
-      "source": "fiscal.ai",
-      "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/",
-      "created_at": "2026-11-26T11:31:23Z"
-    },
-    {
-      "symbols": [
         "MSFT"
       ],
       "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
@@ -1041,16 +1091,6 @@
     },
     {
       "symbols": [
-        "AMZN"
-      ],
-      "headline": "Court Rules Against Amazon in Consumer Product Safety Act Litigation",
-      "summary": "A U.S. District Court granted summary judgment in favor of the Consumer Product Safety Commission (CPSC), dismissing Amazon's challenge regarding its regulatory status for products sold through its fulfillment program.",
-      "source": "fiscal.ai",
-      "url": "https://www.prnewswire.com/news-releases/federal-court-rules-in-favor-of-cpsc-in-landmark-e-commerce-product-safety-case-302950855.html",
-      "created_at": "2026-11-25T22:31:22Z"
-    },
-    {
-      "symbols": [
         "TSLA"
       ],
       "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
@@ -1058,16 +1098,6 @@
       "source": "fiscal.ai",
       "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020",
       "created_at": "2026-11-25T19:01:38Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
-      "summary": "General Motors' Korean division has signed an agreement with Tesla to implement the North American Charging Standard (NACS) for its electric vehicles in South Korea.",
-      "source": "fiscal.ai",
-      "url": "https://www.moomoo.com/stock/TSLA-CA?chain_id=Name1K9-3FXPhg.1l14fs0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FEMDV-US%2Fnews%22%7D",
-      "created_at": "2026-11-25T14:32:39Z"
     },
     {
       "symbols": [
@@ -1091,26 +1121,6 @@
     },
     {
       "symbols": [
-        "NVDA"
-      ],
-      "headline": "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy",
-      "summary": "Following his reinstatement as CEO, Jensen Huang has reportedly apologized to NVIDIA employees and disclosed that he is in therapy.",
-      "source": "fiscal.ai",
-      "url": "https://www.marketscreener.com/news/nvidia-s-huang-reportedly-apologizes-to-staff-says-he-is-in-therapy-ce7851dbd088f321",
-      "created_at": "2026-11-25T12:32:12Z"
-    },
-    {
-      "symbols": [
-        "TSLA"
-      ],
-      "headline": "European Union Postpones Approval Discussion for Tesla's Self-Driving Technology",
-      "summary": "The European Union has delayed a scheduled meeting to discuss the approval of Tesla's Full Self-Driving (FSD) technology across the bloc until December 7.",
-      "source": "fiscal.ai",
-      "url": "https://www.marketscreener.com/news/tesla-faces-delay-to-secure-eu-wide-approval-for-assisted-self-driving-tech-ce7851dbd088f425",
-      "created_at": "2026-11-25T12:31:58Z"
-    },
-    {
-      "symbols": [
         "AAPL"
       ],
       "headline": "Apple Participates in Korea-US AI Infrastructure Roundtable",
@@ -1118,16 +1128,6 @@
       "source": "fiscal.ai",
       "url": "https://www.koreaherald.com/article/10949349",
       "created_at": "2026-11-25T11:31:08Z"
-    },
-    {
-      "symbols": [
-        "MSFT"
-      ],
-      "headline": "Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot",
-      "summary": "Maverick Medical AI is showcasing its CodeAgent documentation assistant within Microsoft's Dragon Copilot at RSNA 2026.",
-      "source": "fiscal.ai",
-      "url": "https://www.globenewswire.com/news-release/2026/11/24/3409926/0/en/maverick-medical-ai-surfaces-codeagent-within-microsoft-radiology-reporting-solutions-to-reduce-physician-rework.html",
-      "created_at": "2026-11-25T01:01:34Z"
     }
   ]
 }
