@@ -661,16 +661,16 @@
       },
       "material_news": [
         {
+          "event": "deal",
+          "headline": "Tesla Files Plans to Acquire German Company Emag",
+          "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1l60200&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A57,%22f%22%3A%22www.moomoo.com%2Fstock%2FUROY-US%22%7D",
+          "created_at": "2026-11-27T11:31:55Z"
+        },
+        {
           "event": "regulatory_legal",
           "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
           "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
           "created_at": "2026-11-26T20:01:30Z"
-        },
-        {
-          "event": "deal",
-          "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
-          "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020",
-          "created_at": "2026-11-25T19:01:38Z"
         }
       ]
     },
@@ -951,6 +951,26 @@
   "news": [
     {
       "symbols": [
+        "TSLA"
+      ],
+      "headline": "Tesla Files Plans to Acquire German Company Emag",
+      "summary": "Tesla has reportedly filed plans with the German Federal Cartel Office to acquire the German manufacturing company Emag.",
+      "source": "fiscal.ai",
+      "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1l60200&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A57,%22f%22%3A%22www.moomoo.com%2Fstock%2FUROY-US%22%7D",
+      "created_at": "2026-11-27T11:31:55Z"
+    },
+    {
+      "symbols": [
+        "AMZN"
+      ],
+      "headline": "ScitiX Launches Model Inference Services on AWS Marketplace",
+      "summary": "ScitiX has integrated its AI inference platform into the AWS Marketplace, allowing businesses to procure and manage AI model services directly through Amazon's cloud ecosystem.",
+      "source": "fiscal.ai",
+      "url": "https://www.prnewswire.com/apac/news-releases/scitix-model-inference-now-available-in-aws-marketplace-302951612.html",
+      "created_at": "2026-11-27T11:31:28Z"
+    },
+    {
+      "symbols": [
         "AMZN"
       ],
       "headline": "MegazoneCloud Launches Amazon Quick Center of Excellence",
@@ -1061,16 +1081,6 @@
     },
     {
       "symbols": [
-        "AMZN"
-      ],
-      "headline": "AWS and Amazon CloudFront Support Global Launch of GTA VI",
-      "summary": "Amazon Web Services (AWS) and its Amazon CloudFront content delivery network provided the infrastructure to support the massive global traffic demand for the launch of Grand Theft Auto VI.",
-      "source": "fiscal.ai",
-      "url": "https://money.udn.com/money/story/12987/9903872",
-      "created_at": "2026-11-26T11:31:23Z"
-    },
-    {
-      "symbols": [
         "MSFT"
       ],
       "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
@@ -1091,16 +1101,6 @@
     },
     {
       "symbols": [
-        "TSLA"
-      ],
-      "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
-      "summary": "J.P. Morgan analysts suggest that a potential merger between Tesla and SpaceX could accelerate SpaceX's eligibility for inclusion in S&P Dow Jones indexes.",
-      "source": "fiscal.ai",
-      "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020",
-      "created_at": "2026-11-25T19:01:38Z"
-    },
-    {
-      "symbols": [
         "META"
       ],
       "headline": "Meta Deploys Autonomous Food Preparation System in London Office",
@@ -1118,16 +1118,6 @@
       "source": "fiscal.ai",
       "url": "https://aimagazine.com/news/why-the-aa-relies-on-microsoft-ai-for-vehicle-diagnostics",
       "created_at": "2026-11-25T14:31:27Z"
-    },
-    {
-      "symbols": [
-        "AAPL"
-      ],
-      "headline": "Apple Participates in Korea-US AI Infrastructure Roundtable",
-      "summary": "Apple representatives joined a closed-door roundtable in Seoul to discuss expanding AI infrastructure and accelerating AI adoption in manufacturing.",
-      "source": "fiscal.ai",
-      "url": "https://www.koreaherald.com/article/10949349",
-      "created_at": "2026-11-25T11:31:08Z"
     }
   ]
 }
